@@ -1,6 +1,6 @@
 {
 	"createdTime":1767135480856,
-	"deleted":false,
+	"deleted":true,
 	"description":"saWrKaBtCp",
 	"id":"69545879c874f864eeb4fd3e",
 	"input":{
@@ -22,7 +22,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aidjfdelkhqr",
-	"modifiedTime":1767135480856,
+	"modifiedTime":1767135612578,
 	"name":"changeSetQA2AIDjfDElKhqR",
 	"output":{
 		"dynamic":false,
@@ -39,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
