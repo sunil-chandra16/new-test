@@ -4,6 +4,7 @@
 	"description":"WQMnBNETCT",
 	"id":"69544bfdd306266e8c19a91c",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767132488358,
 	"name":"changeSetQA2AIiIdteXPoBn",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
