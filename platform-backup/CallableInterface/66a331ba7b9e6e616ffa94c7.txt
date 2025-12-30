@@ -1,0 +1,33 @@
+{
+	"createdTime":1721971130010,
+	"deleted":false,
+	"description":"Default",
+	"id":"66a331ba7b9e6e616ffa94c7",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":520,
+	"lcName":"sales analytics",
+	"modifiedTime":1721971130010,
+	"name":"Sales Analytics",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":520,
+	"standard":false,
+	"version":0
+}
