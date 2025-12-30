@@ -1,0 +1,30 @@
+{
+	"createdTime":1712213420874,
+	"deleted":true,
+	"description":"test 3 test 3",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"660e4daccbfae84261b14b24",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false
+	},
+	"lcName":"test 3",
+	"modifiedTime":1712225416705,
+	"name":"test 3",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false
+	},
+	"ownerUserId":188,
+	"standard":false,
+	"version":1
+}
