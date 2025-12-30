@@ -1,6 +1,6 @@
 {
 	"createdTime":1767132488358,
-	"deleted":false,
+	"deleted":true,
 	"description":"WQMnBNETCT",
 	"id":"69544bfdd306266e8c19a91c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiiidtexpobn",
-	"modifiedTime":1767132488358,
+	"modifiedTime":1767134793104,
 	"name":"changeSetQA2AIiIdteXPoBn",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
