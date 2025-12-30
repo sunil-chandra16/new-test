@@ -1,9 +1,10 @@
 {
 	"createdTime":1767132452321,
-	"deleted":false,
+	"deleted":true,
 	"description":"OSzNKqrchM",
 	"id":"69544ca0c874f864eeb09ea1",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2airvnscubgnv",
-	"modifiedTime":1767132452321,
+	"modifiedTime":1767132482437,
 	"name":"changeSetQA2AIRvnSCUbGNv",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
