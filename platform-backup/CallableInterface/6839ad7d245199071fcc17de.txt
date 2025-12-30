@@ -1,0 +1,48 @@
+{
+	"createdTime":1748610429919,
+	"deleted":true,
+	"description":"Knowledge Enrichment Interface",
+	"id":"6839ad7d245199071fcc17de",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"knowledgeId":{
+					"type":"string",
+					"title":"Knowledge Id"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":311,
+	"lcName":"knowledge enrichment interface",
+	"modifiedTime":1748610529806,
+	"name":"Knowledge Enrichment Interface",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"additionalProperties":false,
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"type":"object",
+			"properties":{
+				"success":{
+					"type":"boolean",
+					"title":"success"
+				}
+			}
+		}
+	},
+	"ownerUserId":311,
+	"standard":false,
+	"version":1
+}
