@@ -1,0 +1,33 @@
+{
+	"createdTime":1736635106363,
+	"deleted":false,
+	"description":"otAyeP",
+	"id":"6782f2e244ce135db1da474f",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":854,
+	"lcName":"otayeppr5fa<a>nc8v8",
+	"modifiedTime":1736635106363,
+	"name":"otAyePpr5fa<a>nc8v8",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":854,
+	"standard":false,
+	"version":0
+}
