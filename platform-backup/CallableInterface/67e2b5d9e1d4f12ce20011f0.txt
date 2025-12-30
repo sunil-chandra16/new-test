@@ -1,0 +1,127 @@
+{
+	"createdTime":1744352491287,
+	"deleted":false,
+	"description":"AI As Judge Evaluator Metrics",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"17"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"67e2b5d9e1d4f12ce20011f0",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"criteria":{
+					"type":"string",
+					"title":"Evaluation Criteria"
+				},
+				"evaluationSteps":{
+					"type":"array",
+					"items":{
+						"type":"string"
+					},
+					"title":"Evaluation Steps"
+				},
+				"model":{
+					"type":"string",
+					"title":"Model"
+				},
+				"evaluationParameters":{
+					"type":"array",
+					"items":{
+						"type":"string"
+					},
+					"title":"Evaluation Parameters"
+				},
+				"testCase":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Test Case"
+				},
+				"scoreRange":{
+					"type":"string",
+					"title":"Scoring Range"
+				},
+				"testCaseId":{
+					"type":"string",
+					"title":"Test Case Id"
+				},
+				"runId":{
+					"type":"string",
+					"title":"Run Id"
+				},
+				"experimentId":{
+					"type":"string",
+					"title":"Experiment Id"
+				},
+				"metricId":{
+					"type":"string",
+					"title":"Metric Id"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":-1,
+	"lcName":"ai as judge evaluator metrics",
+	"modifiedTime":1766499456051,
+	"name":"AI As Judge Evaluator Metrics",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"score":{
+					"type":"number",
+					"title":"Score"
+				},
+				"reason":{
+					"type":"string",
+					"title":"Reason"
+				},
+				"cost":{
+					"type":"number",
+					"title":"Cost"
+				},
+				"tokensUsed":{
+					"type":"number",
+					"title":"Tokens Used"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":49915,
+	"standard":false,
+	"version":108
+}
