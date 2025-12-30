@@ -1,0 +1,33 @@
+{
+	"createdTime":1741334428252,
+	"deleted":true,
+	"description":"SZHLUr",
+	"id":"67caa79c8780f312882550bf",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":22743,
+	"lcName":"qvfspo../../../../../../../../../../../../../../../../etc/passwd",
+	"modifiedTime":1741358660136,
+	"name":"QvfSPO../../../../../../../../../../../../../../../../etc/passwd",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":22743,
+	"standard":false,
+	"version":1
+}
