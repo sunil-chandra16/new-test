@@ -1,0 +1,30 @@
+{
+	"createdTime":1712210524893,
+	"deleted":true,
+	"description":"new create 2new create 2",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"660e425c73b0a30fbdadcf26",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false
+	},
+	"lcName":"new create 2",
+	"modifiedTime":1712212849104,
+	"name":"new create 2",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false
+	},
+	"ownerUserId":188,
+	"standard":false,
+	"version":1
+}
