@@ -1,7 +1,8 @@
 {
-	"createdTime":1767180518819,
+	"createdTime":1767180519937,
 	"deleted":false,
 	"description":"Custom Workflow Authentication",
+	"id":"695508e8cf39fb79e7fe6baf",
 	"input":{
 		"dynamic":false,
 		"schema":{
@@ -34,7 +35,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"custom workflow authentication",
-	"modifiedTime":1767180518939,
+	"modifiedTime":1767180520033,
 	"name":"Custom Workflow Authentication",
 	"output":{
 		"dynamic":false,
