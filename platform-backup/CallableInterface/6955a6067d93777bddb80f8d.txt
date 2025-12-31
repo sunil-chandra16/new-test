@@ -1,9 +1,10 @@
 {
 	"createdTime":1767220742313,
-	"deleted":false,
+	"deleted":true,
 	"description":"popRPaxIIc",
 	"id":"6955a6067d93777bddb80f8d",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiqwojfsadlc",
-	"modifiedTime":1767220742313,
+	"modifiedTime":1767221531262,
 	"name":"changeSetQA2AIQwojFSADlC",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
