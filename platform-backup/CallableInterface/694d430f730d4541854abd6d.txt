@@ -1,0 +1,97 @@
+{
+	"createdTime":1767012809521,
+	"deleted":false,
+	"description":"Interace for group wise checks for Automation best practice",
+	"id":"694d430f730d4541854abd6d",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"workflow_details":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Workflow Details"
+				},
+				"groupChecks":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{},
+						"additionalProperties":false
+					},
+					"title":"Group Checks"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":4446,
+	"lcName":"best practice | automation | run group checks interface",
+	"modifiedTime":1767197164506,
+	"name":"Best Practice | Automation | Run Group Checks Interface",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"checks":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{
+							"check_id":{
+								"type":"string",
+								"title":"Check Id"
+							},
+							"status":{
+								"type":"string",
+								"title":"Status"
+							},
+							"targets":{
+								"type":"array",
+								"items":{
+									"type":"object",
+									"properties":{
+										"target_id":{
+											"type":"string",
+											"title":"Target Id"
+										},
+										"target_type":{
+											"type":"string",
+											"title":"Target Type"
+										},
+										"path":{
+											"type":"array",
+											"items":{
+												"type":"string"
+											},
+											"title":"Path"
+										}
+									},
+									"additionalProperties":false,
+									"required":[]
+								},
+								"title":"Targets"
+							}
+						},
+						"additionalProperties":false,
+						"required":[]
+					},
+					"title":"Checks"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":47540,
+	"standard":false,
+	"version":4
+}
