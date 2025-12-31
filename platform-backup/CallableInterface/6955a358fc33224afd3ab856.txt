@@ -1,6 +1,6 @@
 {
 	"createdTime":1767220056550,
-	"deleted":false,
+	"deleted":true,
 	"description":"ageGYNKdue",
 	"id":"6955a358fc33224afd3ab856",
 	"input":{
@@ -22,7 +22,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aibybuduqmba",
-	"modifiedTime":1767220056550,
+	"modifiedTime":1767220191769,
 	"name":"changeSetQA2AIBYBUduqmBa",
 	"output":{
 		"dynamic":false,
@@ -39,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
