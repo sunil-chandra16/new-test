@@ -4,6 +4,7 @@
 	"description":"ageGYNKdue",
 	"id":"6955a358fc33224afd3ab856",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767220191769,
 	"name":"changeSetQA2AIBYBUduqmBa",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
