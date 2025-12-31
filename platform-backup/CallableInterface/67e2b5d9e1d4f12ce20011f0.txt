@@ -28,7 +28,6 @@
 	},
 	"id":"67e2b5d9e1d4f12ce20011f0",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -88,12 +87,11 @@
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"ai as judge evaluator metrics",
-	"modifiedTime":1766499456051,
+	"modifiedTime":1767161744801,
 	"name":"AI As Judge Evaluator Metrics",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -123,5 +121,5 @@
 	},
 	"ownerUserId":49915,
 	"standard":false,
-	"version":108
+	"version":109
 }
