@@ -1,9 +1,10 @@
 {
 	"createdTime":1767220695493,
-	"deleted":false,
+	"deleted":true,
 	"description":"EuFNLcWaVF",
 	"id":"6955a5503343f70a8b2896d9",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aigpdrrrojhx",
-	"modifiedTime":1767220695493,
+	"modifiedTime":1767220808723,
 	"name":"changeSetQA2AIGPDRRROJHX",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2063,
 	"standard":false,
-	"version":0
+	"version":1
 }
