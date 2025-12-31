@@ -1,9 +1,10 @@
 {
 	"createdTime":1767218830222,
-	"deleted":false,
+	"deleted":true,
 	"description":"MMDutVrcDR",
 	"id":"69559e8e880da740e143bd7b",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aizughaufbju",
-	"modifiedTime":1767218830222,
+	"modifiedTime":1767219017121,
 	"name":"changeSetQA2AIZugHauFbjU",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
