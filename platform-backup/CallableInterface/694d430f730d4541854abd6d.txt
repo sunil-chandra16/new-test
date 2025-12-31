@@ -4,6 +4,7 @@
 	"description":"Interace for group wise checks for Automation best practice",
 	"id":"694d430f730d4541854abd6d",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -35,6 +36,7 @@
 	"modifiedTime":1767197729486,
 	"name":"Best Practice | Automation | Run Group Checks Interface",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
