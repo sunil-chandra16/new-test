@@ -4,6 +4,7 @@
 	"description":"BTKZembkTn",
 	"id":"695700cd358132377b8b2ac6",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767309638542,
 	"name":"changeSetQA2AITFvbCWQBiw",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
