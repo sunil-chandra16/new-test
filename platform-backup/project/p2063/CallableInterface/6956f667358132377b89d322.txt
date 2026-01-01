@@ -1,9 +1,10 @@
 {
 	"createdTime":1767306988778,
-	"deleted":false,
+	"deleted":true,
 	"description":"vXBGDVUnvD",
 	"id":"6956f667358132377b89d322",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiookdwewwft",
-	"modifiedTime":1767306988778,
+	"modifiedTime":1767307102726,
 	"name":"changeSetQA2AIoOKdwEwwFT",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2063,
 	"standard":false,
-	"version":0
+	"version":1
 }
