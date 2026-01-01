@@ -4,6 +4,7 @@
 	"description":"eURLrRTVNG",
 	"id":"6955cad03343f70a8b305946",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767230417667,
 	"name":"changeSetQA2AIcHyzDFCZSr",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
