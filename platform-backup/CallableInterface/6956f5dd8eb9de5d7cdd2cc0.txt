@@ -1,6 +1,6 @@
 {
 	"createdTime":1767306717409,
-	"deleted":false,
+	"deleted":true,
 	"description":"BaCwZvrdFD",
 	"id":"6956f5dd8eb9de5d7cdd2cc0",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aizvevnsddps",
-	"modifiedTime":1767306717409,
+	"modifiedTime":1767307682525,
 	"name":"changeSetQA2AIzVevnSDDPs",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
