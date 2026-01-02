@@ -9,19 +9,12 @@
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
-			},
-			"properties":{
-				"name":{
-					"type":"string",
-					"title":"Name"
-				}
-			},
-			"required":[]
+			}
 		}
 	},
 	"lastModifiedBy":44105,
 	"lcName":"testint",
-	"modifiedTime":1767334519825,
+	"modifiedTime":1767334552721,
 	"name":"testInt",
 	"output":{
 		"dynamic":false,
@@ -34,5 +27,5 @@
 	},
 	"ownerUserId":44105,
 	"standard":false,
-	"version":1
+	"version":2
 }
