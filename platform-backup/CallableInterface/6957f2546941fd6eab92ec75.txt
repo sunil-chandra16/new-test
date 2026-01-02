@@ -1,6 +1,6 @@
 {
 	"createdTime":1767371348418,
-	"deleted":false,
+	"deleted":true,
 	"description":"XRPNrpIGfr",
 	"id":"6957f2546941fd6eab92ec75",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aisogumveppg",
-	"modifiedTime":1767371348418,
+	"modifiedTime":1767372631636,
 	"name":"changeSetQA2AIsOGumvEPpg",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
