@@ -1,9 +1,10 @@
 {
 	"createdTime":1767392566889,
-	"deleted":false,
+	"deleted":true,
 	"description":"ReoNOOlkGr",
 	"id":"6958453671979e4b87b4d9e6",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aipsidtkerfa",
-	"modifiedTime":1767392566889,
+	"modifiedTime":1767392784571,
 	"name":"changeSetQA2AIpSiDtkerfA",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
