@@ -4,6 +4,7 @@
 	"description":"LVIVoPSeFD",
 	"id":"695709228eb9de5d7cddd375",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767311650937,
 	"name":"changeSetQA2AIWXCNFZiLXe",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
