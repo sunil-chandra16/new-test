@@ -4,6 +4,7 @@
 	"description":"testCallableAutomation2",
 	"id":"69574fe1cb2ec821c73f8f65",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -17,6 +18,7 @@
 	"modifiedTime":1767331004167,
 	"name":"testCallableAutomation2",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
