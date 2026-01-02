@@ -4,28 +4,19 @@
 	"description":"testCallableAutomation2",
 	"id":"69574fe1cb2ec821c73f8f65",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
-			},
-			"properties":{
-				"name":{
-					"type":"string",
-					"title":"Name"
-				}
-			},
-			"required":[]
+			}
 		}
 	},
 	"lastModifiedBy":39713,
 	"lcName":"testcallableautomation2",
-	"modifiedTime":1767329761373,
+	"modifiedTime":1767331004167,
 	"name":"testCallableAutomation2",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -36,5 +27,5 @@
 	},
 	"ownerUserId":39713,
 	"standard":false,
-	"version":0
+	"version":1
 }
