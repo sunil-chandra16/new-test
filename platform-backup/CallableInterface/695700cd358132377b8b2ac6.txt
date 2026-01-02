@@ -1,6 +1,6 @@
 {
 	"createdTime":1767309638542,
-	"deleted":false,
+	"deleted":true,
 	"description":"BTKZembkTn",
 	"id":"695700cd358132377b8b2ac6",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aitfvbcwqbiw",
-	"modifiedTime":1767309638542,
+	"modifiedTime":1767313637681,
 	"name":"changeSetQA2AITFvbCWQBiw",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
