@@ -4,21 +4,26 @@
 	"description":"testing",
 	"id":"695756d5cb2ec821c73facfe",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
-			}
+			},
+			"properties":{
+				"name":{
+					"type":"string",
+					"title":"Name"
+				}
+			},
+			"required":[]
 		}
 	},
 	"lastModifiedBy":44105,
 	"lcName":"testint",
-	"modifiedTime":1767331541424,
+	"modifiedTime":1767334519825,
 	"name":"testInt",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -29,5 +34,5 @@
 	},
 	"ownerUserId":44105,
 	"standard":false,
-	"version":0
+	"version":1
 }
