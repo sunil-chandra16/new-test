@@ -1,0 +1,31 @@
+{
+	"createdTime":1767329716911,
+	"deleted":false,
+	"description":"testCallableAutomation",
+	"id":"69574fb4cb2ec821c73f8edf",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":39713,
+	"lcName":"testcallableautomation",
+	"modifiedTime":1767329716911,
+	"name":"testCallableAutomation",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":39713,
+	"standard":false,
+	"version":0
+}
