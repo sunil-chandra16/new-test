@@ -1,6 +1,6 @@
 {
 	"createdTime":1767371883433,
-	"deleted":false,
+	"deleted":true,
 	"description":"CsnFkVPMEn",
 	"id":"6957f46b6941fd6eab92faeb",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aidtysphccqp",
-	"modifiedTime":1767371883433,
+	"modifiedTime":1767372631586,
 	"name":"changeSetQA2AIDtYSPHccqP",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
