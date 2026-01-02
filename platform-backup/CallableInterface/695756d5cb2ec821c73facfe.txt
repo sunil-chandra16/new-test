@@ -1,0 +1,31 @@
+{
+	"createdTime":1767331541424,
+	"deleted":false,
+	"description":"testing",
+	"id":"695756d5cb2ec821c73facfe",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":44105,
+	"lcName":"testint",
+	"modifiedTime":1767331541424,
+	"name":"testInt",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":44105,
+	"standard":false,
+	"version":0
+}
