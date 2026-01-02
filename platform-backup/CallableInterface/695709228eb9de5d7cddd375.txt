@@ -1,6 +1,6 @@
 {
 	"createdTime":1767311650937,
-	"deleted":false,
+	"deleted":true,
 	"description":"LVIVoPSeFD",
 	"id":"695709228eb9de5d7cddd375",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiwxcnfzilxe",
-	"modifiedTime":1767311650937,
+	"modifiedTime":1767313637630,
 	"name":"changeSetQA2AIWXCNFZiLXe",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
