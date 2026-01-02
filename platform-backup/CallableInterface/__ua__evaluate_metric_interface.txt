@@ -28,6 +28,7 @@
 	},
 	"id":"__ua__evaluate_metric_interface",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -260,9 +261,10 @@
 	},
 	"lastModifiedBy":0,
 	"lcName":"ai metric evaluator",
-	"modifiedTime":1767361756759,
+	"modifiedTime":1767361768460,
 	"name":"AI Metric Evaluator",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -306,5 +308,5 @@
 	},
 	"ownerUserId":21,
 	"standard":false,
-	"version":116
+	"version":117
 }
