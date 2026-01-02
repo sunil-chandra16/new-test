@@ -1,6 +1,6 @@
 {
 	"createdTime":1767371859989,
-	"deleted":false,
+	"deleted":true,
 	"description":"RpsKugIdvj",
 	"id":"6957f4536941fd6eab92fa05",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2airbvjkzpgyo",
-	"modifiedTime":1767371859989,
+	"modifiedTime":1767372631611,
 	"name":"changeSetQA2AIRbVjKzpGyo",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
