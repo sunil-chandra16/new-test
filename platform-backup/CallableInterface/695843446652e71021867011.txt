@@ -4,6 +4,7 @@
 	"description":"FSnimANxYI",
 	"id":"695843446652e71021867011",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767392132998,
 	"name":"changeSetQA2AIapcNiAPMWR",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
