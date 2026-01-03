@@ -1,6 +1,6 @@
 {
 	"createdTime":1767380800965,
-	"deleted":false,
+	"deleted":true,
 	"description":"ugcytyAykL",
 	"id":"69581740e55b75198bad61df",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaibwkhcryuqf",
-	"modifiedTime":1767380800965,
+	"modifiedTime":1767404623395,
 	"name":"changeSetLocalAIbwkhcryuqF",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
