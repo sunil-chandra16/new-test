@@ -1,9 +1,10 @@
 {
 	"createdTime":1767479780288,
-	"deleted":false,
+	"deleted":true,
 	"description":"vCSujiAOKu",
 	"id":"6959995a5a903308caa4d639",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aicxevrquydk",
-	"modifiedTime":1767479780288,
+	"modifiedTime":1767479894841,
 	"name":"changeSetQA2AIcxEVRquyDK",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2063,
 	"standard":false,
-	"version":0
+	"version":1
 }
