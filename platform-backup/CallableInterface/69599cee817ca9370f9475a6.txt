@@ -4,6 +4,7 @@
 	"description":"SNNELxJVNN",
 	"id":"69599cee817ca9370f9475a6",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767480980542,
 	"name":"changeSetQA2AIMhjgsCleSD",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
