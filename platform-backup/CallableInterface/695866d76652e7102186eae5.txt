@@ -1,6 +1,6 @@
 {
 	"createdTime":1767405079429,
-	"deleted":false,
+	"deleted":true,
 	"description":"cBAKONGABu",
 	"id":"695866d76652e7102186eae5",
 	"input":{
@@ -21,9 +21,9 @@
 			"required":[]
 		}
 	},
-	"lastModifiedBy":161912,
+	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiqjurouocyq",
-	"modifiedTime":1767405079429,
+	"modifiedTime":1767476399128,
 	"name":"changeSetQA2AIqJuRoUocyQ",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":161912,
 	"standard":false,
-	"version":0
+	"version":1
 }
