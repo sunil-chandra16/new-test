@@ -1,6 +1,6 @@
 {
 	"createdTime":1767460594206,
-	"deleted":false,
+	"deleted":true,
 	"description":"lgosjhYTSB",
 	"id":"69594e97ed930b04e318c08d",
 	"input":{
@@ -22,7 +22,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aipxkltopedn",
-	"modifiedTime":1767460594206,
+	"modifiedTime":1767460625858,
 	"name":"changeSetUAT2AIpXKltopedN",
 	"output":{
 		"dynamic":false,
@@ -39,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
