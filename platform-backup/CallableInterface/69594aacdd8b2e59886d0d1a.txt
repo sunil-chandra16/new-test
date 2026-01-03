@@ -4,6 +4,7 @@
 	"description":"caDiioSCGe",
 	"id":"69594aacdd8b2e59886d0d1a",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767459500564,
 	"name":"changeSetUAT2AIEbYboTLEhm",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
