@@ -4,7 +4,6 @@
 	"description":"hGHqyruuQi",
 	"id":"69594c40ed930b04e318b4e6",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -23,10 +22,9 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aicbjkikdjns",
-	"modifiedTime":1767460077954,
+	"modifiedTime":1767460131932,
 	"name":"changeSetUAT2AICBjKIKDJNs",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -41,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":1
+	"version":2
 }
