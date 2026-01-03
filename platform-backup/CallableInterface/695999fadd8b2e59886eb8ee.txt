@@ -1,9 +1,10 @@
 {
 	"createdTime":1767479802702,
-	"deleted":false,
+	"deleted":true,
 	"description":"RpywhMkvQb",
 	"id":"695999fadd8b2e59886eb8ee",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ainxuyxtlofc",
-	"modifiedTime":1767479802702,
+	"modifiedTime":1767480553990,
 	"name":"changeSetQA2AInXUyXtLofc",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
