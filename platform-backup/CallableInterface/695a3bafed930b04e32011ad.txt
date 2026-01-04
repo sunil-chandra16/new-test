@@ -1,6 +1,6 @@
 {
 	"createdTime":1767521494926,
-	"deleted":false,
+	"deleted":true,
 	"description":"GsThldmsoU",
 	"id":"695a3bafed930b04e32011ad",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aifpmlqudvxc",
-	"modifiedTime":1767521494926,
+	"modifiedTime":1767523747822,
 	"name":"changeSetUAT2AIfPMlQUDVXC",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
