@@ -1,6 +1,6 @@
 {
 	"createdTime":1767522881105,
-	"deleted":false,
+	"deleted":true,
 	"description":"iYxKTDmoRE",
 	"id":"695a4241b2d7a56dc7ba9c47",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aisbuvbhvpvj",
-	"modifiedTime":1767522881105,
+	"modifiedTime":1767523747683,
 	"name":"changeSetUAT2AISBuvbhVPVj",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
