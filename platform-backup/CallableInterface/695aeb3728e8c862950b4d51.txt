@@ -1,6 +1,6 @@
 {
 	"createdTime":1767566204226,
-	"deleted":false,
+	"deleted":true,
 	"description":"lazGtfMaRX",
 	"id":"695aeb3728e8c862950b4d51",
 	"input":{
@@ -22,7 +22,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiiylmpfjcgj",
-	"modifiedTime":1767566204226,
+	"modifiedTime":1767566234089,
 	"name":"changeSetQA2AIiYLMpfjcGJ",
 	"output":{
 		"dynamic":false,
@@ -39,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
