@@ -1,9 +1,10 @@
 {
 	"createdTime":1767523653303,
-	"deleted":false,
+	"deleted":true,
 	"description":"QUfruicivk",
 	"id":"695a43b2ed930b04e3203db1",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aimlbstyefgf",
-	"modifiedTime":1767523653303,
+	"modifiedTime":1767523747603,
 	"name":"changeSetUAT2AImLBsTyefGf",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
