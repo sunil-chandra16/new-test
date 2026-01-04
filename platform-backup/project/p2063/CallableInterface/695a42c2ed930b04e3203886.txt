@@ -1,6 +1,6 @@
 {
 	"createdTime":1767523049653,
-	"deleted":false,
+	"deleted":true,
 	"description":"wpiIGxvmir",
 	"id":"695a42c2ed930b04e3203886",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aignqnqkrvqt",
-	"modifiedTime":1767523118155,
+	"modifiedTime":1767523747656,
 	"name":"changeSetUAT2AIGnQnQKRvQt",
 	"output":{
 		"type":"SCHEMA",
@@ -42,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2063,
 	"standard":false,
-	"version":1
+	"version":2
 }
