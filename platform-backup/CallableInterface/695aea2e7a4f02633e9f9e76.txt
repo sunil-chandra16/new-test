@@ -1,9 +1,10 @@
 {
 	"createdTime":1767565870792,
-	"deleted":false,
+	"deleted":true,
 	"description":"LoPPiTQIKS",
 	"id":"695aea2e7a4f02633e9f9e76",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiebetyqigqp",
-	"modifiedTime":1767565870792,
+	"modifiedTime":1767566720653,
 	"name":"changeSetQA2AIEBEtyQiGqP",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
