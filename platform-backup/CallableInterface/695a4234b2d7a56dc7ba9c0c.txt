@@ -1,6 +1,6 @@
 {
 	"createdTime":1767522868177,
-	"deleted":false,
+	"deleted":true,
 	"description":"AbWidwAuVN",
 	"id":"695a4234b2d7a56dc7ba9c0c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aitpfyjfrykh",
-	"modifiedTime":1767522868177,
+	"modifiedTime":1767523747708,
 	"name":"changeSetUAT2AITPFYJfryKh",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
