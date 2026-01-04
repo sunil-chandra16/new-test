@@ -1,6 +1,6 @@
 {
 	"createdTime":1767566195002,
-	"deleted":false,
+	"deleted":true,
 	"description":"FbCGzmOtBg",
 	"grants":{
 		"configs":[
@@ -54,7 +54,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiihojcowtrh",
-	"modifiedTime":1767566252893,
+	"modifiedTime":1767566298392,
 	"name":"changeSetQA2AIiHoJcOwtRh",
 	"output":{
 		"dynamic":false,
@@ -71,5 +71,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":2
+	"version":4
 }
