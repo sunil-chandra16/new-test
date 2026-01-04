@@ -4,6 +4,7 @@
 	"description":"xRRAHsMSNs",
 	"id":"6959f39a5a903308caaa7910",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767502844805,
 	"name":"changeSetQA2AIsBtBkweofb",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
