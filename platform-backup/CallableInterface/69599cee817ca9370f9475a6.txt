@@ -1,6 +1,6 @@
 {
 	"createdTime":1767480980542,
-	"deleted":false,
+	"deleted":true,
 	"description":"SNNELxJVNN",
 	"id":"69599cee817ca9370f9475a6",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aimhjgsclesd",
-	"modifiedTime":1767480980542,
+	"modifiedTime":1767486801575,
 	"name":"changeSetQA2AIMhjgsCleSD",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
