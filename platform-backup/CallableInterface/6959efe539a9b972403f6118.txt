@@ -1,9 +1,10 @@
 {
 	"createdTime":1767501797287,
-	"deleted":false,
+	"deleted":true,
 	"description":"XhcOpSDrtW",
 	"id":"6959efe539a9b972403f6118",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2airmvsrvhqoc",
-	"modifiedTime":1767501797287,
+	"modifiedTime":1767502033282,
 	"name":"changeSetQA2AIRmvsrVHQoC",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
