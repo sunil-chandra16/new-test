@@ -1,9 +1,10 @@
 {
 	"createdTime":1767566129045,
-	"deleted":false,
+	"deleted":true,
 	"description":"lrwSWYtLOP",
 	"id":"695aeaab28e8c862950b4afb",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiegaumgsvrz",
-	"modifiedTime":1767566129045,
+	"modifiedTime":1767566242310,
 	"name":"changeSetQA2AIEGauMgsvrz",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2063,
 	"standard":false,
-	"version":0
+	"version":1
 }
