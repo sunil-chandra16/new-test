@@ -1,9 +1,10 @@
 {
 	"createdTime":1767564483597,
-	"deleted":false,
+	"deleted":true,
 	"description":"ArHXWcSext",
 	"id":"695ae4c37a4f02633e9f85e9",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aigtnxyshmku",
-	"modifiedTime":1767564483597,
+	"modifiedTime":1767564669384,
 	"name":"changeSetQA2AIgTNxYshmkU",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
