@@ -1,9 +1,10 @@
 {
 	"createdTime":1767521545086,
-	"deleted":false,
+	"deleted":true,
 	"description":"WDtsLKFMDi",
 	"id":"695a3d09a375bd185e644c13",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2ainhozwnqeig",
-	"modifiedTime":1767521545086,
+	"modifiedTime":1767521739470,
 	"name":"changeSetUAT2AInhOzwNqEIg",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
