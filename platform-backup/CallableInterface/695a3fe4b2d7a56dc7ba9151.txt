@@ -1,6 +1,6 @@
 {
 	"createdTime":1767522276179,
-	"deleted":false,
+	"deleted":true,
 	"description":"ttWDwNrbSg",
 	"id":"695a3fe4b2d7a56dc7ba9151",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aijxlwzctrdz",
-	"modifiedTime":1767522276179,
+	"modifiedTime":1767523747733,
 	"name":"changeSetUAT2AIJxLwzCtRdz",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
