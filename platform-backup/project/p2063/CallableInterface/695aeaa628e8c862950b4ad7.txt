@@ -1,9 +1,10 @@
 {
 	"createdTime":1767566030475,
-	"deleted":false,
+	"deleted":true,
 	"description":"AbnCvtsrHO",
 	"id":"695aeaa628e8c862950b4ad7",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ailzittuzoje",
-	"modifiedTime":1767566101432,
+	"modifiedTime":1767566720611,
 	"name":"changeSetQA2AIlzitTuZoje",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2063,
 	"standard":false,
-	"version":1
+	"version":2
 }
