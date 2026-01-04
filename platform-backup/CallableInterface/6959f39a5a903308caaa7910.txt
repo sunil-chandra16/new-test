@@ -1,6 +1,6 @@
 {
 	"createdTime":1767502814431,
-	"deleted":false,
+	"deleted":true,
 	"description":"xRRAHsMSNs",
 	"id":"6959f39a5a903308caaa7910",
 	"input":{
@@ -22,7 +22,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aisbtbkweofb",
-	"modifiedTime":1767502814431,
+	"modifiedTime":1767502844805,
 	"name":"changeSetQA2AIsBtBkweofb",
 	"output":{
 		"dynamic":false,
@@ -39,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
