@@ -1,9 +1,10 @@
 {
 	"createdTime":1767509235224,
-	"deleted":false,
+	"deleted":true,
 	"description":"mmwjfSPsqL",
 	"id":"695a0c7c5a903308caabce07",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiappvtkiepy",
-	"modifiedTime":1767509235224,
+	"modifiedTime":1767510264786,
 	"name":"changeSetQA2AIApPVtkIEPy",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
