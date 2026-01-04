@@ -1,9 +1,10 @@
 {
 	"createdTime":1767522312235,
-	"deleted":false,
+	"deleted":true,
 	"description":"tgjyMSGyLb",
 	"id":"695a4008b2d7a56dc7ba91fa",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aiojrqfmrvrd",
-	"modifiedTime":1767522312235,
+	"modifiedTime":1767522529279,
 	"name":"changeSetUAT2AIOJrqfmrvrd",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
