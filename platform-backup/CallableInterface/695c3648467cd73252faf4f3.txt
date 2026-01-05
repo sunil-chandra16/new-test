@@ -1,9 +1,10 @@
 {
 	"createdTime":1767651024515,
-	"deleted":false,
+	"deleted":true,
 	"description":"BDIsWGUILx",
 	"id":"695c3648467cd73252faf4f3",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiwuhonmlmsn",
-	"modifiedTime":1767651024515,
+	"modifiedTime":1767651050933,
 	"name":"changeSetQA2AIWuHonMlMSN",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
