@@ -1,9 +1,10 @@
 {
 	"createdTime":1767651913948,
-	"deleted":false,
+	"deleted":true,
 	"description":"CtTLCduPSq",
 	"id":"695c3a49eefe3c7f488cee4a",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aimvhpxhmbou",
-	"modifiedTime":1767651913948,
+	"modifiedTime":1767652133974,
 	"name":"changeSetQA2AIMVHPXhMboU",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
