@@ -1,6 +1,6 @@
 {
 	"createdTime":1767567523607,
-	"deleted":false,
+	"deleted":true,
 	"description":"OgRaEscSzY",
 	"id":"695aeef028e8c862950b6245",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiyrbouqyhrj",
-	"modifiedTime":1767567523607,
+	"modifiedTime":1767572149981,
 	"name":"changeSetQA2AIyrboUqyHrJ",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
