@@ -1,6 +1,6 @@
 {
 	"createdTime":1767571549853,
-	"deleted":false,
+	"deleted":true,
 	"description":"WaIGDLtICk",
 	"id":"695b005d7a4f02633e9fe24a",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aicupnjmupwy",
-	"modifiedTime":1767571549853,
+	"modifiedTime":1767572149957,
 	"name":"changeSetQA2AICUpNjmupWy",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
