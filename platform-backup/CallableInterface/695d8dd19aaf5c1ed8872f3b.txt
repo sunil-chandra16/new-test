@@ -4,7 +4,6 @@
 	"description":"VTTBVSluAK",
 	"id":"695d8dd19aaf5c1ed8872f3b",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -23,10 +22,9 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiafioueyqya",
-	"modifiedTime":1767738961289,
+	"modifiedTime":1767739082974,
 	"name":"changeSetQA2AIAfIouEYqYA",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -41,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":1
+	"version":2
 }
