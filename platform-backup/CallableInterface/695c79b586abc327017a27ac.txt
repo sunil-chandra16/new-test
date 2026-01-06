@@ -1,6 +1,6 @@
 {
 	"createdTime":1767668208277,
-	"deleted":false,
+	"deleted":true,
 	"description":"laiTppfrKB",
 	"id":"695c79b586abc327017a27ac",
 	"input":{
@@ -22,7 +22,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aimibkzgpruk",
-	"modifiedTime":1767668208277,
+	"modifiedTime":1767668239004,
 	"name":"changeSetUAT2AIMIbkzgPrUK",
 	"output":{
 		"dynamic":false,
@@ -39,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
