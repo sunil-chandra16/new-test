@@ -1,6 +1,6 @@
 {
 	"createdTime":1767651479864,
-	"deleted":false,
+	"deleted":true,
 	"description":"CjrteTVnTR",
 	"id":"695c3858467cd73252fb7291",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiqvqkpfeugn",
-	"modifiedTime":1767651479864,
+	"modifiedTime":1767653499830,
 	"name":"changeSetQA2AIqvqKPfeUGN",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
