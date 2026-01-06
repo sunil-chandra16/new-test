@@ -1,6 +1,6 @@
 {
 	"createdTime":1767669748361,
-	"deleted":false,
+	"deleted":true,
 	"description":"BSQNOHhmVF",
 	"id":"695c7e5886abc327017a47cc",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aipitzsuqgtm",
-	"modifiedTime":1767669748361,
+	"modifiedTime":1767674894979,
 	"name":"changeSetUAT2AIPItZSuqgtm",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
