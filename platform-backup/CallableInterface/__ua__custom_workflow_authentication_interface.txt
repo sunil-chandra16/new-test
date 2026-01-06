@@ -4,6 +4,7 @@
 	"description":"Custom Workflow Authentication",
 	"id":"__ua__custom_workflow_authentication_interface",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -38,6 +39,7 @@
 	"modifiedTime":1767721530201,
 	"name":"Custom Workflow Authentication",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
