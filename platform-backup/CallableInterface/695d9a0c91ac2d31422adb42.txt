@@ -4,6 +4,7 @@
 	"description":"GIZTCpxpGI",
 	"id":"695d9a0c91ac2d31422adb42",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767741964230,
 	"name":"changeSetQA2AIsIjzPyYJtz",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
