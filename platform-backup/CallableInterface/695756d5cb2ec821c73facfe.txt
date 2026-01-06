@@ -4,6 +4,7 @@
 	"description":"testing",
 	"id":"695756d5cb2ec821c73facfe",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -25,6 +26,7 @@
 	"modifiedTime":1767717011901,
 	"name":"testInt",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
