@@ -1,9 +1,10 @@
 {
 	"createdTime":1767666467874,
-	"deleted":false,
+	"deleted":true,
 	"description":"UrYLdUXsWJ",
 	"id":"695c7323eefe3c7f488d8c3e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aiayaplelfpf",
-	"modifiedTime":1767666467874,
+	"modifiedTime":1767666654281,
 	"name":"changeSetUAT2AIAYapLElfPF",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
