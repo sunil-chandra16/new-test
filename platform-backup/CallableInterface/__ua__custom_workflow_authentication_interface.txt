@@ -1,10 +1,9 @@
 {
-	"createdTime":1767180480681,
+	"createdTime":1767721528756,
 	"deleted":false,
 	"description":"Custom Workflow Authentication",
 	"id":"__ua__custom_workflow_authentication_interface",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -36,10 +35,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"custom workflow authentication",
-	"modifiedTime":1767180481949,
+	"modifiedTime":1767721530201,
 	"name":"Custom Workflow Authentication",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
