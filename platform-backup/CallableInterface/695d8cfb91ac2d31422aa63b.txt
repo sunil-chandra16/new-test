@@ -1,6 +1,6 @@
 {
 	"createdTime":1767738619436,
-	"deleted":false,
+	"deleted":true,
 	"description":"ugCjDzdfIh",
 	"id":"695d8cfb91ac2d31422aa63b",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2airftgrfckpu",
-	"modifiedTime":1767738619436,
+	"modifiedTime":1767739495207,
 	"name":"changeSetQA2AIRFTGRfcKpU",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
