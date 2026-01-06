@@ -14,6 +14,7 @@
 	},
 	"id":"__ua__trigger_interface_by_unifyapps",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"layout":{
@@ -184,6 +185,7 @@
 	"modifiedTime":1767711676578,
 	"name":"Trigger Interface By UnifyApps",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
