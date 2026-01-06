@@ -1,10 +1,9 @@
 {
-	"createdTime":1766592055556,
+	"createdTime":1767728641219,
 	"deleted":false,
 	"description":"Post Login Callable Interface",
 	"id":"__ua_post_login_callable_interface",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -15,12 +14,11 @@
 			"required":[]
 		}
 	},
-	"lastModifiedBy":35286,
+	"lastModifiedBy":-1,
 	"lcName":"post login callable interface",
-	"modifiedTime":1766601817555,
+	"modifiedTime":1767728642027,
 	"name":"Post Login Callable Interface",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -54,5 +52,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":1
+	"version":0
 }
