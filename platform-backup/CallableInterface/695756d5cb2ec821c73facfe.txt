@@ -13,7 +13,8 @@
 			"properties":{
 				"kl":{
 					"type":"string",
-					"title":"Kl"
+					"title":"Kl",
+					"help":"klllllop"
 				}
 			},
 			"required":[]
@@ -21,7 +22,7 @@
 	},
 	"lastModifiedBy":426,
 	"lcName":"testint",
-	"modifiedTime":1767716993982,
+	"modifiedTime":1767717011901,
 	"name":"testInt",
 	"output":{
 		"dynamic":false,
@@ -34,5 +35,5 @@
 	},
 	"ownerUserId":44105,
 	"standard":false,
-	"version":3
+	"version":4
 }
