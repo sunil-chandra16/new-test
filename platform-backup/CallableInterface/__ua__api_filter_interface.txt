@@ -4,7 +4,6 @@
 	"description":"API Filter",
 	"id":"__ua__api_filter_interface",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -91,10 +90,9 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"api filter",
-	"modifiedTime":1767724352531,
+	"modifiedTime":1767740702481,
 	"name":"API Filter",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -173,5 +171,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":95
+	"version":96
 }
