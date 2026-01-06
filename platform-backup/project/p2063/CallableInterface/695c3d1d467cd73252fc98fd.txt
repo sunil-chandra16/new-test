@@ -1,6 +1,6 @@
 {
 	"createdTime":1767652677569,
-	"deleted":false,
+	"deleted":true,
 	"description":"ZorXxEfxiB",
 	"id":"695c3d1d467cd73252fc98fd",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aizfhkyywowh",
-	"modifiedTime":1767652747512,
+	"modifiedTime":1767653499741,
 	"name":"changeSetQA2AIzfhKYyWowh",
 	"output":{
 		"type":"SCHEMA",
@@ -42,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2063,
 	"standard":false,
-	"version":1
+	"version":2
 }
