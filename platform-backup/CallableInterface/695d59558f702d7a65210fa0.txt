@@ -4,6 +4,7 @@
 	"description":"grRDolOOEV",
 	"id":"695d59558f702d7a65210fa0",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767725623492,
 	"name":"changeSetUAT2AIOVYMupdCaS",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
