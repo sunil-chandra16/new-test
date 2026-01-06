@@ -36,7 +36,6 @@
 	},
 	"id":"695d8e259aaf5c1ed88730f4",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -55,10 +54,9 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiaywddsmfkf",
-	"modifiedTime":1767739020836,
+	"modifiedTime":1767739116192,
 	"name":"changeSetQA2AIAYwDDSMFKf",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -73,5 +71,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":3
+	"version":5
 }
