@@ -1,9 +1,10 @@
 {
 	"createdTime":1767724747531,
-	"deleted":false,
+	"deleted":true,
 	"description":"CYvRIKieCv",
 	"id":"695d56cbb15aa1467ff5a715",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2ainxrpwdghrd",
-	"modifiedTime":1767724747531,
+	"modifiedTime":1767726780238,
 	"name":"changeSetUAT2AINxrPwDghrD",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
