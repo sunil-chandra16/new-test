@@ -36,6 +36,7 @@
 	},
 	"id":"695c79c886abc327017a2808",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -57,6 +58,7 @@
 	"modifiedTime":1767668367370,
 	"name":"changeSetUAT2AIeahIJOKGlH",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
