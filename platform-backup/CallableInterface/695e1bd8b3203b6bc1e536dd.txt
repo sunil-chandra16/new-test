@@ -4,6 +4,7 @@
 	"description":"test",
 	"id":"695e1bd8b3203b6bc1e536dd",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -25,6 +26,7 @@
 	"modifiedTime":1767775228072,
 	"name":"check-abhay1",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
