@@ -4,6 +4,7 @@
 	"description":"XXGoBPKXCU",
 	"id":"695ec75b9bf2aa79c4a66b9c",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767819323856,
 	"name":"changeSetUAT2AImIspHlZvDi",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
