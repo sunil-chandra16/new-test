@@ -1,6 +1,6 @@
 {
 	"createdTime":1767782302997,
-	"deleted":false,
+	"deleted":true,
 	"description":"FksnzrzVvE",
 	"id":"695e371c8f702d7a6526c772",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaiovhmpvymuw",
-	"modifiedTime":1767782302997,
+	"modifiedTime":1767786229608,
 	"name":"changeSetLocalAIOVhmPVyMUW",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
