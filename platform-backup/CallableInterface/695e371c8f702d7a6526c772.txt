@@ -4,6 +4,7 @@
 	"description":"FksnzrzVvE",
 	"id":"695e371c8f702d7a6526c772",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767782302997,
 	"name":"changeSetLocalAIOVhmPVyMUW",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
