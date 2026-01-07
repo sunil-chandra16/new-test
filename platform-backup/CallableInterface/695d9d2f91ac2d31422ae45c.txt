@@ -1,6 +1,6 @@
 {
 	"createdTime":1767742767372,
-	"deleted":false,
+	"deleted":true,
 	"description":"NJgVKMPMcC",
 	"id":"695d9d2f91ac2d31422ae45c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiwzabdjhjfl",
-	"modifiedTime":1767742767372,
+	"modifiedTime":1767745065800,
 	"name":"changeSetQA2AIwZabdjhjfl",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
