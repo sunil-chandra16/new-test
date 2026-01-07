@@ -4,6 +4,7 @@
 	"description":"rtgfrced",
 	"id":"695dd01491ac2d31422b6258",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -28,6 +29,7 @@
 	"modifiedTime":1767755796134,
 	"name":"checking_123",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
