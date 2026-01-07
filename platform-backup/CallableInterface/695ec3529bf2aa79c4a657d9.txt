@@ -1,9 +1,10 @@
 {
 	"createdTime":1767818200889,
-	"deleted":false,
+	"deleted":true,
 	"description":"QkJoviayhr",
 	"id":"695ec3529bf2aa79c4a657d9",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aiyopvkhahoa",
-	"modifiedTime":1767818200889,
+	"modifiedTime":1767818227512,
 	"name":"changeSetUAT2AIyOpVkhaHOA",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
