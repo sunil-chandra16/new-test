@@ -1,9 +1,10 @@
 {
 	"createdTime":1767777484227,
-	"deleted":false,
+	"deleted":true,
 	"description":"XOKIYwUEka",
 	"id":"695e23a68f702d7a65266d42",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaisiphpjhmtf",
-	"modifiedTime":1767777484227,
+	"modifiedTime":1767777601976,
 	"name":"changeSetLocalAISiPHPJhmTF",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
