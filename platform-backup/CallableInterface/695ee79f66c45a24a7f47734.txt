@@ -4,6 +4,7 @@
 	"description":"FxLxsivTEs",
 	"id":"695ee79f66c45a24a7f47734",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767827359293,
 	"name":"changeSetQA2AIUdjPRICGiV",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
