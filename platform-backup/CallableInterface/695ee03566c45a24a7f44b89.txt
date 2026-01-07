@@ -1,9 +1,10 @@
 {
 	"createdTime":1767825461336,
-	"deleted":false,
+	"deleted":true,
 	"description":"mVWNCsKIkF",
 	"id":"695ee03566c45a24a7f44b89",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiiuxdrfexpu",
-	"modifiedTime":1767825461336,
+	"modifiedTime":1767826354122,
 	"name":"changeSetQA2AIIuxdrfeXpu",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
