@@ -1,9 +1,10 @@
 {
 	"createdTime":1767819879919,
-	"deleted":false,
+	"deleted":true,
 	"description":"PlvcgTddzb",
 	"id":"695ec9e19bf2aa79c4a677f8",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aixjahvacdzt",
-	"modifiedTime":1767819879919,
+	"modifiedTime":1767819997293,
 	"name":"changeSetUAT2AIxJahvAcdZt",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2063,
 	"standard":false,
-	"version":0
+	"version":1
 }
