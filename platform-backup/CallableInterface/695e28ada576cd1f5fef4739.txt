@@ -4,6 +4,7 @@
 	"description":"asdf",
 	"id":"695e28ada576cd1f5fef4739",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -25,6 +26,7 @@
 	"modifiedTime":1767778477088,
 	"name":"abcd",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
