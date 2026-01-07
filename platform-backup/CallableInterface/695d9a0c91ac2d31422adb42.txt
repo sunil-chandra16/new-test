@@ -1,6 +1,6 @@
 {
 	"createdTime":1767741964230,
-	"deleted":false,
+	"deleted":true,
 	"description":"GIZTCpxpGI",
 	"id":"695d9a0c91ac2d31422adb42",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aisijzpyyjtz",
-	"modifiedTime":1767741964230,
+	"modifiedTime":1767745065827,
 	"name":"changeSetQA2AIsIjzPyYJtz",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
