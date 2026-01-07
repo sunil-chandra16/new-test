@@ -1,6 +1,6 @@
 {
 	"createdTime":1767743981978,
-	"deleted":false,
+	"deleted":true,
 	"description":"mzvDEVeEvQ",
 	"id":"695da1ad9aaf5c1ed887aa72",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ailpilbybamd",
-	"modifiedTime":1767743981978,
+	"modifiedTime":1767745065771,
 	"name":"changeSetQA2AILpilbyBAmD",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
