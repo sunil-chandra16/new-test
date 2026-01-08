@@ -1,6 +1,6 @@
 {
 	"createdTime":1767910813632,
-	"deleted":false,
+	"deleted":true,
 	"description":"TSVUmaRzGd",
 	"id":"69602d5a57acd61ecb10273e",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aikjdpogtbqa",
-	"modifiedTime":1767910813632,
+	"modifiedTime":1767912825249,
 	"name":"changeSetQA2AIKJDpogTBqA",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
