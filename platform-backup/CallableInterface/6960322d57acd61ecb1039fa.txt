@@ -1,6 +1,6 @@
 {
 	"createdTime":1767912029738,
-	"deleted":false,
+	"deleted":true,
 	"description":"lLMEsOGuKB",
 	"id":"6960322d57acd61ecb1039fa",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ailgtzeekiki",
-	"modifiedTime":1767912029738,
+	"modifiedTime":1767912825079,
 	"name":"changeSetQA2AIlgTzEEkiki",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
