@@ -1,6 +1,6 @@
 {
 	"createdTime":1767830880192,
-	"deleted":false,
+	"deleted":true,
 	"description":"XlOTXKZmZS",
 	"id":"695ef56066c45a24a7f49fdd",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiejvoanjege",
-	"modifiedTime":1767830880192,
+	"modifiedTime":1767858238755,
 	"name":"changeSetQA2AIEJvoanjege",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
