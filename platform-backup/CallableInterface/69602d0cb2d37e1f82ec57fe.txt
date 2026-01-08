@@ -1,6 +1,6 @@
 {
 	"createdTime":1767910668648,
-	"deleted":false,
+	"deleted":true,
 	"description":"BUIgtYGEwp",
 	"id":"69602d0cb2d37e1f82ec57fe",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aixmcroiwhsr",
-	"modifiedTime":1767910668648,
+	"modifiedTime":1767912825347,
 	"name":"changeSetQA2AIXmcrOIwhsr",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
