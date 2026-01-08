@@ -1,9 +1,10 @@
 {
 	"createdTime":1767874042001,
-	"deleted":false,
+	"deleted":true,
 	"description":"nATIFlhtmq",
 	"id":"695f9d81c769bb60afae24e5",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiftkrvroytd",
-	"modifiedTime":1767874042001,
+	"modifiedTime":1767874387000,
 	"name":"changeSetQA2AIFtKRvrOytD",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
