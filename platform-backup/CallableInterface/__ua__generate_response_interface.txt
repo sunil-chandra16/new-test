@@ -1,0 +1,65 @@
+{
+	"createdTime":1754468906250,
+	"deleted":false,
+	"description":"Generate Response",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"__ua__generate_response_interface",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"responseInstructions":{
+					"type":"string",
+					"title":"AI Response Instructions"
+				},
+				"name":{
+					"type":"string",
+					"title":"Name"
+				},
+				"model":{
+					"type":"string",
+					"title":"Model"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":-1,
+	"lcName":"generate response (workflow agent)",
+	"modifiedTime":1767862159986,
+	"name":"Generate Response (Workflow Agent)",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"finalAnswer":{
+					"type":"string",
+					"title":"Final Answer"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":-1,
+	"standard":false,
+	"version":66
+}
