@@ -1,0 +1,92 @@
+{
+	"createdTime":1759243482494,
+	"deleted":false,
+	"description":"Web Search",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"68d3d6767c21d0726bbcc07e",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"query":{
+					"type":"string",
+					"title":"Query"
+				},
+				"caseId":{
+					"type":"string",
+					"title":"Case Id"
+				},
+				"aiAgentId":{
+					"type":"string",
+					"title":"AI Agent Id"
+				},
+				"internalModelId":{
+					"type":"string",
+					"title":"Internal Model Id"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":-1,
+	"lcName":"web search",
+	"modifiedTime":1767862159962,
+	"name":"Web Search",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"additionalProperties":false,
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"type":"object",
+			"properties":{
+				"results":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{
+							"content":{
+								"type":"string",
+								"title":"content"
+							},
+							"score":{
+								"type":"number",
+								"title":"score"
+							},
+							"title":{
+								"type":"string",
+								"title":"title"
+							},
+							"url":{
+								"type":"string",
+								"title":"url"
+							}
+						},
+						"additionalProperties":false
+					},
+					"title":"results"
+				}
+			}
+		}
+	},
+	"ownerUserId":-1,
+	"standard":true,
+	"version":24
+}
