@@ -1,0 +1,45 @@
+{
+	"createdTime":1763213723303,
+	"deleted":false,
+	"description":"testing for interface",
+	"id":"6918819bcb4887728f88c232",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"input":{
+					"type":"string",
+					"title":"Input"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":308,
+	"lcName":"interface_call",
+	"modifiedTime":1767876568673,
+	"name":"interface_call",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"output":{
+					"type":"string",
+					"title":"Output"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":132116,
+	"standard":false,
+	"version":3
+}
