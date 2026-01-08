@@ -1,9 +1,10 @@
 {
 	"createdTime":1767912168793,
-	"deleted":false,
+	"deleted":true,
 	"description":"yayEzzCuCL",
 	"id":"6960323a8289cb75b873a23c",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiqlryssqleq",
-	"modifiedTime":1767912168793,
+	"modifiedTime":1767912281784,
 	"name":"changeSetQA2AIQLryssqlEQ",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2063,
 	"standard":false,
-	"version":0
+	"version":1
 }
