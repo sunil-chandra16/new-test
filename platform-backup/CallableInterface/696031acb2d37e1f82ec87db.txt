@@ -1,6 +1,6 @@
 {
 	"createdTime":1767911852595,
-	"deleted":false,
+	"deleted":true,
 	"description":"heWsASFKSu",
 	"id":"696031acb2d37e1f82ec87db",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiwuevhgkrrf",
-	"modifiedTime":1767911852595,
+	"modifiedTime":1767912825144,
 	"name":"changeSetQA2AIWuEVhGkrRf",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
