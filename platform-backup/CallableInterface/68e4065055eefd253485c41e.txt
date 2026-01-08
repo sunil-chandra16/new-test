@@ -1,0 +1,79 @@
+{
+	"createdTime":1760296147900,
+	"deleted":false,
+	"description":"Interface to select between several of websearch providers",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"68e4065055eefd253485c41e",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"additionalProperties":false,
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"type":"object",
+			"properties":{
+				"query":{
+					"type":"string",
+					"title":"query"
+				},
+				"caseId":{
+					"type":"string",
+					"title":"caseId"
+				},
+				"aiAgentId":{
+					"type":"string",
+					"title":"aiAgentId"
+				},
+				"searchModelId":{
+					"type":"string",
+					"title":"Search Model Id"
+				},
+				"scrapModelId":{
+					"type":"string",
+					"title":"Scrap Model Id"
+				},
+				"agentResponseMessageId":{
+					"type":"string",
+					"title":"Agent Response Message Id"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":-1,
+	"lcName":"perform web search (agent)",
+	"modifiedTime":1767862159983,
+	"name":"Perform Web Search (Agent)",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"additionalProperties":false,
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"type":"object",
+			"properties":{
+				"output":{
+					"type":"string",
+					"title":"output"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":-1,
+	"standard":true,
+	"version":19
+}
