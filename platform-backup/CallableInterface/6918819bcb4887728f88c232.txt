@@ -4,6 +4,7 @@
 	"description":"testing for interface",
 	"id":"6918819bcb4887728f88c232",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -24,6 +25,7 @@
 	"modifiedTime":1767876568673,
 	"name":"interface_call",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
