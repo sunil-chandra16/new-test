@@ -4,6 +4,7 @@
 	"description":"uuxmgbUcAW",
 	"id":"695f6ad1c0dc212a2d16a0fb",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1767861093844,
 	"name":"changeSetQA2AIznFcYxvUeV",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
