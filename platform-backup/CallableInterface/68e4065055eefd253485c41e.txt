@@ -14,6 +14,7 @@
 	},
 	"id":"68e4065055eefd253485c41e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -56,6 +57,7 @@
 	"modifiedTime":1767862159983,
 	"name":"Perform Web Search (Agent)",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
