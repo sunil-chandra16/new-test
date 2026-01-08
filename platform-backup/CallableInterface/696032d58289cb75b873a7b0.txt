@@ -2,6 +2,38 @@
 	"createdTime":1767912192535,
 	"deleted":false,
 	"description":"npTabSunQa",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"168834"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"169044"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"696032d58289cb75b873a7b0",
 	"input":{
 		"dynamic":false,
@@ -22,7 +54,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aisklsoftnth",
-	"modifiedTime":1767912192535,
+	"modifiedTime":1767912258965,
 	"name":"changeSetQA2AISkLsofTntH",
 	"output":{
 		"dynamic":false,
@@ -39,5 +71,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
