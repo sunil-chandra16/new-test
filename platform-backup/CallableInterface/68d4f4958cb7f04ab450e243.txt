@@ -1,0 +1,87 @@
+{
+	"createdTime":1759243482490,
+	"deleted":false,
+	"description":"Web Scraping",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"68d4f4958cb7f04ab450e243",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"url":{
+					"type":"string",
+					"title":"Url"
+				},
+				"uploadToFile":{
+					"type":"boolean",
+					"title":"Upload To File"
+				},
+				"toMarkdown":{
+					"type":"boolean",
+					"title":"To Markdown"
+				},
+				"caseId":{
+					"type":"string",
+					"title":"Case Id"
+				},
+				"aiAgentId":{
+					"type":"string",
+					"title":"AI Agent Id"
+				},
+				"internalModelId":{
+					"type":"string",
+					"title":"Internal Model Id"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":-1,
+	"lcName":"web scraping",
+	"modifiedTime":1767862159950,
+	"name":"Web Scraping",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"web_content":{
+					"type":"string",
+					"title":"Web Content"
+				},
+				"file":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"File"
+				},
+				"markdownContent":{
+					"type":"string",
+					"title":"Markdown Content"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":-1,
+	"standard":true,
+	"version":23
+}
