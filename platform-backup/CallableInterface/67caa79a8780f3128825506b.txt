@@ -1,0 +1,33 @@
+{
+	"createdTime":1741334426617,
+	"deleted":true,
+	"description":"SZHLUr",
+	"id":"67caa79a8780f3128825506b",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":22743,
+	"lcName":"c:\\windows\\win.ini\u0000qvfspo",
+	"modifiedTime":1741358660162,
+	"name":"c:\\windows\\win.ini\u0000QvfSPO",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":22743,
+	"standard":false,
+	"version":1
+}
