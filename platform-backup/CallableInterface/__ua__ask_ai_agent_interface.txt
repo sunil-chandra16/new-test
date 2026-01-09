@@ -14,7 +14,6 @@
 	},
 	"id":"__ua__ask_ai_agent_interface",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -61,10 +60,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"ask ai agent (workflow agent)",
-	"modifiedTime":1767862159956,
+	"modifiedTime":1767946431385,
 	"name":"Ask AI Agent (Workflow Agent)",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -88,5 +86,5 @@
 	},
 	"ownerUserId":46030,
 	"standard":false,
-	"version":34
+	"version":35
 }
