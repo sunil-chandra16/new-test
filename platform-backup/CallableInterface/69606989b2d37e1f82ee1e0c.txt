@@ -1,6 +1,6 @@
 {
 	"createdTime":1767926153191,
-	"deleted":false,
+	"deleted":true,
 	"description":"GrtJRvwjfS",
 	"id":"69606989b2d37e1f82ee1e0c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aiemkwfpqqek",
-	"modifiedTime":1767926153191,
+	"modifiedTime":1767927569180,
 	"name":"changeSetUAT2AIeMkWFpqQeK",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
