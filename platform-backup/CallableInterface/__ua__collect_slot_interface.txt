@@ -4,6 +4,7 @@
 	"description":"Collect Slot Interface",
 	"id":"__ua__collect_slot_interface",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -85,6 +86,7 @@
 	"modifiedTime":1767951719257,
 	"name":"Collect Slot Interface (AI Agent)",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
