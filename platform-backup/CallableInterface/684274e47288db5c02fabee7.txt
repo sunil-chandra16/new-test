@@ -1,0 +1,33 @@
+{
+	"createdTime":1749185764421,
+	"deleted":true,
+	"description":"Interface Check",
+	"id":"684274e47288db5c02fabee7",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":522,
+	"lcName":"genesys",
+	"modifiedTime":1749185818440,
+	"name":"Genesys",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":522,
+	"standard":false,
+	"version":1
+}
