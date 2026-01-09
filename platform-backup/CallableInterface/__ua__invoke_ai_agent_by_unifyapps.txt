@@ -28,7 +28,6 @@
 	},
 	"id":"__ua__invoke_ai_agent_by_unifyapps",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"layout":{
@@ -154,10 +153,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"invoke ai agent by unifyapps",
-	"modifiedTime":1767946431404,
+	"modifiedTime":1767947449491,
 	"name":"Invoke AI Agent By UnifyApps",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -291,5 +289,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":122
+	"version":123
 }
