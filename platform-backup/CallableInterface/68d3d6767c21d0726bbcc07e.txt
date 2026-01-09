@@ -44,7 +44,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"web search",
-	"modifiedTime":1767862159962,
+	"modifiedTime":1767946431393,
 	"name":"Web Search",
 	"output":{
 		"type":"SCHEMA",
@@ -88,5 +88,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":true,
-	"version":24
+	"version":25
 }
