@@ -1,0 +1,33 @@
+{
+	"createdTime":1741334411680,
+	"deleted":true,
+	"description":"SZHLUr",
+	"id":"67caa78b8780f31288254e9a",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":22743,
+	"lcName":"yxn50{{431*695}}vazvi",
+	"modifiedTime":1741358660407,
+	"name":"yxn50{{431*695}}vazvi",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":22743,
+	"standard":false,
+	"version":1
+}
