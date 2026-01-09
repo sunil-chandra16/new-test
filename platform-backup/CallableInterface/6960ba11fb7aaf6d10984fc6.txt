@@ -1,9 +1,10 @@
 {
 	"createdTime":1767947785894,
-	"deleted":false,
+	"deleted":true,
 	"description":"TEVNFhvSTA",
 	"id":"6960ba11fb7aaf6d10984fc6",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -20,11 +21,12 @@
 			"required":[]
 		}
 	},
-	"lastModifiedBy":161912,
+	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaikdpszmrwks",
-	"modifiedTime":1767947785894,
+	"modifiedTime":1767948010467,
 	"name":"changeSetLocalAIkDpszmrWKs",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":161912,
 	"standard":false,
-	"version":0
+	"version":1
 }
