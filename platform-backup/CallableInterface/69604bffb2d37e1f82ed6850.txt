@@ -1,6 +1,6 @@
 {
 	"createdTime":1767918591287,
-	"deleted":false,
+	"deleted":true,
 	"description":"dgfWPmKOTl",
 	"id":"69604bffb2d37e1f82ed6850",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiktifvabpoz",
-	"modifiedTime":1767918591287,
+	"modifiedTime":1767922671971,
 	"name":"changeSetQA2AIKtiFVABpOz",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
