@@ -1,0 +1,51 @@
+{
+	"createdTime":1748253082159,
+	"deleted":false,
+	"description":"Indexes a person from specific channel into the directory",
+	"id":"68341b62d552c9134f9b9d66",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"channelUserId":{
+					"type":"string",
+					"title":"Channel User Id"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":635,
+	"lcName":"person indexer",
+	"modifiedTime":1748278042851,
+	"name":"Person Indexer",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"personId":{
+					"type":"string",
+					"title":"Person Id"
+				},
+				"success":{
+					"type":"boolean",
+					"title":"Success"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":635,
+	"standard":false,
+	"version":1
+}
