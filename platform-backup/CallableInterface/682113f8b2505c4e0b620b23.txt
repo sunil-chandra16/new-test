@@ -1,0 +1,47 @@
+{
+	"createdTime":1746998264062,
+	"deleted":false,
+	"description":"Test API",
+	"id":"682113f8b2505c4e0b620b23",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"a":{
+					"type":"string",
+					"title":"A"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":508,
+	"lcName":"test-local",
+	"modifiedTime":1746998298556,
+	"name":"test-local",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"a":{
+					"type":"string",
+					"title":"A"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":508,
+	"standard":false,
+	"version":1
+}
