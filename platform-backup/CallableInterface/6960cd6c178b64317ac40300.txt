@@ -2,8 +2,9 @@
 	"createdTime":1767951724149,
 	"deleted":false,
 	"description":"Reset Password Interface",
-	"id":"6960cd6c178b64317ac402fe",
+	"id":"6960cd6c178b64317ac40300",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -29,9 +30,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"reset password",
-	"modifiedTime":1767951724653,
+	"modifiedTime":1767951724462,
 	"name":"Reset Password",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
