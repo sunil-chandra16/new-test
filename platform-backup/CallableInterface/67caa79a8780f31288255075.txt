@@ -1,0 +1,33 @@
+{
+	"createdTime":1741334426942,
+	"deleted":true,
+	"description":"SZHLUr",
+	"id":"67caa79a8780f31288255075",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":22743,
+	"lcName":"../../../../../../../../../../../../../../../../etc/passwd",
+	"modifiedTime":1741358660155,
+	"name":"../../../../../../../../../../../../../../../../etc/passwd",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":22743,
+	"standard":false,
+	"version":1
+}
