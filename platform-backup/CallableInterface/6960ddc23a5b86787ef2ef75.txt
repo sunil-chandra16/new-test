@@ -1,6 +1,6 @@
 {
 	"createdTime":1767955906413,
-	"deleted":false,
+	"deleted":true,
 	"description":"yxSIzoAnBu",
 	"id":"6960ddc23a5b86787ef2ef75",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aibylmyzwmmg",
-	"modifiedTime":1767955906413,
+	"modifiedTime":1767956630892,
 	"name":"changeSetQA2AIBYlMyZwMMg",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
