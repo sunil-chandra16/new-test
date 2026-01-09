@@ -4,6 +4,7 @@
 	"description":"API Filter",
 	"id":"__ua__api_filter_interface",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -93,6 +94,7 @@
 	"modifiedTime":1767925154447,
 	"name":"API Filter",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
