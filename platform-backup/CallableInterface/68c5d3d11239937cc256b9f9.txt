@@ -14,7 +14,6 @@
 	},
 	"id":"68c5d3d11239937cc256b9f9",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -33,10 +32,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"custom fetch referred knowledges",
-	"modifiedTime":1767947449495,
+	"modifiedTime":1767967609610,
 	"name":"Custom Fetch Referred Knowledges",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -69,5 +67,5 @@
 	},
 	"ownerUserId":39717,
 	"standard":false,
-	"version":39
+	"version":40
 }
