@@ -1,0 +1,30 @@
+{
+	"createdTime":1730018308955,
+	"deleted":false,
+	"id":"671dfc047a9e084a4494bbe9",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":520,
+	"modifiedTime":1730018308955,
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":520,
+	"standard":false,
+	"version":0
+}
