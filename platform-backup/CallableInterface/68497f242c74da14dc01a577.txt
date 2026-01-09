@@ -1,0 +1,67 @@
+{
+	"createdTime":1749647140059,
+	"deleted":false,
+	"description":"Read Document",
+	"id":"68497f242c74da14dc01a577",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"fileDetails":{
+					"type":"object",
+					"properties":{
+						"name":{
+							"type":"string",
+							"title":"Name"
+						},
+						"source":{
+							"type":"string",
+							"title":"Source"
+						},
+						"sourceType":{
+							"type":"string",
+							"title":"Source Type"
+						},
+						"fileType":{
+							"type":"string",
+							"title":"File Type"
+						}
+					},
+					"additionalProperties":false,
+					"title":"File Details",
+					"required":[]
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":45775,
+	"lcName":"read document",
+	"modifiedTime":1749722802639,
+	"name":"Read Document",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"success":{
+					"type":"boolean",
+					"title":"Success"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":45775,
+	"standard":false,
+	"version":2
+}
