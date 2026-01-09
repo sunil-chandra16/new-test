@@ -54,7 +54,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"perform web search (agent)",
-	"modifiedTime":1767947449577,
+	"modifiedTime":1767967609625,
 	"name":"Perform Web Search (Agent)",
 	"output":{
 		"type":"SCHEMA",
@@ -77,5 +77,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":true,
-	"version":21
+	"version":22
 }
