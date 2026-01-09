@@ -14,6 +14,7 @@
 	},
 	"id":"686e0f90c92a3538c991f984",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -67,6 +68,7 @@
 	"modifiedTime":1767967609581,
 	"name":"Knowledge Indexer with ResourceType",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
