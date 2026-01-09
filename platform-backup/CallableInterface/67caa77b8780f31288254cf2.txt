@@ -1,0 +1,37 @@
+{
+	"createdTime":1741334395871,
+	"deleted":true,
+	"description":"SZHLUr",
+	"id":"67caa77b8780f31288254cf2",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true,
+				"$where":"if(typeof rql6x==='undefined'){var a=new Date();do{var b=new Date();}while(b-a<20000);rql6x=1;}"
+			},
+			"$where":"if(typeof rql6x==='undefined'){var a=new Date();do{var b=new Date();}while(b-a<20000);rql6x=1;}"
+		}
+	},
+	"lastModifiedBy":22743,
+	"lcName":"qvfspo",
+	"modifiedTime":1741358660631,
+	"name":"QvfSPO",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true,
+				"$where":"if(typeof rql6x==='undefined'){var a=new Date();do{var b=new Date();}while(b-a<20000);rql6x=1;}"
+			},
+			"$where":"if(typeof rql6x==='undefined'){var a=new Date();do{var b=new Date();}while(b-a<20000);rql6x=1;}"
+		}
+	},
+	"ownerUserId":22743,
+	"standard":false,
+	"version":1
+}
