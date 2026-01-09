@@ -1,9 +1,10 @@
 {
 	"createdTime":1767920756269,
-	"deleted":false,
+	"deleted":true,
 	"description":"bJROWsonIp",
 	"id":"6960541f57acd61ecb10c7af",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aifvuojgosdl",
-	"modifiedTime":1767920756269,
+	"modifiedTime":1767922671889,
 	"name":"changeSetQA2AIFVUOjgosdL",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
