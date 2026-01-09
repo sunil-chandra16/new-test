@@ -1,9 +1,10 @@
 {
 	"createdTime":1767932702838,
-	"deleted":false,
+	"deleted":true,
 	"description":"IpQQoBrgmx",
 	"id":"6960831e06858636b95bc9c8",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aisahlclacqj",
-	"modifiedTime":1767932702838,
+	"modifiedTime":1767934623590,
 	"name":"changeSetUAT2AISAhlclacQJ",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
