@@ -14,6 +14,7 @@
 	},
 	"id":"__ua__knowledge_search_interface",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -50,6 +51,7 @@
 	"modifiedTime":1767967609645,
 	"name":"Knowledge Search (Workflow Agent)",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
