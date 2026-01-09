@@ -1,0 +1,96 @@
+{
+	"createdTime":1731679393402,
+	"deleted":false,
+	"description":"Event Streams Interface",
+	"id":"__ua__event_streams_interface",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"eventStreamId":{
+					"type":"string",
+					"title":"Event Stream Id"
+				},
+				"payload":{
+					"type":"object",
+					"properties":{
+						"event":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Event"
+						},
+						"queryParams":{
+							"type":"object",
+							"properties":{
+								"count":{
+									"type":"array",
+									"items":{
+										"type":"number"
+									},
+									"title":"Count"
+								},
+								"consumerKey":{
+									"type":"array",
+									"items":{
+										"type":"string"
+									},
+									"title":"Consumer Key"
+								},
+								"key":{
+									"type":"array",
+									"items":{
+										"type":"string"
+									},
+									"title":"Key"
+								}
+							},
+							"additionalProperties":false,
+							"title":"Query Params",
+							"required":[]
+						}
+					},
+					"additionalProperties":false,
+					"title":"Payload",
+					"required":[]
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":43498,
+	"lcName":"event stream [do not edit]",
+	"modifiedTime":1752917986906,
+	"name":"Event Stream [DO NOT EDIT]",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"success":{
+					"type":"boolean",
+					"title":"Success"
+				},
+				"result":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Result"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":520,
+	"standard":false,
+	"version":19
+}
