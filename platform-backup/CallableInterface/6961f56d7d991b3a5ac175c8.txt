@@ -1,6 +1,6 @@
 {
 	"createdTime":1768027501465,
-	"deleted":false,
+	"deleted":true,
 	"description":"SRowdzCsvz",
 	"id":"6961f56d7d991b3a5ac175c8",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aivwvsjeiiwm",
-	"modifiedTime":1768027501465,
+	"modifiedTime":1768027726203,
 	"name":"changeSetQA2AIvWVSJEiiWM",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
