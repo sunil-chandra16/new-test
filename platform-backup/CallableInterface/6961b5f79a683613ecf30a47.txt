@@ -1,6 +1,6 @@
 {
 	"createdTime":1768011318062,
-	"deleted":false,
+	"deleted":true,
 	"description":"LNBXyGFBGY",
 	"id":"6961b5f79a683613ecf30a47",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aiimiocaumqb",
-	"modifiedTime":1768011318062,
+	"modifiedTime":1768013058194,
 	"name":"changeSetUAT2AIimIOCaUMQb",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
