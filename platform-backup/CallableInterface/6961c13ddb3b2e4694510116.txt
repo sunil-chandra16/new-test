@@ -1,6 +1,6 @@
 {
 	"createdTime":1768014141846,
-	"deleted":false,
+	"deleted":true,
 	"description":"mYTpssTkcv",
 	"id":"6961c13ddb3b2e4694510116",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aimthlmliqhr",
-	"modifiedTime":1768014141846,
+	"modifiedTime":1768019251658,
 	"name":"changeSetUAT2AIMthLmLIqhR",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
