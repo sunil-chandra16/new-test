@@ -1,0 +1,47 @@
+{
+	"createdTime":1759400556603,
+	"deleted":false,
+	"description":"testing",
+	"id":"68de526c2cc9f04fd0a348a8",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"fdsfds":{
+					"type":"string",
+					"title":"Fdsfds"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":46030,
+	"lcName":"custom workflow test",
+	"modifiedTime":1759400556603,
+	"name":"Custom Workflow test",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"fsdfsd":{
+					"type":"string",
+					"title":"Fsdfsd"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":46030,
+	"standard":false,
+	"version":0
+}
