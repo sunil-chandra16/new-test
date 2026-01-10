@@ -1,0 +1,41 @@
+{
+	"createdTime":1718136189759,
+	"deleted":false,
+	"description":"new tusat",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"66681c602261d6426d663042"
+				],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"6668ad7d020ad866e2b1affc",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{}
+	},
+	"lastModifiedBy":-1,
+	"lcName":"new tushar",
+	"modifiedTime":1758596482435,
+	"name":"new tushar",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{}
+	},
+	"ownerUserId":32,
+	"standard":false,
+	"version":671
+}
