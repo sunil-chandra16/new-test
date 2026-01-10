@@ -1,0 +1,34 @@
+{
+	"createdTime":1759234061338,
+	"deleted":false,
+	"description":"abc",
+	"id":"68dbc80d5cf2843f205c4f8a",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":175325,
+	"lcName":"interface",
+	"modifiedTime":1759234061338,
+	"name":"Interface",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":175325,
+	"projectId":2063,
+	"standard":false,
+	"version":0
+}
