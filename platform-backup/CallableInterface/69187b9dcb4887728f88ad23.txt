@@ -1,0 +1,47 @@
+{
+	"createdTime":1763212189153,
+	"deleted":false,
+	"description":"ijojn",
+	"id":"69187b9dcb4887728f88ad23",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"txtinp1":{
+					"type":"string",
+					"title":"Txtinp 1"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":188567,
+	"lcName":"interface1",
+	"modifiedTime":1763212189153,
+	"name":"Interface1",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"txtout2":{
+					"type":"string",
+					"title":"Txtout 2"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":188567,
+	"standard":false,
+	"version":0
+}
