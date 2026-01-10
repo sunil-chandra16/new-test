@@ -1,0 +1,33 @@
+{
+	"createdTime":1761743374268,
+	"deleted":false,
+	"description":"asdfasdf",
+	"id":"6902120e74105b7eb8dc5788",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":504,
+	"lcName":"asdfasdfnvoisrnoifnwoi",
+	"modifiedTime":1766924858451,
+	"name":"asdfasdfnvoisrnoifnwoi",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":517,
+	"standard":false,
+	"version":1
+}
