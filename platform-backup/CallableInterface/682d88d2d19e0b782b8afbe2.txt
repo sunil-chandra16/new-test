@@ -1,0 +1,104 @@
+{
+	"createdTime":1747814610895,
+	"deleted":false,
+	"description":"Lookup Automation By Keys",
+	"id":"682d88d2d19e0b782b8afbe2",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"type":{
+					"type":"string",
+					"title":"Type"
+				},
+				"keys":{
+					"type":"array",
+					"items":{
+						"type":"string"
+					},
+					"title":"Keys"
+				},
+				"lookupType":{
+					"type":"string",
+					"title":"Lookup Type"
+				},
+				"options":{
+					"type":"object",
+					"properties":{
+						"workflowId":{
+							"type":"string",
+							"title":"Workflow Id"
+						},
+						"runtimeType":{
+							"type":"string",
+							"title":"Runtime Type"
+						},
+						"runtimeConnections":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Runtime Connections"
+						},
+						"timeoutInMillis":{
+							"type":"number",
+							"title":"Timeout In Millis"
+						},
+						"sessionVariables":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Session Variables"
+						}
+					},
+					"additionalProperties":false,
+					"title":"Options",
+					"required":[
+						"workflowId"
+					]
+				},
+				"fields":{
+					"type":"array",
+					"items":{
+						"type":"string"
+					},
+					"title":"Fields"
+				}
+			},
+			"required":[
+				"type",
+				"options"
+			]
+		}
+	},
+	"lastModifiedBy":44096,
+	"lcName":"lookup automation by keys",
+	"modifiedTime":1759307722423,
+	"name":"Lookup Automation By Keys",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"response":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Response"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":34,
+	"standard":false,
+	"version":5
+}
