@@ -1,0 +1,65 @@
+{
+	"createdTime":1754468906244,
+	"deleted":false,
+	"description":"Ask Agent",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"__ua__ask_agent_interface",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"Instructions":{
+					"type":"string",
+					"title":"Instructions"
+				},
+				"agentId":{
+					"type":"string",
+					"title":"Agent Id"
+				},
+				"tips":{
+					"type":"string",
+					"title":"Tips"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":0,
+	"lcName":"ask agent deprecated (workflow agent)",
+	"modifiedTime":1763384620069,
+	"name":"Ask Agent Deprecated (Workflow Agent)",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"Success":{
+					"type":"boolean",
+					"title":"Success"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":-1,
+	"standard":false,
+	"version":58
+}
