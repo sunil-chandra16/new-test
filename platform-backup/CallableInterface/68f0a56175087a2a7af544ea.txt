@@ -1,0 +1,33 @@
+{
+	"createdTime":1760601441625,
+	"deleted":false,
+	"description":"sads",
+	"id":"68f0a56175087a2a7af544ea",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":643,
+	"lcName":"qassewewsadsasdasswwersdas",
+	"modifiedTime":1760601485439,
+	"name":"qassewewsadsasdasswwersdas",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":643,
+	"standard":false,
+	"version":4
+}
