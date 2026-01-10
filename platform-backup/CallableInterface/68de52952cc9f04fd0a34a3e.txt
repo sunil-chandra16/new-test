@@ -1,0 +1,47 @@
+{
+	"createdTime":1759400597588,
+	"deleted":false,
+	"description":"testing",
+	"id":"68de52952cc9f04fd0a34a3e",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"fdsfds":{
+					"type":"string",
+					"title":"Fdsfds"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":46030,
+	"lcName":"callable testing",
+	"modifiedTime":1759400597588,
+	"name":"Callable testing",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"fsdfsd":{
+					"type":"string",
+					"title":"Fsdfsd"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":46030,
+	"standard":false,
+	"version":0
+}
