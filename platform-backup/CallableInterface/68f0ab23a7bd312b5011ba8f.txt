@@ -1,0 +1,33 @@
+{
+	"createdTime":1760602915024,
+	"deleted":false,
+	"description":"ssa",
+	"id":"68f0ab23a7bd312b5011ba8f",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":643,
+	"lcName":"reaasssdasdserrt",
+	"modifiedTime":1760602958577,
+	"name":"reaasssdasdserrt",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":643,
+	"standard":false,
+	"version":2
+}
