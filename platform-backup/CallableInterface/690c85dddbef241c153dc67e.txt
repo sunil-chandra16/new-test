@@ -1,0 +1,47 @@
+{
+	"createdTime":1762428381127,
+	"deleted":false,
+	"description":"new",
+	"id":"690c85dddbef241c153dc67e",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"a":{
+					"type":"string",
+					"title":"A"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":37018,
+	"lcName":"new ",
+	"modifiedTime":1762428381127,
+	"name":"new ",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"b":{
+					"type":"string",
+					"title":"B"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":37018,
+	"standard":false,
+	"version":0
+}
