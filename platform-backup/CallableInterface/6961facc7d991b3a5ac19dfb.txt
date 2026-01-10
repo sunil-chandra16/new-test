@@ -1,9 +1,10 @@
 {
 	"createdTime":1768028876039,
-	"deleted":false,
+	"deleted":true,
 	"description":"mBLYbGURor",
 	"id":"6961facc7d991b3a5ac19dfb",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiwkyyronsda",
-	"modifiedTime":1768028876039,
+	"modifiedTime":1768029575093,
 	"name":"changeSetQA2AIwKYYrOnsDa",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
