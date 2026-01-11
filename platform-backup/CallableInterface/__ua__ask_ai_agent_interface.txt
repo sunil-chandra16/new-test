@@ -61,7 +61,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"ask ai agent (workflow agent)",
-	"modifiedTime":1767967609586,
+	"modifiedTime":1768113134231,
 	"name":"Ask AI Agent (Workflow Agent)",
 	"output":{
 		"type":"SCHEMA",
@@ -88,5 +88,5 @@
 	},
 	"ownerUserId":46030,
 	"standard":false,
-	"version":37
+	"version":39
 }
