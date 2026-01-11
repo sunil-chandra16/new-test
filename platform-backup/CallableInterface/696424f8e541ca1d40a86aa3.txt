@@ -4,6 +4,7 @@
 	"description":"bAIRiNRwou",
 	"id":"696424f8e541ca1d40a86aa3",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1768170904668,
 	"name":"changeSetQA2AItGGGciXTsU",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
