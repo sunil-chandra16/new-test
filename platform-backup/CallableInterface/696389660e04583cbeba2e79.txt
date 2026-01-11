@@ -1,6 +1,6 @@
 {
 	"createdTime":1768130918270,
-	"deleted":false,
+	"deleted":true,
 	"description":"yiaOCstylB",
 	"id":"696389660e04583cbeba2e79",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiwprkmvpcou",
-	"modifiedTime":1768130918270,
+	"modifiedTime":1768132325734,
 	"name":"changeSetQA2AIwPrKMVpcOU",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
