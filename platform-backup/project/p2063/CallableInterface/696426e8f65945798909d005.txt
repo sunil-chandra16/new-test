@@ -1,9 +1,10 @@
 {
 	"createdTime":1768171400681,
-	"deleted":false,
+	"deleted":true,
 	"description":"fVMyHegYVj",
 	"id":"696426e8f65945798909d005",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aivnsedtopab",
-	"modifiedTime":1768171400681,
+	"modifiedTime":1768171514385,
 	"name":"changeSetQA2AIVNSedtOPaB",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2063,
 	"standard":false,
-	"version":0
+	"version":1
 }
