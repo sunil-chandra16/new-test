@@ -4,6 +4,7 @@
 	"description":"ZPCCBsSYED",
 	"id":"69641fbff65945798909b1c8",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1768169560895,
 	"name":"changeSetQA2AIIicItHCozg",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
