@@ -1,9 +1,10 @@
 {
 	"createdTime":1768131752772,
-	"deleted":false,
+	"deleted":true,
 	"description":"WIGcpvnKar",
 	"id":"69638c5c5e473d12e51df0d2",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aivitfibpozl",
-	"modifiedTime":1768131752772,
+	"modifiedTime":1768131764643,
 	"name":"changeSetQA2AIVItFiBpoZL",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
