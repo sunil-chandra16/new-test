@@ -1,6 +1,6 @@
 {
 	"createdTime":1768170518425,
-	"deleted":false,
+	"deleted":true,
 	"description":"wJyvrKbKaz",
 	"id":"69642416e541ca1d40a867d9",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aibnpeatrapv",
-	"modifiedTime":1768170518425,
+	"modifiedTime":1768171883701,
 	"name":"changeSetQA2AIBNPEATrApV",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
