@@ -4,6 +4,7 @@
 	"description":"yiaOCstylB",
 	"id":"696389660e04583cbeba2e79",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1768130918270,
 	"name":"changeSetQA2AIwPrKMVpcOU",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
