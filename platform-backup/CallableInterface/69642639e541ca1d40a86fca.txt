@@ -1,6 +1,6 @@
 {
 	"createdTime":1768171065342,
-	"deleted":false,
+	"deleted":true,
 	"description":"FemOqenOQb",
 	"id":"69642639e541ca1d40a86fca",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiystwkwbzju",
-	"modifiedTime":1768171065342,
+	"modifiedTime":1768171883678,
 	"name":"changeSetQA2AIyStwkwbzjU",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
