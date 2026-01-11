@@ -1,9 +1,10 @@
 {
 	"createdTime":1768169687107,
-	"deleted":false,
+	"deleted":true,
 	"description":"FlxIDHtfUg",
 	"id":"69642033f65945798909b48a",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aimxafdvscnu",
-	"modifiedTime":1768169687107,
+	"modifiedTime":1768169714275,
 	"name":"changeSetQA2AImXAfDvsCNU",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
