@@ -1,9 +1,10 @@
 {
 	"createdTime":1768257592047,
-	"deleted":false,
+	"deleted":true,
 	"description":"WGhnaGqlMl",
 	"id":"69657809b58bb1235b62cf08",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aingecjxhljt",
-	"modifiedTime":1768257668795,
+	"modifiedTime":1768258204779,
 	"name":"changeSetQA2AIngEcJXhljT",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2063,
 	"standard":false,
-	"version":1
+	"version":2
 }
