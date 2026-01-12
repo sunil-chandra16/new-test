@@ -1,6 +1,6 @@
 {
 	"createdTime":1768256824513,
-	"deleted":false,
+	"deleted":true,
 	"description":"pipMcxpTLn",
 	"id":"696575385ca3b712f2501974",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aimofypjdsbq",
-	"modifiedTime":1768256824513,
+	"modifiedTime":1768258204878,
 	"name":"changeSetQA2AIMoFYpjdsBq",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
