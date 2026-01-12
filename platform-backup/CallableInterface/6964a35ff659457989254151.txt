@@ -4,6 +4,7 @@
 	"description":"AUTOMATION DND WITH SCHEMA OBJECT 217681979336250",
 	"id":"6964a35ff659457989254151",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -54,6 +55,7 @@
 	"modifiedTime":1768226038378,
 	"name":"AUTOMATION DND WITH SCHEMA OBJECT 217681979336250",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
