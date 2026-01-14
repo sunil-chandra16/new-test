@@ -4,6 +4,7 @@
 	"description":"nMLaipeejg",
 	"id":"6967b92583a6821e69eeccd0",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1768405285867,
 	"name":"changeSetUAT2AIXOrtXcsqkP",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
