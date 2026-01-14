@@ -1,6 +1,6 @@
 {
 	"createdTime":1768428519122,
-	"deleted":false,
+	"deleted":true,
 	"description":"MnbABuqRKS",
 	"id":"696813e77fe8773c5050c7c6",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aidvnxttwtjh",
-	"modifiedTime":1768428519122,
+	"modifiedTime":1768429572102,
 	"name":"changeSetQA2AIdvNXtTwTjH",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
