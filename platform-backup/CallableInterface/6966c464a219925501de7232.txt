@@ -1,6 +1,6 @@
 {
 	"createdTime":1768342628478,
-	"deleted":false,
+	"deleted":true,
 	"description":"MeSyZfguYT",
 	"id":"6966c464a219925501de7232",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aitfyrzuumns",
-	"modifiedTime":1768342628478,
+	"modifiedTime":1768426987877,
 	"name":"changeSetQA2AITfYRzuUMnS",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
