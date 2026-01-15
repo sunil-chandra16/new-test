@@ -1,0 +1,64 @@
+{
+	"createdTime":1768515963457,
+	"deleted":false,
+	"description":"Creates input parameters of Knowledge in Enterprise Search from resource inputs",
+	"id":"6969697bdc07ce384d916403",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"resourceInputs":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{
+							"resourceName":{
+								"type":"string",
+								"title":"Resource Name"
+							},
+							"inputs":{
+								"type":"object",
+								"properties":{},
+								"additionalProperties":false,
+								"title":"Inputs"
+							}
+						},
+						"additionalProperties":false,
+						"required":[]
+					},
+					"title":"Resource Inputs"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":309,
+	"lcName":"knowledge collapse",
+	"modifiedTime":1768515963457,
+	"name":"Knowledge Collapse",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"inputs":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Inputs"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":309,
+	"standard":false,
+	"version":0
+}
