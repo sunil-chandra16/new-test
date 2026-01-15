@@ -4,6 +4,7 @@
 	"description":"Generates Enterprise Search knowledge input parameters from provided knowledge resource data",
 	"id":"6969697bdc07ce384d916403",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -41,6 +42,7 @@
 	"modifiedTime":1768516399013,
 	"name":"Collapse Knowledge Inputs",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
