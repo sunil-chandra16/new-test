@@ -1,6 +1,6 @@
 {
 	"createdTime":1768515695042,
-	"deleted":false,
+	"deleted":true,
 	"description":"sptbOMLPFL",
 	"id":"6969686fdc07ce384d91545f",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiswqmyhnrkh",
-	"modifiedTime":1768515695042,
+	"modifiedTime":1768516849018,
 	"name":"changeSetQA2AISwqmyhNRkh",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
