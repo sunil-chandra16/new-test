@@ -1,6 +1,6 @@
 {
 	"createdTime":1768450794120,
-	"deleted":false,
+	"deleted":true,
 	"description":"ulIWPKZDSA",
 	"grants":{
 		"configs":[
@@ -55,7 +55,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiozkqqtsgle",
-	"modifiedTime":1768450801935,
+	"modifiedTime":1768451159027,
 	"name":"changeSetQA2AIozkQQtSglE",
 	"output":{
 		"type":"SCHEMA",
@@ -73,5 +73,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":1
+	"version":2
 }
