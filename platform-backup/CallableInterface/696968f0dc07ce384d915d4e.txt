@@ -1,0 +1,64 @@
+{
+	"createdTime":1768515824645,
+	"deleted":false,
+	"description":"Creates input parameters of Knowledge from inputs for Enterprise Search",
+	"id":"696968f0dc07ce384d915d4e",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"inputs":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Inputs"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":309,
+	"lcName":"knowledge expand",
+	"modifiedTime":1768515824645,
+	"name":"Knowledge Expand",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"resourceInputs":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{
+							"resourceName":{
+								"type":"string",
+								"title":"Resource Name"
+							},
+							"inputs":{
+								"type":"object",
+								"properties":{},
+								"additionalProperties":false,
+								"title":"Inputs"
+							}
+						},
+						"additionalProperties":false,
+						"required":[]
+					},
+					"title":"Resource Inputs"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":309,
+	"standard":false,
+	"version":0
+}
