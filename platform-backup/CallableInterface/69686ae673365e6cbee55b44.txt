@@ -1,6 +1,6 @@
 {
 	"createdTime":1768450790790,
-	"deleted":false,
+	"deleted":true,
 	"description":"aukeRsazBM",
 	"id":"69686ae673365e6cbee55b44",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aimqlnrbfecr",
-	"modifiedTime":1768450790790,
+	"modifiedTime":1768451159054,
 	"name":"changeSetQA2AImqLNrBfeCr",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
