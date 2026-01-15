@@ -4,6 +4,7 @@
 	"description":"Creates input parameters of Knowledge from inputs for Enterprise Search",
 	"id":"696968f0dc07ce384d915d4e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -26,6 +27,7 @@
 	"modifiedTime":1768515824645,
 	"name":"Knowledge Expand",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
