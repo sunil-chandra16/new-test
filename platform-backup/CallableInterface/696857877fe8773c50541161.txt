@@ -4,6 +4,7 @@
 	"description":"IuEOngBzik",
 	"id":"696857877fe8773c50541161",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1768445831638,
 	"name":"changeSetQA2AITfAvYpCCQI",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
