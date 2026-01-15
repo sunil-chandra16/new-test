@@ -4,6 +4,7 @@
 	"description":"Generates knowledge resource data parameters from Enterprise Search knowledge input",
 	"id":"696968f0dc07ce384d915d4e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -26,6 +27,7 @@
 	"modifiedTime":1768516507671,
 	"name":"Expand Knowledge Inputs",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
