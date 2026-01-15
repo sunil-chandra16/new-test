@@ -4,7 +4,6 @@
 	"description":"This interface determines the same inputs for all the check group automations",
 	"id":"6900b0ef1cd6437e8860e8b2",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -199,12 +198,11 @@
 			"required":[]
 		}
 	},
-	"lastModifiedBy":27,
+	"lastModifiedBy":0,
 	"lcName":"best practices | check groups | interface",
-	"modifiedTime":1763083851032,
+	"modifiedTime":1768479103026,
 	"name":"Best Practices | Check Groups | Interface",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -264,5 +262,5 @@
 	},
 	"ownerUserId":27,
 	"standard":false,
-	"version":7
+	"version":8
 }
