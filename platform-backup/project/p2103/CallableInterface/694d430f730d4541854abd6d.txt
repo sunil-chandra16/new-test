@@ -2,6 +2,16 @@
 	"createdTime":1767012809521,
 	"deleted":false,
 	"description":"Interace for group wise checks for Automation best practice",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
 	"id":"694d430f730d4541854abd6d",
 	"input":{
 		"type":"SCHEMA",
@@ -31,9 +41,9 @@
 			"required":[]
 		}
 	},
-	"lastModifiedBy":4446,
+	"lastModifiedBy":0,
 	"lcName":"best practice | automation | run group checks interface",
-	"modifiedTime":1768308131929,
+	"modifiedTime":1768479117202,
 	"name":"Best Practice | Automation | Run Group Checks Interface",
 	"output":{
 		"type":"SCHEMA",
@@ -96,5 +106,5 @@
 	"ownerUserId":47540,
 	"projectId":2103,
 	"standard":false,
-	"version":7
+	"version":9
 }
