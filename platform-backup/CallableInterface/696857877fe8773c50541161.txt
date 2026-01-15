@@ -1,6 +1,6 @@
 {
 	"createdTime":1768445831638,
-	"deleted":false,
+	"deleted":true,
 	"description":"IuEOngBzik",
 	"id":"696857877fe8773c50541161",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aitfavypccqi",
-	"modifiedTime":1768445831638,
+	"modifiedTime":1768446329721,
 	"name":"changeSetQA2AITfAvYpCCQI",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
