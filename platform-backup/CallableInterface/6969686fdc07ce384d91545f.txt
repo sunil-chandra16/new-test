@@ -4,6 +4,7 @@
 	"description":"sptbOMLPFL",
 	"id":"6969686fdc07ce384d91545f",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1768515695042,
 	"name":"changeSetQA2AISwqmyhNRkh",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
