@@ -1,6 +1,6 @@
 {
 	"createdTime":1768432074956,
-	"deleted":false,
+	"deleted":true,
 	"description":"NzolZPeRGT",
 	"id":"696821ca7fe8773c50517983",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ainkhdzhzzel",
-	"modifiedTime":1768432074956,
+	"modifiedTime":1768446329889,
 	"name":"changeSetQA2AInkhDZHZZel",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
