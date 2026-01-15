@@ -1,10 +1,9 @@
 {
 	"createdTime":1768515963457,
 	"deleted":false,
-	"description":"Creates input parameters of Knowledge in Enterprise Search from resource inputs",
+	"description":"Generates Enterprise Search knowledge input parameters from provided knowledge resource data",
 	"id":"6969697bdc07ce384d916403",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -38,11 +37,10 @@
 		}
 	},
 	"lastModifiedBy":309,
-	"lcName":"knowledge collapse",
-	"modifiedTime":1768515963457,
-	"name":"Knowledge Collapse",
+	"lcName":"collapse knowledge inputs",
+	"modifiedTime":1768516399013,
+	"name":"Collapse Knowledge Inputs",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -62,5 +60,5 @@
 	},
 	"ownerUserId":309,
 	"standard":false,
-	"version":0
+	"version":1
 }
