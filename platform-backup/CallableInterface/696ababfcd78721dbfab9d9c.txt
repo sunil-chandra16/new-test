@@ -1,6 +1,6 @@
 {
 	"createdTime":1768602303797,
-	"deleted":false,
+	"deleted":true,
 	"description":"IPUcnxATWB",
 	"id":"696ababfcd78721dbfab9d9c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiwntrnmkxxk",
-	"modifiedTime":1768602303797,
+	"modifiedTime":1768603099480,
 	"name":"changeSetQA2AIWnTRNMkxXK",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
