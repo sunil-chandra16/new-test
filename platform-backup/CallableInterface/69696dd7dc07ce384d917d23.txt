@@ -1,6 +1,6 @@
 {
 	"createdTime":1768517079017,
-	"deleted":false,
+	"deleted":true,
 	"description":"zIbzthmroc",
 	"id":"69696dd7dc07ce384d917d23",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiqkkddrehtv",
-	"modifiedTime":1768517079017,
+	"modifiedTime":1768526782758,
 	"name":"changeSetQA2AIQKKDdrehTV",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
