@@ -1,6 +1,6 @@
 {
 	"createdTime":1768518632244,
-	"deleted":false,
+	"deleted":true,
 	"description":"KMxyUCpuEI",
 	"id":"696973e8dc07ce384d919c50",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aihsdalxaxer",
-	"modifiedTime":1768518632244,
+	"modifiedTime":1768526782708,
 	"name":"changeSetQA2AIhsDaLxaxER",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
