@@ -112,9 +112,9 @@
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"knowledge downloader",
-	"modifiedTime":1768113134232,
+	"modifiedTime":1768652997812,
 	"name":"Knowledge Downloader",
 	"output":{
 		"type":"SCHEMA",
@@ -137,5 +137,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":82
+	"version":84
 }
