@@ -1,6 +1,6 @@
 {
 	"createdTime":1768405285867,
-	"deleted":false,
+	"deleted":true,
 	"description":"nMLaipeejg",
 	"id":"6967b92583a6821e69eeccd0",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aixortxcsqkp",
-	"modifiedTime":1768405285867,
+	"modifiedTime":1768667813584,
 	"name":"changeSetUAT2AIXOrtXcsqkP",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
