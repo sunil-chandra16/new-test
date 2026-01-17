@@ -14,7 +14,6 @@
 	},
 	"id":"686e0f90c92a3538c991f984",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -63,12 +62,11 @@
 			]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"knowledge indexer with resourcetype",
-	"modifiedTime":1768113134233,
+	"modifiedTime":1768652988000,
 	"name":"Knowledge Indexer with ResourceType",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -86,5 +84,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":81
+	"version":82
 }
