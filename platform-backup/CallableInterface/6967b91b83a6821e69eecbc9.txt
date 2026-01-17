@@ -1,6 +1,6 @@
 {
 	"createdTime":1768405275463,
-	"deleted":false,
+	"deleted":true,
 	"description":"SCoLgiZRnD",
 	"id":"6967b91b83a6821e69eecbc9",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2airdvpldwonr",
-	"modifiedTime":1768405275463,
+	"modifiedTime":1768667813621,
 	"name":"changeSetUAT2AIrdvpLdwOnr",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
