@@ -1,0 +1,61 @@
+{
+	"createdTime":1768652988019,
+	"deleted":false,
+	"description":"Creates chunkMetadata from sourceResponse for new indexing flow",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"69463cac91a45a6faf92f4f2",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"sourceResponse":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Source Response"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":0,
+	"lcName":"knowledge chunkmetadata resolver",
+	"modifiedTime":1768652997811,
+	"name":"Knowledge ChunkMetadata Resolver",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"chunkMetadata":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Chunk Metadata"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":0,
+	"standard":true,
+	"version":1
+}
