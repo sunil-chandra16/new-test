@@ -1,6 +1,6 @@
 {
 	"createdTime":1768612553231,
-	"deleted":false,
+	"deleted":true,
 	"description":"EFVWECSMgg",
 	"id":"696ae2c9cd78721dbfac6a34",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiejgikkpusv",
-	"modifiedTime":1768612553231,
+	"modifiedTime":1768772410293,
 	"name":"changeSetQA2AIeJgIKkPuSV",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
