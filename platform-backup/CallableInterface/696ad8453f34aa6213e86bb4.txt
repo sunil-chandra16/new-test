@@ -1,6 +1,6 @@
 {
 	"createdTime":1768742491309,
-	"deleted":false,
+	"deleted":true,
 	"description":"kGzbFXBPAq",
 	"id":"696ad8453f34aa6213e86bb4",
 	"input":{
@@ -21,9 +21,9 @@
 			"required":[]
 		}
 	},
-	"lastModifiedBy":161912,
+	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aipcfthkvemn",
-	"modifiedTime":1768742491309,
+	"modifiedTime":1768772410199,
 	"name":"changeSetQA2AIpcFtHKVEmn",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":161912,
 	"standard":false,
-	"version":0
+	"version":1
 }
