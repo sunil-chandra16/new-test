@@ -4,6 +4,7 @@
 	"description":"fwesfwe",
 	"id":"696f44fb00551054d25393dd",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -17,6 +18,7 @@
 	"modifiedTime":1768899835326,
 	"name":"sfes",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
