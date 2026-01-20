@@ -4,6 +4,7 @@
 	"description":"dinHavxecL",
 	"id":"696f74f66fbf7828ee5fec3e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1768912610710,
 	"name":"changeSetQA2AIPIwLYFPpwv",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
