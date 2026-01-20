@@ -1,6 +1,6 @@
 {
 	"createdTime":1768773255712,
-	"deleted":false,
+	"deleted":true,
 	"description":"SwVPQUABOg",
 	"id":"696d568777de4556a5ae2290",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiartmsgojor",
-	"modifiedTime":1768773255712,
+	"modifiedTime":1768910879932,
 	"name":"changeSetQA2AIArTmSGOJOR",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
