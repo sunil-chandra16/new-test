@@ -1,0 +1,31 @@
+{
+	"createdTime":1768899835326,
+	"deleted":false,
+	"description":"fwesfwe",
+	"id":"696f44fb00551054d25393dd",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":308,
+	"lcName":"sfes",
+	"modifiedTime":1768899835326,
+	"name":"sfes",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":308,
+	"standard":false,
+	"version":0
+}
