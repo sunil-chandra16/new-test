@@ -1,6 +1,6 @@
 {
 	"createdTime":1768774201412,
-	"deleted":false,
+	"deleted":true,
 	"description":"ZdPFCgClcF",
 	"id":"696d5a3977de4556a5ae2f76",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ailjiifbkxnw",
-	"modifiedTime":1768774201412,
+	"modifiedTime":1768910879399,
 	"name":"changeSetQA2AILjIifbKXnw",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
