@@ -23,22 +23,22 @@
 			},
 			"properties":{
 				"instructions":{
-					"type":"string",
-					"title":"Instructions"
+					"title":"Instructions",
+					"type":"string"
 				},
 				"model":{
-					"type":"string",
-					"title":"Model"
+					"title":"Model",
+					"type":"string"
 				},
 				"name":{
-					"type":"string",
-					"title":"Name"
+					"title":"Name",
+					"type":"string"
 				},
 				"responseSchema":{
-					"type":"object",
-					"properties":{},
 					"additionalProperties":false,
-					"title":"Response Schema"
+					"properties":{},
+					"title":"Response Schema",
+					"type":"object"
 				}
 			},
 			"required":[]
@@ -46,18 +46,18 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"prompt (workflow agent)",
-	"modifiedTime":1768113134232,
+	"modifiedTime":1769010340263,
 	"name":"Prompt (Workflow Agent)",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"response":{
 					"type":"object"
@@ -68,5 +68,5 @@
 	},
 	"ownerUserId":46030,
 	"standard":false,
-	"version":33
+	"version":35
 }
