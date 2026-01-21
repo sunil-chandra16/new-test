@@ -22,21 +22,21 @@
 				"is_optional":true
 			},
 			"properties":{
-				"userEmailAddress":{
-					"type":"string",
-					"title":"User Email Address"
-				},
 				"knowledgeId":{
-					"type":"string",
-					"title":"Knowledge Id"
+					"title":"Knowledge Id",
+					"type":"string"
+				},
+				"userEmailAddress":{
+					"title":"User Email Address",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"knowledge rbac details fetcher (ai agent)",
-	"modifiedTime":1764063288547,
+	"modifiedTime":1769010340101,
 	"name":"Knowledge RBAC Details Fetcher (AI Agent)",
 	"output":{
 		"type":"SCHEMA",
@@ -48,11 +48,11 @@
 			},
 			"properties":{
 				"sharedWithIds":{
-					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Shared With Ids"
+					"title":"Shared With Ids",
+					"type":"array"
 				}
 			},
 			"required":[]
@@ -60,5 +60,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":91
+	"version":93
 }
