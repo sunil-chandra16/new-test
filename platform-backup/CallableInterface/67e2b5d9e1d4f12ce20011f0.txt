@@ -28,6 +28,7 @@
 	},
 	"id":"67e2b5d9e1d4f12ce20011f0",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -92,6 +93,7 @@
 	"modifiedTime":1768995136771,
 	"name":"AI As Judge Evaluator Metrics",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
