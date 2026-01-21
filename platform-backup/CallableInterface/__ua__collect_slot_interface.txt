@@ -2,6 +2,16 @@
 	"createdTime":1768097366755,
 	"deleted":false,
 	"description":"Collect Slot Interface",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
 	"id":"__ua__collect_slot_interface",
 	"input":{
 		"type":"SCHEMA",
@@ -13,69 +23,69 @@
 			},
 			"properties":{
 				"slots":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
-							"name":{
-								"type":"string",
-								"title":"Name"
-							},
-							"type":{
-								"type":"string",
-								"title":"Type"
-							},
-							"title":{
-								"type":"string",
-								"title":"Title"
-							},
 							"description":{
-								"type":"string",
-								"title":"Description"
+								"title":"Description",
+								"type":"string"
+							},
+							"name":{
+								"title":"Name",
+								"type":"string"
 							},
 							"responses":{
-								"type":"array",
 								"items":{
-									"type":"object",
+									"additionalProperties":false,
 									"properties":{
-										"question":{
-											"type":"string",
-											"title":"Question"
+										"Language":{
+											"title":"Language",
+											"type":"string"
 										},
 										"choices":{
-											"type":"array",
 											"items":{
-												"type":"object",
+												"additionalProperties":false,
 												"properties":{
 													"id":{
-														"type":"string",
-														"title":"Id"
+														"title":"Id",
+														"type":"string"
 													},
 													"title":{
-														"type":"string",
-														"title":"Title"
+														"title":"Title",
+														"type":"string"
 													}
 												},
-												"additionalProperties":false
+												"type":"object"
 											},
+											"required":[],
 											"title":"Choices",
-											"required":[]
+											"type":"array"
 										},
-										"Language":{
-											"type":"string",
-											"title":"Language"
+										"question":{
+											"title":"Question",
+											"type":"string"
 										}
 									},
-									"additionalProperties":false
+									"type":"object"
 								},
+								"required":[],
 								"title":"Responses",
-								"required":[]
+								"type":"array"
+							},
+							"title":{
+								"title":"Title",
+								"type":"string"
+							},
+							"type":{
+								"title":"Type",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false
+						"type":"object"
 					},
+					"required":[],
 					"title":"Slots",
-					"required":[]
+					"type":"array"
 				}
 			},
 			"required":[]
@@ -83,41 +93,41 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"collect slot interface (ai agent)",
-	"modifiedTime":1768097367681,
+	"modifiedTime":1769010339976,
 	"name":"Collect Slot Interface (AI Agent)",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"slots":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
 							"name":{
-								"type":"string",
-								"title":"name"
+								"title":"name",
+								"type":"string"
 							},
 							"value":{
-								"type":"string",
-								"title":"value"
+								"title":"value",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false
+						"type":"object"
 					},
-					"title":"slots"
+					"title":"slots",
+					"type":"array"
 				}
 			}
 		}
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":0
+	"version":2
 }
