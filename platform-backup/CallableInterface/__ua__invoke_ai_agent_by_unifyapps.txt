@@ -145,6 +145,10 @@
 						"type":"string"
 					},
 					"title":"External Knowledges"
+				},
+				"skipApprovalBeforeToolExecution":{
+					"type":"boolean",
+					"title":"Skip Approval Before Tool Execution"
 				}
 			},
 			"required":[
@@ -152,9 +156,9 @@
 			]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"invoke ai agent by unifyapps",
-	"modifiedTime":1768113134232,
+	"modifiedTime":1768995136754,
 	"name":"Invoke AI Agent By UnifyApps",
 	"output":{
 		"type":"SCHEMA",
@@ -291,5 +295,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":126
+	"version":127
 }
