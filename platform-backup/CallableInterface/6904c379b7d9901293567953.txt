@@ -18,92 +18,92 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"caseId":{
-					"type":"string",
-					"title":"caseId"
-				},
 				"additional":{
-					"type":"object",
-					"title":"additional"
+					"title":"additional",
+					"type":"object"
+				},
+				"caseId":{
+					"title":"caseId",
+					"type":"string"
 				}
 			}
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"filter metadata sql",
-	"modifiedTime":1764063288547,
+	"modifiedTime":1769010340100,
 	"name":"Filter Metadata SQL",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"metadata":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
 							"column_datatype":{
-								"type":"string",
-								"title":"column_datatype"
+								"title":"column_datatype",
+								"type":"string"
 							},
 							"column_description":{
-								"type":"string",
-								"title":"column_description"
+								"title":"column_description",
+								"type":"string"
 							},
 							"column_label":{
-								"type":"string",
-								"title":"column_label"
+								"title":"column_label",
+								"type":"string"
 							},
 							"column_name":{
-								"type":"string",
-								"title":"column_name"
+								"title":"column_name",
+								"type":"string"
 							},
 							"knowledgeId":{
-								"type":"string",
-								"title":"knowledgeId"
+								"title":"knowledgeId",
+								"type":"string"
 							},
 							"metadata":{
-								"type":"string",
-								"title":"metadata"
+								"title":"metadata",
+								"type":"string"
 							},
 							"platform_name":{
-								"type":"string",
-								"title":"platform_name"
+								"title":"platform_name",
+								"type":"string"
 							},
 							"tableNameUI":{
-								"type":"string",
-								"title":"tableNameUI"
+								"title":"tableNameUI",
+								"type":"string"
 							},
 							"tablePrimaryKey":{
-								"type":"string",
-								"title":"tablePrimaryKey"
+								"title":"tablePrimaryKey",
+								"type":"string"
 							},
 							"table_name":{
-								"type":"string",
-								"title":"table_name"
+								"title":"table_name",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false
+						"type":"object"
 					},
-					"title":"metadata"
+					"title":"metadata",
+					"type":"array"
 				}
 			}
 		}
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":5
+	"version":7
 }
