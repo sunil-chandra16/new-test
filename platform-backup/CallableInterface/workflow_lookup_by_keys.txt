@@ -22,61 +22,61 @@
 				"is_optional":true
 			},
 			"properties":{
-				"type":{
-					"type":"string",
-					"title":"Type"
+				"fields":{
+					"items":{
+						"type":"string"
+					},
+					"title":"Fields",
+					"type":"array"
 				},
 				"keys":{
-					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Keys"
+					"title":"Keys",
+					"type":"array"
 				},
 				"lookupType":{
-					"type":"string",
-					"title":"Lookup Type"
+					"title":"Lookup Type",
+					"type":"string"
 				},
 				"options":{
-					"type":"object",
+					"additionalProperties":false,
 					"properties":{
-						"workflowId":{
-							"type":"string",
-							"title":"Workflow Id"
+						"runtimeConnections":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Runtime Connections",
+							"type":"object"
 						},
 						"runtimeType":{
-							"type":"string",
-							"title":"Runtime Type"
-						},
-						"runtimeConnections":{
-							"type":"object",
-							"properties":{},
-							"additionalProperties":false,
-							"title":"Runtime Connections"
-						},
-						"timeoutInMillis":{
-							"type":"number",
-							"title":"Timeout In Millis"
+							"title":"Runtime Type",
+							"type":"string"
 						},
 						"sessionVariables":{
-							"type":"object",
-							"properties":{},
 							"additionalProperties":false,
-							"title":"Session Variables"
+							"properties":{},
+							"title":"Session Variables",
+							"type":"object"
+						},
+						"timeoutInMillis":{
+							"title":"Timeout In Millis",
+							"type":"number"
+						},
+						"workflowId":{
+							"title":"Workflow Id",
+							"type":"string"
 						}
 					},
-					"additionalProperties":false,
-					"title":"Options",
 					"required":[
 						"workflowId"
-					]
+					],
+					"title":"Options",
+					"type":"object"
 				},
-				"fields":{
-					"type":"array",
-					"items":{
-						"type":"string"
-					},
-					"title":"Fields"
+				"type":{
+					"title":"Type",
+					"type":"string"
 				}
 			},
 			"required":[
@@ -85,9 +85,9 @@
 			]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"workflow lookup by keys",
-	"modifiedTime":1764063288546,
+	"modifiedTime":1769010340098,
 	"name":"Workflow Lookup By Keys",
 	"output":{
 		"type":"SCHEMA",
@@ -99,10 +99,10 @@
 			},
 			"properties":{
 				"response":{
-					"type":"object",
-					"properties":{},
 					"additionalProperties":false,
-					"title":"Response"
+					"properties":{},
+					"title":"Response",
+					"type":"object"
 				}
 			},
 			"required":[]
@@ -110,5 +110,5 @@
 	},
 	"ownerUserId":34,
 	"standard":false,
-	"version":20
+	"version":22
 }
