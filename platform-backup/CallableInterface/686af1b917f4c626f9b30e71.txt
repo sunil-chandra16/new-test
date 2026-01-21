@@ -18,118 +18,118 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"knowledgeId":{
-					"type":"string",
-					"title":"knowledgeId"
-				},
 				"aiAgentId":{
-					"type":"string",
-					"title":"aiAgentId"
-				},
-				"knowledge":{
-					"type":"object",
-					"properties":{
-						"readVersion":{
-							"type":"integer",
-							"title":"readVersion"
-						},
-						"lastSyncTime":{
-							"type":"integer",
-							"title":"lastSyncTime"
-						},
-						"cursorObject":{
-							"type":"object",
-							"title":"cursorObject"
-						},
-						"applicationInfo":{
-							"type":"object",
-							"properties":{
-								"context":{
-									"type":"object",
-									"properties":{
-										"connectionId":{
-											"type":"string",
-											"title":"Connection Id"
-										}
-									},
-									"additionalProperties":false,
-									"title":"Context",
-									"required":[]
-								}
-							},
-							"additionalProperties":false,
-							"title":"Application Info",
-							"required":[]
-						},
-						"indexingVersion":{
-							"type":"integer",
-							"title":"Indexing Version"
-						}
-					},
-					"title":"knowledge",
-					"additionalProperties":false,
-					"required":[]
-				},
-				"inputs":{
-					"type":"object",
-					"properties":{},
-					"additionalProperties":false,
-					"title":"Inputs"
-				},
-				"importerConnections":{
-					"type":"object",
-					"properties":{},
-					"additionalProperties":false,
-					"title":"Importer Connections"
+					"title":"aiAgentId",
+					"type":"string"
 				},
 				"downloaderConfig":{
-					"type":"object",
+					"additionalProperties":false,
 					"properties":{
-						"grabberType":{
-							"type":"string",
-							"title":"Grabber Type"
-						},
 						"currentTimeEpoch":{
-							"type":"integer",
-							"title":"Current Time Epoch"
+							"title":"Current Time Epoch",
+							"type":"integer"
+						},
+						"grabberType":{
+							"title":"Grabber Type",
+							"type":"string"
 						},
 						"startTimeEpoch":{
-							"type":"integer",
-							"title":"Start Time Epoch"
+							"title":"Start Time Epoch",
+							"type":"integer"
 						}
 					},
-					"additionalProperties":false,
+					"required":[],
 					"title":"Downloader Config",
-					"required":[]
+					"type":"object"
+				},
+				"importerConnections":{
+					"additionalProperties":false,
+					"properties":{},
+					"title":"Importer Connections",
+					"type":"object"
+				},
+				"inputs":{
+					"additionalProperties":false,
+					"properties":{},
+					"title":"Inputs",
+					"type":"object"
+				},
+				"knowledge":{
+					"additionalProperties":false,
+					"properties":{
+						"applicationInfo":{
+							"additionalProperties":false,
+							"properties":{
+								"context":{
+									"additionalProperties":false,
+									"properties":{
+										"connectionId":{
+											"title":"Connection Id",
+											"type":"string"
+										}
+									},
+									"required":[],
+									"title":"Context",
+									"type":"object"
+								}
+							},
+							"required":[],
+							"title":"Application Info",
+							"type":"object"
+						},
+						"cursorObject":{
+							"title":"cursorObject",
+							"type":"object"
+						},
+						"indexingVersion":{
+							"title":"Indexing Version",
+							"type":"integer"
+						},
+						"lastSyncTime":{
+							"title":"lastSyncTime",
+							"type":"integer"
+						},
+						"readVersion":{
+							"title":"readVersion",
+							"type":"integer"
+						}
+					},
+					"required":[],
+					"title":"knowledge",
+					"type":"object"
+				},
+				"knowledgeId":{
+					"title":"knowledgeId",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader",
-	"modifiedTime":1768652997812,
+	"modifiedTime":1769010339986,
 	"name":"Knowledge Downloader",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"entityCount":{
-					"type":"integer",
-					"title":"Entity Count"
+					"title":"Entity Count",
+					"type":"integer"
 				}
 			},
 			"required":[]
@@ -137,5 +137,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":84
+	"version":86
 }
