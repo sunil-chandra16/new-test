@@ -18,45 +18,45 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"knowledgeId":{
-					"type":"string",
-					"title":"knowledgeId"
+				"appName":{
+					"title":"App Name",
+					"type":"string"
 				},
 				"chunkMetadata":{
-					"type":"object",
-					"title":"chunkMetadata"
-				},
-				"fileDetails":{
-					"type":"object",
-					"title":"fileDetails"
+					"title":"chunkMetadata",
+					"type":"object"
 				},
 				"chunks":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
 							"text":{
-								"type":"string",
-								"title":"text"
+								"title":"text",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false
+						"type":"object"
 					},
-					"title":"chunks"
+					"title":"chunks",
+					"type":"array"
+				},
+				"fileDetails":{
+					"title":"fileDetails",
+					"type":"object"
+				},
+				"knowledgeId":{
+					"title":"knowledgeId",
+					"type":"string"
 				},
 				"messageContent":{
-					"type":"string",
-					"title":"messageContent"
-				},
-				"appName":{
-					"type":"string",
-					"title":"App Name"
+					"title":"messageContent",
+					"type":"string"
 				}
 			},
 			"required":[
@@ -64,43 +64,43 @@
 			]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"extract custom metadata",
-	"modifiedTime":1764063288546,
+	"modifiedTime":1769010340102,
 	"name":"Extract Custom Metadata",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"customMetadata":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
 							"name":{
-								"type":"string",
-								"title":"name"
+								"title":"name",
+								"type":"string"
 							},
 							"value":{
-								"type":"object",
-								"title":"value"
+								"title":"value",
+								"type":"object"
 							}
 						},
-						"additionalProperties":false
+						"type":"object"
 					},
-					"title":"customMetadata"
+					"title":"customMetadata",
+					"type":"array"
 				}
 			}
 		}
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":91
+	"version":93
 }
