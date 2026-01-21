@@ -19,17 +19,8 @@
 		"schema":{
 			"layout":{
 				"modelId":{
-					"ui:widget":"LookupWidget",
 					"ui:options":{
 						"ua:payload":{
-							"type":"ByQuery",
-							"lookupType":"ENTITY_ID:ai_agent_llm_model",
-							"sorts":[
-								{
-									"field":"lcName",
-									"order":"ASC"
-								}
-							],
 							"filter":{
 								"field":"properties.modelGroup",
 								"op":"IN",
@@ -37,219 +28,228 @@
 									"TEXT_GENERATION"
 								]
 							},
-							"query":"",
+							"lookupType":"ENTITY_ID:ai_agent_llm_model",
 							"page":{
 								"limit":100,
 								"offset":0
-							}
+							},
+							"query":"",
+							"sorts":[
+								{
+									"field":"lcName",
+									"order":"ASC"
+								}
+							],
+							"type":"ByQuery"
 						}
-					}
+					},
+					"ui:widget":"LookupWidget"
 				}
 			},
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"modelId":{
-					"type":"string",
-					"title":"modelId"
-				},
 				"aiAgentId":{
-					"type":"string",
-					"title":"aiAgentId"
+					"title":"aiAgentId",
+					"type":"string"
 				},
 				"caseId":{
-					"type":"string",
-					"title":"caseId"
-				},
-				"top_p":{
-					"type":"number",
-					"title":"top_p"
+					"title":"caseId",
+					"type":"string"
 				},
 				"frequencyPenalty":{
-					"type":"number",
-					"title":"frequencyPenalty"
-				},
-				"responseFormat":{
-					"type":"object",
-					"properties":{
-						"type":{
-							"type":"string",
-							"title":"type"
-						}
-					},
-					"title":"responseFormat",
-					"additionalProperties":false
-				},
-				"maxTokens":{
-					"type":"integer",
-					"title":"maxTokens"
-				},
-				"temperature":{
-					"type":"number",
-					"title":"temperature"
-				},
-				"presencePenalty":{
-					"type":"number",
-					"title":"presencePenalty"
+					"title":"frequencyPenalty",
+					"type":"number"
 				},
 				"logProbs":{
-					"type":"boolean",
-					"title":"logProbs"
+					"title":"logProbs",
+					"type":"boolean"
+				},
+				"maxTokens":{
+					"title":"maxTokens",
+					"type":"integer"
 				},
 				"message":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
-							"role":{
-								"type":"string",
-								"title":"role"
-							},
 							"content":{
-								"type":"array",
 								"items":{
 									"type":"object"
 								},
-								"title":"content"
+								"title":"content",
+								"type":"array"
+							},
+							"role":{
+								"title":"role",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false
+						"type":"object"
 					},
-					"title":"message"
+					"title":"message",
+					"type":"array"
+				},
+				"messageId":{
+					"title":"messageId",
+					"type":"string"
+				},
+				"modelId":{
+					"title":"modelId",
+					"type":"string"
+				},
+				"presencePenalty":{
+					"title":"presencePenalty",
+					"type":"number"
+				},
+				"responseFormat":{
+					"additionalProperties":false,
+					"properties":{
+						"type":{
+							"title":"type",
+							"type":"string"
+						}
+					},
+					"title":"responseFormat",
+					"type":"object"
+				},
+				"retry_count":{
+					"title":"retry_count",
+					"type":"integer"
+				},
+				"step":{
+					"title":"step",
+					"type":"string"
+				},
+				"stream":{
+					"title":"stream",
+					"type":"boolean"
+				},
+				"systemPrompt":{
+					"title":"systemPrompt",
+					"type":"string"
+				},
+				"temperature":{
+					"title":"temperature",
+					"type":"number"
 				},
 				"tools":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
-							"type":{
-								"type":"string",
-								"title":"type"
-							},
 							"function":{
-								"type":"object",
+								"additionalProperties":false,
 								"properties":{
-									"name":{
-										"type":"string",
-										"title":"name"
-									},
 									"description":{
-										"type":"string",
-										"title":"description"
+										"title":"description",
+										"type":"string"
+									},
+									"name":{
+										"title":"name",
+										"type":"string"
 									},
 									"parameters":{
-										"type":"object",
-										"title":"parameters"
+										"title":"parameters",
+										"type":"object"
 									}
 								},
 								"title":"function",
-								"additionalProperties":false
+								"type":"object"
+							},
+							"type":{
+								"title":"type",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false
+						"type":"object"
 					},
-					"title":"tools"
+					"title":"tools",
+					"type":"array"
 				},
 				"topK":{
-					"type":"integer",
-					"title":"topK"
+					"title":"topK",
+					"type":"integer"
 				},
-				"systemPrompt":{
-					"type":"string",
-					"title":"systemPrompt"
-				},
-				"stream":{
-					"type":"boolean",
-					"title":"stream"
-				},
-				"step":{
-					"type":"string",
-					"title":"step"
-				},
-				"messageId":{
-					"type":"string",
-					"title":"messageId"
-				},
-				"retry_count":{
-					"type":"integer",
-					"title":"retry_count"
+				"top_p":{
+					"title":"top_p",
+					"type":"number"
 				}
 			}
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"call llm model vanilla",
-	"modifiedTime":1764063288547,
+	"modifiedTime":1769010340102,
 	"name":"Call LLM Model Vanilla",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"llmResponse":{
-					"type":"string",
-					"title":"llmResponse"
-				},
-				"tools":{
-					"type":"array",
-					"items":{
-						"type":"object",
-						"properties":{
-							"name":{
-								"type":"string",
-								"title":"name"
-							},
-							"arguments":{
-								"type":"string",
-								"title":"arguments"
-							}
-						},
-						"additionalProperties":false
-					},
-					"title":"tools"
-				},
-				"tokensUsed":{
-					"type":"integer",
-					"title":"tokensUsed"
-				},
 				"finish_reason":{
-					"type":"string",
-					"title":"finish_reason"
-				},
-				"success":{
-					"type":"boolean",
-					"title":"success"
-				},
-				"inputTokens":{
-					"type":"integer",
-					"title":"inputTokens"
-				},
-				"outputTokens":{
-					"type":"integer",
-					"title":"outputTokens"
+					"title":"finish_reason",
+					"type":"string"
 				},
 				"inputTokenCost":{
-					"type":"number",
-					"title":"inputTokenCost"
+					"title":"inputTokenCost",
+					"type":"number"
+				},
+				"inputTokens":{
+					"title":"inputTokens",
+					"type":"integer"
+				},
+				"llmResponse":{
+					"title":"llmResponse",
+					"type":"string"
 				},
 				"outputTokenCost":{
-					"type":"number",
-					"title":"outputTokenCost"
+					"title":"outputTokenCost",
+					"type":"number"
+				},
+				"outputTokens":{
+					"title":"outputTokens",
+					"type":"integer"
+				},
+				"success":{
+					"title":"success",
+					"type":"boolean"
+				},
+				"tokensUsed":{
+					"title":"tokensUsed",
+					"type":"integer"
+				},
+				"tools":{
+					"items":{
+						"additionalProperties":false,
+						"properties":{
+							"arguments":{
+								"title":"arguments",
+								"type":"string"
+							},
+							"name":{
+								"title":"name",
+								"type":"string"
+							}
+						},
+						"type":"object"
+					},
+					"title":"tools",
+					"type":"array"
 				}
 			}
 		}
 	},
 	"ownerUserId":43523,
 	"standard":false,
-	"version":67
+	"version":69
 }
