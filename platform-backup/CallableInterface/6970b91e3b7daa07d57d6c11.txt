@@ -1,0 +1,101 @@
+{
+	"createdTime":1769167923469,
+	"deleted":false,
+	"description":"Interace for group wise checks for AI Agent best practice",
+	"id":"6970b91e3b7daa07d57d6c11",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"group_checks":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{},
+						"additionalProperties":false
+					},
+					"title":"Group Checks"
+				},
+				"ai_agent_details":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Ai Agent Details"
+				},
+				"aiAgentId":{
+					"type":"string",
+					"title":"Ai Agent Id"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":43502,
+	"lcName":"best practice | ai agent | run group checks interface",
+	"modifiedTime":1769167923469,
+	"name":"Best Practice | AI Agent | Run Group Checks Interface",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"checks":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{
+							"check_id":{
+								"type":"string",
+								"title":"Check Id"
+							},
+							"status":{
+								"type":"string",
+								"title":"Status"
+							},
+							"targets":{
+								"type":"array",
+								"items":{
+									"type":"object",
+									"properties":{
+										"target_id":{
+											"type":"string",
+											"title":"Target Id"
+										},
+										"target_type":{
+											"type":"string",
+											"title":"Target Type"
+										},
+										"path":{
+											"type":"array",
+											"items":{
+												"type":"string"
+											},
+											"title":"Path"
+										}
+									},
+									"additionalProperties":false,
+									"required":[]
+								},
+								"title":"Targets"
+							}
+						},
+						"additionalProperties":false,
+						"required":[]
+					},
+					"title":"Checks"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":43502,
+	"standard":false,
+	"version":2
+}
