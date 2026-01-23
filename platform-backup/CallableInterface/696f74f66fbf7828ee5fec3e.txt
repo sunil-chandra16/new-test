@@ -1,6 +1,6 @@
 {
 	"createdTime":1768912610710,
-	"deleted":false,
+	"deleted":true,
 	"description":"dinHavxecL",
 	"id":"696f74f66fbf7828ee5fec3e",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aipiwlyfppwv",
-	"modifiedTime":1768912610710,
+	"modifiedTime":1769174029116,
 	"name":"changeSetQA2AIPIwLYFPpwv",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
