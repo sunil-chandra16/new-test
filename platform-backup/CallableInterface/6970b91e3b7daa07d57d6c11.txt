@@ -4,6 +4,7 @@
 	"description":"Interace for group wise checks for AI Agent best practice",
 	"id":"6970b91e3b7daa07d57d6c11",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -39,6 +40,7 @@
 	"modifiedTime":1769167923469,
 	"name":"Best Practice | AI Agent | Run Group Checks Interface",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
