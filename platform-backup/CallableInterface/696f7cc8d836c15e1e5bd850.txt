@@ -1,6 +1,6 @@
 {
 	"createdTime":1768914698813,
-	"deleted":false,
+	"deleted":true,
 	"description":"MggRFpueKQ",
 	"id":"696f7cc8d836c15e1e5bd850",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aitcfwdcdtil",
-	"modifiedTime":1768914698813,
+	"modifiedTime":1769174028815,
 	"name":"changeSetQA2AITCFWdCDtiL",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
