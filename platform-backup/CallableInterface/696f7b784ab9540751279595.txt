@@ -1,6 +1,6 @@
 {
 	"createdTime":1768913784542,
-	"deleted":false,
+	"deleted":true,
 	"description":"gbXoNixPwJ",
 	"id":"696f7b784ab9540751279595",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aislipzizfut",
-	"modifiedTime":1768913784542,
+	"modifiedTime":1769174028951,
 	"name":"changeSetQA2AIsliPZIZfUT",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
