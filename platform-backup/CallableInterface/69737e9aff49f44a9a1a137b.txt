@@ -4,6 +4,7 @@
 	"description":"OwlVSohozd",
 	"id":"69737e9aff49f44a9a1a137b",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1769176730507,
 	"name":"changeSetQA2AIGLoXzudCZT",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
