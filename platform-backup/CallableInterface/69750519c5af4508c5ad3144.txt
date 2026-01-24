@@ -4,6 +4,7 @@
 	"description":"pojirGdFam",
 	"id":"69750519c5af4508c5ad3144",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1769276697038,
 	"name":"changeSetUAT2AIhfrdDcNsME",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
