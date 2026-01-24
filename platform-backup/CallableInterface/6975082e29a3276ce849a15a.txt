@@ -1,6 +1,6 @@
 {
 	"createdTime":1769277486472,
-	"deleted":false,
+	"deleted":true,
 	"description":"OxBLXyrOtG",
 	"id":"6975082e29a3276ce849a15a",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aiqijdvrpwpv",
-	"modifiedTime":1769277486472,
+	"modifiedTime":1769278226689,
 	"name":"changeSetUAT2AIqiJDVRpWPv",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
