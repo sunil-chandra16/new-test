@@ -14,122 +14,156 @@
 	},
 	"id":"686af1b917f4c626f9b30e71",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
+				"knowledgeId":{
+					"type":"string",
+					"title":"knowledgeId"
+				},
 				"aiAgentId":{
-					"title":"aiAgentId",
-					"type":"string"
-				},
-				"downloaderConfig":{
-					"additionalProperties":false,
-					"properties":{
-						"currentTimeEpoch":{
-							"title":"Current Time Epoch",
-							"type":"integer"
-						},
-						"grabberType":{
-							"title":"Grabber Type",
-							"type":"string"
-						},
-						"startTimeEpoch":{
-							"title":"Start Time Epoch",
-							"type":"integer"
-						}
-					},
-					"required":[],
-					"title":"Downloader Config",
-					"type":"object"
-				},
-				"importerConnections":{
-					"additionalProperties":false,
-					"properties":{},
-					"title":"Importer Connections",
-					"type":"object"
-				},
-				"inputs":{
-					"additionalProperties":false,
-					"properties":{},
-					"title":"Inputs",
-					"type":"object"
+					"type":"string",
+					"title":"aiAgentId"
 				},
 				"knowledge":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{
-						"applicationInfo":{
-							"additionalProperties":false,
-							"properties":{
-								"context":{
-									"additionalProperties":false,
-									"properties":{
-										"connectionId":{
-											"title":"Connection Id",
-											"type":"string"
-										}
-									},
-									"required":[],
-									"title":"Context",
-									"type":"object"
-								}
-							},
-							"required":[],
-							"title":"Application Info",
-							"type":"object"
-						},
-						"cursorObject":{
-							"title":"cursorObject",
-							"type":"object"
-						},
-						"indexingVersion":{
-							"title":"Indexing Version",
-							"type":"integer"
+						"readVersion":{
+							"type":"integer",
+							"title":"readVersion"
 						},
 						"lastSyncTime":{
-							"title":"lastSyncTime",
-							"type":"integer"
+							"type":"integer",
+							"title":"lastSyncTime"
 						},
-						"readVersion":{
-							"title":"readVersion",
-							"type":"integer"
+						"cursorObject":{
+							"type":"object",
+							"title":"cursorObject"
+						},
+						"applicationInfo":{
+							"type":"object",
+							"properties":{
+								"context":{
+									"type":"object",
+									"properties":{
+										"connectionId":{
+											"type":"string",
+											"title":"Connection Id"
+										}
+									},
+									"additionalProperties":false,
+									"title":"Context",
+									"required":[]
+								}
+							},
+							"additionalProperties":false,
+							"title":"Application Info",
+							"required":[]
+						},
+						"indexingVersion":{
+							"type":"integer",
+							"title":"Indexing Version"
 						}
 					},
-					"required":[],
 					"title":"knowledge",
-					"type":"object"
+					"additionalProperties":false,
+					"required":[]
 				},
-				"knowledgeId":{
-					"title":"knowledgeId",
-					"type":"string"
+				"inputs":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Inputs"
+				},
+				"importerConnections":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Importer Connections"
+				},
+				"downloaderConfig":{
+					"type":"object",
+					"properties":{
+						"grabberType":{
+							"type":"string",
+							"title":"Grabber Type"
+						},
+						"currentTimeEpoch":{
+							"type":"integer",
+							"title":"Current Time Epoch"
+						},
+						"startTimeEpoch":{
+							"type":"integer",
+							"title":"Start Time Epoch"
+						}
+					},
+					"additionalProperties":false,
+					"title":"Downloader Config",
+					"required":[]
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"knowledge downloader",
-	"modifiedTime":1769010339986,
+	"modifiedTime":1769253315251,
 	"name":"Knowledge Downloader",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"entityCount":{
-					"title":"Entity Count",
-					"type":"integer"
+					"type":"integer",
+					"title":"Entity Count"
+				},
+				"downloaderDetails":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{
+							"downloaderAutomation":{
+								"type":"string",
+								"title":"Downloader Automation"
+							},
+							"downloaderParams":{
+								"type":"array",
+								"items":{
+									"type":"object",
+									"properties":{
+										"parentEntityId":{
+											"type":"string",
+											"title":"Parent Entity Id"
+										},
+										"inputs":{
+											"type":"object",
+											"properties":{},
+											"additionalProperties":false,
+											"title":"Inputs"
+										}
+									},
+									"additionalProperties":false,
+									"required":[]
+								},
+								"title":"Downloader Params"
+							}
+						},
+						"additionalProperties":false,
+						"required":[]
+					},
+					"title":"Downloader Details"
 				}
 			},
 			"required":[]
@@ -137,5 +171,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":86
+	"version":87
 }
