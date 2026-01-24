@@ -1,6 +1,6 @@
 {
 	"createdTime":1769276697038,
-	"deleted":false,
+	"deleted":true,
 	"description":"pojirGdFam",
 	"id":"69750519c5af4508c5ad3144",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aihfrddcnsme",
-	"modifiedTime":1769276697038,
+	"modifiedTime":1769278226863,
 	"name":"changeSetUAT2AIhfrdDcNsME",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
