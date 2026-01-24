@@ -4,6 +4,7 @@
 	"description":"opMyEPCpck",
 	"id":"69750564c5af4508c5ad384c",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1769276772232,
 	"name":"changeSetUAT2AIaiExHyeGpl",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
