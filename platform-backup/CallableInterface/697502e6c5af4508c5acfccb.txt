@@ -1,6 +1,6 @@
 {
 	"createdTime":1769276134775,
-	"deleted":false,
+	"deleted":true,
 	"description":"ayuxdnfjdb",
 	"id":"697502e6c5af4508c5acfccb",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2airrxknfijuh",
-	"modifiedTime":1769276134775,
+	"modifiedTime":1769278226902,
 	"name":"changeSetUAT2AIRRxknFIjuh",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
