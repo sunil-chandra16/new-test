@@ -23,39 +23,39 @@
 			},
 			"properties":{
 				"knowledgeId":{
-					"title":"Knowledge Id",
-					"type":"string"
-				},
-				"knowledgeVersion":{
-					"title":"Knowledge Version",
-					"type":"integer"
-				},
-				"metadata":{
-					"additionalProperties":false,
-					"properties":{},
-					"title":"Metadata",
-					"type":"object"
+					"type":"string",
+					"title":"Knowledge Id"
 				},
 				"resourceType":{
-					"title":"Resource Type",
-					"type":"string"
+					"type":"string",
+					"title":"Resource Type"
+				},
+				"sourceResponse":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Source Response"
 				},
 				"sharedWithIds":{
+					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Shared With Ids",
-					"type":"array"
+					"title":"Shared With Ids"
 				},
-				"sourceResponse":{
-					"additionalProperties":false,
-					"properties":{},
-					"title":"Source Response",
-					"type":"object"
+				"knowledgeVersion":{
+					"type":"integer",
+					"title":"Knowledge Version"
 				},
 				"uniqueEntityId":{
-					"title":"Unique Entity Id",
-					"type":"string"
+					"type":"string",
+					"title":"Unique Entity Id"
+				},
+				"metadata":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Metadata"
 				}
 			},
 			"required":[
@@ -63,9 +63,9 @@
 			]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"knowledge indexer with resourcetype",
-	"modifiedTime":1769010339986,
+	"modifiedTime":1769253331637,
 	"name":"Knowledge Indexer with ResourceType",
 	"output":{
 		"type":"SCHEMA",
@@ -77,8 +77,8 @@
 			},
 			"properties":{
 				"success":{
-					"title":"Success",
-					"type":"boolean"
+					"type":"boolean",
+					"title":"Success"
 				}
 			},
 			"required":[]
@@ -86,5 +86,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":85
+	"version":87
 }
