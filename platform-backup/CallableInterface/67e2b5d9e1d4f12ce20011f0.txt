@@ -37,60 +37,60 @@
 			},
 			"properties":{
 				"criteria":{
-					"title":"Evaluation Criteria",
-					"type":"string"
-				},
-				"evaluationParameters":{
-					"items":{
-						"type":"string"
-					},
-					"title":"Evaluation Parameters",
-					"type":"array"
+					"type":"string",
+					"title":"Evaluation Criteria"
 				},
 				"evaluationSteps":{
+					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Evaluation Steps",
-					"type":"array"
-				},
-				"experimentId":{
-					"title":"Experiment Id",
-					"type":"string"
-				},
-				"metricId":{
-					"title":"Metric Id",
-					"type":"string"
+					"title":"Evaluation Steps"
 				},
 				"model":{
-					"title":"Model",
-					"type":"string"
+					"type":"string",
+					"title":"Model"
 				},
-				"runId":{
-					"title":"Run Id",
-					"type":"string"
-				},
-				"scoreRange":{
-					"title":"Scoring Range",
-					"type":"string"
+				"evaluationParameters":{
+					"type":"array",
+					"items":{
+						"type":"string"
+					},
+					"title":"Evaluation Parameters"
 				},
 				"testCase":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{},
-					"title":"Test Case",
-					"type":"object"
+					"additionalProperties":false,
+					"title":"Test Case"
+				},
+				"scoreRange":{
+					"type":"string",
+					"title":"Scoring Range"
 				},
 				"testCaseId":{
-					"title":"Test Case Id",
-					"type":"string"
+					"type":"string",
+					"title":"Test Case Id"
+				},
+				"runId":{
+					"type":"string",
+					"title":"Run Id"
+				},
+				"experimentId":{
+					"type":"string",
+					"title":"Experiment Id"
+				},
+				"metricId":{
+					"type":"string",
+					"title":"Metric Id"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"ai as judge evaluator metrics",
-	"modifiedTime":1769010340100,
+	"modifiedTime":1769347129866,
 	"name":"AI As Judge Evaluator Metrics",
 	"output":{
 		"type":"SCHEMA",
@@ -101,21 +101,21 @@
 				"is_optional":true
 			},
 			"properties":{
-				"cost":{
-					"title":"Cost",
-					"type":"number"
+				"score":{
+					"type":"number",
+					"title":"Score"
 				},
 				"reason":{
-					"title":"Reason",
-					"type":"string"
+					"type":"string",
+					"title":"Reason"
 				},
-				"score":{
-					"title":"Score",
-					"type":"number"
+				"cost":{
+					"type":"number",
+					"title":"Cost"
 				},
 				"tokensUsed":{
-					"title":"Tokens Used",
-					"type":"number"
+					"type":"number",
+					"title":"Tokens Used"
 				}
 			},
 			"required":[]
@@ -123,5 +123,5 @@
 	},
 	"ownerUserId":49915,
 	"standard":false,
-	"version":126
+	"version":128
 }
