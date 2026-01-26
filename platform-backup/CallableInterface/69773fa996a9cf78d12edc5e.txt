@@ -1,9 +1,10 @@
 {
 	"createdTime":1769422922889,
-	"deleted":false,
+	"deleted":true,
 	"description":"FUgyBUiTzP",
 	"id":"69773fa996a9cf78d12edc5e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aincvfcqnggw",
-	"modifiedTime":1769422922889,
+	"modifiedTime":1769422951956,
 	"name":"changeSetUAT2AINcVfcqnGGw",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
