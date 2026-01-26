@@ -1,0 +1,107 @@
+{
+	"createdTime":1769421995305,
+	"deleted":false,
+	"description":"Custom Metadata Filter Generator",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"694fad5033ee0b6ab6255451",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"metadataFields":{
+					"type":"array",
+					"items":{
+						"type":"string"
+					},
+					"title":"Metadata Fields"
+				},
+				"userQuery":{
+					"type":"string",
+					"title":"User Query"
+				},
+				"agentInstructions":{
+					"type":"string",
+					"title":"Agent Instruction"
+				},
+				"knowledgeInstruction":{
+					"type":"string",
+					"title":"Knowledge Instruction"
+				},
+				"aiAgentId":{
+					"type":"string",
+					"title":"Ai Agent Id"
+				},
+				"caseId":{
+					"type":"string",
+					"title":"Case Id"
+				},
+				"additional":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Additional"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":0,
+	"lcName":"custom metadata filter generator",
+	"modifiedTime":1769421995305,
+	"name":"Custom Metadata Filter Generator",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"filter":{
+					"type":"object",
+					"properties":{
+						"field":{
+							"type":"string",
+							"title":"Field"
+						},
+						"op":{
+							"type":"string",
+							"title":"Op"
+						},
+						"values":{
+							"type":"array",
+							"items":{
+								"type":"object",
+								"properties":{},
+								"additionalProperties":false
+							},
+							"title":"Values"
+						}
+					},
+					"additionalProperties":false,
+					"title":"Filter",
+					"required":[]
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":0,
+	"standard":true,
+	"version":3
+}
