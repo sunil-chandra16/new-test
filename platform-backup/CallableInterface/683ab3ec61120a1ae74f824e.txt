@@ -28,54 +28,52 @@
 	},
 	"id":"683ab3ec61120a1ae74f824e",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
-				"caseId":{
-					"title":"caseId",
-					"type":"string"
-				},
 				"messageId":{
-					"title":"messageId",
-					"type":"string"
+					"type":"string",
+					"title":"messageId"
+				},
+				"caseId":{
+					"type":"string",
+					"title":"caseId"
 				}
 			}
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"user input custom preprocessor",
-	"modifiedTime":1769010339975,
+	"modifiedTime":1769421995161,
 	"name":"User Input Custom PreProcessor",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"block":{
-					"title":"block",
-					"type":"boolean"
+					"type":"boolean",
+					"title":"block"
 				},
 				"blockedMessage":{
-					"title":"blockedMessage",
-					"type":"string"
+					"type":"string",
+					"title":"blockedMessage"
 				}
 			}
 		}
 	},
 	"ownerUserId":1728,
 	"standard":false,
-	"version":84
+	"version":85
 }
