@@ -18,49 +18,49 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"InputContextForBetterConditionalRenderingInPrompt":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{},
-					"title":"InputContextForBetterConditionalRenderingInPrompt",
-					"type":"object"
+					"additionalProperties":false,
+					"title":"InputContextForBetterConditionalRenderingInPrompt"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"add custom context for sql generation",
-	"modifiedTime":1769010340264,
+	"modifiedTime":1769421995294,
 	"name":"Add custom context for SQL generation",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
-				"Joins_Deprecated":{
-					"items":{
-						"additionalProperties":false,
-						"properties":{},
-						"type":"object"
-					},
-					"title":"Joins Deprecated",
-					"type":"array"
-				},
 				"ParseableAdditionalContextDirectlyAdded2SQLgenerationPrompt":{
-					"title":"ParseableAdditionalContextDirectlyAdded2SQLgenerationPrompt",
-					"type":"string"
+					"type":"string",
+					"title":"ParseableAdditionalContextDirectlyAdded2SQLgenerationPrompt"
+				},
+				"Joins_Deprecated":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{},
+						"additionalProperties":false
+					},
+					"title":"Joins Deprecated"
 				}
 			},
 			"required":[]
@@ -68,5 +68,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":true,
-	"version":31
+	"version":32
 }
