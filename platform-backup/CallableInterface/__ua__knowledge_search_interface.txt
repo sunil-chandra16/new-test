@@ -26,29 +26,29 @@
 					"type":"string"
 				},
 				"knowledges":{
+					"type":"array",
 					"items":{
-						"additionalProperties":false,
+						"type":"object",
 						"properties":{},
-						"type":"object"
+						"additionalProperties":false
 					},
-					"title":"Knowledges",
-					"type":"array"
-				},
-				"model":{
-					"title":"Model",
-					"type":"string"
+					"title":"Knowledges"
 				},
 				"name":{
-					"title":"Name",
-					"type":"string"
+					"type":"string",
+					"title":"Name"
+				},
+				"model":{
+					"type":"string",
+					"title":"Model"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"knowledge search (workflow agent)",
-	"modifiedTime":1769010339976,
+	"modifiedTime":1769421995215,
 	"name":"Knowledge Search (Workflow Agent)",
 	"output":{
 		"type":"SCHEMA",
@@ -59,13 +59,13 @@
 				"is_optional":true
 			},
 			"properties":{
-				"response":{
-					"title":"Response",
-					"type":"string"
-				},
 				"success":{
-					"title":"Success",
-					"type":"boolean"
+					"type":"boolean",
+					"title":"Success"
+				},
+				"response":{
+					"type":"string",
+					"title":"Response"
 				}
 			},
 			"required":[]
@@ -73,5 +73,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":84
+	"version":85
 }
