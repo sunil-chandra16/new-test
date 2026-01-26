@@ -180,9 +180,9 @@
 			"required":[]
 		}
 	},
-	"lastModifiedBy":9,
+	"lastModifiedBy":0,
 	"lcName":"trigger interface by unifyapps",
-	"modifiedTime":1767711676578,
+	"modifiedTime":1769421995166,
 	"name":"Trigger Interface By UnifyApps",
 	"output":{
 		"type":"SCHEMA",
@@ -207,5 +207,5 @@
 	},
 	"ownerUserId":43502,
 	"standard":false,
-	"version":99
+	"version":102
 }
