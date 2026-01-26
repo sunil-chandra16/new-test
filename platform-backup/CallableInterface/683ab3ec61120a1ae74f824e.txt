@@ -28,6 +28,7 @@
 	},
 	"id":"683ab3ec61120a1ae74f824e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -53,6 +54,7 @@
 	"modifiedTime":1769421995161,
 	"name":"User Input Custom PreProcessor",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
