@@ -1,6 +1,6 @@
 {
 	"createdTime":1769433292082,
-	"deleted":false,
+	"deleted":true,
 	"description":"uQazUzHnsc",
 	"id":"6977683396a9cf78d12f7031",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaibeqgtltbxs",
-	"modifiedTime":1769433292082,
+	"modifiedTime":1769433633255,
 	"name":"changeSetLocalAIBeQGtltBxs",
 	"output":{
 		"type":"SCHEMA",
@@ -42,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":0
+	"version":1
 }
