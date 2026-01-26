@@ -22,13 +22,13 @@
 				"is_optional":true
 			},
 			"properties":{
-				"modelId":{
-					"title":"Model Id",
-					"type":"string"
-				},
 				"query":{
-					"title":"Query",
-					"type":"string"
+					"type":"string",
+					"title":"Query"
+				},
+				"modelId":{
+					"type":"string",
+					"title":"Model Id"
 				}
 			},
 			"required":[
@@ -37,9 +37,9 @@
 			]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"query language detector",
-	"modifiedTime":1769010339976,
+	"modifiedTime":1769421995208,
 	"name":"Query language detector",
 	"output":{
 		"type":"SCHEMA",
@@ -51,8 +51,8 @@
 			},
 			"properties":{
 				"detectedLanguage":{
-					"title":"Detected Language",
-					"type":"string"
+					"type":"string",
+					"title":"Detected Language"
 				}
 			},
 			"required":[
@@ -62,5 +62,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":12
+	"version":13
 }
