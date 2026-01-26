@@ -32,21 +32,21 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
-				"metadata":{
-					"additionalProperties":false,
-					"properties":{},
-					"title":"Metadata",
-					"type":"object"
-				},
 				"text":{
-					"title":"Text",
-					"type":"string"
+					"type":"string",
+					"title":"Text"
+				},
+				"metadata":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Metadata"
 				}
 			},
 			"required":[
@@ -54,47 +54,47 @@
 			]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"pii mask knowledge chunk interface",
-	"modifiedTime":1769010339985,
+	"modifiedTime":1769421995178,
 	"name":"PII Mask Knowledge Chunk Interface",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
+				"text":{
+					"type":"string",
+					"title":"Text"
+				},
 				"proceed":{
-					"title":"Proceed",
-					"type":"boolean"
+					"type":"boolean",
+					"title":"Proceed"
 				},
 				"redactions":{
+					"type":"array",
 					"items":{
-						"additionalProperties":false,
+						"type":"object",
 						"properties":{
 							"originalWord":{
-								"title":"Original Word",
-								"type":"string"
+								"type":"string",
+								"title":"Original Word"
 							},
 							"redactedWord":{
-								"title":"Redacted Word",
-								"type":"string"
+								"type":"string",
+								"title":"Redacted Word"
 							}
 						},
-						"required":[],
-						"type":"object"
+						"additionalProperties":false,
+						"required":[]
 					},
-					"title":"Redactions",
-					"type":"array"
-				},
-				"text":{
-					"title":"Text",
-					"type":"string"
+					"title":"Redactions"
 				}
 			},
 			"required":[
@@ -105,5 +105,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":92
+	"version":93
 }
