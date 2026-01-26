@@ -4,6 +4,7 @@
 	"description":"osbKbypOIc",
 	"id":"6977740396a9cf78d12f9803",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1769436277467,
 	"name":"changeSetLocalAIXoNRaEryHM",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
