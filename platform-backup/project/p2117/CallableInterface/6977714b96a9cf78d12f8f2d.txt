@@ -1,9 +1,10 @@
 {
 	"createdTime":1769435625470,
-	"deleted":false,
+	"deleted":true,
 	"description":"KnPSIbrbfG",
 	"id":"6977714b96a9cf78d12f8f2d",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaislgtkmhego",
-	"modifiedTime":1769435625470,
+	"modifiedTime":1769435733971,
 	"name":"changeSetLocalAISlgTKMheGo",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":0
+	"version":1
 }
