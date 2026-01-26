@@ -68,7 +68,7 @@
 	},
 	"lastModifiedBy":0,
 	"lcName":"ai agent tool",
-	"modifiedTime":1764063288546,
+	"modifiedTime":1769421995210,
 	"name":"AI Agent Tool",
 	"output":{
 		"type":"SCHEMA",
@@ -92,6 +92,10 @@
 				"error":{
 					"type":"string",
 					"title":"Error"
+				},
+				"toolInvocationCost":{
+					"type":"number",
+					"title":"Tool Invocation Cost"
 				}
 			},
 			"required":[]
@@ -99,5 +103,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":96
+	"version":99
 }
