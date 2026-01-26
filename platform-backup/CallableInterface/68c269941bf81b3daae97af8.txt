@@ -22,58 +22,58 @@
 				"is_optional":true
 			},
 			"properties":{
-				"additional":{
-					"additionalProperties":false,
-					"properties":{},
-					"title":"Additional",
-					"type":"object"
-				},
 				"platformName":{
-					"title":"Platform Name",
-					"type":"string"
+					"type":"string",
+					"title":"Platform Name"
 				},
 				"sqlQuery":{
-					"title":"Sql Query",
-					"type":"string"
+					"type":"string",
+					"title":"Sql Query"
+				},
+				"additional":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Additional"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"execute sql query",
-	"modifiedTime":1769010339984,
+	"modifiedTime":1769421995289,
 	"name":"Execute SQL Query",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"columnNames":{
-					"title":"columnNames",
-					"type":"array"
-				},
-				"err_msg":{
-					"title":"err_msg",
-					"type":"string"
-				},
-				"passMessageDirectlyToAgent":{
-					"title":"Pass Message Directly To Agent",
-					"type":"string"
+					"type":"array",
+					"title":"columnNames"
 				},
 				"rows":{
-					"title":"rows",
-					"type":"array"
+					"type":"array",
+					"title":"rows"
 				},
 				"status":{
-					"title":"status",
-					"type":"integer"
+					"type":"integer",
+					"title":"status"
+				},
+				"err_msg":{
+					"type":"string",
+					"title":"err_msg"
+				},
+				"passMessageDirectlyToAgent":{
+					"type":"string",
+					"title":"Pass Message Directly To Agent"
 				}
 			},
 			"required":[]
@@ -81,5 +81,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":true,
-	"version":27
+	"version":28
 }
