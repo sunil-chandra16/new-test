@@ -18,42 +18,42 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"chunk":{
-					"title":"chunk",
-					"type":"object"
+					"type":"object",
+					"title":"chunk"
 				}
 			}
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"knowledge chunk enrichment interface",
-	"modifiedTime":1769010340263,
+	"modifiedTime":1769421995200,
 	"name":"Knowledge Chunk Enrichment Interface",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"modifiedChunk":{
-					"title":"modifiedChunk",
-					"type":"object"
+					"type":"object",
+					"title":"modifiedChunk"
 				}
 			}
 		}
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":78
+	"version":79
 }
