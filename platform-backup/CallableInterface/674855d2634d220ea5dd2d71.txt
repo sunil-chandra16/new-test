@@ -18,98 +18,98 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
-				"aiAgentId":{
-					"title":"aiAgentId",
-					"type":"string"
+				"knowledgeId":{
+					"type":"string",
+					"title":"knowledgeId"
 				},
-				"inputs":{
-					"additionalProperties":false,
-					"properties":{},
-					"title":"Inputs",
-					"type":"object"
+				"aiAgentId":{
+					"type":"string",
+					"title":"aiAgentId"
 				},
 				"knowledge":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{
-						"applicationInfo":{
-							"additionalProperties":false,
-							"properties":{
-								"context":{
-									"additionalProperties":false,
-									"properties":{
-										"connectionId":{
-											"title":"Connection Id",
-											"type":"string"
-										}
-									},
-									"required":[],
-									"title":"Context",
-									"type":"object"
-								}
-							},
-							"required":[],
-							"title":"Application Info",
-							"type":"object"
-						},
-						"cursorObject":{
-							"title":"cursorObject",
-							"type":"object"
+						"readVersion":{
+							"type":"integer",
+							"title":"readVersion"
 						},
 						"lastSyncTime":{
-							"title":"lastSyncTime",
-							"type":"integer"
+							"type":"integer",
+							"title":"lastSyncTime"
 						},
-						"readVersion":{
-							"title":"readVersion",
-							"type":"integer"
+						"cursorObject":{
+							"type":"object",
+							"title":"cursorObject"
+						},
+						"applicationInfo":{
+							"type":"object",
+							"properties":{
+								"context":{
+									"type":"object",
+									"properties":{
+										"connectionId":{
+											"type":"string",
+											"title":"Connection Id"
+										}
+									},
+									"additionalProperties":false,
+									"title":"Context",
+									"required":[]
+								}
+							},
+							"additionalProperties":false,
+							"title":"Application Info",
+							"required":[]
 						}
 					},
-					"required":[],
 					"title":"knowledge",
-					"type":"object"
+					"additionalProperties":false,
+					"required":[]
 				},
-				"knowledgeId":{
-					"title":"knowledgeId",
-					"type":"string"
+				"inputs":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Inputs"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"ai agent knowledge indexer",
-	"modifiedTime":1769010339975,
+	"modifiedTime":1769421995213,
 	"name":"AI Agent Knowledge Indexer",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"cursorObject":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{},
-					"title":"cursorObject",
-					"type":"object"
-				},
-				"lastSyncTime":{
-					"title":"Last Sync Time",
-					"type":"string"
+					"additionalProperties":false,
+					"title":"cursorObject"
 				},
 				"success":{
-					"title":"Success",
-					"type":"boolean"
+					"type":"boolean",
+					"title":"Success"
+				},
+				"lastSyncTime":{
+					"type":"string",
+					"title":"Last Sync Time"
 				}
 			},
 			"required":[]
@@ -117,5 +117,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":104
+	"version":105
 }
