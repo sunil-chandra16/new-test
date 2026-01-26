@@ -14,6 +14,7 @@
 	},
 	"id":"69463cac91a45a6faf92f4f2",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -36,6 +37,7 @@
 	"modifiedTime":1769421995281,
 	"name":"Knowledge ChunkMetadata Resolver",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
