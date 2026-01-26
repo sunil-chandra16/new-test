@@ -1,9 +1,10 @@
 {
 	"createdTime":1769448799617,
-	"deleted":false,
+	"deleted":true,
 	"description":"NRPThAryUn",
 	"id":"6977a51196a9cf78d1314098",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaihfsuzochfw",
-	"modifiedTime":1769448799617,
+	"modifiedTime":1769449037210,
 	"name":"changeSetLocalAIhfsUZoCHfW",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
