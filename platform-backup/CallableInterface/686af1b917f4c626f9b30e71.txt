@@ -14,7 +14,6 @@
 	},
 	"id":"686af1b917f4c626f9b30e71",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -114,10 +113,9 @@
 	},
 	"lastModifiedBy":0,
 	"lcName":"knowledge downloader",
-	"modifiedTime":1769253331636,
+	"modifiedTime":1769421995175,
 	"name":"Knowledge Downloader",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -173,5 +171,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":88
+	"version":89
 }
