@@ -18,56 +18,56 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"payload":{
-					"title":"payload",
-					"type":"object"
+					"type":"object",
+					"title":"payload"
 				}
 			}
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"custom fetch referred knowledges",
-	"modifiedTime":1769010340103,
+	"modifiedTime":1769421995188,
 	"name":"Custom Fetch Referred Knowledges",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
-				"append":{
-					"title":"append",
-					"type":"boolean"
-				},
 				"knowledgeIds":{
+					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"knowledgeIds",
-					"type":"array"
+					"title":"knowledgeIds"
 				},
 				"knowledgeSetIds":{
+					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"knowledgeSetIds",
-					"type":"array"
+					"title":"knowledgeSetIds"
+				},
+				"append":{
+					"type":"boolean",
+					"title":"append"
 				}
 			}
 		}
 	},
 	"ownerUserId":39717,
 	"standard":false,
-	"version":44
+	"version":45
 }
