@@ -1,6 +1,6 @@
 {
 	"createdTime":1769436206209,
-	"deleted":false,
+	"deleted":true,
 	"description":"osbKbypOIc",
 	"id":"6977740396a9cf78d12f9803",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaixonraeryhm",
-	"modifiedTime":1769436277467,
+	"modifiedTime":1769437800614,
 	"name":"changeSetLocalAIXoNRaEryHM",
 	"output":{
 		"type":"SCHEMA",
@@ -42,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":1
+	"version":2
 }
