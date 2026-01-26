@@ -28,142 +28,142 @@
 				}
 			},
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
-				"async":{
-					"title":"Async",
-					"type":"boolean"
-				},
-				"attachments":{
-					"items":{
-						"additionalProperties":false,
-						"properties":{
-							"caption":{
-								"title":"Caption",
-								"type":"string"
-							},
-							"mimeType":{
-								"title":"Mime Type",
-								"type":"string"
-							},
-							"name":{
-								"title":"Name",
-								"type":"string"
-							},
-							"type":{
-								"title":"Type",
-								"type":"string"
-							},
-							"url":{
-								"title":"Url",
-								"type":"string"
-							}
-						},
-						"type":"object"
-					},
-					"required":[],
-					"title":"Attachments",
-					"type":"array"
-				},
-				"caseId":{
-					"title":"Case",
-					"type":"string"
-				},
-				"coPilotBlocks":{
-					"items":{
-						"additionalProperties":false,
-						"properties":{},
-						"type":"object"
-					},
-					"title":"Co Pilot Blocks",
-					"type":"array"
-				},
-				"deepResearchEnabled":{
-					"title":"Deep Research Enabled",
-					"type":"boolean"
-				},
 				"endConversation":{
-					"title":"EndConversation",
-					"type":"boolean"
-				},
-				"followups":{
-					"items":{
-						"type":"string"
-					},
-					"title":"Followups",
-					"type":"array"
-				},
-				"fromCustomerUserId":{
-					"title":"From Customer User Id",
-					"type":"string"
-				},
-				"internalMessageType":{
-					"title":"Internal Message Type",
-					"type":"string"
-				},
-				"publishToEndUser":{
-					"title":"Publish To End User",
-					"type":"boolean"
-				},
-				"referenceList":{
-					"items":{
-						"type":"string"
-					},
-					"title":"Reference List",
-					"type":"array"
+					"type":"boolean",
+					"title":"EndConversation"
 				},
 				"responses":{
+					"type":"array",
 					"items":{
-						"additionalProperties":false,
+						"type":"object",
 						"properties":{
-							"Choices":{
-								"items":{
-									"additionalProperties":false,
-									"properties":{
-										"id":{
-											"title":"Id",
-											"type":"string"
-										},
-										"title":{
-											"title":"Title",
-											"type":"string"
-										},
-										"url":{
-											"title":"Url",
-											"type":"string"
-										}
-									},
-									"type":"object"
-								},
-								"required":[],
-								"title":"Choices",
-								"type":"array"
-							},
-							"Url":{
-								"title":"Url",
-								"type":"string"
+							"language":{
+								"type":"string",
+								"title":"Language"
 							},
 							"content":{
-								"title":"Content",
-								"type":"string"
+								"type":"string",
+								"title":"Content"
 							},
-							"language":{
-								"title":"Language",
-								"type":"string"
+							"Url":{
+								"type":"string",
+								"title":"Url"
+							},
+							"Choices":{
+								"type":"array",
+								"items":{
+									"type":"object",
+									"properties":{
+										"id":{
+											"type":"string",
+											"title":"Id"
+										},
+										"title":{
+											"type":"string",
+											"title":"Title"
+										},
+										"url":{
+											"type":"string",
+											"title":"Url"
+										}
+									},
+									"additionalProperties":false
+								},
+								"title":"Choices",
+								"required":[]
 							}
 						},
-						"type":"object"
+						"additionalProperties":false
 					},
-					"title":"Response",
-					"type":"array"
+					"title":"Response"
+				},
+				"caseId":{
+					"type":"string",
+					"title":"Case"
+				},
+				"attachments":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{
+							"url":{
+								"type":"string",
+								"title":"Url"
+							},
+							"name":{
+								"type":"string",
+								"title":"Name"
+							},
+							"type":{
+								"type":"string",
+								"title":"Type"
+							},
+							"mimeType":{
+								"type":"string",
+								"title":"Mime Type"
+							},
+							"caption":{
+								"type":"string",
+								"title":"Caption"
+							}
+						},
+						"additionalProperties":false
+					},
+					"title":"Attachments",
+					"required":[]
+				},
+				"coPilotBlocks":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{},
+						"additionalProperties":false
+					},
+					"title":"Co Pilot Blocks"
+				},
+				"publishToEndUser":{
+					"type":"boolean",
+					"title":"Publish To End User"
 				},
 				"temporaryMessage":{
-					"title":"Temporary Message",
-					"type":"boolean"
+					"type":"boolean",
+					"title":"Temporary Message"
+				},
+				"fromCustomerUserId":{
+					"type":"string",
+					"title":"From Customer User Id"
+				},
+				"referenceList":{
+					"type":"array",
+					"items":{
+						"type":"string"
+					},
+					"title":"Reference List"
+				},
+				"internalMessageType":{
+					"type":"string",
+					"title":"Internal Message Type"
+				},
+				"async":{
+					"type":"boolean",
+					"title":"Async"
+				},
+				"deepResearchEnabled":{
+					"type":"boolean",
+					"title":"Deep Research Enabled"
+				},
+				"followups":{
+					"type":"array",
+					"items":{
+						"type":"string"
+					},
+					"title":"Followups"
 				}
 			},
 			"required":[
@@ -171,28 +171,28 @@
 			]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"publish response interface (ai agent)",
-	"modifiedTime":1769010340265,
+	"modifiedTime":1769421995152,
 	"name":"Publish Response Interface (AI Agent)",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
-				"messageId":{
-					"title":"Message Id",
-					"type":"string"
-				},
 				"success":{
-					"title":"success",
-					"type":"boolean"
+					"type":"boolean",
+					"title":"success"
+				},
+				"messageId":{
+					"type":"string",
+					"title":"Message Id"
 				}
 			},
 			"required":[]
@@ -200,5 +200,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":129
+	"version":130
 }
