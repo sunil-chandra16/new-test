@@ -1,9 +1,10 @@
 {
 	"createdTime":1769432650871,
-	"deleted":false,
+	"deleted":true,
 	"description":"brTEULEhmd",
 	"id":"697765b396a9cf78d12f672d",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaiivadqcdxjg",
-	"modifiedTime":1769432650871,
+	"modifiedTime":1769432810771,
 	"name":"changeSetLocalAIIVAdqCDXJg",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":0
+	"version":1
 }
