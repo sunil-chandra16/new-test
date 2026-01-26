@@ -4,6 +4,7 @@
 	"description":"helo",
 	"id":"6977713a76d1db7b0b02559f",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -110,6 +111,7 @@
 	"modifiedTime":1769435450426,
 	"name":"hi",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
