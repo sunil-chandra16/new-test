@@ -23,36 +23,36 @@
 			},
 			"properties":{
 				"knowledgeId":{
-					"title":"Knowledge Id",
-					"type":"string"
+					"type":"string",
+					"title":"Knowledge Id"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"knowledge enrichment interface",
-	"modifiedTime":1769010340104,
+	"modifiedTime":1769421995164,
 	"name":"Knowledge Enrichment Interface",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"success":{
-					"title":"success",
-					"type":"boolean"
+					"type":"boolean",
+					"title":"success"
 				}
 			}
 		}
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":75
+	"version":76
 }
