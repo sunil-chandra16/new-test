@@ -40,7 +40,7 @@
 	},
 	"lastModifiedBy":0,
 	"lcName":"ask agent deprecated (workflow agent)",
-	"modifiedTime":1763384620069,
+	"modifiedTime":1769506131453,
 	"name":"Ask Agent Deprecated (Workflow Agent)",
 	"output":{
 		"type":"SCHEMA",
@@ -61,5 +61,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":58
+	"version":59
 }
