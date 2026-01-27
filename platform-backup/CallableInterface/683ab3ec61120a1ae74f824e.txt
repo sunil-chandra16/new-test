@@ -32,50 +32,50 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"messageId":{
-					"type":"string",
-					"title":"messageId"
-				},
 				"caseId":{
-					"type":"string",
-					"title":"caseId"
+					"title":"caseId",
+					"type":"string"
+				},
+				"messageId":{
+					"title":"messageId",
+					"type":"string"
 				}
 			}
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"user input custom preprocessor",
-	"modifiedTime":1769421995161,
+	"modifiedTime":1769506136738,
 	"name":"User Input Custom PreProcessor",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"block":{
-					"type":"boolean",
-					"title":"block"
+					"title":"block",
+					"type":"boolean"
 				},
 				"blockedMessage":{
-					"type":"string",
-					"title":"blockedMessage"
+					"title":"blockedMessage",
+					"type":"string"
 				}
 			}
 		}
 	},
 	"ownerUserId":1728,
 	"standard":false,
-	"version":85
+	"version":89
 }
