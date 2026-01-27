@@ -14,7 +14,6 @@
 	},
 	"id":"690b005d98c3f4705f09fd97",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -39,10 +38,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"query language detector",
-	"modifiedTime":1769506136801,
+	"modifiedTime":1769506546909,
 	"name":"Query language detector",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -62,5 +60,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":16
+	"version":17
 }
