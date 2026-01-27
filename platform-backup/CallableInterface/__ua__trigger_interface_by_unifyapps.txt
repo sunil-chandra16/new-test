@@ -19,23 +19,19 @@
 		"schema":{
 			"layout":{
 				"caseId":{
-					"ui:title":"Case id",
-					"ui:help":"Enter the case id."
+					"ui:help":"Enter the case id.",
+					"ui:title":"Case id"
 				},
 				"interfaceDescription":{
-					"ui:title":"Interface Description",
-					"ui:help":"Enter the description of the interface."
+					"ui:help":"Enter the description of the interface.",
+					"ui:title":"Interface Description"
 				},
 				"interfaceDetails":{
-					"ui:title":"Interface Details",
-					"ui:help":"Enter interface details.",
 					"interfaceId":{
-						"ui:title":"Application",
-						"ui:widget":"LookupWidget",
+						"ua:allowCustom":true,
 						"ui:options":{
+							"multiple":false,
 							"ua:payload":{
-								"lookupType":"ENTITY_ID:e_interface",
-								"type":"ByQuery",
 								"filter":{
 									"op":"AND",
 									"values":[
@@ -51,23 +47,26 @@
 											]
 										}
 									]
-								}
+								},
+								"lookupType":"ENTITY_ID:e_interface",
+								"type":"ByQuery"
 							},
 							"ua:response-accessor":{
 								"id":"id",
 								"name":"properties.name"
-							},
-							"multiple":false
+							}
 						},
-						"ua:allowCustom":true
+						"ui:title":"Application",
+						"ui:widget":"LookupWidget"
 					},
 					"pageId":{
-						"ui:title":"Page ID",
-						"ui:widget":"LookupWidget",
+						"ua:allowCustom":true,
 						"ui:options":{
+							"multiple":false,
+							"ua:dependent_fields":[
+								"parameters.interfaceDetails.interfaceId"
+							],
 							"ua:payload":{
-								"lookupType":"ENTITY_ID:e_component",
-								"type":"ByQuery",
 								"filter":{
 									"op":"AND",
 									"values":[
@@ -90,99 +89,100 @@
 											]
 										}
 									]
-								}
+								},
+								"lookupType":"ENTITY_ID:e_component",
+								"type":"ByQuery"
 							},
+							"ua:refreshable":false,
 							"ua:response-accessor":{
 								"id":"id",
 								"name":"properties.name"
-							},
-							"ua:dependent_fields":[
-								"parameters.interfaceDetails.interfaceId"
-							],
-							"ua:refreshable":false,
-							"multiple":false
+							}
 						},
-						"ua:allowCustom":true
+						"ui:title":"Page ID",
+						"ui:widget":"LookupWidget"
 					},
 					"pageInputs":{
-						"ui:title":"Page Input",
-						"ui:help":"Enter the page inputs."
+						"ui:help":"Enter the page inputs.",
+						"ui:title":"Page Input"
 					},
 					"slug":{
-						"ui:title":"Slug",
-						"ui:help":"Enter the slug for the interface."
+						"ui:help":"Enter the slug for the interface.",
+						"ui:title":"Slug"
 					},
+					"ui:help":"Enter interface details.",
+					"ui:title":"Interface Details",
 					"waitForUserInput":{
-						"ui:title":"Wait for user input",
-						"ui:help":"Enter true if waiting for user response, otherwise enter false."
+						"ui:help":"Enter true if waiting for user response, otherwise enter false.",
+						"ui:title":"Wait for user input"
 					}
 				}
 			},
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"caseId":{
-					"type":"string",
-					"title":"caseId"
+					"title":"caseId",
+					"type":"string"
 				},
 				"interfaceDescription":{
-					"type":"string",
-					"title":"interfaceDescription"
+					"title":"interfaceDescription",
+					"type":"string"
 				},
 				"interfaceDetails":{
-					"type":"object",
+					"additionalProperties":false,
 					"properties":{
 						"interfaceId":{
-							"type":"string",
-							"title":"interfaceId"
-						},
-						"pageId":{
-							"type":"string",
-							"title":"pageId"
-						},
-						"pageInputs":{
-							"type":"object",
-							"properties":{},
-							"title":"pageInputs",
-							"additionalProperties":false,
-							"required":[]
-						},
-						"slug":{
-							"type":"string",
-							"title":"slug"
-						},
-						"whitelistInteractions":{
-							"type":"boolean",
-							"title":"Whitelist Interactions"
+							"title":"interfaceId",
+							"type":"string"
 						},
 						"locale":{
-							"type":"string",
-							"title":"locale"
+							"title":"locale",
+							"type":"string"
+						},
+						"pageId":{
+							"title":"pageId",
+							"type":"string"
+						},
+						"pageInputs":{
+							"additionalProperties":false,
+							"properties":{},
+							"required":[],
+							"title":"pageInputs",
+							"type":"object"
+						},
+						"slug":{
+							"title":"slug",
+							"type":"string"
+						},
+						"whitelistInteractions":{
+							"title":"Whitelist Interactions",
+							"type":"boolean"
 						}
 					},
+					"required":[],
 					"title":"interfaceDetails",
-					"additionalProperties":false,
-					"required":[]
-				},
-				"waitForUserInput":{
-					"type":"boolean",
-					"title":"waitForUserInput"
+					"type":"object"
 				},
 				"publishAsThought":{
-					"type":"boolean",
-					"title":"Publish As Thought"
+					"title":"Publish As Thought",
+					"type":"boolean"
+				},
+				"waitForUserInput":{
+					"title":"waitForUserInput",
+					"type":"boolean"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"trigger interface by unifyapps",
-	"modifiedTime":1769421995166,
+	"modifiedTime":1769506136758,
 	"name":"Trigger Interface By UnifyApps",
 	"output":{
 		"type":"SCHEMA",
@@ -193,13 +193,13 @@
 				"is_optional":true
 			},
 			"properties":{
-				"userInput":{
-					"type":"string",
-					"title":"User Input"
-				},
 				"messageId":{
-					"type":"string",
-					"title":"Message Id"
+					"title":"Message Id",
+					"type":"string"
+				},
+				"userInput":{
+					"title":"User Input",
+					"type":"string"
 				}
 			},
 			"required":[]
@@ -207,5 +207,5 @@
 	},
 	"ownerUserId":43502,
 	"standard":false,
-	"version":102
+	"version":105
 }
