@@ -14,22 +14,12 @@
 	},
 	"id":"__ua__call_ocr_extraction",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"layout":{
 				"modelId":{
-					"ui:widget":"LookupWidget",
 					"ui:options":{
 						"ua:payload":{
-							"type":"ByQuery",
-							"lookupType":"ENTITY_ID:ai_agent_llm_model",
-							"sorts":[
-								{
-									"field":"lcName",
-									"order":"ASC"
-								}
-							],
 							"filter":{
 								"field":"properties.modelGroup",
 								"op":"IN",
@@ -38,170 +28,178 @@
 									"TEXT_EXTRACTION"
 								]
 							},
-							"query":"",
+							"lookupType":"ENTITY_ID:ai_agent_llm_model",
 							"page":{
 								"limit":100,
 								"offset":0
-							}
+							},
+							"query":"",
+							"sorts":[
+								{
+									"field":"lcName",
+									"order":"ASC"
+								}
+							],
+							"type":"ByQuery"
 						}
-					}
+					},
+					"ui:widget":"LookupWidget"
 				}
 			},
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"modelId":{
-					"type":"string",
-					"title":"modelId"
-				},
-				"prompt":{
-					"type":"string",
-					"title":"prompt"
-				},
-				"response_format":{
-					"type":"string",
-					"title":"response_format"
-				},
-				"templateId":{
-					"type":"string",
-					"title":"templateId"
-				},
-				"systemPrompt":{
-					"type":"string",
-					"title":"systemPrompt"
-				},
 				"files":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
-							"mimeType":{
-								"type":"string",
-								"title":"Mime Type"
-							},
 							"fileObject":{
-								"type":"object",
+								"additionalProperties":false,
 								"properties":{
-									"name":{
-										"type":"string",
-										"title":"Name"
+									"fileType":{
+										"title":"File Type",
+										"type":"string"
 									},
-									"sourceType":{
-										"type":"string",
-										"title":"Source Type"
+									"name":{
+										"title":"Name",
+										"type":"string"
 									},
 									"source":{
-										"type":"string",
-										"title":"Source"
+										"title":"Source",
+										"type":"string"
 									},
-									"fileType":{
-										"type":"string",
-										"title":"File Type"
+									"sourceType":{
+										"title":"Source Type",
+										"type":"string"
 									}
 								},
-								"additionalProperties":false,
+								"required":[],
 								"title":"File Object",
-								"required":[]
+								"type":"object"
+							},
+							"mimeType":{
+								"title":"Mime Type",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false,
-						"required":[]
+						"required":[],
+						"type":"object"
 					},
-					"title":"Files"
+					"title":"Files",
+					"type":"array"
 				},
 				"includePageText":{
-					"type":"boolean",
-					"title":"Include Page Text"
+					"title":"Include Page Text",
+					"type":"boolean"
 				},
 				"methodForReadingPDF":{
-					"type":"string",
+					"default":"pdf_by_unifyapps",
 					"title":"Method For Reading PDF",
-					"default":"pdf_by_unifyapps"
+					"type":"string"
+				},
+				"modelId":{
+					"title":"modelId",
+					"type":"string"
 				},
 				"processAsPdf":{
-					"type":"boolean",
-					"title":"processAsPdf"
+					"title":"processAsPdf",
+					"type":"boolean"
+				},
+				"prompt":{
+					"title":"prompt",
+					"type":"string"
+				},
+				"response_format":{
+					"title":"response_format",
+					"type":"string"
+				},
+				"systemPrompt":{
+					"title":"systemPrompt",
+					"type":"string"
+				},
+				"templateId":{
+					"title":"templateId",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"ocr document details extraction",
-	"modifiedTime":1769421995184,
+	"modifiedTime":1769505870447,
 	"name":"OCR Document Details Extraction",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"content":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
-							"text":{
-								"type":"string",
-								"title":"text"
-							},
-							"type":{
-								"type":"string",
-								"title":"type"
-							},
 							"source":{
-								"type":"object",
+								"additionalProperties":false,
 								"properties":{
-									"media_type":{
-										"type":"string",
-										"title":"media_type"
-									},
 									"data":{
-										"type":"string",
-										"title":"Data"
+										"title":"Data",
+										"type":"string"
+									},
+									"media_type":{
+										"title":"media_type",
+										"type":"string"
 									},
 									"type":{
-										"type":"string",
-										"title":"Type"
+										"title":"Type",
+										"type":"string"
 									}
 								},
+								"required":[],
 								"title":"source",
-								"additionalProperties":false,
-								"required":[]
+								"type":"object"
+							},
+							"text":{
+								"title":"text",
+								"type":"string"
+							},
+							"type":{
+								"title":"type",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false
+						"type":"object"
 					},
-					"title":"content"
-				},
-				"inputTokens":{
-					"type":"integer",
-					"title":"inputTokens"
-				},
-				"output":{
-					"type":"string",
-					"title":"output"
-				},
-				"outputTokens":{
-					"type":"integer",
-					"title":"outputTokens"
-				},
-				"status":{
-					"type":"string",
-					"title":"status"
+					"title":"content",
+					"type":"array"
 				},
 				"errMsg":{
-					"type":"string",
-					"title":"Err Msg"
+					"title":"Err Msg",
+					"type":"string"
+				},
+				"inputTokens":{
+					"title":"inputTokens",
+					"type":"integer"
+				},
+				"output":{
+					"title":"output",
+					"type":"string"
+				},
+				"outputTokens":{
+					"title":"outputTokens",
+					"type":"integer"
+				},
+				"status":{
+					"title":"status",
+					"type":"string"
 				}
 			},
 			"required":[]
@@ -209,5 +207,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":true,
-	"version":26
+	"version":27
 }
