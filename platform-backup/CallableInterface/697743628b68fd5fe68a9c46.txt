@@ -1,6 +1,6 @@
 {
 	"createdTime":1769423714545,
-	"deleted":false,
+	"deleted":true,
 	"description":"YDoOFSjVdh",
 	"id":"697743628b68fd5fe68a9c46",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aipaiopysxvr",
-	"modifiedTime":1769423714545,
+	"modifiedTime":1769481163147,
 	"name":"changeSetUAT2AIPaIoPYSXvR",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
