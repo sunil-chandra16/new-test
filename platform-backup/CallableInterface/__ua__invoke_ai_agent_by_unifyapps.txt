@@ -33,12 +33,10 @@
 		"schema":{
 			"layout":{
 				"aiAgentId":{
-					"ui:title":"AI Agent",
-					"ui:widget":"LookupWidget",
+					"ua:allowCustom":true,
 					"ui:options":{
+						"multiple":false,
 						"ua:payload":{
-							"lookupType":"ENTITY_ID:ai_agent",
-							"type":"ByQuery",
 							"filter":{
 								"op":"AND",
 								"values":[
@@ -54,101 +52,103 @@
 										]
 									}
 								]
-							}
+							},
+							"lookupType":"ENTITY_ID:ai_agent",
+							"type":"ByQuery"
 						},
 						"ua:response-accessor":{
 							"id":"id",
 							"name":"properties.name"
-						},
-						"multiple":false
+						}
 					},
-					"ua:allowCustom":true
-				},
-				"userQuery":{
-					"ui:title":"Query",
-					"ui:help":"Enter your question or request for the agent."
+					"ui:title":"AI Agent",
+					"ui:widget":"LookupWidget"
 				},
 				"sessionId":{
-					"ui:title":"Session ID",
-					"ui:help":"Optional. A unique identifier for your session. If provided, previous messages from the same session will be used for context."
+					"ui:help":"Optional. A unique identifier for your session. If provided, previous messages from the same session will be used for context.",
+					"ui:title":"Session ID"
 				},
 				"userEmailAddress":{
-					"ui:title":"Email Address",
-					"ui:help":"User email address, used for identification"
+					"ui:help":"User email address, used for identification",
+					"ui:title":"Email Address"
+				},
+				"userQuery":{
+					"ui:help":"Enter your question or request for the agent.",
+					"ui:title":"Query"
 				}
 			},
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"sessionId":{
-					"type":"string",
-					"title":"sessionId"
-				},
-				"userQuery":{
-					"type":"string",
-					"title":"userQuery"
-				},
 				"aiAgentId":{
-					"type":"string",
-					"title":"aiAgentId"
-				},
-				"userEmailAddress":{
-					"type":"string",
-					"title":"User Email Address"
-				},
-				"externalKnowledgeSets":{
-					"type":"array",
-					"items":{
-						"type":"string"
-					},
-					"title":"External Knowledge Sets"
-				},
-				"citations":{
-					"type":"boolean",
-					"title":"Citations"
+					"title":"aiAgentId",
+					"type":"string"
 				},
 				"attachments":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
 							"fileDetails":{
-								"type":"object",
-								"properties":{},
 								"additionalProperties":false,
-								"title":"File Details"
+								"properties":{},
+								"title":"File Details",
+								"type":"object"
 							}
 						},
-						"additionalProperties":false,
-						"required":[]
+						"required":[],
+						"type":"object"
 					},
-					"title":"Attachments"
+					"title":"Attachments",
+					"type":"array"
 				},
 				"channelName":{
-					"type":"string",
-					"title":"Channel Name"
+					"title":"Channel Name",
+					"type":"string"
+				},
+				"citations":{
+					"title":"Citations",
+					"type":"boolean"
 				},
 				"customTypesForTemporaryStore":{
-					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Custom Types For Temporary Store"
+					"title":"Custom Types For Temporary Store",
+					"type":"array"
+				},
+				"externalKnowledgeSets":{
+					"items":{
+						"type":"string"
+					},
+					"title":"External Knowledge Sets",
+					"type":"array"
 				},
 				"externalKnowledges":{
-					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"External Knowledges"
+					"title":"External Knowledges",
+					"type":"array"
+				},
+				"sessionId":{
+					"title":"sessionId",
+					"type":"string"
 				},
 				"skipApprovalBeforeToolExecution":{
-					"type":"boolean",
-					"title":"Skip Approval Before Tool Execution"
+					"title":"Skip Approval Before Tool Execution",
+					"type":"boolean"
+				},
+				"userEmailAddress":{
+					"title":"User Email Address",
+					"type":"string"
+				},
+				"userQuery":{
+					"title":"userQuery",
+					"type":"string"
 				}
 			},
 			"required":[
@@ -156,138 +156,138 @@
 			]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"invoke ai agent by unifyapps",
-	"modifiedTime":1769347129867,
+	"modifiedTime":1769506136758,
 	"name":"Invoke AI Agent By UnifyApps",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"sessionId":{
-					"type":"string",
-					"title":"sessionId"
-				},
-				"citations":{
-					"type":"array",
-					"items":{
-						"type":"object",
-						"properties":{},
-						"additionalProperties":false
-					},
-					"title":"Citations"
-				},
 				"agentResponses":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
-							"text":{
-								"type":"string",
-								"title":"Text"
+							"additional":{
+								"additionalProperties":false,
+								"properties":{},
+								"title":"Additional",
+								"type":"object"
+							},
+							"choices":{
+								"items":{
+									"additionalProperties":false,
+									"properties":{
+										"id":{
+											"title":"Id",
+											"type":"string"
+										},
+										"title":{
+											"title":"Title",
+											"type":"string"
+										},
+										"url":{
+											"title":"Url",
+											"type":"string"
+										}
+									},
+									"required":[],
+									"type":"object"
+								},
+								"title":"Choices",
+								"type":"array"
 							},
 							"coPilotBlocks":{
-								"type":"array",
 								"items":{
-									"type":"object",
+									"additionalProperties":false,
 									"properties":{},
-									"additionalProperties":false
+									"type":"object"
 								},
-								"title":"Co Pilot Blocks"
+								"title":"Co Pilot Blocks",
+								"type":"array"
 							},
 							"interfaceDetails":{
-								"type":"object",
-								"properties":{},
 								"additionalProperties":false,
-								"title":"Interface Details"
-							},
-							"messageId":{
-								"type":"string",
-								"title":"Message Id"
-							},
-							"additional":{
-								"type":"object",
 								"properties":{},
-								"additionalProperties":false,
-								"title":"Additional"
+								"title":"Interface Details",
+								"type":"object"
 							},
 							"messageCreatedTime":{
-								"type":"string",
-								"title":"Message Created Time"
+								"title":"Message Created Time",
+								"type":"string"
 							},
-							"choices":{
-								"type":"array",
-								"items":{
-									"type":"object",
-									"properties":{
-										"id":{
-											"type":"string",
-											"title":"Id"
-										},
-										"title":{
-											"type":"string",
-											"title":"Title"
-										},
-										"url":{
-											"type":"string",
-											"title":"Url"
-										}
-									},
-									"additionalProperties":false,
-									"required":[]
-								},
-								"title":"Choices"
+							"messageId":{
+								"title":"Message Id",
+								"type":"string"
+							},
+							"text":{
+								"title":"Text",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false,
-						"required":[]
+						"required":[],
+						"type":"object"
 					},
-					"title":"Agent Responses"
+					"title":"Agent Responses",
+					"type":"array"
+				},
+				"citations":{
+					"items":{
+						"additionalProperties":false,
+						"properties":{},
+						"type":"object"
+					},
+					"title":"Citations",
+					"type":"array"
 				},
 				"publicResponse":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
-							"text":{
-								"type":"string",
-								"title":"Text"
-							},
 							"choices":{
-								"type":"array",
 								"items":{
-									"type":"object",
+									"additionalProperties":false,
 									"properties":{
 										"id":{
-											"type":"string",
-											"title":"Id"
+											"title":"Id",
+											"type":"string"
 										},
 										"title":{
-											"type":"string",
-											"title":"Title"
+											"title":"Title",
+											"type":"string"
 										},
 										"url":{
-											"type":"string",
-											"title":"Url"
+											"title":"Url",
+											"type":"string"
 										}
 									},
-									"additionalProperties":false,
-									"required":[]
+									"required":[],
+									"type":"object"
 								},
-								"title":"Choices"
+								"title":"Choices",
+								"type":"array"
+							},
+							"text":{
+								"title":"Text",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false,
-						"required":[]
+						"required":[],
+						"type":"object"
 					},
-					"title":"Public Response"
+					"title":"Public Response",
+					"type":"array"
+				},
+				"sessionId":{
+					"title":"sessionId",
+					"type":"string"
 				}
 			},
 			"required":[]
@@ -295,5 +295,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":132
+	"version":136
 }
