@@ -1,0 +1,64 @@
+{
+	"createdTime":1757409164765,
+	"deleted":false,
+	"description":"To conduct deep research on any topic",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"V"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"__ua__deep_research_interface",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"additionalProperties":false,
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"type":"object",
+			"properties":{
+				"query":{
+					"type":"string",
+					"title":"query"
+				},
+				"tips":{
+					"type":"string",
+					"title":"Tips"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":0,
+	"lcName":"deep research (workflow agent)",
+	"modifiedTime":1769506131051,
+	"name":"Deep Research (Workflow Agent)",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"additionalProperties":false,
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"type":"object",
+			"properties":{
+				"result":{
+					"type":"boolean",
+					"title":"result"
+				}
+			}
+		}
+	},
+	"ownerUserId":-1,
+	"standard":false,
+	"version":25
+}
