@@ -22,25 +22,25 @@
 				"is_optional":true
 			},
 			"properties":{
-				"responseInstructions":{
-					"type":"string",
-					"title":"AI Response Instructions"
+				"model":{
+					"title":"Model",
+					"type":"string"
 				},
 				"name":{
-					"type":"string",
-					"title":"Name"
+					"title":"Name",
+					"type":"string"
 				},
-				"model":{
-					"type":"string",
-					"title":"Model"
+				"responseInstructions":{
+					"title":"AI Response Instructions",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"generate response (workflow agent)",
-	"modifiedTime":1769421995266,
+	"modifiedTime":1769506721808,
 	"name":"Generate Response (Workflow Agent)",
 	"output":{
 		"type":"SCHEMA",
@@ -52,8 +52,8 @@
 			},
 			"properties":{
 				"finalAnswer":{
-					"type":"string",
-					"title":"Final Answer"
+					"title":"Final Answer",
+					"type":"string"
 				}
 			},
 			"required":[]
@@ -61,5 +61,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":74
+	"version":79
 }
