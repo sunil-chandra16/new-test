@@ -180,7 +180,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"channel response publisher (ai agent)",
-	"modifiedTime":1769010340263,
+	"modifiedTime":1769506721810,
 	"name":"Channel Response Publisher (AI Agent)",
 	"output":{
 		"type":"SCHEMA",
@@ -207,5 +207,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":111
+	"version":117
 }
