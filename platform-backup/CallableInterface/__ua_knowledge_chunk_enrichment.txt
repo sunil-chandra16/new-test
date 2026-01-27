@@ -14,6 +14,7 @@
 	},
 	"id":"__ua_knowledge_chunk_enrichment",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -32,9 +33,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"knowledge chunk enrichment interface",
-	"modifiedTime":1769506546852,
+	"modifiedTime":1769506721921,
 	"name":"Knowledge Chunk Enrichment Interface",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -53,5 +55,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":83
+	"version":84
 }
