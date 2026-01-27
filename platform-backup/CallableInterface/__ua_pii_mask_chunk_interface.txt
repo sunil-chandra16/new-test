@@ -56,7 +56,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"pii mask knowledge chunk interface",
-	"modifiedTime":1769506136740,
+	"modifiedTime":1769506721720,
 	"name":"PII Mask Knowledge Chunk Interface",
 	"output":{
 		"type":"SCHEMA",
@@ -105,5 +105,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":96
+	"version":98
 }
