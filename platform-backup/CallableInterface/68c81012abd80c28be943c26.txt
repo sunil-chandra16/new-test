@@ -18,52 +18,52 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
+				"dynamicMEtadataFilterCondition":{
+					"title":"dynamicMEtadataFilterCondition",
+					"type":"object"
+				},
 				"fewShotEXamples":{
-					"type":"array",
 					"items":{
 						"type":"object"
 					},
-					"title":"fewShotEXamples"
-				},
-				"dynamicMEtadataFilterCondition":{
-					"type":"object",
-					"title":"dynamicMEtadataFilterCondition"
+					"title":"fewShotEXamples",
+					"type":"array"
 				}
 			}
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"fewshotfilteraddition",
-	"modifiedTime":1769421995169,
+	"modifiedTime":1769506136746,
 	"name":"FewShotFilterAddition",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"fewShotEXamples":{
-					"type":"array",
 					"items":{
 						"type":"object"
 					},
-					"title":"fewShotEXamples"
+					"title":"fewShotEXamples",
+					"type":"array"
 				}
 			}
 		}
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":21
+	"version":24
 }
