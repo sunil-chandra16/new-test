@@ -14,7 +14,6 @@
 	},
 	"id":"6763e2f2aaaee539c343b868",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -66,10 +65,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"extract custom metadata",
-	"modifiedTime":1769010340102,
+	"modifiedTime":1769505870356,
 	"name":"Extract Custom Metadata",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -102,5 +100,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":93
+	"version":95
 }
