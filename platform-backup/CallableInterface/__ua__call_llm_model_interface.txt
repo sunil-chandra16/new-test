@@ -18,317 +18,317 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"top_p":{
-					"type":"integer",
-					"title":"top_p"
-				},
-				"response_format":{
-					"type":"object",
-					"properties":{
-						"type":{
-							"type":"string",
-							"title":"type"
-						},
-						"schema":{
-							"type":"object",
-							"properties":{},
-							"additionalProperties":false,
-							"title":"Schema"
-						},
-						"name":{
-							"type":"string",
-							"title":"Name"
-						}
-					},
-					"title":"response_format",
-					"additionalProperties":false,
-					"required":[]
+				"aiAgentId":{
+					"title":"Ai Agent Id",
+					"type":"string"
 				},
 				"frequency_penalty":{
-					"type":"integer",
-					"title":"frequency_penalty"
-				},
-				"request_timeout":{
-					"type":"integer",
-					"title":"request_timeout"
-				},
-				"provider":{
-					"type":"string",
-					"title":"provider"
-				},
-				"max_tokens":{
-					"type":"integer",
-					"title":"max_tokens"
-				},
-				"presence_penalty":{
-					"type":"integer",
-					"title":"presence_penalty"
-				},
-				"temperature":{
-					"type":"integer",
-					"title":"temperature"
-				},
-				"messages":{
-					"type":"array",
-					"items":{
-						"type":"object",
-						"properties":{
-							"role":{
-								"type":"string",
-								"title":"role",
-								"default":"user"
-							},
-							"content":{
-								"type":"array",
-								"items":{
-									"type":"object",
-									"properties":{
-										"text":{
-											"type":"string",
-											"title":"text"
-										},
-										"type":{
-											"type":"string",
-											"title":"type",
-											"default":"text"
-										},
-										"image_url":{
-											"type":"object",
-											"properties":{
-												"url":{
-													"type":"string",
-													"title":"url"
-												},
-												"detail":{
-													"type":"string",
-													"title":"detail"
-												}
-											},
-											"additionalProperties":false,
-											"title":"image_url",
-											"required":[]
-										},
-										"source":{
-											"type":"object",
-											"properties":{
-												"image_type":{
-													"type":"string",
-													"title":"image_type"
-												},
-												"media_type":{
-													"type":"string",
-													"title":"media_type"
-												},
-												"image_data":{
-													"type":"string",
-													"title":"image_data"
-												},
-												"detail":{
-													"type":"string",
-													"title":"detail"
-												}
-											},
-											"additionalProperties":false,
-											"title":"Source",
-											"required":[]
-										},
-										"tool_use_id":{
-											"type":"string",
-											"title":"tool_use_id"
-										},
-										"content":{
-											"type":"string",
-											"title":"content"
-										},
-										"name":{
-											"type":"string",
-											"title":"name"
-										},
-										"input":{
-											"type":"object",
-											"properties":{},
-											"additionalProperties":false,
-											"title":"input"
-										},
-										"id":{
-											"type":"string",
-											"title":"id"
-										},
-										"thinkingSignature":{
-											"type":"string",
-											"title":"Thinking Signature"
-										}
-									},
-									"additionalProperties":false,
-									"required":[]
-								},
-								"title":"content",
-								"required":[]
-							}
-						},
-						"additionalProperties":false
-					},
-					"title":"messages",
-					"required":[]
-				},
-				"model":{
-					"type":"string",
-					"title":"model"
-				},
-				"logprobs":{
-					"type":"boolean",
-					"title":"logprobs"
-				},
-				"on_error_config":{
-					"type":"object",
-					"properties":{
-						"error_msg":{
-							"type":"string",
-							"title":"error_msg"
-						}
-					},
-					"additionalProperties":false,
-					"title":"on_error_config",
-					"required":[]
-				},
-				"retry_config":{
-					"type":"object",
-					"properties":{
-						"initial_delay":{
-							"type":"integer",
-							"title":"initial_delay"
-						},
-						"num_retry":{
-							"type":"integer",
-							"title":"num_retry"
-						},
-						"max_delay":{
-							"type":"integer",
-							"title":"max_delay"
-						},
-						"backoff_factor":{
-							"type":"integer",
-							"title":"backoff_factor"
-						}
-					},
-					"additionalProperties":false,
-					"title":"retry_config",
-					"required":[]
-				},
-				"top_k":{
-					"type":"integer",
-					"title":"top_k"
-				},
-				"tools":{
-					"type":"array",
-					"items":{
-						"type":"object",
-						"properties":{
-							"type":{
-								"type":"string",
-								"title":"Type"
-							},
-							"function":{
-								"type":"object",
-								"properties":{
-									"name":{
-										"type":"string",
-										"title":"Name"
-									},
-									"description":{
-										"type":"string",
-										"title":"Description"
-									},
-									"parameters":{
-										"type":"object",
-										"properties":{},
-										"additionalProperties":false,
-										"title":"Parameters"
-									}
-								},
-								"additionalProperties":false,
-								"title":"Function",
-								"required":[]
-							}
-						},
-						"additionalProperties":false,
-						"required":[]
-					},
-					"title":"Tools"
-				},
-				"systemPrompt":{
-					"type":"string",
-					"title":"System Prompt"
-				},
-				"sessionId":{
-					"type":"string",
-					"title":"Session Id"
-				},
-				"modelId":{
-					"type":"string",
-					"title":"Model ID"
-				},
-				"stream":{
-					"type":"boolean",
-					"title":"stream"
-				},
-				"aiAgentId":{
-					"type":"string",
-					"title":"Ai Agent Id"
-				},
-				"thinkingConfig":{
-					"type":"object",
-					"properties":{
-						"includeThoughts":{
-							"type":"boolean",
-							"title":"Include Thoughts"
-						},
-						"thinkingBudget":{
-							"type":"integer",
-							"title":"Thinking Budget"
-						},
-						"thinkingLevel":{
-							"type":"string",
-							"title":"Thinking Level"
-						}
-					},
-					"additionalProperties":false,
-					"title":"Thinking Config",
-					"required":[]
-				},
-				"thoughtMethod":{
-					"type":"string",
-					"title":"Thought Method"
-				},
-				"isToolCallEnabled":{
-					"type":"boolean",
-					"title":"Is Tool Call Enabled"
+					"title":"frequency_penalty",
+					"type":"integer"
 				},
 				"isMultipleToolCallEnabled":{
-					"type":"boolean",
-					"title":"Is Multiple Tool Call Enabled"
+					"title":"Is Multiple Tool Call Enabled",
+					"type":"boolean"
+				},
+				"isToolCallEnabled":{
+					"title":"Is Tool Call Enabled",
+					"type":"boolean"
+				},
+				"logprobs":{
+					"title":"logprobs",
+					"type":"boolean"
+				},
+				"max_tokens":{
+					"title":"max_tokens",
+					"type":"integer"
+				},
+				"messages":{
+					"items":{
+						"additionalProperties":false,
+						"properties":{
+							"content":{
+								"items":{
+									"additionalProperties":false,
+									"properties":{
+										"content":{
+											"title":"content",
+											"type":"string"
+										},
+										"id":{
+											"title":"id",
+											"type":"string"
+										},
+										"image_url":{
+											"additionalProperties":false,
+											"properties":{
+												"detail":{
+													"title":"detail",
+													"type":"string"
+												},
+												"url":{
+													"title":"url",
+													"type":"string"
+												}
+											},
+											"required":[],
+											"title":"image_url",
+											"type":"object"
+										},
+										"input":{
+											"additionalProperties":false,
+											"properties":{},
+											"title":"input",
+											"type":"object"
+										},
+										"name":{
+											"title":"name",
+											"type":"string"
+										},
+										"source":{
+											"additionalProperties":false,
+											"properties":{
+												"detail":{
+													"title":"detail",
+													"type":"string"
+												},
+												"image_data":{
+													"title":"image_data",
+													"type":"string"
+												},
+												"image_type":{
+													"title":"image_type",
+													"type":"string"
+												},
+												"media_type":{
+													"title":"media_type",
+													"type":"string"
+												}
+											},
+											"required":[],
+											"title":"Source",
+											"type":"object"
+										},
+										"text":{
+											"title":"text",
+											"type":"string"
+										},
+										"thinkingSignature":{
+											"title":"Thinking Signature",
+											"type":"string"
+										},
+										"tool_use_id":{
+											"title":"tool_use_id",
+											"type":"string"
+										},
+										"type":{
+											"default":"text",
+											"title":"type",
+											"type":"string"
+										}
+									},
+									"required":[],
+									"type":"object"
+								},
+								"required":[],
+								"title":"content",
+								"type":"array"
+							},
+							"role":{
+								"default":"user",
+								"title":"role",
+								"type":"string"
+							}
+						},
+						"type":"object"
+					},
+					"required":[],
+					"title":"messages",
+					"type":"array"
+				},
+				"model":{
+					"title":"model",
+					"type":"string"
+				},
+				"modelId":{
+					"title":"Model ID",
+					"type":"string"
+				},
+				"on_error_config":{
+					"additionalProperties":false,
+					"properties":{
+						"error_msg":{
+							"title":"error_msg",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"title":"on_error_config",
+					"type":"object"
+				},
+				"presence_penalty":{
+					"title":"presence_penalty",
+					"type":"integer"
 				},
 				"promptCaching":{
-					"type":"boolean",
-					"title":"promptCaching"
+					"title":"promptCaching",
+					"type":"boolean"
+				},
+				"provider":{
+					"title":"provider",
+					"type":"string"
+				},
+				"request_timeout":{
+					"title":"request_timeout",
+					"type":"integer"
+				},
+				"response_format":{
+					"additionalProperties":false,
+					"properties":{
+						"name":{
+							"title":"Name",
+							"type":"string"
+						},
+						"schema":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Schema",
+							"type":"object"
+						},
+						"type":{
+							"title":"type",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"title":"response_format",
+					"type":"object"
+				},
+				"retry_config":{
+					"additionalProperties":false,
+					"properties":{
+						"backoff_factor":{
+							"title":"backoff_factor",
+							"type":"integer"
+						},
+						"initial_delay":{
+							"title":"initial_delay",
+							"type":"integer"
+						},
+						"max_delay":{
+							"title":"max_delay",
+							"type":"integer"
+						},
+						"num_retry":{
+							"title":"num_retry",
+							"type":"integer"
+						}
+					},
+					"required":[],
+					"title":"retry_config",
+					"type":"object"
+				},
+				"sessionId":{
+					"title":"Session Id",
+					"type":"string"
+				},
+				"stream":{
+					"title":"stream",
+					"type":"boolean"
+				},
+				"systemPrompt":{
+					"title":"System Prompt",
+					"type":"string"
+				},
+				"temperature":{
+					"title":"temperature",
+					"type":"integer"
+				},
+				"thinkingConfig":{
+					"additionalProperties":false,
+					"properties":{
+						"includeThoughts":{
+							"title":"Include Thoughts",
+							"type":"boolean"
+						},
+						"thinkingBudget":{
+							"title":"Thinking Budget",
+							"type":"integer"
+						},
+						"thinkingLevel":{
+							"title":"Thinking Level",
+							"type":"string"
+						}
+					},
+					"required":[],
+					"title":"Thinking Config",
+					"type":"object"
+				},
+				"thoughtMethod":{
+					"title":"Thought Method",
+					"type":"string"
+				},
+				"tools":{
+					"items":{
+						"additionalProperties":false,
+						"properties":{
+							"function":{
+								"additionalProperties":false,
+								"properties":{
+									"description":{
+										"title":"Description",
+										"type":"string"
+									},
+									"name":{
+										"title":"Name",
+										"type":"string"
+									},
+									"parameters":{
+										"additionalProperties":false,
+										"properties":{},
+										"title":"Parameters",
+										"type":"object"
+									}
+								},
+								"required":[],
+								"title":"Function",
+								"type":"object"
+							},
+							"type":{
+								"title":"Type",
+								"type":"string"
+							}
+						},
+						"required":[],
+						"type":"object"
+					},
+					"title":"Tools",
+					"type":"array"
+				},
+				"top_k":{
+					"title":"top_k",
+					"type":"integer"
+				},
+				"top_p":{
+					"title":"top_p",
+					"type":"integer"
 				},
 				"useProviderWebSearch":{
-					"type":"boolean",
-					"title":"Use Provider Web Search"
+					"title":"Use Provider Web Search",
+					"type":"boolean"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"call llm model",
-	"modifiedTime":1769421995172,
+	"modifiedTime":1769506721721,
 	"name":"Call LLM Model",
 	"output":{
 		"type":"SCHEMA",
@@ -339,79 +339,79 @@
 				"is_optional":true
 			},
 			"properties":{
-				"output":{
-					"type":"string",
-					"title":"output"
-				},
-				"inputTokens":{
-					"type":"number",
-					"title":"Input Tokens"
-				},
-				"outputTokens":{
-					"type":"number",
-					"title":"Output Tokens"
-				},
-				"tool_calls":{
-					"type":"array",
-					"items":{
-						"type":"object",
-						"properties":{
-							"name":{
-								"type":"string",
-								"title":"name"
-							},
-							"arguments":{
-								"type":"string",
-								"title":"arguments"
-							},
-							"toolId":{
-								"type":"string",
-								"title":"Tool Id"
-							},
-							"thinkingSignature":{
-								"type":"string",
-								"title":"Thinking Signature"
-							}
-						},
-						"additionalProperties":false,
-						"required":[]
-					},
-					"title":"tool_calls"
-				},
-				"finish_reason":{
-					"type":"string",
-					"title":"finish_reason"
-				},
-				"thinkingSignature":{
-					"type":"string",
-					"title":"Thinking Signature"
-				},
 				"citations":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
-							"title":{
-								"type":"string",
-								"title":"Title"
-							},
 							"content":{
-								"type":"string",
-								"title":"Content"
-							},
-							"webUrl":{
-								"type":"string",
-								"title":"Web Url"
+								"title":"Content",
+								"type":"string"
 							},
 							"iconUrl":{
-								"type":"string",
-								"title":"Icon Url"
+								"title":"Icon Url",
+								"type":"string"
+							},
+							"title":{
+								"title":"Title",
+								"type":"string"
+							},
+							"webUrl":{
+								"title":"Web Url",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false,
-						"required":[]
+						"required":[],
+						"type":"object"
 					},
-					"title":"Citations"
+					"title":"Citations",
+					"type":"array"
+				},
+				"finish_reason":{
+					"title":"finish_reason",
+					"type":"string"
+				},
+				"inputTokens":{
+					"title":"Input Tokens",
+					"type":"number"
+				},
+				"output":{
+					"title":"output",
+					"type":"string"
+				},
+				"outputTokens":{
+					"title":"Output Tokens",
+					"type":"number"
+				},
+				"thinkingSignature":{
+					"title":"Thinking Signature",
+					"type":"string"
+				},
+				"tool_calls":{
+					"items":{
+						"additionalProperties":false,
+						"properties":{
+							"arguments":{
+								"title":"arguments",
+								"type":"string"
+							},
+							"name":{
+								"title":"name",
+								"type":"string"
+							},
+							"thinkingSignature":{
+								"title":"Thinking Signature",
+								"type":"string"
+							},
+							"toolId":{
+								"title":"Tool Id",
+								"type":"string"
+							}
+						},
+						"required":[],
+						"type":"object"
+					},
+					"title":"tool_calls",
+					"type":"array"
 				}
 			},
 			"required":[]
@@ -419,5 +419,5 @@
 	},
 	"ownerUserId":520,
 	"standard":false,
-	"version":108
+	"version":113
 }
