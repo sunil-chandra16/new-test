@@ -55,7 +55,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"consume interface inputs",
-	"modifiedTime":1769506136792,
+	"modifiedTime":1769506721922,
 	"name":"Consume Interface Inputs",
 	"output":{
 		"type":"SCHEMA",
@@ -77,5 +77,5 @@
 	},
 	"ownerUserId":1728,
 	"standard":false,
-	"version":82
+	"version":84
 }
