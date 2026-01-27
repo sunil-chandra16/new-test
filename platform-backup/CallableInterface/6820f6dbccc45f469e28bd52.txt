@@ -54,7 +54,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"channel specific case management",
-	"modifiedTime":1769010340265,
+	"modifiedTime":1769506721923,
 	"name":"Channel Specific Case Management",
 	"output":{
 		"type":"SCHEMA",
@@ -81,5 +81,5 @@
 	},
 	"ownerUserId":1728,
 	"standard":false,
-	"version":82
+	"version":88
 }
