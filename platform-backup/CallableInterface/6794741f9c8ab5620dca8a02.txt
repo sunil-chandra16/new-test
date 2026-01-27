@@ -36,7 +36,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"system prompt fragment generator",
-	"modifiedTime":1769010339974,
+	"modifiedTime":1769506721632,
 	"name":"System Prompt Fragment Generator",
 	"output":{
 		"type":"SCHEMA",
@@ -141,5 +141,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":98
+	"version":104
 }
