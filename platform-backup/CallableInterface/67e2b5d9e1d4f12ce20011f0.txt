@@ -28,6 +28,7 @@
 	},
 	"id":"67e2b5d9e1d4f12ce20011f0",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -36,62 +37,63 @@
 			},
 			"properties":{
 				"criteria":{
-					"type":"string",
-					"title":"Evaluation Criteria"
-				},
-				"evaluationSteps":{
-					"type":"array",
-					"items":{
-						"type":"string"
-					},
-					"title":"Evaluation Steps"
-				},
-				"model":{
-					"type":"string",
-					"title":"Model"
+					"title":"Evaluation Criteria",
+					"type":"string"
 				},
 				"evaluationParameters":{
-					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Evaluation Parameters"
+					"title":"Evaluation Parameters",
+					"type":"array"
 				},
-				"testCase":{
-					"type":"object",
-					"properties":{},
-					"additionalProperties":false,
-					"title":"Test Case"
-				},
-				"scoreRange":{
-					"type":"string",
-					"title":"Scoring Range"
-				},
-				"testCaseId":{
-					"type":"string",
-					"title":"Test Case Id"
-				},
-				"runId":{
-					"type":"string",
-					"title":"Run Id"
+				"evaluationSteps":{
+					"items":{
+						"type":"string"
+					},
+					"title":"Evaluation Steps",
+					"type":"array"
 				},
 				"experimentId":{
-					"type":"string",
-					"title":"Experiment Id"
+					"title":"Experiment Id",
+					"type":"string"
 				},
 				"metricId":{
-					"type":"string",
-					"title":"Metric Id"
+					"title":"Metric Id",
+					"type":"string"
+				},
+				"model":{
+					"title":"Model",
+					"type":"string"
+				},
+				"runId":{
+					"title":"Run Id",
+					"type":"string"
+				},
+				"scoreRange":{
+					"title":"Scoring Range",
+					"type":"string"
+				},
+				"testCase":{
+					"additionalProperties":false,
+					"properties":{},
+					"title":"Test Case",
+					"type":"object"
+				},
+				"testCaseId":{
+					"title":"Test Case Id",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"ai as judge evaluator metrics",
-	"modifiedTime":1769421995246,
+	"modifiedTime":1769506136784,
 	"name":"AI As Judge Evaluator Metrics",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -99,21 +101,21 @@
 				"is_optional":true
 			},
 			"properties":{
-				"score":{
-					"type":"number",
-					"title":"Score"
+				"cost":{
+					"title":"Cost",
+					"type":"number"
 				},
 				"reason":{
-					"type":"string",
-					"title":"Reason"
+					"title":"Reason",
+					"type":"string"
 				},
-				"cost":{
-					"type":"number",
-					"title":"Cost"
+				"score":{
+					"title":"Score",
+					"type":"number"
 				},
 				"tokensUsed":{
-					"type":"number",
-					"title":"Tokens Used"
+					"title":"Tokens Used",
+					"type":"number"
 				}
 			},
 			"required":[]
@@ -121,5 +123,5 @@
 	},
 	"ownerUserId":49915,
 	"standard":false,
-	"version":129
+	"version":132
 }
