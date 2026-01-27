@@ -18,64 +18,64 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"interfaceDetails":{
-					"type":"object",
+					"additionalProperties":false,
 					"properties":{
-						"pageId":{
-							"type":"string",
-							"title":"pageId"
-						},
 						"interfaceId":{
-							"type":"string",
-							"title":"interfaceId"
+							"title":"interfaceId",
+							"type":"string"
+						},
+						"pageId":{
+							"title":"pageId",
+							"type":"string"
 						},
 						"pageInputs":{
-							"type":"object",
-							"title":"pageInputs"
+							"title":"pageInputs",
+							"type":"object"
 						}
 					},
 					"title":"interfaceDetails",
-					"additionalProperties":false
+					"type":"object"
 				},
 				"userResponse":{
-					"type":"object",
-					"properties":{},
-					"title":"userResponse",
 					"additionalProperties":false,
-					"required":[]
+					"properties":{},
+					"required":[],
+					"title":"userResponse",
+					"type":"object"
 				}
 			}
 		}
 	},
-	"lastModifiedBy":144407,
+	"lastModifiedBy":-1,
 	"lcName":"consume interface inputs",
-	"modifiedTime":1766148693200,
+	"modifiedTime":1769506136792,
 	"name":"Consume Interface Inputs",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"success":{
-					"type":"string",
-					"title":"success"
+					"title":"success",
+					"type":"string"
 				}
 			}
 		}
 	},
 	"ownerUserId":1728,
 	"standard":false,
-	"version":76
+	"version":82
 }
