@@ -28,142 +28,142 @@
 				}
 			},
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"endConversation":{
-					"type":"boolean",
-					"title":"EndConversation"
-				},
-				"responses":{
-					"type":"array",
-					"items":{
-						"type":"object",
-						"properties":{
-							"language":{
-								"type":"string",
-								"title":"Language"
-							},
-							"content":{
-								"type":"string",
-								"title":"Content"
-							},
-							"Url":{
-								"type":"string",
-								"title":"Url"
-							},
-							"Choices":{
-								"type":"array",
-								"items":{
-									"type":"object",
-									"properties":{
-										"id":{
-											"type":"string",
-											"title":"Id"
-										},
-										"title":{
-											"type":"string",
-											"title":"Title"
-										},
-										"url":{
-											"type":"string",
-											"title":"Url"
-										}
-									},
-									"additionalProperties":false
-								},
-								"title":"Choices",
-								"required":[]
-							}
-						},
-						"additionalProperties":false
-					},
-					"title":"Response"
-				},
-				"caseId":{
-					"type":"string",
-					"title":"Case"
+				"async":{
+					"title":"Async",
+					"type":"boolean"
 				},
 				"attachments":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
-							"url":{
-								"type":"string",
-								"title":"Url"
-							},
-							"name":{
-								"type":"string",
-								"title":"Name"
-							},
-							"type":{
-								"type":"string",
-								"title":"Type"
+							"caption":{
+								"title":"Caption",
+								"type":"string"
 							},
 							"mimeType":{
-								"type":"string",
-								"title":"Mime Type"
+								"title":"Mime Type",
+								"type":"string"
 							},
-							"caption":{
-								"type":"string",
-								"title":"Caption"
+							"name":{
+								"title":"Name",
+								"type":"string"
+							},
+							"type":{
+								"title":"Type",
+								"type":"string"
+							},
+							"url":{
+								"title":"Url",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false
+						"type":"object"
 					},
+					"required":[],
 					"title":"Attachments",
-					"required":[]
+					"type":"array"
+				},
+				"caseId":{
+					"title":"Case",
+					"type":"string"
 				},
 				"coPilotBlocks":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{},
-						"additionalProperties":false
+						"type":"object"
 					},
-					"title":"Co Pilot Blocks"
-				},
-				"publishToEndUser":{
-					"type":"boolean",
-					"title":"Publish To End User"
-				},
-				"temporaryMessage":{
-					"type":"boolean",
-					"title":"Temporary Message"
-				},
-				"fromCustomerUserId":{
-					"type":"string",
-					"title":"From Customer User Id"
-				},
-				"referenceList":{
-					"type":"array",
-					"items":{
-						"type":"string"
-					},
-					"title":"Reference List"
-				},
-				"internalMessageType":{
-					"type":"string",
-					"title":"Internal Message Type"
-				},
-				"async":{
-					"type":"boolean",
-					"title":"Async"
+					"title":"Co Pilot Blocks",
+					"type":"array"
 				},
 				"deepResearchEnabled":{
-					"type":"boolean",
-					"title":"Deep Research Enabled"
+					"title":"Deep Research Enabled",
+					"type":"boolean"
+				},
+				"endConversation":{
+					"title":"EndConversation",
+					"type":"boolean"
 				},
 				"followups":{
-					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Followups"
+					"title":"Followups",
+					"type":"array"
+				},
+				"fromCustomerUserId":{
+					"title":"From Customer User Id",
+					"type":"string"
+				},
+				"internalMessageType":{
+					"title":"Internal Message Type",
+					"type":"string"
+				},
+				"publishToEndUser":{
+					"title":"Publish To End User",
+					"type":"boolean"
+				},
+				"referenceList":{
+					"items":{
+						"type":"string"
+					},
+					"title":"Reference List",
+					"type":"array"
+				},
+				"responses":{
+					"items":{
+						"additionalProperties":false,
+						"properties":{
+							"Choices":{
+								"items":{
+									"additionalProperties":false,
+									"properties":{
+										"id":{
+											"title":"Id",
+											"type":"string"
+										},
+										"title":{
+											"title":"Title",
+											"type":"string"
+										},
+										"url":{
+											"title":"Url",
+											"type":"string"
+										}
+									},
+									"type":"object"
+								},
+								"required":[],
+								"title":"Choices",
+								"type":"array"
+							},
+							"Url":{
+								"title":"Url",
+								"type":"string"
+							},
+							"content":{
+								"title":"Content",
+								"type":"string"
+							},
+							"language":{
+								"title":"Language",
+								"type":"string"
+							}
+						},
+						"type":"object"
+					},
+					"title":"Response",
+					"type":"array"
+				},
+				"temporaryMessage":{
+					"title":"Temporary Message",
+					"type":"boolean"
 				}
 			},
 			"required":[
@@ -171,28 +171,28 @@
 			]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"publish response interface (ai agent)",
-	"modifiedTime":1769421995152,
+	"modifiedTime":1769506721923,
 	"name":"Publish Response Interface (AI Agent)",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"success":{
-					"type":"boolean",
-					"title":"success"
-				},
 				"messageId":{
-					"type":"string",
-					"title":"Message Id"
+					"title":"Message Id",
+					"type":"string"
+				},
+				"success":{
+					"title":"success",
+					"type":"boolean"
 				}
 			},
 			"required":[]
@@ -200,5 +200,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":130
+	"version":135
 }
