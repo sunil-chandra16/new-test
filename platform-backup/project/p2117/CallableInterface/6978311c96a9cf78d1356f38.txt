@@ -1,6 +1,6 @@
 {
 	"createdTime":1769484617593,
-	"deleted":false,
+	"deleted":true,
 	"description":"pBmpSopvpY",
 	"id":"6978311c96a9cf78d1356f38",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aihcozeajsut",
-	"modifiedTime":1769484692505,
+	"modifiedTime":1769485566017,
 	"name":"changeSetUAT2AIhCozEaJSUT",
 	"output":{
 		"type":"SCHEMA",
@@ -42,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":1
+	"version":2
 }
