@@ -183,7 +183,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"call llm model vanilla",
-	"modifiedTime":1769010340102,
+	"modifiedTime":1769506721808,
 	"name":"Call LLM Model Vanilla",
 	"output":{
 		"type":"SCHEMA",
@@ -251,5 +251,5 @@
 	},
 	"ownerUserId":43523,
 	"standard":false,
-	"version":69
+	"version":75
 }
