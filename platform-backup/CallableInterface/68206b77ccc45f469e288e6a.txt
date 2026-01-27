@@ -18,116 +18,116 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
+				"aiAgentId":{
+					"title":"aiAgentId",
+					"type":"string"
+				},
 				"chunks":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
-							"chunkMetadata":{
-								"type":"object",
-								"title":"chunkMetadata"
-							},
-							"text":{
-								"type":"string",
-								"title":"text"
-							},
-							"semanticScore":{
-								"type":"number",
-								"title":"semanticScore"
-							},
 							"authorEmail":{
-								"type":"string",
-								"title":"Author Email"
+								"title":"Author Email",
+								"type":"string"
+							},
+							"chunkMetadata":{
+								"title":"chunkMetadata",
+								"type":"object"
 							},
 							"chunk_uuid":{
-								"type":"integer",
-								"title":"Chunk Uuid"
+								"title":"Chunk Uuid",
+								"type":"integer"
+							},
+							"semanticScore":{
+								"title":"semanticScore",
+								"type":"number"
+							},
+							"text":{
+								"title":"text",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false,
-						"required":[]
+						"required":[],
+						"type":"object"
 					},
-					"title":"chunks"
-				},
-				"userQuery":{
-					"type":"string",
-					"title":"userQuery"
-				},
-				"aiAgentId":{
-					"type":"string",
-					"title":"aiAgentId"
-				},
-				"searcherId":{
-					"type":"string",
-					"title":"searcherId"
+					"title":"chunks",
+					"type":"array"
 				},
 				"internalAgentModelId":{
-					"type":"string",
-					"title":"Internal Agent Model Id"
+					"title":"Internal Agent Model Id",
+					"type":"string"
+				},
+				"searcherId":{
+					"title":"searcherId",
+					"type":"string"
+				},
+				"userQuery":{
+					"title":"userQuery",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"chunk reranker",
-	"modifiedTime":1769421995197,
+	"modifiedTime":1769506136764,
 	"name":"Chunk ReRanker",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"chunks":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
 							"chunkMetadata":{
-								"type":"object",
-								"properties":{},
-								"title":"chunkMetadata",
 								"additionalProperties":false,
-								"required":[]
-							},
-							"rank":{
-								"type":"integer",
-								"title":"rank"
-							},
-							"score":{
-								"type":"number",
-								"title":"score"
-							},
-							"text":{
-								"type":"string",
-								"title":"text"
+								"properties":{},
+								"required":[],
+								"title":"chunkMetadata",
+								"type":"object"
 							},
 							"chunk_uuid":{
-								"type":"integer",
-								"title":"Chunk Uuid"
+								"title":"Chunk Uuid",
+								"type":"integer"
+							},
+							"rank":{
+								"title":"rank",
+								"type":"integer"
+							},
+							"score":{
+								"title":"score",
+								"type":"number"
+							},
+							"text":{
+								"title":"text",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false,
-						"required":[]
+						"required":[],
+						"type":"object"
 					},
-					"title":"chunks"
+					"title":"chunks",
+					"type":"array"
 				}
 			}
 		}
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":81
+	"version":84
 }
