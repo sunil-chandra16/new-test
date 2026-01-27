@@ -37,7 +37,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"filter metadata sql",
-	"modifiedTime":1769010340100,
+	"modifiedTime":1769506721808,
 	"name":"Filter Metadata SQL",
 	"output":{
 		"type":"SCHEMA",
@@ -105,5 +105,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":7
+	"version":13
 }
