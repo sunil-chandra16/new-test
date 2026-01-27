@@ -47,7 +47,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"knowledge search (workflow agent)",
-	"modifiedTime":1769505870632,
+	"modifiedTime":1769506546939,
 	"name":"Knowledge Search (Workflow Agent)",
 	"output":{
 		"dynamic":false,
@@ -71,5 +71,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":86
+	"version":89
 }
