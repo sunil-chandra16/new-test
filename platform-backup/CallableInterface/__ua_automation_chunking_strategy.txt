@@ -71,7 +71,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"automation chunking strategy",
-	"modifiedTime":1769010340265,
+	"modifiedTime":1769506721923,
 	"name":"Automation Chunking Strategy",
 	"output":{
 		"type":"SCHEMA",
@@ -120,5 +120,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":31
+	"version":37
 }
