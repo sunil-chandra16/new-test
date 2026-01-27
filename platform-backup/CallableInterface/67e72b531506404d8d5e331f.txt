@@ -182,11 +182,18 @@
 				"response_format":{
 					"additionalProperties":false,
 					"properties":{
+						"schema":{
+							"additionalProperties":false,
+							"properties":{},
+							"title":"Schema",
+							"type":"object"
+						},
 						"type":{
 							"title":"type",
 							"type":"string"
 						}
 					},
+					"required":[],
 					"title":"response_format",
 					"type":"object"
 				},
@@ -229,6 +236,22 @@
 				"temperature":{
 					"title":"temperature",
 					"type":"integer"
+				},
+				"thinkingConfig":{
+					"additionalProperties":false,
+					"properties":{
+						"includeThoughts":{
+							"title":"includeThoughts",
+							"type":"boolean"
+						},
+						"thinkingBudget":{
+							"title":"thinkingBudget",
+							"type":"integer"
+						}
+					},
+					"required":[],
+					"title":"thinkingConfig",
+					"type":"object"
 				},
 				"thoughtMethod":{
 					"title":"Thought Method",
@@ -289,7 +312,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"create llm payload schema",
-	"modifiedTime":1769010340264,
+	"modifiedTime":1769506721923,
 	"name":"Create LLM Payload Schema",
 	"output":{
 		"type":"SCHEMA",
@@ -306,10 +329,11 @@
 					"title":"payload",
 					"type":"object"
 				}
-			}
+			},
+			"required":[]
 		}
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":91
+	"version":97
 }
