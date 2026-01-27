@@ -4,6 +4,7 @@
 	"description":"sDwsZuaopc",
 	"id":"697829b296a9cf78d135575b",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1769482877533,
 	"name":"changeSetUAT2AIWigRayGGrC",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
