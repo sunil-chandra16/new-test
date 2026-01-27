@@ -43,7 +43,7 @@
 	},
 	"lastModifiedBy":45011,
 	"lcName":"best practice | automation | run group checks interface",
-	"modifiedTime":1768992783130,
+	"modifiedTime":1769506129768,
 	"name":"Best Practice | Automation | Run Group Checks Interface",
 	"output":{
 		"type":"SCHEMA",
@@ -106,5 +106,5 @@
 	"ownerUserId":47540,
 	"projectId":2103,
 	"standard":false,
-	"version":11
+	"version":12
 }
