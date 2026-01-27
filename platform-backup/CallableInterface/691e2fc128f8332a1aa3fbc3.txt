@@ -22,23 +22,23 @@
 				"is_optional":true
 			},
 			"properties":{
-				"text":{
-					"type":"string",
-					"title":"Text"
-				},
 				"metadata":{
-					"type":"object",
-					"properties":{},
 					"additionalProperties":false,
-					"title":"Metadata"
+					"properties":{},
+					"title":"Metadata",
+					"type":"object"
+				},
+				"text":{
+					"title":"Text",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"pii mask knowledge chunk interface | redacted",
-	"modifiedTime":1769421995181,
+	"modifiedTime":1769506721721,
 	"name":"PII Mask Knowledge Chunk Interface | redacted",
 	"output":{
 		"type":"SCHEMA",
@@ -49,32 +49,32 @@
 				"is_optional":true
 			},
 			"properties":{
-				"text":{
-					"type":"string",
-					"title":"Text"
-				},
 				"proceed":{
-					"type":"boolean",
-					"title":"Proceed"
+					"title":"Proceed",
+					"type":"boolean"
 				},
 				"redactions":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
 							"originalWord":{
-								"type":"string",
-								"title":"Original Word"
+								"title":"Original Word",
+								"type":"string"
 							},
 							"redactedWord":{
-								"type":"string",
-								"title":"Redacted Word"
+								"title":"Redacted Word",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false,
-						"required":[]
+						"required":[],
+						"type":"object"
 					},
-					"title":"Redactions"
+					"title":"Redactions",
+					"type":"array"
+				},
+				"text":{
+					"title":"Text",
+					"type":"string"
 				}
 			},
 			"required":[]
@@ -82,5 +82,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":4
+	"version":9
 }
