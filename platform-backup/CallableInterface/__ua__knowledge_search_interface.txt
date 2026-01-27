@@ -14,7 +14,6 @@
 	},
 	"id":"__ua__knowledge_search_interface",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -26,32 +25,31 @@
 					"type":"string"
 				},
 				"knowledges":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{},
-						"additionalProperties":false
+						"type":"object"
 					},
-					"title":"Knowledges"
-				},
-				"name":{
-					"type":"string",
-					"title":"Name"
+					"title":"Knowledges",
+					"type":"array"
 				},
 				"model":{
-					"type":"string",
-					"title":"Model"
+					"title":"Model",
+					"type":"string"
+				},
+				"name":{
+					"title":"Name",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"knowledge search (workflow agent)",
-	"modifiedTime":1769421995215,
+	"modifiedTime":1769505870632,
 	"name":"Knowledge Search (Workflow Agent)",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -59,13 +57,13 @@
 				"is_optional":true
 			},
 			"properties":{
-				"success":{
-					"type":"boolean",
-					"title":"Success"
-				},
 				"response":{
-					"type":"string",
-					"title":"Response"
+					"title":"Response",
+					"type":"string"
+				},
+				"success":{
+					"title":"Success",
+					"type":"boolean"
 				}
 			},
 			"required":[]
@@ -73,5 +71,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":85
+	"version":86
 }
