@@ -21,37 +21,37 @@
 				"is_optional":true
 			},
 			"properties":{
-				"url":{
-					"type":"string",
-					"title":"Url"
-				},
-				"uploadToFile":{
-					"type":"boolean",
-					"title":"Upload To File"
-				},
-				"toMarkdown":{
-					"type":"boolean",
-					"title":"To Markdown"
+				"aiAgentId":{
+					"title":"AI Agent Id",
+					"type":"string"
 				},
 				"caseId":{
-					"type":"string",
-					"title":"Case Id"
-				},
-				"aiAgentId":{
-					"type":"string",
-					"title":"AI Agent Id"
+					"title":"Case Id",
+					"type":"string"
 				},
 				"internalModelId":{
-					"type":"string",
-					"title":"Internal Model Id"
+					"title":"Internal Model Id",
+					"type":"string"
+				},
+				"toMarkdown":{
+					"title":"To Markdown",
+					"type":"boolean"
+				},
+				"uploadToFile":{
+					"title":"Upload To File",
+					"type":"boolean"
+				},
+				"url":{
+					"title":"Url",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"web scraping",
-	"modifiedTime":1769421995232,
+	"modifiedTime":1769506546674,
 	"name":"Web Scraping",
 	"output":{
 		"dynamic":false,
@@ -61,19 +61,19 @@
 				"is_optional":true
 			},
 			"properties":{
-				"web_content":{
-					"type":"string",
-					"title":"Web Content"
-				},
 				"file":{
-					"type":"object",
-					"properties":{},
 					"additionalProperties":false,
-					"title":"File"
+					"properties":{},
+					"title":"File",
+					"type":"object"
 				},
 				"markdownContent":{
-					"type":"string",
-					"title":"Markdown Content"
+					"title":"Markdown Content",
+					"type":"string"
+				},
+				"web_content":{
+					"title":"Web Content",
+					"type":"string"
 				}
 			},
 			"required":[]
@@ -81,5 +81,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":true,
-	"version":31
+	"version":35
 }
