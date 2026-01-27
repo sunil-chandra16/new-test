@@ -1,6 +1,6 @@
 {
 	"createdTime":1769424536963,
-	"deleted":false,
+	"deleted":true,
 	"description":"fcXIKNIHRZ",
 	"id":"6977466b96a9cf78d12ef218",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aisocmyodjjb",
-	"modifiedTime":1769424536963,
+	"modifiedTime":1769481163047,
 	"name":"changeSetUAT2AISoCMYoDJJb",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
