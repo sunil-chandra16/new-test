@@ -1,6 +1,6 @@
 {
 	"createdTime":1769638882354,
-	"deleted":false,
+	"deleted":true,
 	"description":"MyLRsDcTmt",
 	"id":"697a8be27cf0ff7dad64dc89",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiqyyhwtersi",
-	"modifiedTime":1769638882354,
+	"modifiedTime":1769640890514,
 	"name":"changeSetQA2AIQYYHWTErsI",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
