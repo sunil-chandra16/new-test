@@ -1,6 +1,6 @@
 {
 	"createdTime":1769176730507,
-	"deleted":false,
+	"deleted":true,
 	"description":"OwlVSohozd",
 	"id":"69737e9aff49f44a9a1a137b",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aigloxzudczt",
-	"modifiedTime":1769176730507,
+	"modifiedTime":1769636882917,
 	"name":"changeSetQA2AIGLoXzudCZT",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
