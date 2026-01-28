@@ -1,6 +1,6 @@
 {
 	"createdTime":1769175517596,
-	"deleted":false,
+	"deleted":true,
 	"description":"NtiKicsfKF",
 	"id":"6973781e1ad40809b7469f35",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aihywgtlhakl",
-	"modifiedTime":1769175517596,
+	"modifiedTime":1769636883064,
 	"name":"changeSetQA2AIhYwGTlHAKl",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
