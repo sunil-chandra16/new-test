@@ -4,6 +4,7 @@
 	"description":"MyLRsDcTmt",
 	"id":"697a8be27cf0ff7dad64dc89",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1769638882354,
 	"name":"changeSetQA2AIQYYHWTErsI",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
