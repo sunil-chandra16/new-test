@@ -1,6 +1,6 @@
 {
 	"createdTime":1769639386538,
-	"deleted":false,
+	"deleted":true,
 	"description":"ESUAWgLKcL",
 	"id":"697a8dda7cf0ff7dad64ea1f",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aibqwjuqmqlw",
-	"modifiedTime":1769639386538,
+	"modifiedTime":1769640890437,
 	"name":"changeSetQA2AIbQWJUqMQLW",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
