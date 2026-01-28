@@ -1,6 +1,6 @@
 {
 	"createdTime":1769638341487,
-	"deleted":false,
+	"deleted":true,
 	"description":"XDWCnkeZMD",
 	"id":"697a89c57cf0ff7dad64d2c9",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aioesojuwnmc",
-	"modifiedTime":1769638341487,
+	"modifiedTime":1769640890533,
 	"name":"changeSetQA2AIOEsOJUWNMC",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
