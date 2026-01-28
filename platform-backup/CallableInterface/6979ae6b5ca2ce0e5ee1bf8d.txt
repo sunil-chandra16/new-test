@@ -1,6 +1,6 @@
 {
 	"createdTime":1769582187498,
-	"deleted":false,
+	"deleted":true,
 	"description":"RpPlpnGovt",
 	"id":"6979ae6b5ca2ce0e5ee1bf8d",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaipyvykufbrv",
-	"modifiedTime":1769582187498,
+	"modifiedTime":1769594204211,
 	"name":"changeSetLocalAIPYvykufbrv",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
