@@ -1,6 +1,6 @@
 {
 	"createdTime":1769648284799,
-	"deleted":false,
+	"deleted":true,
 	"description":"VtxWhLrgpY",
 	"id":"697ab09c7cf0ff7dad661493",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2airgrvhhlcvc",
-	"modifiedTime":1769648284799,
+	"modifiedTime":1769723564664,
 	"name":"changeSetQA2AIrgrVHHlcVC",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
