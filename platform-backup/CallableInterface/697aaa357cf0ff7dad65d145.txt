@@ -4,6 +4,7 @@
 	"description":"DBMXcToHRX",
 	"id":"697aaa357cf0ff7dad65d145",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1769646645289,
 	"name":"changeSetQA2AIvTiFwgEHOr",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
