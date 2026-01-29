@@ -1,6 +1,6 @@
 {
 	"createdTime":1769646160375,
-	"deleted":false,
+	"deleted":true,
 	"description":"vmEuBKRTNE",
 	"id":"697aa8507cf0ff7dad65c537",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aihzzvzpqbwy",
-	"modifiedTime":1769646160375,
+	"modifiedTime":1769723564736,
 	"name":"changeSetQA2AIHZZVZPQbWY",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
