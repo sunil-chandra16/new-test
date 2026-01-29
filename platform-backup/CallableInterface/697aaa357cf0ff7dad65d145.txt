@@ -1,6 +1,6 @@
 {
 	"createdTime":1769646645289,
-	"deleted":false,
+	"deleted":true,
 	"description":"DBMXcToHRX",
 	"id":"697aaa357cf0ff7dad65d145",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aivtifwgehor",
-	"modifiedTime":1769646645289,
+	"modifiedTime":1769723564713,
 	"name":"changeSetQA2AIvTiFwgEHOr",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
