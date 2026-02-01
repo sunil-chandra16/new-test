@@ -1,6 +1,6 @@
 {
 	"createdTime":1769810854154,
-	"deleted":false,
+	"deleted":true,
 	"description":"DNPfEGgsXD",
 	"id":"697d2ba686f1060770d3ac6c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aidiuozcxjhf",
-	"modifiedTime":1769810854154,
+	"modifiedTime":1769982623505,
 	"name":"changeSetQA2AIdiuoZCxjhF",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
