@@ -1,6 +1,6 @@
 {
 	"createdTime":1770001784274,
-	"deleted":false,
+	"deleted":true,
 	"description":"lgXDKeyDAm",
 	"id":"6980157884886e606acf8a50",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aifkcoervjaz",
-	"modifiedTime":1770001784274,
+	"modifiedTime":1770069187648,
 	"name":"changeSetQA2AIFkCoeRVJAZ",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
