@@ -1,6 +1,6 @@
 {
 	"createdTime":1769987551007,
-	"deleted":false,
+	"deleted":true,
 	"description":"MESTJKPIOh",
 	"id":"697fdddf84886e606acdcf21",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aitaekgqpwdj",
-	"modifiedTime":1769987551007,
+	"modifiedTime":1770069187844,
 	"name":"changeSetQA2AITaEkgQpwDj",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
