@@ -1,6 +1,6 @@
 {
 	"createdTime":1769988065487,
-	"deleted":false,
+	"deleted":true,
 	"description":"DDUimcySkw",
 	"id":"697fdfe184886e606acdf408",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aixnprndxjbw",
-	"modifiedTime":1769988065487,
+	"modifiedTime":1770069187819,
 	"name":"changeSetQA2AIXnpRNdxJbW",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
