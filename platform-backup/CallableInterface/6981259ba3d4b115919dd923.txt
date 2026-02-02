@@ -1,6 +1,6 @@
 {
 	"createdTime":1770071451849,
-	"deleted":false,
+	"deleted":true,
 	"description":"WOOPBlaCuK",
 	"id":"6981259ba3d4b115919dd923",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aigjqgllllbt",
-	"modifiedTime":1770071451849,
+	"modifiedTime":1770072874698,
 	"name":"changeSetQA2AIgJQGllllbt",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
