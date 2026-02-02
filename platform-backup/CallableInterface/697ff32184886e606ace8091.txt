@@ -1,6 +1,6 @@
 {
 	"createdTime":1769992993769,
-	"deleted":false,
+	"deleted":true,
 	"description":"AmHlcKHtwr",
 	"id":"697ff32184886e606ace8091",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiaafaulmays",
-	"modifiedTime":1769992993769,
+	"modifiedTime":1770069187763,
 	"name":"changeSetQA2AIaaFAULmAYs",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
