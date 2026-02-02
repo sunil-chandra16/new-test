@@ -1,6 +1,6 @@
 {
 	"createdTime":1769997127627,
-	"deleted":false,
+	"deleted":true,
 	"description":"vCOvcndGXE",
 	"id":"6980034784886e606acef557",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiwrhhpzggsp",
-	"modifiedTime":1769997127627,
+	"modifiedTime":1770069187712,
 	"name":"changeSetQA2AIWrhHpzgGSp",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
