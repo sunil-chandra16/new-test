@@ -1,6 +1,6 @@
 {
 	"createdTime":1770071451578,
-	"deleted":false,
+	"deleted":true,
 	"description":"MBYEMtmLlF",
 	"id":"6981259ba3d4b115919dd920",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiwwriugumzk",
-	"modifiedTime":1770071451578,
+	"modifiedTime":1770072874719,
 	"name":"changeSetQA2AIWwRiugumzK",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
