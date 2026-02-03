@@ -1,6 +1,6 @@
 {
 	"createdTime":1770114706405,
-	"deleted":false,
+	"deleted":true,
 	"description":"PePgiCYcif",
 	"id":"6981ce3b4958d92ba59c9a8c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aixwaojcihyj",
-	"modifiedTime":1770114706405,
+	"modifiedTime":1770138213016,
 	"name":"changeSetQA2AIXWAOJcihYj",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
