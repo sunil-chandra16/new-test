@@ -1,6 +1,6 @@
 {
 	"createdTime":1770115933823,
-	"deleted":false,
+	"deleted":true,
 	"description":"rMuPaNixcm",
 	"id":"6981d35da771b2772006ed3c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aigysvoiqifi",
-	"modifiedTime":1770115933823,
+	"modifiedTime":1770138212840,
 	"name":"changeSetQA2AIGysvoIqifI",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
