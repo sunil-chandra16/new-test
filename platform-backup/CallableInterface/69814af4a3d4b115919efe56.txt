@@ -1,6 +1,6 @@
 {
 	"createdTime":1770081012568,
-	"deleted":false,
+	"deleted":true,
 	"description":"XDjpsSOrlW",
 	"id":"69814af4a3d4b115919efe56",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aikljkehxovp",
-	"modifiedTime":1770081012568,
+	"modifiedTime":1770112884090,
 	"name":"changeSetQA2AIkLJKehxoVP",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
