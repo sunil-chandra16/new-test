@@ -1,6 +1,6 @@
 {
 	"createdTime":1770084137535,
-	"deleted":false,
+	"deleted":true,
 	"description":"SFnDWafiHF",
 	"id":"69815729a3d4b115919f5c45",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aisegmwhkkvb",
-	"modifiedTime":1770084137535,
+	"modifiedTime":1770112884011,
 	"name":"changeSetQA2AISEgmwhkKvB",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
