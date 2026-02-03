@@ -1,6 +1,6 @@
 {
 	"createdTime":1770157974056,
-	"deleted":false,
+	"deleted":true,
 	"description":"AmvihwESoL",
 	"id":"6982779663f6240cf8c4df12",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2airyeiwikszh",
-	"modifiedTime":1770157974056,
+	"modifiedTime":1770159213352,
 	"name":"changeSetQA2AIryEiwIKSzh",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
