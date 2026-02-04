@@ -4,6 +4,7 @@
 	"description":"used for testing",
 	"id":"69839d3cdb4e07700f6e284c",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -24,6 +25,7 @@
 	"modifiedTime":1770233148848,
 	"name":"hs-test",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
