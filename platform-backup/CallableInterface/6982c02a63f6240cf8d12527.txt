@@ -4,6 +4,7 @@
 	"description":"OvjkTvWOdS",
 	"id":"6982c02a63f6240cf8d12527",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1770176554993,
 	"name":"changeSetQA2AInPwbSDPhex",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
