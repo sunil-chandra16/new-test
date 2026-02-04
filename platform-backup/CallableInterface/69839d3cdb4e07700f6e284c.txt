@@ -1,0 +1,38 @@
+{
+	"createdTime":1770233148848,
+	"deleted":false,
+	"description":"used for testing",
+	"id":"69839d3cdb4e07700f6e284c",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"field1":{
+					"type":"string",
+					"title":"Field 1"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":504,
+	"lcName":"hs-test",
+	"modifiedTime":1770233148848,
+	"name":"hs-test",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":504,
+	"standard":false,
+	"version":0
+}
