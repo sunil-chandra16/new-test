@@ -1,6 +1,6 @@
 {
 	"createdTime":1770287981872,
-	"deleted":false,
+	"deleted":true,
 	"description":"BTbhdRBrCG",
 	"id":"698471700205912051ed2df0",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aicdokpjepan",
-	"modifiedTime":1770287981872,
+	"modifiedTime":1770313569193,
 	"name":"changeSetUAT2AIcDOkPJePaN",
 	"output":{
 		"type":"SCHEMA",
@@ -42,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":0
+	"version":1
 }
