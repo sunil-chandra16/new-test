@@ -28,7 +28,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"interface_telecom",
-	"modifiedTime":1769505955943,
+	"modifiedTime":1770297538932,
 	"name":"interface_telecom",
 	"output":{
 		"type":"SCHEMA",
@@ -37,5 +37,5 @@
 	},
 	"ownerUserId":34,
 	"standard":false,
-	"version":672
+	"version":673
 }
