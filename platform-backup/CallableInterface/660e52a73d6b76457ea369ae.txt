@@ -37,7 +37,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"callable interface 4",
-	"modifiedTime":1769505936428,
+	"modifiedTime":1770297523726,
 	"name":"Callable Interface 4",
 	"output":{
 		"type":"SCHEMA",
@@ -46,5 +46,5 @@
 	},
 	"ownerUserId":188,
 	"standard":false,
-	"version":671
+	"version":672
 }
