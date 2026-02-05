@@ -1,0 +1,61 @@
+{
+	"createdTime":1712486287819,
+	"deleted":false,
+	"description":"Test 1234",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"66681c602261d6426d663042"
+				],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"661173d3d371262b068259b2",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"$schema":"http://json-schema.org/draft-07/schema#",
+			"type":"object",
+			"properties":{
+				"Test":{
+					"type":"string",
+					"title":"Test 1234Test 1234"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":-1,
+	"lcName":"test 123443434343434",
+	"modifiedTime":1770297624918,
+	"name":"Test 123443434343434",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"$schema":"http://json-schema.org/draft-07/schema#",
+			"type":"object",
+			"properties":{
+				"User":{
+					"type":"string",
+					"title":"User"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":188,
+	"standard":false,
+	"version":673
+}
