@@ -23,10 +23,10 @@
 			},
 			"properties":{
 				"sourceResponse":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{},
-					"title":"Source Response",
-					"type":"object"
+					"additionalProperties":false,
+					"title":"Source Response"
 				}
 			},
 			"required":[]
@@ -34,7 +34,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"knowledge chunkmetadata resolver",
-	"modifiedTime":1769506721809,
+	"modifiedTime":1770297372917,
 	"name":"Knowledge ChunkMetadata Resolver",
 	"output":{
 		"type":"SCHEMA",
@@ -46,10 +46,10 @@
 			},
 			"properties":{
 				"chunkMetadata":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{},
-					"title":"Chunk Metadata",
-					"type":"object"
+					"additionalProperties":false,
+					"title":"Chunk Metadata"
 				}
 			},
 			"required":[]
@@ -57,5 +57,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":11
+	"version":12
 }
