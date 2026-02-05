@@ -1,6 +1,6 @@
 {
 	"createdTime":1770287402168,
-	"deleted":false,
+	"deleted":true,
 	"description":"MyAYbKENQI",
 	"id":"6984712aa452e7024cc98479",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aivdfxmnddit",
-	"modifiedTime":1770287402168,
+	"modifiedTime":1770313574512,
 	"name":"changeSetUAT2AIvDfxMnDDIt",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
