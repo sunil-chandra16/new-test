@@ -1,0 +1,41 @@
+{
+	"createdTime":1717479410886,
+	"deleted":false,
+	"description":"to be deleted",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"66681c602261d6426d663042"
+				],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"665ea7f2c48d29202b54884e",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{}
+	},
+	"lastModifiedBy":-1,
+	"lcName":"to be deleted",
+	"modifiedTime":1770297620832,
+	"name":"to be deleted",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{}
+	},
+	"ownerUserId":403,
+	"standard":false,
+	"version":673
+}
