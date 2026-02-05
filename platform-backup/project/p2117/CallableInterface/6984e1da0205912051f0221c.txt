@@ -1,6 +1,6 @@
 {
 	"createdTime":1770316414135,
-	"deleted":false,
+	"deleted":true,
 	"description":"KadxkbvAQO",
 	"id":"6984e1da0205912051f0221c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aigzkaigcbht",
-	"modifiedTime":1770316414135,
+	"modifiedTime":1770317310203,
 	"name":"changeSetUAT2AIgZKAIGCbHt",
 	"output":{
 		"type":"SCHEMA",
@@ -42,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":0
+	"version":1
 }
