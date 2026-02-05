@@ -1,6 +1,6 @@
 {
 	"createdTime":1770286777226,
-	"deleted":false,
+	"deleted":true,
 	"description":"bBPGxfKwtl",
 	"id":"69846eb9a452e7024cc8b3c4",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2ainiynfiwhke",
-	"modifiedTime":1770286777226,
+	"modifiedTime":1770313574616,
 	"name":"changeSetUAT2AINIYnFiWhke",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
