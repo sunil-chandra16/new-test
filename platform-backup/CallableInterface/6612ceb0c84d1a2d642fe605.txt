@@ -38,7 +38,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"update check 232344",
-	"modifiedTime":1769505999719,
+	"modifiedTime":1770297567159,
 	"name":"Update check 232344",
 	"output":{
 		"type":"SCHEMA",
@@ -57,5 +57,5 @@
 	},
 	"ownerUserId":188,
 	"standard":false,
-	"version":671
+	"version":672
 }
