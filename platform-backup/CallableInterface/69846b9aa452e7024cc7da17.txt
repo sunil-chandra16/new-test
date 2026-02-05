@@ -1,6 +1,6 @@
 {
 	"createdTime":1770285978077,
-	"deleted":false,
+	"deleted":true,
 	"description":"UjimiSoDNC",
 	"id":"69846b9aa452e7024cc7da17",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aixgfugqklfu",
-	"modifiedTime":1770285978077,
+	"modifiedTime":1770313574695,
 	"name":"changeSetUAT2AIxgFUGQKLfU",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
