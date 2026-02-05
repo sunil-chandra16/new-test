@@ -1,0 +1,65 @@
+{
+	"createdTime":1712486334733,
+	"deleted":false,
+	"description":"Update check",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"66681c602261d6426d663042"
+				],
+				"principalType":"USER_GROUPS"
+			}
+		]
+	},
+	"id":"661277ae90933156d364821e",
+	"input":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"$schema":"http://json-schema.org/draft-07/schema#",
+			"type":"object",
+			"properties":{
+				"user":{
+					"type":"string",
+					"title":"User"
+				},
+				"asd":{
+					"type":"string",
+					"title":"Asd"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":-1,
+	"lcName":"update check 2323",
+	"modifiedTime":1770297582516,
+	"name":"Update check 2323",
+	"output":{
+		"type":"SCHEMA",
+		"dynamic":false,
+		"schema":{
+			"$schema":"http://json-schema.org/draft-07/schema#",
+			"type":"object",
+			"properties":{
+				"user_x":{
+					"type":"string",
+					"title":"User X"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":188,
+	"standard":false,
+	"version":673
+}
