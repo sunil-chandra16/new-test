@@ -4,6 +4,7 @@
 	"description":"Searching node builder and node builder resources in opensearch",
 	"id":"698487e6fddf21062d4daedb",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -17,6 +18,7 @@
 	"modifiedTime":1770293222682,
 	"name":"testing",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
