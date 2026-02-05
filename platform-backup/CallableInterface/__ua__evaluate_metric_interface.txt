@@ -28,6 +28,7 @@
 	},
 	"id":"__ua__evaluate_metric_interface",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -263,6 +264,7 @@
 	"modifiedTime":1770295679341,
 	"name":"AI Metric Evaluator",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
