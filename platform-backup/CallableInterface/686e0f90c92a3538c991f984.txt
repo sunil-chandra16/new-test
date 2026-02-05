@@ -14,7 +14,6 @@
 	},
 	"id":"686e0f90c92a3538c991f984",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -23,39 +22,39 @@
 			},
 			"properties":{
 				"knowledgeId":{
-					"title":"Knowledge Id",
-					"type":"string"
-				},
-				"knowledgeVersion":{
-					"title":"Knowledge Version",
-					"type":"integer"
-				},
-				"metadata":{
-					"additionalProperties":false,
-					"properties":{},
-					"title":"Metadata",
-					"type":"object"
+					"type":"string",
+					"title":"Knowledge Id"
 				},
 				"resourceType":{
-					"title":"Resource Type",
-					"type":"string"
+					"type":"string",
+					"title":"Resource Type"
+				},
+				"sourceResponse":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Source Response"
 				},
 				"sharedWithIds":{
+					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Shared With Ids",
-					"type":"array"
+					"title":"Shared With Ids"
 				},
-				"sourceResponse":{
-					"additionalProperties":false,
-					"properties":{},
-					"title":"Source Response",
-					"type":"object"
+				"knowledgeVersion":{
+					"type":"integer",
+					"title":"Knowledge Version"
 				},
 				"uniqueEntityId":{
-					"title":"Unique Entity Id",
-					"type":"string"
+					"type":"string",
+					"title":"Unique Entity Id"
+				},
+				"metadata":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Metadata"
 				}
 			},
 			"required":[
@@ -65,10 +64,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer with resourcetype",
-	"modifiedTime":1769506721721,
+	"modifiedTime":1770297372895,
 	"name":"Knowledge Indexer with ResourceType",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -77,8 +75,8 @@
 			},
 			"properties":{
 				"success":{
-					"title":"Success",
-					"type":"boolean"
+					"type":"boolean",
+					"title":"Success"
 				}
 			},
 			"required":[]
@@ -86,5 +84,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":93
+	"version":94
 }
