@@ -1,6 +1,6 @@
 {
 	"createdTime":1770315569946,
-	"deleted":false,
+	"deleted":true,
 	"description":"cTTfwhxpGJ",
 	"id":"6984df31746e436a4f3f250a",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2ailplplgsfir",
-	"modifiedTime":1770315569946,
+	"modifiedTime":1770317311491,
 	"name":"changeSetUAT2AIlpLplgsFiR",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
