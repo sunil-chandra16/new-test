@@ -1,6 +1,6 @@
 {
 	"createdTime":1770286177782,
-	"deleted":false,
+	"deleted":true,
 	"description":"DLzSAMMQoX",
 	"id":"69846c61a452e7024cc81ede",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2aitfzukmvbkv",
-	"modifiedTime":1770286177782,
+	"modifiedTime":1770313574668,
 	"name":"changeSetUAT2AItfZUKMVbkv",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
