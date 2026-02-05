@@ -1,6 +1,6 @@
 {
 	"createdTime":1770287546582,
-	"deleted":false,
+	"deleted":true,
 	"description":"JVbPwAaDmN",
 	"id":"698471baa452e7024cc9aedc",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetuat2airirfsnelqu",
-	"modifiedTime":1770287546582,
+	"modifiedTime":1770313574482,
 	"name":"changeSetUAT2AIRIrFSnELqu",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
