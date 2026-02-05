@@ -4,6 +4,7 @@
 	"description":"Event Streams Interface",
 	"id":"6984c0ae943b9e4895bde8fc",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -25,9 +26,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"event streams",
-	"modifiedTime":1770307758842,
+	"modifiedTime":1770307758719,
 	"name":"Event Streams",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
