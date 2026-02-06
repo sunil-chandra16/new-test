@@ -4,6 +4,7 @@
 	"description":"keomiqTrpy",
 	"id":"6985eb3dab262c1a83182101",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1770384243816,
 	"name":"changeSetLocalAIAmUaTKrgBM",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
