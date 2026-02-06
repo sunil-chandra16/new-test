@@ -1,9 +1,10 @@
 {
 	"createdTime":1770385135292,
-	"deleted":false,
+	"deleted":true,
 	"description":"ydloHaGWln",
 	"id":"6985eeb0ab262c1a83182b83",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaibtjmchajru",
-	"modifiedTime":1770385135292,
+	"modifiedTime":1770385180174,
 	"name":"changeSetLocalAIbtJMCHAjRU",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
