@@ -1,6 +1,6 @@
 {
 	"createdTime":1770384243816,
-	"deleted":false,
+	"deleted":true,
 	"description":"keomiqTrpy",
 	"id":"6985eb3dab262c1a83182101",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaiamuatkrgbm",
-	"modifiedTime":1770384243816,
+	"modifiedTime":1770384902536,
 	"name":"changeSetLocalAIAmUaTKrgBM",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
