@@ -4,6 +4,7 @@
 	"description":"CPNsjbDGwz",
 	"id":"6985ef20ab262c1a83182c83",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1770385249297,
 	"name":"changeSetLocalAInuhSMTrStM",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
