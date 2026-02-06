@@ -34,7 +34,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"knowledge chunkmetadata resolver",
-	"modifiedTime":1770307798141,
+	"modifiedTime":1770358392935,
 	"name":"Knowledge ChunkMetadata Resolver",
 	"output":{
 		"type":"SCHEMA",
@@ -57,5 +57,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":16
+	"version":17
 }
