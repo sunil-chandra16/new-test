@@ -1,9 +1,10 @@
 {
 	"createdTime":1770384966977,
-	"deleted":false,
+	"deleted":true,
 	"description":"wvpnWnINuo",
 	"id":"6985ee0bab262c1a831829f0",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaicdhwyyldnn",
-	"modifiedTime":1770384966977,
+	"modifiedTime":1770385068596,
 	"name":"changeSetLocalAIcdhWyyldnN",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
