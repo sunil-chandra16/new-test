@@ -14,7 +14,6 @@
 	},
 	"id":"69463cac91a45a6faf92f4f2",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -34,10 +33,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"knowledge chunkmetadata resolver",
-	"modifiedTime":1770367395366,
+	"modifiedTime":1770407769425,
 	"name":"Knowledge ChunkMetadata Resolver",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -57,5 +55,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":19
+	"version":20
 }
