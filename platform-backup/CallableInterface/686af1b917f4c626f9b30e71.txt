@@ -112,9 +112,9 @@
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"knowledge downloader",
-	"modifiedTime":1770466696231,
+	"modifiedTime":1770475056182,
 	"name":"Knowledge Downloader",
 	"output":{
 		"type":"SCHEMA",
@@ -130,6 +130,42 @@
 				"entityCount":{
 					"type":"integer",
 					"title":"Entity Count"
+				},
+				"downloaderDetails":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{
+							"downloaderAutomation":{
+								"type":"string",
+								"title":"Downloader Automation"
+							},
+							"downloaderParams":{
+								"type":"array",
+								"items":{
+									"type":"object",
+									"properties":{
+										"parentEntityId":{
+											"type":"string",
+											"title":"Parent Entity Id"
+										},
+										"inputs":{
+											"type":"object",
+											"properties":{},
+											"additionalProperties":false,
+											"title":"Inputs"
+										}
+									},
+									"additionalProperties":false,
+									"required":[]
+								},
+								"title":"Downloader Params"
+							}
+						},
+						"additionalProperties":false,
+						"required":[]
+					},
+					"title":"Downloader Details"
 				}
 			},
 			"required":[]
@@ -137,5 +173,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":108
+	"version":110
 }
