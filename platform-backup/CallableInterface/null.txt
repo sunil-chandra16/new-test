@@ -1,7 +1,7 @@
 {
-	"createdTime":1770440682186,
+	"createdTime":1770466240614,
 	"deleted":false,
-	"description":"Crawls the given website url and returns html content as text",
+	"description":"Custom Workflow Authentication",
 	"input":{
 		"dynamic":false,
 		"schema":{
@@ -10,18 +10,32 @@
 				"is_optional":true
 			},
 			"properties":{
-				"websiteUrl":{
-					"type":"string",
-					"title":"Website Url"
+				"body":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Body"
+				},
+				"queryParams":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Query Params"
+				},
+				"headers":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Headers"
 				}
 			},
 			"required":[]
 		}
 	},
 	"lastModifiedBy":-1,
-	"lcName":"crawl website",
-	"modifiedTime":1770440682483,
-	"name":"Crawl Website",
+	"lcName":"custom workflow authentication",
+	"modifiedTime":1770466243014,
+	"name":"Custom Workflow Authentication",
 	"output":{
 		"dynamic":false,
 		"schema":{
@@ -30,14 +44,30 @@
 				"is_optional":true
 			},
 			"properties":{
-				"websiteContent":{
-					"type":"string",
-					"title":"Website Content"
+				"body":{
+					"type":"object",
+					"properties":{
+						"authenticated":{
+							"type":"boolean",
+							"title":"Authenticated"
+						},
+						"userDetails":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"User Details"
+						},
+						"returnTo":{
+							"type":"string",
+							"title":"Return To"
+						}
+					},
+					"additionalProperties":false,
+					"title":"Body",
+					"required":[]
 				}
 			},
-			"required":[
-				"websiteContent"
-			]
+			"required":[]
 		}
 	},
 	"ownerUserId":-1,
