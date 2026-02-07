@@ -65,7 +65,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"knowledge indexer with resourcetype",
-	"modifiedTime":1770444639948,
+	"modifiedTime":1770456349988,
 	"name":"Knowledge Indexer with ResourceType",
 	"output":{
 		"type":"SCHEMA",
@@ -86,5 +86,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":105
+	"version":106
 }
