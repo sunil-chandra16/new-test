@@ -14,6 +14,7 @@
 	},
 	"id":"6854484ac68462013926b9cf",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -126,6 +127,7 @@
 	"modifiedTime":1770475056190,
 	"name":"Knowledge Downloader With Cursor",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
