@@ -4,6 +4,7 @@
 	"description":"Crawls the given website url and returns html content as text",
 	"id":"69876d2ab7b5f74be1a5e358",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -21,9 +22,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"crawl website",
-	"modifiedTime":1770482986734,
+	"modifiedTime":1770482986631,
 	"name":"Crawl Website",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
