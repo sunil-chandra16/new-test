@@ -124,7 +124,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"knowledge downloader with cursor",
-	"modifiedTime":1770444639958,
+	"modifiedTime":1770456350002,
 	"name":"Knowledge Downloader With Cursor",
 	"output":{
 		"type":"SCHEMA",
@@ -161,5 +161,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":130
+	"version":131
 }
