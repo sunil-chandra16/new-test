@@ -1,0 +1,49 @@
+{
+	"createdTime":1770440662884,
+	"deleted":false,
+	"description":"Event Streams Interface",
+	"id":"6986c7d6bf8d9913a228f1a7",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"eventStreamId":{
+					"type":"string",
+					"title":"Event Stream Id"
+				},
+				"event":{
+					"type":"object",
+					"title":"Event"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":-1,
+	"lcName":"event streams",
+	"modifiedTime":1770440663123,
+	"name":"Event Streams",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"success":{
+					"type":"boolean",
+					"title":"Success"
+				}
+			},
+			"required":[]
+		}
+	},
+	"ownerUserId":-1,
+	"standard":false,
+	"version":0
+}
