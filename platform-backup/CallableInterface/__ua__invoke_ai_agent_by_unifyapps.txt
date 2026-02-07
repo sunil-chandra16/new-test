@@ -28,6 +28,7 @@
 	},
 	"id":"__ua__invoke_ai_agent_by_unifyapps",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"layout":{
@@ -160,6 +161,7 @@
 	"modifiedTime":1770460715271,
 	"name":"Invoke AI Agent By UnifyApps",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
