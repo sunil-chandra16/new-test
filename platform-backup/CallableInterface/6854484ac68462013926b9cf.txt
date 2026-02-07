@@ -14,7 +14,6 @@
 	},
 	"id":"6854484ac68462013926b9cf",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -122,12 +121,11 @@
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"knowledge downloader with cursor",
-	"modifiedTime":1770466696237,
+	"modifiedTime":1770475056190,
 	"name":"Knowledge Downloader With Cursor",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -161,5 +159,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":132
+	"version":134
 }
