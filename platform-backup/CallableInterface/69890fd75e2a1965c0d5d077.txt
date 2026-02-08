@@ -4,6 +4,7 @@
 	"description":"EftjidnArQ",
 	"id":"69890fd75e2a1965c0d5d077",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1770590167636,
 	"name":"changeSetQA2AIaynXUmfsID",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
