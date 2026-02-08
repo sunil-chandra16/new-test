@@ -1,6 +1,6 @@
 {
 	"createdTime":1770170760259,
-	"deleted":false,
+	"deleted":true,
 	"description":"zXetPmpDoB",
 	"id":"6982a98863f6240cf8cccb2e",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aidejewghmgc",
-	"modifiedTime":1770170760259,
+	"modifiedTime":1770587708421,
 	"name":"changeSetQA2AIDEjEWGHMGC",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
