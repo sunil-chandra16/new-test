@@ -1,6 +1,6 @@
 {
 	"createdTime":1770162457576,
-	"deleted":false,
+	"deleted":true,
 	"description":"lGFSRuOfMb",
 	"id":"6982891963f6240cf8c76e3a",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ailgtsuuejer",
-	"modifiedTime":1770162457576,
+	"modifiedTime":1770587708503,
 	"name":"changeSetQA2AILGTsuuEjer",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
