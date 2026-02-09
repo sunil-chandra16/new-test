@@ -1,6 +1,6 @@
 {
 	"createdTime":1770621381672,
-	"deleted":false,
+	"deleted":true,
 	"description":"ZKQCfjfKmL",
 	"id":"698989816306ca629feaceae",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiqwmakrgjln",
-	"modifiedTime":1770621468726,
+	"modifiedTime":1770674495510,
 	"name":"changeSetQA2AIQWMAkrGjlN",
 	"output":{
 		"type":"SCHEMA",
@@ -42,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":1
+	"version":2
 }
