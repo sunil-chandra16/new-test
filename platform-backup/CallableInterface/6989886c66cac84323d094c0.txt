@@ -1,6 +1,6 @@
 {
 	"createdTime":1770621036125,
-	"deleted":false,
+	"deleted":true,
 	"description":"nRKpKpnMrs",
 	"id":"6989886c66cac84323d094c0",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiamsblutprj",
-	"modifiedTime":1770621036125,
+	"modifiedTime":1770674495587,
 	"name":"changeSetQA2AIaMsBLuTPRJ",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
