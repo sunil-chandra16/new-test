@@ -1,6 +1,6 @@
 {
 	"createdTime":1770590167636,
-	"deleted":false,
+	"deleted":true,
 	"description":"EftjidnArQ",
 	"id":"69890fd75e2a1965c0d5d077",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiaynxumfsid",
-	"modifiedTime":1770590167636,
+	"modifiedTime":1770674499686,
 	"name":"changeSetQA2AIaynXUmfsID",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
