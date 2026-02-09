@@ -1,6 +1,6 @@
 {
 	"createdTime":1770621449110,
-	"deleted":false,
+	"deleted":true,
 	"description":"PKimbAaTjT",
 	"id":"69898a09e7cd327e1243952c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aifarldrhmjs",
-	"modifiedTime":1770621449110,
+	"modifiedTime":1770674495483,
 	"name":"changeSetQA2AIfarLdrHmJs",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
