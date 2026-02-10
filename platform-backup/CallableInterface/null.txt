@@ -1,7 +1,7 @@
 {
-	"createdTime":1770486517352,
+	"createdTime":1770720248351,
 	"deleted":false,
-	"description":"Reset Password Interface",
+	"description":"Crawls the given website url and returns html content as text",
 	"input":{
 		"dynamic":false,
 		"schema":{
@@ -10,26 +10,18 @@
 				"is_optional":true
 			},
 			"properties":{
-				"sessionId":{
+				"websiteUrl":{
 					"type":"string",
-					"title":"Session Id"
-				},
-				"domain":{
-					"type":"string",
-					"title":"Domain"
-				},
-				"userId":{
-					"type":"string",
-					"title":"User Id"
+					"title":"Website Url"
 				}
 			},
 			"required":[]
 		}
 	},
 	"lastModifiedBy":-1,
-	"lcName":"reset password",
-	"modifiedTime":1770486517535,
-	"name":"Reset Password",
+	"lcName":"crawl website",
+	"modifiedTime":1770720248625,
+	"name":"Crawl Website",
 	"output":{
 		"dynamic":false,
 		"schema":{
@@ -38,12 +30,14 @@
 				"is_optional":true
 			},
 			"properties":{
-				"email":{
+				"websiteContent":{
 					"type":"string",
-					"title":"Email"
+					"title":"Website Content"
 				}
 			},
-			"required":[]
+			"required":[
+				"websiteContent"
+			]
 		}
 	},
 	"ownerUserId":-1,
