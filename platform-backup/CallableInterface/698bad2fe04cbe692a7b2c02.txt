@@ -1,6 +1,6 @@
 {
 	"createdTime":1770761519943,
-	"deleted":false,
+	"deleted":true,
 	"description":"wCAJaVsDiA",
 	"id":"698bad2fe04cbe692a7b2c02",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aicbnocjclnb",
-	"modifiedTime":1770761519943,
+	"modifiedTime":1770763373108,
 	"name":"changeSetQA2AICBNocjClnb",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
