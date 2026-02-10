@@ -1,9 +1,10 @@
 {
 	"createdTime":1770704052978,
-	"deleted":false,
+	"deleted":true,
 	"description":"WmRTRsRVWC",
 	"id":"698acbde002f9e1a79a9eac6",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaijnjsavgmgm",
-	"modifiedTime":1770704052978,
+	"modifiedTime":1770704256357,
 	"name":"changeSetLocalAIJnjSAvgMgM",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":0
+	"version":1
 }
