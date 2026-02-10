@@ -1,6 +1,6 @@
 {
 	"createdTime":1770762159790,
-	"deleted":false,
+	"deleted":true,
 	"description":"dabkbrMCeW",
 	"id":"698bafafe04cbe692a7b704d",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aitzlrvcnour",
-	"modifiedTime":1770762159790,
+	"modifiedTime":1770763373064,
 	"name":"changeSetQA2AItZLRvcNOUR",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
