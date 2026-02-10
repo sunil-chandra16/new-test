@@ -1,17 +1,7 @@
 {
-	"createdTime":1768097366755,
+	"createdTime":1770720125160,
 	"deleted":false,
 	"description":"Collect Slot Interface",
-	"grants":{
-		"configs":[
-			{
-				"permissions":[
-					"V"
-				],
-				"principalType":"GLOBAL"
-			}
-		]
-	},
 	"id":"__ua__collect_slot_interface",
 	"input":{
 		"dynamic":false,
@@ -21,92 +11,70 @@
 				"is_optional":true
 			},
 			"properties":{
-				"caseId":{
-					"title":"Case Id",
-					"type":"string"
-				},
-				"noOfRetriesBeforeSkippingSlot":{
-					"title":"No Of Retries Before Skipping Slot",
-					"type":"number"
-				},
-				"skipAutomaticSlotDetection":{
-					"title":"Skip Automatic Slot Detection",
-					"type":"boolean"
-				},
-				"skipInitialQuestion":{
-					"title":"Skip Initial Question",
-					"type":"boolean"
-				},
 				"slots":{
+					"type":"array",
 					"items":{
-						"additionalProperties":false,
+						"type":"object",
 						"properties":{
-							"description":{
-								"title":"Description",
-								"type":"string"
-							},
 							"name":{
-								"title":"Name",
-								"type":"string"
-							},
-							"responses":{
-								"items":{
-									"additionalProperties":false,
-									"properties":{
-										"choices":{
-											"items":{
-												"additionalProperties":false,
-												"properties":{
-													"id":{
-														"title":"Id",
-														"type":"string"
-													},
-													"title":{
-														"title":"Title",
-														"type":"string"
-													},
-													"url":{
-														"title":"Url",
-														"type":"string"
-													}
-												},
-												"required":[],
-												"type":"object"
-											},
-											"required":[],
-											"title":"Choices",
-											"type":"array"
-										},
-										"language":{
-											"title":"Language",
-											"type":"string"
-										},
-										"question":{
-											"title":"Question",
-											"type":"string"
-										}
-									},
-									"required":[],
-									"type":"object"
-								},
-								"required":[],
-								"title":"Responses",
-								"type":"array"
-							},
-							"title":{
-								"title":"Title",
-								"type":"string"
+								"type":"string",
+								"title":"Name"
 							},
 							"type":{
-								"title":"Type",
-								"type":"string"
+								"type":"string",
+								"title":"Type"
+							},
+							"title":{
+								"type":"string",
+								"title":"Title"
+							},
+							"description":{
+								"type":"string",
+								"title":"Description"
+							},
+							"responses":{
+								"type":"array",
+								"items":{
+									"type":"object",
+									"properties":{
+										"question":{
+											"type":"string",
+											"title":"Question"
+										},
+										"choices":{
+											"type":"array",
+											"items":{
+												"type":"object",
+												"properties":{
+													"id":{
+														"type":"string",
+														"title":"Id"
+													},
+													"title":{
+														"type":"string",
+														"title":"Title"
+													}
+												},
+												"additionalProperties":false
+											},
+											"title":"Choices",
+											"required":[]
+										},
+										"Language":{
+											"type":"string",
+											"title":"Language"
+										}
+									},
+									"additionalProperties":false
+								},
+								"title":"Responses",
+								"required":[]
 							}
 						},
-						"type":"object"
+						"additionalProperties":false
 					},
-					"required":[],
 					"title":"Slots",
-					"type":"array"
+					"required":[]
 				}
 			},
 			"required":[]
@@ -114,40 +82,40 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"collect slot interface (ai agent)",
-	"modifiedTime":1769506546934,
+	"modifiedTime":1770720126917,
 	"name":"Collect Slot Interface (AI Agent)",
 	"output":{
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"slots":{
+					"type":"array",
 					"items":{
-						"additionalProperties":false,
+						"type":"object",
 						"properties":{
 							"name":{
-								"title":"name",
-								"type":"string"
+								"type":"string",
+								"title":"name"
 							},
 							"value":{
-								"title":"value",
-								"type":"string"
+								"type":"string",
+								"title":"value"
 							}
 						},
-						"type":"object"
+						"additionalProperties":false
 					},
-					"title":"slots",
-					"type":"array"
+					"title":"slots"
 				}
 			}
 		}
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":7
+	"version":0
 }
