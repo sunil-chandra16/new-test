@@ -1,6 +1,6 @@
 {
 	"createdTime":1770832970037,
-	"deleted":false,
+	"deleted":true,
 	"description":"FyQskvunee",
 	"id":"698cc370d486c02a4a03225d",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaiwaveexubew",
-	"modifiedTime":1770832970037,
+	"modifiedTime":1770837126656,
 	"name":"changeSetLocalAIWAVEeXUbEw",
 	"output":{
 		"type":"SCHEMA",
@@ -42,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":0
+	"version":1
 }
