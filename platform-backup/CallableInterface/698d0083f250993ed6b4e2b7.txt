@@ -4,6 +4,7 @@
 	"description":"aoSUGYrlar",
 	"id":"698d0083f250993ed6b4e2b7",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1770848387739,
 	"name":"changeSetQA2AIyRwEzFKWVx",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
