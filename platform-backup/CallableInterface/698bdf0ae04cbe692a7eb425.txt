@@ -4,6 +4,7 @@
 	"description":"MVQvdWCmtz",
 	"id":"698bdf0ae04cbe692a7eb425",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1770774282532,
 	"name":"changeSetQA2AICMPBMnBicQ",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
