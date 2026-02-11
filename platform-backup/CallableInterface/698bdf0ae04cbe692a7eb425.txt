@@ -1,6 +1,6 @@
 {
 	"createdTime":1770774282532,
-	"deleted":false,
+	"deleted":true,
 	"description":"MVQvdWCmtz",
 	"id":"698bdf0ae04cbe692a7eb425",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aicmpbmnbicq",
-	"modifiedTime":1770774282532,
+	"modifiedTime":1770778116294,
 	"name":"changeSetQA2AICMPBMnBicQ",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
