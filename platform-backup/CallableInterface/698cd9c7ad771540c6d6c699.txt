@@ -1,6 +1,6 @@
 {
 	"createdTime":1770838533573,
-	"deleted":false,
+	"deleted":true,
 	"description":"NnpvuXNfsW",
 	"grants":{
 		"configs":[
@@ -55,7 +55,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaijaqxxecwpx",
-	"modifiedTime":1770838549552,
+	"modifiedTime":1770839236946,
 	"name":"changeSetLocalAIJAQXXecwPx",
 	"output":{
 		"type":"SCHEMA",
@@ -73,5 +73,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":1
+	"version":2
 }
