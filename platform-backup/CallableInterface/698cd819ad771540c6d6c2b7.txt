@@ -1,9 +1,42 @@
 {
 	"createdTime":1770838103324,
-	"deleted":false,
+	"deleted":true,
 	"description":"OBYKUjXjIy",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"168834"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"169044"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"698cd819ad771540c6d6c2b7",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +55,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaijzddlvowml",
-	"modifiedTime":1770838103324,
+	"modifiedTime":1770838467173,
 	"name":"changeSetLocalAIjZddlVOwml",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +73,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
