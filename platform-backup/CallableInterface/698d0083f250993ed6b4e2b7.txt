@@ -1,6 +1,6 @@
 {
 	"createdTime":1770848387739,
-	"deleted":false,
+	"deleted":true,
 	"description":"aoSUGYrlar",
 	"id":"698d0083f250993ed6b4e2b7",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiyrwezfkwvx",
-	"modifiedTime":1770848387739,
+	"modifiedTime":1770849413998,
 	"name":"changeSetQA2AIyRwEzFKWVx",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
