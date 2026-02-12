@@ -1,6 +1,6 @@
 {
 	"createdTime":1770850629999,
-	"deleted":false,
+	"deleted":true,
 	"description":"KYTGUTHzbY",
 	"id":"698d0945f250993ed6b55e1c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aigqocpdrony",
-	"modifiedTime":1770850629999,
+	"modifiedTime":1770866621830,
 	"name":"changeSetQA2AIgQOCpDRoNY",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
