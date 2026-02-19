@@ -1,6 +1,6 @@
 {
 	"createdTime":1771539727147,
-	"deleted":false,
+	"deleted":true,
 	"description":"TVfESkTpAX",
 	"id":"69978cbc3cae6715a1338e96",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aivwcnmshjyt",
-	"modifiedTime":1771539727147,
+	"modifiedTime":1771541194358,
 	"name":"changeSetQA2AIVWcnmshjYt",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
