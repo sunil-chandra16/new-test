@@ -1,10 +1,9 @@
 {
-	"createdTime":1770722076300,
+	"createdTime":1771504582064,
 	"deleted":false,
 	"description":"Event Streams Interface",
 	"id":"__ua__event_streams_interface",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -26,10 +25,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"event streams",
-	"modifiedTime":1770722076832,
+	"modifiedTime":1771504582768,
 	"name":"Event Streams",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
