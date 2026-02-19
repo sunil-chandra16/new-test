@@ -4,6 +4,7 @@
 	"description":"Collect Slot Interface",
 	"id":"699703d63998d5310346a0fa",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -82,9 +83,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"collect slot interface (ai agent)",
-	"modifiedTime":1771504598183,
+	"modifiedTime":1771504598162,
 	"name":"Collect Slot Interface (AI Agent)",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
