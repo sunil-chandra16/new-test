@@ -1,6 +1,6 @@
 {
 	"createdTime":1771548138846,
-	"deleted":false,
+	"deleted":true,
 	"description":"bHigOkbwXL",
 	"id":"6997ad363cae6715a1353b67",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aikjvogkqvho",
-	"modifiedTime":1771548138846,
+	"modifiedTime":1771548171114,
 	"name":"changeSetQA2AIkJVOGkqVHO",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
