@@ -4,6 +4,7 @@
 	"description":"vrgSCpENmm",
 	"id":"6997ae293cae6715a13547e9",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1771548282120,
 	"name":"changeSetQA2AILJSSNeNmdb",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
