@@ -4,6 +4,7 @@
 	"description":"FhftfIGXBy",
 	"id":"6997b3a994a2ac1836f12794",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1771549609980,
 	"name":"changeSetQA2AIcOKNoXwUcT",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
