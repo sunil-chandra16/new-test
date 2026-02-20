@@ -4,6 +4,7 @@
 	"description":"GftKuopQIK",
 	"id":"6997ac3094a2ac1836f10337",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1771547696489,
 	"name":"changeSetQA2AIROkuYDceNO",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
