@@ -1,6 +1,6 @@
 {
 	"createdTime":1771548282120,
-	"deleted":false,
+	"deleted":true,
 	"description":"vrgSCpENmm",
 	"id":"6997ae293cae6715a13547e9",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ailjssnenmdb",
-	"modifiedTime":1771548282120,
+	"modifiedTime":1771551973446,
 	"name":"changeSetQA2AILJSSNeNmdb",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
