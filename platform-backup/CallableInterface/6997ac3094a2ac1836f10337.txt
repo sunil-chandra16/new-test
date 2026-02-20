@@ -1,6 +1,6 @@
 {
 	"createdTime":1771547696489,
-	"deleted":false,
+	"deleted":true,
 	"description":"GftKuopQIK",
 	"id":"6997ac3094a2ac1836f10337",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2airokuydceno",
-	"modifiedTime":1771547696489,
+	"modifiedTime":1771551973475,
 	"name":"changeSetQA2AIROkuYDceNO",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
