@@ -4,6 +4,7 @@
 	"description":"cvds",
 	"id":"699ec9205a380410867595f1",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -24,6 +25,7 @@
 	"modifiedTime":1772013856343,
 	"name":"cds",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
