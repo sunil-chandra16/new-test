@@ -4,6 +4,7 @@
 	"description":"test",
 	"id":"699c18cc28c37821e2b544ad",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -17,6 +18,7 @@
 	"modifiedTime":1772005995076,
 	"name":"test auto interface",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
