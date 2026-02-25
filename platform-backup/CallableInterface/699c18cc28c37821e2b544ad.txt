@@ -1,0 +1,41 @@
+{
+	"createdTime":1771837644390,
+	"deleted":false,
+	"description":"test",
+	"id":"699c18cc28c37821e2b544ad",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			},
+			"properties":{
+				"key":{
+					"type":"string",
+					"title":"Key"
+				}
+			},
+			"required":[]
+		}
+	},
+	"lastModifiedBy":195517,
+	"lcName":"test auto interface",
+	"modifiedTime":1772005882181,
+	"name":"test auto interface",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":195517,
+	"standard":false,
+	"tags":[
+		"test-tag"
+	],
+	"version":21
+}
