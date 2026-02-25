@@ -14,7 +14,7 @@
 	},
 	"lastModifiedBy":195517,
 	"lcName":"test auto interface",
-	"modifiedTime":1772005914991,
+	"modifiedTime":1772005995076,
 	"name":"test auto interface",
 	"output":{
 		"dynamic":false,
@@ -22,14 +22,7 @@
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
-			},
-			"properties":{
-				"kiwi":{
-					"type":"string",
-					"title":"Kiwi"
-				}
-			},
-			"required":[]
+			}
 		}
 	},
 	"ownerUserId":195517,
@@ -37,5 +30,5 @@
 	"tags":[
 		"test-tag"
 	],
-	"version":22
+	"version":23
 }
