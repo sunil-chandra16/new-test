@@ -1,9 +1,10 @@
 {
 	"createdTime":1772013354102,
-	"deleted":false,
+	"deleted":true,
 	"description":"ds",
 	"id":"699ec72a5a38041086758ef9",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -14,9 +15,10 @@
 	},
 	"lastModifiedBy":308,
 	"lcName":"ds",
-	"modifiedTime":1772013832645,
+	"modifiedTime":1772013848253,
 	"name":"ds",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -30,5 +32,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }
