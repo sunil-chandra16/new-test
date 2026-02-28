@@ -1,9 +1,10 @@
 {
 	"createdTime":1772318734331,
-	"deleted":false,
+	"deleted":true,
 	"description":"gXzdOTSTWM",
 	"id":"69a36f5984872f384e64ee0e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2airniomnfgfg",
-	"modifiedTime":1772318734331,
+	"modifiedTime":1772318876151,
 	"name":"changeSetQA2AIRnIOMnfgfg",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":0
+	"version":1
 }
