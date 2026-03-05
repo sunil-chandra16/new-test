@@ -1,6 +1,6 @@
 {
 	"createdTime":1772709735091,
-	"deleted":false,
+	"deleted":true,
 	"description":"MFGewyPpZK",
 	"id":"69a96767453bbe39486acde2",
 	"input":{
@@ -22,7 +22,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiktnoqpssal",
-	"modifiedTime":1772709735091,
+	"modifiedTime":1772709914192,
 	"name":"changeSetQA2AIktnOQpSsal",
 	"output":{
 		"dynamic":false,
@@ -39,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
