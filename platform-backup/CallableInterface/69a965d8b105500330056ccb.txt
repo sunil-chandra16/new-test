@@ -4,6 +4,7 @@
 	"description":"RxQcspfaiB",
 	"id":"69a965d8b105500330056ccb",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1772709336193,
 	"name":"changeSetQA2AIwxmetcyYhW",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
