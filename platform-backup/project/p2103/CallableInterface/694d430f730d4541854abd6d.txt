@@ -14,7 +14,6 @@
 	},
 	"id":"694d430f730d4541854abd6d",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -43,10 +42,9 @@
 	},
 	"lastModifiedBy":4446,
 	"lcName":"best practice | automation | run group checks interface",
-	"modifiedTime":1770736665533,
+	"modifiedTime":1773215727454,
 	"name":"Best Practice | Automation | Run Group Checks Interface",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -106,5 +104,5 @@
 	"ownerUserId":47540,
 	"projectId":2103,
 	"standard":false,
-	"version":13
+	"version":21
 }
