@@ -4,6 +4,7 @@
 	"description":"TsAsAajHRS",
 	"id":"69b25227ecd1132a87a19c4d",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1773294119601,
 	"name":"changeSetQA2AIGMUzWINrcK",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
