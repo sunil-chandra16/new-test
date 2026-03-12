@@ -1,6 +1,6 @@
 {
 	"createdTime":1773293408888,
-	"deleted":false,
+	"deleted":true,
 	"description":"hrUjxuOTFb",
 	"id":"69b24f60ecd1132a87a1901f",
 	"input":{
@@ -22,7 +22,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aibfnnxbjkvq",
-	"modifiedTime":1773293408888,
+	"modifiedTime":1773293588413,
 	"name":"changeSetQA2AIBFNNxBJKvQ",
 	"output":{
 		"dynamic":false,
@@ -39,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
