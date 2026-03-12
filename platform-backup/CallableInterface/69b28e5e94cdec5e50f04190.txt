@@ -1,9 +1,10 @@
 {
 	"createdTime":1773309534850,
-	"deleted":false,
+	"deleted":true,
 	"description":"wqs",
 	"id":"69b28e5e94cdec5e50f04190",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -21,9 +22,10 @@
 	},
 	"lastModifiedBy":132116,
 	"lcName":"inrerface_1",
-	"modifiedTime":1773309534850,
+	"modifiedTime":1773309787679,
 	"name":"inrerface_1",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -44,5 +46,5 @@
 	"tags":[
 		"new1"
 	],
-	"version":0
+	"version":1
 }
