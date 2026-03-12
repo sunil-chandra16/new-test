@@ -1,7 +1,39 @@
 {
 	"createdTime":1773355975939,
-	"deleted":false,
+	"deleted":true,
 	"description":"NogoFABOfL",
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"168834"
+				],
+				"principalType":"USER"
+			},
+			{
+				"permissions":[
+					"A",
+					"C",
+					"S",
+					"D",
+					"E",
+					"V"
+				],
+				"principalIds":[
+					"169044"
+				],
+				"principalType":"USER"
+			}
+		]
+	},
 	"id":"69b343991bf5af7731e9dbc5",
 	"input":{
 		"dynamic":false,
@@ -22,7 +54,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiqdbncrxrcx",
-	"modifiedTime":1773355975939,
+	"modifiedTime":1773356165695,
 	"name":"changeSetQA2AIqdBNcrXrCx",
 	"output":{
 		"dynamic":false,
@@ -39,5 +71,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":5
 }
