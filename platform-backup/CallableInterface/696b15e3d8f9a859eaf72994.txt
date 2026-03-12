@@ -4,6 +4,7 @@
 	"description":"Fetches the list of items in the next level of the provided path",
 	"id":"696b15e3d8f9a859eaf72994",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -46,6 +47,7 @@
 	"modifiedTime":1773333783045,
 	"name":"Fetch Folder Items",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
