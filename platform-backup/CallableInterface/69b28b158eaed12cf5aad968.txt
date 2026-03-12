@@ -20,9 +20,9 @@
 		}
 	},
 	"lastModifiedBy":132116,
-	"lcName":"test123",
-	"modifiedTime":1773308693347,
-	"name":"test123",
+	"lcName":"test123_interface",
+	"modifiedTime":1773308702830,
+	"name":"test123_interface",
 	"output":{
 		"dynamic":false,
 		"schema":{
@@ -44,5 +44,5 @@
 	"tags":[
 		
 	],
-	"version":0
+	"version":1
 }
