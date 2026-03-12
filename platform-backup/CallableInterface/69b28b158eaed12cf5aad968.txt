@@ -4,6 +4,7 @@
 	"description":"test",
 	"id":"69b28b158eaed12cf5aad968",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -24,6 +25,7 @@
 	"modifiedTime":1773313777967,
 	"name":"test123_interface",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
