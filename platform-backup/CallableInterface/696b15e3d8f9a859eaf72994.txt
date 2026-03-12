@@ -4,7 +4,6 @@
 	"description":"Fetches the list of items in the next level of the provided path",
 	"id":"696b15e3d8f9a859eaf72994",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -29,17 +28,24 @@
 					"properties":{},
 					"additionalProperties":false,
 					"title":"Knowledge Inputs"
+				},
+				"searchQuery":{
+					"type":"string",
+					"title":"Search Query"
+				},
+				"sortField":{
+					"type":"string",
+					"title":"Sort Field"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":196073,
 	"lcName":"fetch folder items",
-	"modifiedTime":1770454560552,
+	"modifiedTime":1773333783045,
 	"name":"Fetch Folder Items",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -84,10 +90,27 @@
 									"size":{
 										"type":"integer",
 										"title":"size"
+									},
+									"dateCreated":{
+										"type":"string",
+										"title":"Date Created"
+									},
+									"dateModified":{
+										"type":"string",
+										"title":"Date Modified"
+									},
+									"dateAdded":{
+										"type":"string",
+										"title":"Date Added"
+									},
+									"dateLastOpened":{
+										"type":"string",
+										"title":"Date Last Opened"
 									}
 								},
 								"title":"itemDetails",
-								"additionalProperties":false
+								"additionalProperties":false,
+								"required":[]
 							},
 							"selected":{
 								"type":"boolean",
@@ -104,5 +127,5 @@
 	},
 	"ownerUserId":0,
 	"standard":false,
-	"version":0
+	"version":4
 }
