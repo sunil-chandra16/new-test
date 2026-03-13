@@ -1,6 +1,6 @@
 {
 	"createdTime":1773293975946,
-	"deleted":false,
+	"deleted":true,
 	"description":"rKeyMIWnOl",
 	"id":"69b25164a30c79288940a6c8",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aitgnwjohcus",
-	"modifiedTime":1773294060967,
+	"modifiedTime":1773428467547,
 	"name":"changeSetQA2AITgnwjoHcUS",
 	"output":{
 		"type":"SCHEMA",
@@ -42,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":1
+	"version":2
 }
