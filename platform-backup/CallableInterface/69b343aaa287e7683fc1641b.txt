@@ -1,6 +1,6 @@
 {
 	"createdTime":1773355946003,
-	"deleted":false,
+	"deleted":true,
 	"description":"MYURmxSzDS",
 	"id":"69b343aaa287e7683fc1641b",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiyupdjcxblm",
-	"modifiedTime":1773355946003,
+	"modifiedTime":1773428466922,
 	"name":"changeSetQA2AIyupdJCXBLM",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
