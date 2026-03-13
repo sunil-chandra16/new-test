@@ -1,9 +1,10 @@
 {
 	"createdTime":1773394332879,
-	"deleted":false,
+	"deleted":true,
 	"description":"iuurkWstfn",
 	"id":"69b3d9511bf5af773129565c",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaifimbmyjbps",
-	"modifiedTime":1773394332879,
+	"modifiedTime":1773394345382,
 	"name":"changeSetLocalAIFImbMYjbpS",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
