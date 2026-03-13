@@ -1,6 +1,6 @@
 {
 	"createdTime":1773293147531,
-	"deleted":false,
+	"deleted":true,
 	"description":"eOlxcomGGV",
 	"id":"69b24e5becd1132a87a18ec5",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiuuxooagekc",
-	"modifiedTime":1773293147531,
+	"modifiedTime":1773428467784,
 	"name":"changeSetQA2AIUuxooAgekc",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
