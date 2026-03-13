@@ -4,6 +4,7 @@
 	"description":"hmasXYFruf",
 	"id":"69b4a2d580c926517a0bcf89",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1773445845800,
 	"name":"changeSetQA2AIJEswaKzYHc",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
