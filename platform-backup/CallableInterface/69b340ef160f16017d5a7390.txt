@@ -1,6 +1,6 @@
 {
 	"createdTime":1773355247126,
-	"deleted":false,
+	"deleted":true,
 	"description":"FxdriCjVga",
 	"id":"69b340ef160f16017d5a7390",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aimcnlwyiwzr",
-	"modifiedTime":1773355247126,
+	"modifiedTime":1773428467162,
 	"name":"changeSetQA2AIMCnlWYIWZr",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
