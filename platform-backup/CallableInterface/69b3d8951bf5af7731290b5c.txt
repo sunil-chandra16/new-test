@@ -1,9 +1,10 @@
 {
 	"createdTime":1773394140460,
-	"deleted":false,
+	"deleted":true,
 	"description":"BUDtNewCOA",
 	"id":"69b3d8951bf5af7731290b5c",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaihaxwsmgtia",
-	"modifiedTime":1773394140460,
+	"modifiedTime":1773394153489,
 	"name":"changeSetLocalAIHAxWsmgtIA",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
