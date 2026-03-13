@@ -1,9 +1,10 @@
 {
 	"createdTime":1773444638083,
-	"deleted":false,
+	"deleted":true,
 	"description":"ZsubyDnclv",
 	"id":"69b49e1e80c926517a0bc651",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiabxafpaehf",
-	"modifiedTime":1773444638083,
+	"modifiedTime":1773444893900,
 	"name":"changeSetQA2AIabxafPAehF",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
