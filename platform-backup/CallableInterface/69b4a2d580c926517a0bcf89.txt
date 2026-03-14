@@ -1,6 +1,6 @@
 {
 	"createdTime":1773445845800,
-	"deleted":false,
+	"deleted":true,
 	"description":"hmasXYFruf",
 	"id":"69b4a2d580c926517a0bcf89",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aijeswakzyhc",
-	"modifiedTime":1773445845800,
+	"modifiedTime":1773448096260,
 	"name":"changeSetQA2AIJEswaKzYHc",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
