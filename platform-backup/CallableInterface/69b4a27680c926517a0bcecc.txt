@@ -1,6 +1,6 @@
 {
 	"createdTime":1773445750103,
-	"deleted":false,
+	"deleted":true,
 	"description":"gfPZLpsWaa",
 	"id":"69b4a27680c926517a0bcecc",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aimdeajdiapw",
-	"modifiedTime":1773445750103,
+	"modifiedTime":1773448096286,
 	"name":"changeSetQA2AIMDeAJdiaPW",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
