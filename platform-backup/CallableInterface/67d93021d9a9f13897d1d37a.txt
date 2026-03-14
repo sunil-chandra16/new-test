@@ -18,115 +18,83 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
-				"imageFile":{
-					"additionalProperties":false,
-					"properties":{},
-					"title":"Image File",
-					"type":"object"
-				},
-				"imageFileBatch":{
-					"items":{
-						"additionalProperties":false,
-						"properties":{},
-						"type":"object"
-					},
-					"title":"Image File Batch",
-					"type":"array"
-				},
-				"internalModelId":{
-					"title":"Internal Model Id",
-					"type":"string"
+				"user_query":{
+					"type":"string",
+					"title":"user_query"
 				},
 				"model":{
-					"title":"model",
-					"type":"string"
+					"type":"string",
+					"title":"model"
 				},
 				"text_batch":{
+					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"text_batch",
-					"type":"array"
+					"title":"text_batch"
 				},
-				"user_query":{
-					"title":"user_query",
-					"type":"string"
+				"internalModelId":{
+					"type":"string",
+					"title":"Internal Model Id"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":426,
 	"lcName":"call embedding model",
-	"modifiedTime":1769506721922,
+	"modifiedTime":1773504115933,
 	"name":"Call Embedding Model",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
-				"embedding_batch":{
-					"items":{
-						"additionalProperties":false,
-						"properties":{
-							"embeddings":{
-								"items":{
-									"type":"number"
-								},
-								"title":"embeddings",
-								"type":"array"
-							},
-							"index":{
-								"title":"index",
-								"type":"integer"
-							}
-						},
-						"required":[],
-						"type":"object"
-					},
-					"title":"embedding_batch",
-					"type":"array"
-				},
 				"embeddings":{
+					"type":"array",
 					"items":{
 						"type":"integer"
 					},
-					"title":"embeddings",
-					"type":"array"
+					"title":"embeddings"
 				},
-				"usage":{
-					"additionalProperties":false,
-					"properties":{
-						"promptTokens":{
-							"title":"Prompt Tokens",
-							"type":"integer"
+				"embedding_batch":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{
+							"index":{
+								"type":"integer",
+								"title":"index"
+							},
+							"embeddings":{
+								"type":"array",
+								"items":{
+									"type":"number"
+								},
+								"title":"embeddings"
+							}
 						},
-						"totalTokens":{
-							"title":"Total Tokens",
-							"type":"integer"
-						}
+						"additionalProperties":false,
+						"required":[]
 					},
-					"required":[],
-					"title":"Usage",
-					"type":"object"
+					"title":"embedding_batch"
 				}
-			},
-			"required":[]
+			}
 		}
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":94
+	"version":100
 }
