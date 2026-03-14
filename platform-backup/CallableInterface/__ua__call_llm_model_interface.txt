@@ -14,6 +14,7 @@
 	},
 	"id":"__ua__call_llm_model_interface",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -320,6 +321,7 @@
 	"modifiedTime":1773504116289,
 	"name":"Call LLM Model",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
