@@ -1,9 +1,10 @@
 {
 	"createdTime":1773529553647,
-	"deleted":false,
+	"deleted":true,
 	"description":"DDHrUgrilx",
 	"id":"69b5e9d1d236850b33fc8797",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiybyeblbsst",
-	"modifiedTime":1773529553647,
+	"modifiedTime":1773530646875,
 	"name":"changeSetQA2AIyByEbLbsST",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
