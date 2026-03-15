@@ -1,9 +1,10 @@
 {
 	"createdTime":1773605135688,
-	"deleted":false,
+	"deleted":true,
 	"description":"QVCuVLNGSc",
 	"id":"69b7110f4a66e8168c67dc7e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalidzwfpydwr",
-	"modifiedTime":1773605135688,
+	"modifiedTime":1773605461814,
 	"name":"changeSetLocaliDZwFPyDWR",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
