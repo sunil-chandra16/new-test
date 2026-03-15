@@ -1,6 +1,6 @@
 {
 	"createdTime":1773528598514,
-	"deleted":false,
+	"deleted":true,
 	"description":"ZmhORaiWue",
 	"id":"69b5e616d236850b33fc8689",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aizwomjbegrb",
-	"modifiedTime":1773528598514,
+	"modifiedTime":1773530646902,
 	"name":"changeSetQA2AIZWOmJbEGRb",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
