@@ -4,7 +4,6 @@
 	"description":"interfaceTest",
 	"id":"69b28f5694cdec5e50f047dc",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -21,11 +20,10 @@
 		}
 	},
 	"lastModifiedBy":132116,
-	"lcName":"interface_01",
-	"modifiedTime":1773309782791,
-	"name":"interface_01",
+	"lcName":"interface_dnd",
+	"modifiedTime":1773614676128,
+	"name":"interface_DND",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -46,5 +44,5 @@
 	"tags":[
 		"newtenant"
 	],
-	"version":0
+	"version":1
 }
