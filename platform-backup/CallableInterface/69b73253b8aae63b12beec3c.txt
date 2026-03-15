@@ -4,6 +4,7 @@
 	"description":"WjbCCWMErr",
 	"id":"69b73253b8aae63b12beec3c",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1773613651394,
 	"name":"changeSetQA2AIuYYdcAhmHw",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
