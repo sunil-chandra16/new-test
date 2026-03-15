@@ -4,6 +4,7 @@
 	"description":"LfhfwsKDLs",
 	"id":"69b735d1b8aae63b12bf0270",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1773614545201,
 	"name":"changeSetQA2AIFCDvCgyiWl",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
