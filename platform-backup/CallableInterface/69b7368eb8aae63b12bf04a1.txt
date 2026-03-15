@@ -4,6 +4,7 @@
 	"description":"test",
 	"id":"69b7368eb8aae63b12bf04a1",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -24,6 +25,7 @@
 	"modifiedTime":1773614734302,
 	"name":"interfaceTest_DND",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
