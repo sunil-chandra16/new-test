@@ -1,6 +1,6 @@
 {
 	"createdTime":1773614545201,
-	"deleted":false,
+	"deleted":true,
 	"description":"LfhfwsKDLs",
 	"id":"69b735d1b8aae63b12bf0270",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aifcdvcgyiwl",
-	"modifiedTime":1773614545201,
+	"modifiedTime":1773662177310,
 	"name":"changeSetQA2AIFCDvCgyiWl",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
