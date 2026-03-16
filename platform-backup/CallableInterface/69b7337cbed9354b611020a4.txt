@@ -1,6 +1,6 @@
 {
 	"createdTime":1773613948298,
-	"deleted":false,
+	"deleted":true,
 	"description":"MgBSeSsuYs",
 	"id":"69b7337cbed9354b611020a4",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aieuxtqmqdhl",
-	"modifiedTime":1773613948298,
+	"modifiedTime":1773662177413,
 	"name":"changeSetQA2AIEuxtQmQdhL",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
