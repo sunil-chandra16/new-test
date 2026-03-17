@@ -14,7 +14,6 @@
 	},
 	"id":"__ua_automation_chunking_strategy",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -22,59 +21,58 @@
 				"is_optional":true
 			},
 			"properties":{
-				"authorEmail":{
-					"title":"Author Email",
-					"type":"string"
+				"fileDetails":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"File Details"
 				},
 				"chunkMetadata":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{},
-					"title":"Chunk Metadata",
-					"type":"object"
-				},
-				"fileDetails":{
 					"additionalProperties":false,
-					"properties":{},
-					"title":"File Details",
-					"type":"object"
+					"title":"Chunk Metadata"
 				},
 				"knowledgeId":{
-					"title":"Knowledge Id",
-					"type":"string"
-				},
-				"knowledgeSetId":{
-					"title":"Knowledge Set Id",
-					"type":"string"
+					"type":"string",
+					"title":"Knowledge Id"
 				},
 				"knowledgeVersion":{
-					"title":"Knowledge Version",
-					"type":"number"
+					"type":"number",
+					"title":"Knowledge Version"
 				},
-				"mimeType":{
-					"title":"Mime Type",
-					"type":"string"
+				"authorEmail":{
+					"type":"string",
+					"title":"Author Email"
+				},
+				"uniqueEntityId":{
+					"type":"string",
+					"title":"Unique Entity Id"
+				},
+				"knowledgeSetId":{
+					"type":"string",
+					"title":"Knowledge Set Id"
 				},
 				"sharedWithIds":{
+					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Shared With Ids",
-					"type":"array"
+					"title":"Shared With Ids"
 				},
-				"uniqueEntityId":{
-					"title":"Unique Entity Id",
-					"type":"string"
+				"mimeType":{
+					"type":"string",
+					"title":"Mime Type"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"automation chunking strategy",
-	"modifiedTime":1769506721923,
+	"modifiedTime":1773768357716,
 	"name":"Automation Chunking Strategy",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -83,36 +81,36 @@
 			},
 			"properties":{
 				"chunks":{
+					"type":"array",
 					"items":{
-						"additionalProperties":false,
+						"type":"object",
 						"properties":{
 							"metadata":{
-								"additionalProperties":false,
+								"type":"object",
 								"properties":{},
-								"title":"Metadata",
-								"type":"object"
+								"additionalProperties":false,
+								"title":"Metadata"
 							},
 							"text":{
-								"title":"Text",
-								"type":"string"
+								"type":"string",
+								"title":"Text"
 							}
 						},
-						"required":[],
-						"type":"object"
+						"additionalProperties":false,
+						"required":[]
 					},
-					"title":"Chunks",
-					"type":"array"
+					"title":"Chunks"
+				},
+				"success":{
+					"type":"boolean",
+					"title":"Success"
 				},
 				"links":{
+					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Links",
-					"type":"array"
-				},
-				"success":{
-					"title":"Success",
-					"type":"boolean"
+					"title":"Links"
 				}
 			},
 			"required":[]
@@ -120,5 +118,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":37
+	"version":42
 }
