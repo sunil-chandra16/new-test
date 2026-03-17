@@ -22,71 +22,71 @@
 				"is_optional":true
 			},
 			"properties":{
-				"aiAgentId":{
-					"title":"AI Agent Id",
-					"type":"string"
+				"query":{
+					"type":"string",
+					"title":"Query"
 				},
 				"caseId":{
-					"title":"Case Id",
-					"type":"string"
+					"type":"string",
+					"title":"Case Id"
+				},
+				"aiAgentId":{
+					"type":"string",
+					"title":"AI Agent Id"
 				},
 				"internalModelId":{
-					"title":"Internal Model Id",
-					"type":"string"
-				},
-				"query":{
-					"title":"Query",
-					"type":"string"
+					"type":"string",
+					"title":"Internal Model Id"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"web search",
-	"modifiedTime":1769506721809,
+	"modifiedTime":1773768585741,
 	"name":"Web Search",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"results":{
+					"type":"array",
 					"items":{
-						"additionalProperties":false,
+						"type":"object",
 						"properties":{
 							"content":{
-								"title":"content",
-								"type":"string"
+								"type":"string",
+								"title":"content"
 							},
 							"score":{
-								"title":"score",
-								"type":"number"
+								"type":"number",
+								"title":"score"
 							},
 							"title":{
-								"title":"title",
-								"type":"string"
+								"type":"string",
+								"title":"title"
 							},
 							"url":{
-								"title":"url",
-								"type":"string"
+								"type":"string",
+								"title":"url"
 							}
 						},
-						"type":"object"
+						"additionalProperties":false
 					},
-					"title":"results",
-					"type":"array"
+					"title":"results"
 				}
 			}
 		}
 	},
 	"ownerUserId":-1,
 	"standard":true,
-	"version":37
+	"version":43
 }
