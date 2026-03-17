@@ -14,61 +14,59 @@
 	},
 	"id":"679919809928be54b16a7088",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"attachmentsList":{
+					"type":"array",
 					"items":{
 						"type":"object"
 					},
-					"title":"attachmentsList",
-					"type":"array"
+					"title":"attachmentsList"
 				},
 				"caseId":{
-					"title":"caseId",
-					"type":"string"
-				},
-				"messageContent":{
-					"title":"messageContent",
-					"type":"string"
+					"type":"string",
+					"title":"caseId"
 				},
 				"messageId":{
-					"title":"messageId",
-					"type":"string"
+					"type":"string",
+					"title":"messageId"
+				},
+				"messageContent":{
+					"type":"string",
+					"title":"messageContent"
 				}
 			}
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"custom live chat publisher",
-	"modifiedTime":1769506721807,
+	"modifiedTime":1773768357709,
 	"name":"Custom Live Chat Publisher",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"success":{
-					"title":"success",
-					"type":"boolean"
+					"type":"boolean",
+					"title":"success"
 				}
 			}
 		}
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":97
+	"version":103
 }
