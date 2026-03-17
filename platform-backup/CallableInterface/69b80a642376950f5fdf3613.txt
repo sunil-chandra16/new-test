@@ -1,6 +1,6 @@
 {
 	"createdTime":1773669044720,
-	"deleted":false,
+	"deleted":true,
 	"description":"UNlOvlmyiL",
 	"id":"69b80a642376950f5fdf3613",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aivkblicgtsp",
-	"modifiedTime":1773669044720,
+	"modifiedTime":1773740195011,
 	"name":"changeSetQA2AIVKBLiCGTSP",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
