@@ -1,6 +1,6 @@
 {
 	"createdTime":1773750024185,
-	"deleted":false,
+	"deleted":true,
 	"description":"sKLkPlYATr",
 	"id":"69b94708943d46568f7e9267",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aitjvybikocn",
-	"modifiedTime":1773750024185,
+	"modifiedTime":1773752858163,
 	"name":"changeSetQA2AItjvYBikocN",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
