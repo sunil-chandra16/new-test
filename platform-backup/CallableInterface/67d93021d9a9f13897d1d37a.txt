@@ -42,14 +42,29 @@
 				"internalModelId":{
 					"type":"string",
 					"title":"Internal Model Id"
+				},
+				"imageFile":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Image File"
+				},
+				"imageFileBatch":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{},
+						"additionalProperties":false
+					},
+					"title":"Image File Batch"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":426,
+	"lastModifiedBy":0,
 	"lcName":"call embedding model",
-	"modifiedTime":1773504115933,
+	"modifiedTime":1773768585645,
 	"name":"Call Embedding Model",
 	"output":{
 		"type":"SCHEMA",
@@ -90,11 +105,28 @@
 						"required":[]
 					},
 					"title":"embedding_batch"
+				},
+				"usage":{
+					"type":"object",
+					"properties":{
+						"promptTokens":{
+							"type":"integer",
+							"title":"Prompt Tokens"
+						},
+						"totalTokens":{
+							"type":"integer",
+							"title":"Total Tokens"
+						}
+					},
+					"additionalProperties":false,
+					"title":"Usage",
+					"required":[]
 				}
-			}
+			},
+			"required":[]
 		}
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":100
+	"version":102
 }
