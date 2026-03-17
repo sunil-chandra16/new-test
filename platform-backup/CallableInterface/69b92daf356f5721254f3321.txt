@@ -4,6 +4,7 @@
 	"description":"ZGauWooENs",
 	"id":"69b92daf356f5721254f3321",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1773743755147,
 	"name":"changeSetQA2AIXpLYQfHlum",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
