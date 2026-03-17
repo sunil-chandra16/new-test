@@ -14,6 +14,7 @@
 	},
 	"id":"690b005d98c3f4705f09fd97",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -21,13 +22,18 @@
 				"is_optional":true
 			},
 			"properties":{
-				"modelId":{
-					"title":"Model Id",
-					"type":"string"
-				},
 				"query":{
-					"title":"Query",
-					"type":"string"
+					"type":"string",
+					"title":"Query"
+				},
+				"modelId":{
+					"type":"string",
+					"title":"Model Id"
+				},
+				"detectionthreshold":{
+					"type":"integer",
+					"title":"detectionthreshold",
+					"default":"5"
 				}
 			},
 			"required":[
@@ -36,11 +42,12 @@
 			]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"query language detector",
-	"modifiedTime":1769506546909,
+	"modifiedTime":1773768585742,
 	"name":"Query language detector",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -49,16 +56,18 @@
 			},
 			"properties":{
 				"detectedLanguage":{
-					"title":"Detected Language",
-					"type":"string"
+					"type":"string",
+					"title":"Detected Language"
+				},
+				"status":{
+					"type":"string",
+					"title":"Status"
 				}
 			},
-			"required":[
-				"detectedLanguage"
-			]
+			"required":[]
 		}
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":17
+	"version":24
 }
