@@ -14,7 +14,6 @@
 	},
 	"id":"__ua__call_llm_model_interface",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -34,10 +33,21 @@
 						"type":{
 							"type":"string",
 							"title":"type"
+						},
+						"schema":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Schema"
+						},
+						"name":{
+							"type":"string",
+							"title":"Name"
 						}
 					},
 					"title":"response_format",
-					"additionalProperties":false
+					"additionalProperties":false,
+					"required":[]
 				},
 				"frequency_penalty":{
 					"type":"integer",
@@ -281,6 +291,10 @@
 						"thinkingBudget":{
 							"type":"integer",
 							"title":"Thinking Budget"
+						},
+						"thinkingLevel":{
+							"type":"string",
+							"title":"Thinking Level"
 						}
 					},
 					"additionalProperties":false,
@@ -303,25 +317,23 @@
 					"type":"boolean",
 					"title":"promptCaching"
 				},
-				"plugins":{
-					"type":"array",
-					"items":{
-						"type":"object",
-						"properties":{},
-						"additionalProperties":false
-					},
-					"title":"plugins"
+				"useProviderWebSearch":{
+					"type":"boolean",
+					"title":"Use Provider Web Search"
+				},
+				"effort":{
+					"type":"string",
+					"title":"effort"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":426,
+	"lastModifiedBy":0,
 	"lcName":"call llm model",
-	"modifiedTime":1773504116289,
+	"modifiedTime":1773768357581,
 	"name":"Call LLM Model",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -357,6 +369,10 @@
 							"toolId":{
 								"type":"string",
 								"title":"Tool Id"
+							},
+							"thinkingSignature":{
+								"type":"string",
+								"title":"Thinking Signature"
 							}
 						},
 						"additionalProperties":false,
@@ -371,6 +387,72 @@
 				"thinkingSignature":{
 					"type":"string",
 					"title":"Thinking Signature"
+				},
+				"citations":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{
+							"title":{
+								"type":"string",
+								"title":"Title"
+							},
+							"content":{
+								"type":"string",
+								"title":"Content"
+							},
+							"webUrl":{
+								"type":"string",
+								"title":"Web Url"
+							},
+							"iconUrl":{
+								"type":"string",
+								"title":"Icon Url"
+							}
+						},
+						"additionalProperties":false,
+						"required":[]
+					},
+					"title":"Citations"
+				},
+				"cacheReadInputToken":{
+					"type":"number",
+					"title":"Cache Read Input Token"
+				},
+				"cacheWriteInputToken":{
+					"type":"number",
+					"title":"Cache Write Input Token"
+				},
+				"imageFileObjects":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{
+							"name":{
+								"type":"string",
+								"title":"Name"
+							},
+							"source":{
+								"type":"string",
+								"title":"Source"
+							},
+							"sourceType":{
+								"type":"string",
+								"title":"Source Type"
+							},
+							"fileType":{
+								"type":"string",
+								"title":"File Type"
+							},
+							"size":{
+								"type":"number",
+								"title":"Size"
+							}
+						},
+						"additionalProperties":false,
+						"required":[]
+					},
+					"title":"Image File Objects"
 				}
 			},
 			"required":[]
@@ -378,5 +460,5 @@
 	},
 	"ownerUserId":520,
 	"standard":false,
-	"version":119
+	"version":120
 }
