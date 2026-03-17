@@ -22,46 +22,46 @@
 				"is_optional":true
 			},
 			"properties":{
-				"instructions":{
-					"title":"Instructions",
-					"type":"string"
+				"name":{
+					"type":"string",
+					"title":"Name"
 				},
-				"knowledges":{
-					"items":{
-						"additionalProperties":false,
-						"properties":{},
-						"type":"object"
-					},
-					"title":"Knowledges",
-					"type":"array"
+				"instructions":{
+					"type":"string",
+					"title":"Instructions"
 				},
 				"model":{
-					"title":"Model",
-					"type":"string"
-				},
-				"name":{
-					"title":"Name",
-					"type":"string"
-				},
-				"responseSchema":{
-					"additionalProperties":false,
-					"properties":{},
-					"title":"Response Schema",
-					"type":"object"
+					"type":"string",
+					"title":"Model"
 				},
 				"tools":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{},
-					"title":"Tools",
-					"type":"object"
+					"additionalProperties":false,
+					"title":"Tools"
+				},
+				"knowledges":{
+					"type":"array",
+					"items":{
+						"type":"object",
+						"properties":{},
+						"additionalProperties":false
+					},
+					"title":"Knowledges"
+				},
+				"responseSchema":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Response Schema"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"ask ai agent (workflow agent)",
-	"modifiedTime":1769506721809,
+	"modifiedTime":1773768585742,
 	"name":"Ask AI Agent (Workflow Agent)",
 	"output":{
 		"type":"SCHEMA",
@@ -73,14 +73,14 @@
 			},
 			"properties":{
 				"Success":{
-					"title":"Success",
-					"type":"boolean"
+					"type":"boolean",
+					"title":"Success"
 				},
 				"response":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{},
-					"title":"Response",
-					"type":"object"
+					"additionalProperties":false,
+					"title":"Response"
 				}
 			},
 			"required":[]
@@ -88,5 +88,5 @@
 	},
 	"ownerUserId":46030,
 	"standard":false,
-	"version":47
+	"version":54
 }
