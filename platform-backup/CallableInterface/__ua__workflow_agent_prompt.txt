@@ -46,7 +46,7 @@
 	},
 	"lastModifiedBy":0,
 	"lcName":"prompt (workflow agent)",
-	"modifiedTime":1769421995202,
+	"modifiedTime":1773768586739,
 	"name":"Prompt (Workflow Agent)",
 	"output":{
 		"type":"SCHEMA",
@@ -68,5 +68,5 @@
 	},
 	"ownerUserId":46030,
 	"standard":false,
-	"version":36
+	"version":48
 }
