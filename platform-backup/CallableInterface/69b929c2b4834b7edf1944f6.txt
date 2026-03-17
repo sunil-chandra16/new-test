@@ -1,6 +1,6 @@
 {
 	"createdTime":1773742530879,
-	"deleted":false,
+	"deleted":true,
 	"description":"ItvADGaksh",
 	"id":"69b929c2b4834b7edf1944f6",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aippmyulzbiz",
-	"modifiedTime":1773742530879,
+	"modifiedTime":1773748763871,
 	"name":"changeSetQA2AIppMYuLzbiZ",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
