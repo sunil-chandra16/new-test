@@ -14,6 +14,7 @@
 	},
 	"id":"679919809928be54b16a7088",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -47,9 +48,10 @@
 	},
 	"lastModifiedBy":0,
 	"lcName":"custom live chat publisher",
-	"modifiedTime":1773768357709,
+	"modifiedTime":1773768585741,
 	"name":"Custom Live Chat Publisher",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -68,5 +70,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":103
+	"version":104
 }
