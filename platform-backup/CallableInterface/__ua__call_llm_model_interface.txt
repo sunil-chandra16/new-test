@@ -14,6 +14,7 @@
 	},
 	"id":"__ua__call_llm_model_interface",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -331,9 +332,10 @@
 	},
 	"lastModifiedBy":0,
 	"lcName":"call llm model",
-	"modifiedTime":1773768357581,
+	"modifiedTime":1773768585743,
 	"name":"Call LLM Model",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -460,5 +462,5 @@
 	},
 	"ownerUserId":520,
 	"standard":false,
-	"version":120
+	"version":121
 }
