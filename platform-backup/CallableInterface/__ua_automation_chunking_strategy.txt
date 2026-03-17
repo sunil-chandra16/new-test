@@ -14,6 +14,7 @@
 	},
 	"id":"__ua_automation_chunking_strategy",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -70,9 +71,10 @@
 	},
 	"lastModifiedBy":0,
 	"lcName":"automation chunking strategy",
-	"modifiedTime":1773768357716,
+	"modifiedTime":1773768585646,
 	"name":"Automation Chunking Strategy",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -118,5 +120,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":42
+	"version":43
 }
