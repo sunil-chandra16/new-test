@@ -84,7 +84,7 @@
 	},
 	"lastModifiedBy":0,
 	"lcName":"ai agent knowledge indexer",
-	"modifiedTime":1769421995213,
+	"modifiedTime":1773768585741,
 	"name":"AI Agent Knowledge Indexer",
 	"output":{
 		"type":"SCHEMA",
@@ -117,5 +117,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":105
+	"version":117
 }
