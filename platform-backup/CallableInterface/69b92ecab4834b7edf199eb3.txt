@@ -1,9 +1,10 @@
 {
 	"createdTime":1773743818761,
-	"deleted":false,
+	"deleted":true,
 	"description":"OHATLSVCOS",
 	"id":"69b92ecab4834b7edf199eb3",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ainmhdawrhyw",
-	"modifiedTime":1773743818761,
+	"modifiedTime":1773743913728,
 	"name":"changeSetQA2AInMHDAwRHYW",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
