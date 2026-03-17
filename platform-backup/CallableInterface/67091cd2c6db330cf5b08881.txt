@@ -14,7 +14,6 @@
 	},
 	"id":"67091cd2c6db330cf5b08881",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -22,24 +21,23 @@
 				"is_optional":true
 			},
 			"properties":{
-				"knowledgeId":{
-					"title":"Knowledge Id",
-					"type":"string"
-				},
 				"userEmailAddress":{
-					"title":"User Email Address",
-					"type":"string"
+					"type":"string",
+					"title":"User Email Address"
+				},
+				"knowledgeId":{
+					"type":"string",
+					"title":"Knowledge Id"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"knowledge rbac details fetcher (ai agent)",
-	"modifiedTime":1769506721808,
+	"modifiedTime":1773768357738,
 	"name":"Knowledge RBAC Details Fetcher (AI Agent)",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -48,11 +46,11 @@
 			},
 			"properties":{
 				"sharedWithIds":{
+					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Shared With Ids",
-					"type":"array"
+					"title":"Shared With Ids"
 				}
 			},
 			"required":[]
@@ -60,5 +58,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":99
+	"version":105
 }
