@@ -23,117 +23,117 @@
 			},
 			"properties":{
 				"agentId":{
-					"title":"Agent Id",
-					"type":"string"
+					"type":"string",
+					"title":"Agent Id"
 				},
 				"caseId":{
-					"title":"Case Id",
-					"type":"string"
+					"type":"string",
+					"title":"Case Id"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":-1,
+	"lastModifiedBy":0,
 	"lcName":"system prompt fragment generator",
-	"modifiedTime":1769506721632,
+	"modifiedTime":1773768585537,
 	"name":"System Prompt Fragment Generator",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
-				"agentName":{
-					"title":"Agent Name",
-					"type":"string"
-				},
-				"background":{
-					"title":"background",
-					"type":"string"
-				},
-				"currentTopic":{
-					"title":"Current Topic",
-					"type":"string"
-				},
-				"defaultToolsNotNeeded":{
-					"title":"Default Tools Not Needed",
-					"type":"boolean"
-				},
-				"executeUsingModel":{
-					"title":"Execute Using Model",
-					"type":"string"
+				"role":{
+					"type":"string",
+					"title":"role"
 				},
 				"goal":{
-					"title":"goal",
-					"type":"string"
+					"type":"string",
+					"title":"goal"
 				},
-				"role":{
-					"title":"role",
-					"type":"string"
-				},
-				"systemPromptInstructions":{
-					"title":"System Prompt Instructions",
-					"type":"string"
-				},
-				"textToSQLSettings":{
-					"additionalProperties":false,
-					"properties":{
-						"isOnlyTextToSQLAgent":{
-							"title":"isOnlyTextToSQLAgent",
-							"type":"boolean"
-						},
-						"sqlAndChart1LLMCall_Variant":{
-							"title":"sqlAndChart1LLMCall_Variant",
-							"type":"boolean"
-						},
-						"topicIdForOnlyText2SQL":{
-							"title":"topicIdForOnlyText2SQL",
-							"type":"string"
-						}
-					},
-					"type":"object"
+				"background":{
+					"type":"string",
+					"title":"background"
 				},
 				"tools":{
+					"type":"array",
 					"items":{
-						"additionalProperties":false,
+						"type":"object",
 						"properties":{
-							"additional":{
-								"additionalProperties":false,
-								"properties":{},
-								"required":[],
-								"title":"Additional",
-								"type":"object"
+							"name":{
+								"type":"string",
+								"title":"name"
 							},
 							"description":{
-								"title":"description",
-								"type":"string"
+								"type":"string",
+								"title":"description"
 							},
 							"id":{
-								"title":"Id",
-								"type":"string"
-							},
-							"name":{
-								"title":"name",
-								"type":"string"
+								"type":"string",
+								"title":"Id"
 							},
 							"toolInputSchema":{
-								"additionalProperties":false,
+								"type":"object",
 								"properties":{},
-								"title":"Tool Input Schema",
-								"type":"object"
+								"additionalProperties":false,
+								"title":"Tool Input Schema"
+							},
+							"additional":{
+								"type":"object",
+								"properties":{},
+								"additionalProperties":false,
+								"title":"Additional",
+								"required":[]
 							}
 						},
-						"required":[],
-						"type":"object"
+						"additionalProperties":false,
+						"required":[]
 					},
-					"title":"tools",
-					"type":"array"
+					"title":"tools"
+				},
+				"executeUsingModel":{
+					"type":"string",
+					"title":"Execute Using Model"
+				},
+				"systemPromptInstructions":{
+					"type":"string",
+					"title":"System Prompt Instructions"
+				},
+				"agentName":{
+					"type":"string",
+					"title":"Agent Name"
+				},
+				"currentTopic":{
+					"type":"string",
+					"title":"Current Topic"
+				},
+				"defaultToolsNotNeeded":{
+					"type":"boolean",
+					"title":"Default Tools Not Needed"
+				},
+				"textToSQLSettings":{
+					"type":"object",
+					"properties":{
+						"isOnlyTextToSQLAgent":{
+							"type":"boolean",
+							"title":"isOnlyTextToSQLAgent"
+						},
+						"topicIdForOnlyText2SQL":{
+							"type":"string",
+							"title":"topicIdForOnlyText2SQL"
+						},
+						"sqlAndChart1LLMCall_Variant":{
+							"type":"boolean",
+							"title":"sqlAndChart1LLMCall_Variant"
+						}
+					},
+					"additionalProperties":false
 				}
 			},
 			"required":[]
@@ -141,5 +141,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":104
+	"version":111
 }
