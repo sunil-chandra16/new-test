@@ -1,6 +1,6 @@
 {
 	"createdTime":1773809246956,
-	"deleted":false,
+	"deleted":true,
 	"description":"fdClChsDMZ",
 	"id":"69ba2e5ea1f06950f15f3ea5",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aipddqfeptge",
-	"modifiedTime":1773809246956,
+	"modifiedTime":1773811536723,
 	"name":"changeSetQA2AIpddQFePtGe",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
