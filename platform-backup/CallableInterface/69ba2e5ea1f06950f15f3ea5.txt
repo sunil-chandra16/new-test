@@ -4,6 +4,7 @@
 	"description":"fdClChsDMZ",
 	"id":"69ba2e5ea1f06950f15f3ea5",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1773809246956,
 	"name":"changeSetQA2AIpddQFePtGe",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
