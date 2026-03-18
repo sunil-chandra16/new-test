@@ -1,6 +1,6 @@
 {
 	"createdTime":1773753323643,
-	"deleted":false,
+	"deleted":true,
 	"description":"XCDksAripn",
 	"id":"69b953eb8adf4b5ac570978a",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aisxfpffkgeb",
-	"modifiedTime":1773753323643,
+	"modifiedTime":1773805610175,
 	"name":"changeSetQA2AIsxfpfFkgeB",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
