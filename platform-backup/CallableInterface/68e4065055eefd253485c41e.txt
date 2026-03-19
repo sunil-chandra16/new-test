@@ -14,6 +14,7 @@
 	},
 	"id":"68e4065055eefd253485c41e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -77,9 +78,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"perform web search (agent)",
-	"modifiedTime":1773928022938,
+	"modifiedTime":1773928222532,
 	"name":"Perform Web Search (Agent)",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -99,5 +101,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":true,
-	"version":39
+	"version":40
 }
