@@ -24,6 +24,11 @@
 				"is_optional":true
 			},
 			"properties":{
+				"effort":{
+					"help":"For Claude 4.6",
+					"title":"effort",
+					"type":"string"
+				},
 				"frequency_penalty":{
 					"title":"frequency_penalty",
 					"type":"integer"
@@ -182,15 +187,23 @@
 				"response_format":{
 					"additionalProperties":false,
 					"properties":{
-						"schema":{
+						"format":{
 							"additionalProperties":false,
-							"properties":{},
-							"title":"Schema",
+							"properties":{
+								"schema":{
+									"additionalProperties":false,
+									"properties":{},
+									"title":"Schema",
+									"type":"object"
+								},
+								"type":{
+									"title":"type",
+									"type":"string"
+								}
+							},
+							"required":[],
+							"title":"format",
 							"type":"object"
-						},
-						"type":{
-							"title":"type",
-							"type":"string"
 						}
 					},
 					"required":[],
@@ -247,6 +260,10 @@
 						"thinkingBudget":{
 							"title":"thinkingBudget",
 							"type":"integer"
+						},
+						"thinkingLevel":{
+							"title":"thinkingLevel",
+							"type":"string"
 						}
 					},
 					"required":[],
@@ -312,7 +329,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"create llm payload schema",
-	"modifiedTime":1769506721923,
+	"modifiedTime":1773928222534,
 	"name":"Create LLM Payload Schema",
 	"output":{
 		"type":"SCHEMA",
@@ -335,5 +352,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":97
+	"version":106
 }
