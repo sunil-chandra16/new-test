@@ -14,7 +14,6 @@
 	},
 	"id":"68e4065055eefd253485c41e",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -24,6 +23,30 @@
 				"is_optional":true
 			},
 			"properties":{
+				"SearchParameters":{
+					"additionalProperties":false,
+					"properties":{
+						"DateOrMonthOrWeeksOrYears":{
+							"title":"DateMonthWeeksYears(D/M/W/Y)",
+							"type":"string"
+						},
+						"SearchResultsFromNumberOfPastDMWY":{
+							"title":"Search Results From Number Of Past DMWY",
+							"type":"string"
+						},
+						"countryNameOrCode":{
+							"title":"CountryForLocalisedSearch",
+							"type":"string"
+						},
+						"numberOfSources":{
+							"title":"Num Searches",
+							"type":"integer"
+						}
+					},
+					"required":[],
+					"title":"Search Parameters",
+					"type":"object"
+				},
 				"agentResponseMessageId":{
 					"title":"Agent Response Message Id",
 					"type":"string"
@@ -54,10 +77,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"perform web search (agent)",
-	"modifiedTime":1769506721807,
+	"modifiedTime":1773928022938,
 	"name":"Perform Web Search (Agent)",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -77,5 +99,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":true,
-	"version":32
+	"version":39
 }
