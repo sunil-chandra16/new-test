@@ -14,6 +14,7 @@
 	},
 	"id":"__ua__call_ocr_extraction",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"layout":{
@@ -53,6 +54,10 @@
 				"is_optional":true
 			},
 			"properties":{
+				"enhanceImage":{
+					"title":"Enhance Image",
+					"type":"boolean"
+				},
 				"files":{
 					"items":{
 						"additionalProperties":false,
@@ -106,7 +111,7 @@
 					"type":"string"
 				},
 				"processAsPdf":{
-					"title":"processAsPdf",
+					"title":"Sent File Directly to LLM",
 					"type":"boolean"
 				},
 				"prompt":{
@@ -131,9 +136,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"ocr document details extraction",
-	"modifiedTime":1769505870447,
+	"modifiedTime":1773928222436,
 	"name":"OCR Document Details Extraction",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -207,5 +213,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":true,
-	"version":27
+	"version":39
 }
