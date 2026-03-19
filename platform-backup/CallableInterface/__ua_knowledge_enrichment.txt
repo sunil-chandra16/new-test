@@ -14,7 +14,6 @@
 	},
 	"id":"__ua_knowledge_enrichment",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -23,36 +22,35 @@
 			},
 			"properties":{
 				"knowledgeId":{
-					"type":"string",
-					"title":"Knowledge Id"
+					"title":"Knowledge Id",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"knowledge enrichment interface",
-	"modifiedTime":1773768585645,
+	"modifiedTime":1773928022680,
 	"name":"Knowledge Enrichment Interface",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"success":{
-					"type":"boolean",
-					"title":"success"
+					"title":"success",
+					"type":"boolean"
 				}
 			}
 		}
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":88
+	"version":89
 }
