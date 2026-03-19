@@ -1,6 +1,6 @@
 {
 	"createdTime":1773905453515,
-	"deleted":false,
+	"deleted":true,
 	"description":"LOXXezxvPJ",
 	"id":"69bba62da73fc139d1ffe58c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiemdbcbqlgv",
-	"modifiedTime":1773905453515,
+	"modifiedTime":1773925000254,
 	"name":"changeSetQA2AIemdbCbQlGv",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
