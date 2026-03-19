@@ -22,56 +22,56 @@
 				"is_optional":true
 			},
 			"properties":{
-				"fileDetails":{
-					"type":"object",
-					"properties":{},
-					"additionalProperties":false,
-					"title":"File Details"
+				"authorEmail":{
+					"title":"Author Email",
+					"type":"string"
 				},
 				"chunkMetadata":{
-					"type":"object",
-					"properties":{},
 					"additionalProperties":false,
-					"title":"Chunk Metadata"
+					"properties":{},
+					"title":"Chunk Metadata",
+					"type":"object"
+				},
+				"fileDetails":{
+					"additionalProperties":false,
+					"properties":{},
+					"title":"File Details",
+					"type":"object"
 				},
 				"knowledgeId":{
-					"type":"string",
-					"title":"Knowledge Id"
-				},
-				"knowledgeVersion":{
-					"type":"number",
-					"title":"Knowledge Version"
-				},
-				"authorEmail":{
-					"type":"string",
-					"title":"Author Email"
-				},
-				"uniqueEntityId":{
-					"type":"string",
-					"title":"Unique Entity Id"
+					"title":"Knowledge Id",
+					"type":"string"
 				},
 				"knowledgeSetId":{
-					"type":"string",
-					"title":"Knowledge Set Id"
+					"title":"Knowledge Set Id",
+					"type":"string"
+				},
+				"knowledgeVersion":{
+					"title":"Knowledge Version",
+					"type":"number"
+				},
+				"mimeType":{
+					"title":"Mime Type",
+					"type":"string"
 				},
 				"sharedWithIds":{
-					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Shared With Ids"
+					"title":"Shared With Ids",
+					"type":"array"
 				},
-				"mimeType":{
-					"type":"string",
-					"title":"Mime Type"
+				"uniqueEntityId":{
+					"title":"Unique Entity Id",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"automation chunking strategy",
-	"modifiedTime":1773768585646,
+	"modifiedTime":1773928222438,
 	"name":"Automation Chunking Strategy",
 	"output":{
 		"type":"SCHEMA",
@@ -83,36 +83,36 @@
 			},
 			"properties":{
 				"chunks":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
 							"metadata":{
-								"type":"object",
-								"properties":{},
 								"additionalProperties":false,
-								"title":"Metadata"
+								"properties":{},
+								"title":"Metadata",
+								"type":"object"
 							},
 							"text":{
-								"type":"string",
-								"title":"Text"
+								"title":"Text",
+								"type":"string"
 							}
 						},
-						"additionalProperties":false,
-						"required":[]
+						"required":[],
+						"type":"object"
 					},
-					"title":"Chunks"
-				},
-				"success":{
-					"type":"boolean",
-					"title":"Success"
+					"title":"Chunks",
+					"type":"array"
 				},
 				"links":{
-					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Links"
+					"title":"Links",
+					"type":"array"
+				},
+				"success":{
+					"title":"Success",
+					"type":"boolean"
 				}
 			},
 			"required":[]
@@ -120,5 +120,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":43
+	"version":45
 }
