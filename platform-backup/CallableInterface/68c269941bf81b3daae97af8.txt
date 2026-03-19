@@ -14,7 +14,6 @@
 	},
 	"id":"68c269941bf81b3daae97af8",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -22,58 +21,57 @@
 				"is_optional":true
 			},
 			"properties":{
+				"additional":{
+					"additionalProperties":false,
+					"properties":{},
+					"title":"Additional",
+					"type":"object"
+				},
 				"platformName":{
-					"type":"string",
-					"title":"Platform Name"
+					"title":"Platform Name",
+					"type":"string"
 				},
 				"sqlQuery":{
-					"type":"string",
-					"title":"Sql Query"
-				},
-				"additional":{
-					"type":"object",
-					"properties":{},
-					"additionalProperties":false,
-					"title":"Additional"
+					"title":"Sql Query",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"execute sql query",
-	"modifiedTime":1773768585742,
+	"modifiedTime":1773928023017,
 	"name":"Execute SQL Query",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"columnNames":{
-					"type":"array",
-					"title":"columnNames"
-				},
-				"rows":{
-					"type":"array",
-					"title":"rows"
-				},
-				"status":{
-					"type":"integer",
-					"title":"status"
+					"title":"columnNames",
+					"type":"array"
 				},
 				"err_msg":{
-					"type":"string",
-					"title":"err_msg"
+					"title":"err_msg",
+					"type":"string"
 				},
 				"passMessageDirectlyToAgent":{
-					"type":"string",
-					"title":"Pass Message Directly To Agent"
+					"title":"Pass Message Directly To Agent",
+					"type":"string"
+				},
+				"rows":{
+					"title":"rows",
+					"type":"array"
+				},
+				"status":{
+					"title":"status",
+					"type":"integer"
 				}
 			},
 			"required":[]
@@ -81,5 +79,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":true,
-	"version":39
+	"version":40
 }
