@@ -4,6 +4,7 @@
 	"description":"LOXXezxvPJ",
 	"id":"69bba62da73fc139d1ffe58c",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1773905453515,
 	"name":"changeSetQA2AIemdbCbQlGv",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
