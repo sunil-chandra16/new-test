@@ -14,113 +14,111 @@
 	},
 	"id":"67d93021d9a9f13897d1d37a",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"user_query":{
-					"type":"string",
-					"title":"user_query"
+				"imageFile":{
+					"additionalProperties":false,
+					"properties":{},
+					"title":"Image File",
+					"type":"object"
+				},
+				"imageFileBatch":{
+					"items":{
+						"additionalProperties":false,
+						"properties":{},
+						"type":"object"
+					},
+					"title":"Image File Batch",
+					"type":"array"
+				},
+				"internalModelId":{
+					"title":"Internal Model Id",
+					"type":"string"
 				},
 				"model":{
-					"type":"string",
-					"title":"model"
+					"title":"model",
+					"type":"string"
 				},
 				"text_batch":{
-					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"text_batch"
+					"title":"text_batch",
+					"type":"array"
 				},
-				"internalModelId":{
-					"type":"string",
-					"title":"Internal Model Id"
-				},
-				"imageFile":{
-					"type":"object",
-					"properties":{},
-					"additionalProperties":false,
-					"title":"Image File"
-				},
-				"imageFileBatch":{
-					"type":"array",
-					"items":{
-						"type":"object",
-						"properties":{},
-						"additionalProperties":false
-					},
-					"title":"Image File Batch"
+				"user_query":{
+					"title":"user_query",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"call embedding model",
-	"modifiedTime":1773768585645,
+	"modifiedTime":1773928022824,
 	"name":"Call Embedding Model",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"embeddings":{
-					"type":"array",
-					"items":{
-						"type":"integer"
-					},
-					"title":"embeddings"
-				},
 				"embedding_batch":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
-							"index":{
-								"type":"integer",
-								"title":"index"
-							},
 							"embeddings":{
-								"type":"array",
 								"items":{
 									"type":"number"
 								},
-								"title":"embeddings"
+								"title":"embeddings",
+								"type":"array"
+							},
+							"index":{
+								"title":"index",
+								"type":"integer"
 							}
 						},
-						"additionalProperties":false,
-						"required":[]
+						"required":[],
+						"type":"object"
 					},
-					"title":"embedding_batch"
+					"title":"embedding_batch",
+					"type":"array"
+				},
+				"embeddings":{
+					"items":{
+						"type":"integer"
+					},
+					"title":"embeddings",
+					"type":"array"
 				},
 				"usage":{
-					"type":"object",
+					"additionalProperties":false,
 					"properties":{
 						"promptTokens":{
-							"type":"integer",
-							"title":"Prompt Tokens"
+							"title":"Prompt Tokens",
+							"type":"integer"
 						},
 						"totalTokens":{
-							"type":"integer",
-							"title":"Total Tokens"
+							"title":"Total Tokens",
+							"type":"integer"
 						}
 					},
-					"additionalProperties":false,
+					"required":[],
 					"title":"Usage",
-					"required":[]
+					"type":"object"
 				}
 			},
 			"required":[]
@@ -128,5 +126,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":102
+	"version":103
 }
