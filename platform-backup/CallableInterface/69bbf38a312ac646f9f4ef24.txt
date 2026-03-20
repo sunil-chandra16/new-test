@@ -1,6 +1,6 @@
 {
 	"createdTime":1773925258490,
-	"deleted":false,
+	"deleted":true,
 	"description":"RJcAZZoumj",
 	"id":"69bbf38a312ac646f9f4ef24",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ainmrnkpugow",
-	"modifiedTime":1773925258490,
+	"modifiedTime":1773976518093,
 	"name":"changeSetQA2AINmRNKPugow",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
