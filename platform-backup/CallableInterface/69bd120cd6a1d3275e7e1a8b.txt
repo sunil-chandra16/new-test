@@ -1,6 +1,6 @@
 {
 	"createdTime":1773999216630,
-	"deleted":false,
+	"deleted":true,
 	"description":"EAlklyWKEk",
 	"id":"69bd120cd6a1d3275e7e1a8b",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiqwuhzkcrll",
-	"modifiedTime":1773999216630,
+	"modifiedTime":1774001078637,
 	"name":"changeSetQA2AIqwUHZKcrlL",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
