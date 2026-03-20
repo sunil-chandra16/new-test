@@ -4,6 +4,7 @@
 	"description":"EAlklyWKEk",
 	"id":"69bd120cd6a1d3275e7e1a8b",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1773999216630,
 	"name":"changeSetQA2AIqwUHZKcrlL",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
