@@ -1,6 +1,6 @@
 {
 	"createdTime":1773981584264,
-	"deleted":false,
+	"deleted":true,
 	"description":"VATwHayild",
 	"id":"69bccf48889f460ff1863411",
 	"input":{
@@ -22,7 +22,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiwyekukpvwi",
-	"modifiedTime":1773981584264,
+	"modifiedTime":1773981625476,
 	"name":"changeSetQA2AIWyeKUKPvWI",
 	"output":{
 		"dynamic":false,
@@ -39,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
