@@ -1,6 +1,6 @@
 {
 	"createdTime":1773981561380,
-	"deleted":false,
+	"deleted":true,
 	"description":"FFUmweoANc",
 	"id":"69bccf79935e957f99e7d44d",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aioffjuyodyj",
-	"modifiedTime":1773981561380,
+	"modifiedTime":1773982375335,
 	"name":"changeSetQA2AIOFfJuYOdyJ",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
