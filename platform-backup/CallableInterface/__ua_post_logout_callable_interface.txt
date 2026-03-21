@@ -1,10 +1,9 @@
 {
-	"createdTime":1774116838206,
+	"createdTime":1774116978355,
 	"deleted":false,
 	"description":"Post Logout Callable Interface",
 	"id":"__ua_post_logout_callable_interface",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -17,10 +16,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"post logout callable interface",
-	"modifiedTime":1774116839836,
+	"modifiedTime":1774116979193,
 	"name":"Post Logout Callable Interface",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
