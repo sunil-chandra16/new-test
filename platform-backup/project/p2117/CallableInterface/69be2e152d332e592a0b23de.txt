@@ -1,6 +1,6 @@
 {
 	"createdTime":1774071368196,
-	"deleted":false,
+	"deleted":true,
 	"description":"FNarrsKXpv",
 	"id":"69be2e152d332e592a0b23de",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aikozbyqwqix",
-	"modifiedTime":1774071451539,
+	"modifiedTime":1774079285866,
 	"name":"changeSetQA2AIkOZbYQWQIx",
 	"output":{
 		"type":"SCHEMA",
@@ -42,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":1
+	"version":2
 }
