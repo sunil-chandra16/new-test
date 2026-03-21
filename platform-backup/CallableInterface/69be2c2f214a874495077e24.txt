@@ -1,9 +1,10 @@
 {
 	"createdTime":1774070831665,
-	"deleted":false,
+	"deleted":true,
 	"description":"MmhboetIsh",
 	"id":"69be2c2f214a874495077e24",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aitemtoouvrw",
-	"modifiedTime":1774070831665,
+	"modifiedTime":1774071279155,
 	"name":"changeSetQA2AItEmTooUVRW",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
