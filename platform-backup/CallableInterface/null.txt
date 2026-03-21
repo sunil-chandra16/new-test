@@ -1,7 +1,7 @@
 {
-	"createdTime":1770720248351,
+	"createdTime":1774118041217,
 	"deleted":false,
-	"description":"Crawls the given website url and returns html content as text",
+	"description":"Post Login Callable Interface",
 	"input":{
 		"dynamic":false,
 		"schema":{
@@ -9,19 +9,14 @@
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"properties":{
-				"websiteUrl":{
-					"type":"string",
-					"title":"Website Url"
-				}
-			},
+			"properties":{},
 			"required":[]
 		}
 	},
 	"lastModifiedBy":-1,
-	"lcName":"crawl website",
-	"modifiedTime":1770720248625,
-	"name":"Crawl Website",
+	"lcName":"post login callable interface",
+	"modifiedTime":1774118041538,
+	"name":"Post Login Callable Interface",
 	"output":{
 		"dynamic":false,
 		"schema":{
@@ -30,13 +25,27 @@
 				"is_optional":true
 			},
 			"properties":{
-				"websiteContent":{
+				"statusCode":{
+					"type":"integer",
+					"title":"Status"
+				},
+				"payload":{
+					"type":"object",
+					"title":"Payload"
+				},
+				"headers":{
+					"type":"object",
+					"properties":{},
+					"additionalProperties":false,
+					"title":"Headers"
+				},
+				"location":{
 					"type":"string",
-					"title":"Website Content"
+					"title":"Location"
 				}
 			},
 			"required":[
-				"websiteContent"
+				"statusCode"
 			]
 		}
 	},
