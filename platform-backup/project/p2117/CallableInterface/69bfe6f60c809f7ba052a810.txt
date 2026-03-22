@@ -1,9 +1,10 @@
 {
 	"createdTime":1774184234397,
-	"deleted":false,
+	"deleted":true,
 	"description":"xjWgBDOjkj",
 	"id":"69bfe6f60c809f7ba052a810",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2airejekvgttb",
-	"modifiedTime":1774184329746,
+	"modifiedTime":1774185282132,
 	"name":"changeSetQA2AIREjEKvgTtb",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":1
+	"version":2
 }
