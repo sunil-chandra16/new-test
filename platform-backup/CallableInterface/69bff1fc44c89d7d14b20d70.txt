@@ -1,6 +1,6 @@
 {
 	"createdTime":1774187004675,
-	"deleted":false,
+	"deleted":true,
 	"description":"icVmEyFPZU",
 	"id":"69bff1fc44c89d7d14b20d70",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aisqpioxzszr",
-	"modifiedTime":1774187004675,
+	"modifiedTime":1774188253498,
 	"name":"changeSetQA2AIsQPIOXzsZR",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
