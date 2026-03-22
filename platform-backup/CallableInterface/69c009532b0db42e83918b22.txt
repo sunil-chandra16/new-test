@@ -1,9 +1,10 @@
 {
 	"createdTime":1774192979041,
-	"deleted":false,
+	"deleted":true,
 	"description":"WTCcFHNKNJ",
 	"id":"69c009532b0db42e83918b22",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiiyimhbfgrp",
-	"modifiedTime":1774192979041,
+	"modifiedTime":1774193500411,
 	"name":"changeSetQA2AIIYimhBfGrP",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
