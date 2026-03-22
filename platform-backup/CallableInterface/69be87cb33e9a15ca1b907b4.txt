@@ -1,6 +1,6 @@
 {
 	"createdTime":1774094283914,
-	"deleted":false,
+	"deleted":true,
 	"description":"DssdVnoKPG",
 	"id":"69be87cb33e9a15ca1b907b4",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ainxtgnrutet",
-	"modifiedTime":1774094283914,
+	"modifiedTime":1774180356164,
 	"name":"changeSetQA2AINXTgNRutET",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
