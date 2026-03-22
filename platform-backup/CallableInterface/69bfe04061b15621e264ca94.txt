@@ -4,6 +4,7 @@
 	"description":"cFTOULPEpt",
 	"id":"69bfe04061b15621e264ca94",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1774182464736,
 	"name":"changeSetQA2AIxQMyZZCKMj",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
