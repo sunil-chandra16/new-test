@@ -4,6 +4,7 @@
 	"description":"muTAoLBuOp",
 	"id":"69bfe72c5cfb040593189376",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1774184508010,
 	"name":"changeSetQA2AIpDNcWPzNzd",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
