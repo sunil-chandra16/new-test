@@ -1,6 +1,6 @@
 {
 	"createdTime":1774183691070,
-	"deleted":false,
+	"deleted":true,
 	"description":"rmZnPczaEL",
 	"id":"69bfe4300c809f7ba052a759",
 	"input":{
@@ -22,7 +22,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aitmorauoldb",
-	"modifiedTime":1774183691070,
+	"modifiedTime":1774183840987,
 	"name":"changeSetQA2AITmOrauoldB",
 	"output":{
 		"dynamic":false,
@@ -39,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
