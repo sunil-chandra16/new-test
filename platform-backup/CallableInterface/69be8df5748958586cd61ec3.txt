@@ -1,6 +1,6 @@
 {
 	"createdTime":1774095908263,
-	"deleted":false,
+	"deleted":true,
 	"description":"pbdmOvZdva",
 	"grants":{
 		"configs":[
@@ -55,7 +55,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2airacxcsynbr",
-	"modifiedTime":1774095916937,
+	"modifiedTime":1774180356003,
 	"name":"changeSetQA2AIRACXCsYNBr",
 	"output":{
 		"type":"SCHEMA",
@@ -73,5 +73,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":1
+	"version":2
 }
