@@ -1,6 +1,6 @@
 {
 	"createdTime":1774183469982,
-	"deleted":false,
+	"deleted":true,
 	"description":"JMnxpwptGo",
 	"id":"69bfe42dc114ec0f3b3f6331",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiqsnrxkjjkt",
-	"modifiedTime":1774183469982,
+	"modifiedTime":1774185282233,
 	"name":"changeSetQA2AIqSnRxkJjkT",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
