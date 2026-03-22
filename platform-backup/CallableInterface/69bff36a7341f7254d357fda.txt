@@ -1,6 +1,6 @@
 {
 	"createdTime":1774187370157,
-	"deleted":false,
+	"deleted":true,
 	"description":"RdpGbIGDxA",
 	"id":"69bff36a7341f7254d357fda",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiocgwbukpal",
-	"modifiedTime":1774187370157,
+	"modifiedTime":1774188253466,
 	"name":"changeSetQA2AIoCgWBukPal",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
