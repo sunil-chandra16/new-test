@@ -1,9 +1,10 @@
 {
 	"createdTime":1774245868954,
-	"deleted":false,
+	"deleted":true,
 	"description":"NiXnIntAwU",
 	"id":"69c0d7b8ab579d52915baf9e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aionjuvkshig",
-	"modifiedTime":1774245954891,
+	"modifiedTime":1774246900724,
 	"name":"changeSetQA2AIoNjuVKSHIG",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":1
+	"version":2
 }
