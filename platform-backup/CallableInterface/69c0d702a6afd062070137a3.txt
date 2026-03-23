@@ -1,9 +1,10 @@
 {
 	"createdTime":1774245634795,
-	"deleted":false,
+	"deleted":true,
 	"description":"mMTDObAslo",
 	"id":"69c0d702a6afd062070137a3",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aithqfejebbi",
-	"modifiedTime":1774245634795,
+	"modifiedTime":1774246900780,
 	"name":"changeSetQA2AIthqFejEBbI",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
