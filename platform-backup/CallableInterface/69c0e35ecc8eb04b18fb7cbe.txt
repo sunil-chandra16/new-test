@@ -1,6 +1,6 @@
 {
 	"createdTime":1774248798763,
-	"deleted":false,
+	"deleted":true,
 	"description":"INNsNIbmRH",
 	"id":"69c0e35ecc8eb04b18fb7cbe",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aigihqdyowta",
-	"modifiedTime":1774248798763,
+	"modifiedTime":1774251439383,
 	"name":"changeSetQA2AIGIHQdyOwTa",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
