@@ -1,6 +1,6 @@
 {
 	"createdTime":1774243485734,
-	"deleted":false,
+	"deleted":true,
 	"description":"ZGmfCQDFTs",
 	"id":"69c0ce9da6afd0620700aa6c",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiadcvynffwu",
-	"modifiedTime":1774243485734,
+	"modifiedTime":1774246900946,
 	"name":"changeSetQA2AIadcvynfFwU",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
