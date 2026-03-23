@@ -1,9 +1,10 @@
 {
 	"createdTime":1774248624988,
-	"deleted":false,
+	"deleted":true,
 	"description":"WeBelhgoYA",
 	"id":"69c0e2b0a9d534143996ed91",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiqsaxgebsrq",
-	"modifiedTime":1774248624988,
+	"modifiedTime":1774248769081,
 	"name":"changeSetQA2AIQsAxgeBSRq",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
