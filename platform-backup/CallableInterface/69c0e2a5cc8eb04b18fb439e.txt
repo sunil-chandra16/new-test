@@ -1,9 +1,10 @@
 {
 	"createdTime":1774248613254,
-	"deleted":false,
+	"deleted":true,
 	"description":"SpUEBCtBUN",
 	"id":"69c0e2a5cc8eb04b18fb439e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiygiasromzv",
-	"modifiedTime":1774248613254,
+	"modifiedTime":1774248707848,
 	"name":"changeSetQA2AIYgIasROMZV",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
