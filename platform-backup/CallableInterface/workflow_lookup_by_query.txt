@@ -105,7 +105,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"workflow lookup by query",
-	"modifiedTime":1774332424489,
+	"modifiedTime":1774342574496,
 	"name":"Workflow Lookup By Query",
 	"output":{
 		"type":"SCHEMA",
@@ -131,5 +131,5 @@
 	},
 	"ownerUserId":44096,
 	"standard":false,
-	"version":37
+	"version":38
 }
