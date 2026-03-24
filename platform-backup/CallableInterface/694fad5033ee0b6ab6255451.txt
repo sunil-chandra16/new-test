@@ -61,7 +61,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"custom metadata filter generator",
-	"modifiedTime":1774332424585,
+	"modifiedTime":1774342574525,
 	"name":"Custom Metadata Filter Generator",
 	"output":{
 		"type":"SCHEMA",
@@ -103,5 +103,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":17
+	"version":18
 }
