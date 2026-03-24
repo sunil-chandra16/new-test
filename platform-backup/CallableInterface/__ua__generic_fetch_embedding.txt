@@ -18,124 +18,124 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"userQuery":{
-					"type":"string",
-					"title":"userQuery"
+				"caseId":{
+					"title":"caseId",
+					"type":"string"
+				},
+				"imageFile":{
+					"title":"imageFile",
+					"type":"object"
+				},
+				"imageFileBatch":{
+					"items":{
+						"additionalProperties":false,
+						"properties":{},
+						"type":"object"
+					},
+					"title":"imageFileBatch",
+					"type":"array"
 				},
 				"modelId":{
-					"type":"string",
-					"title":"modelId"
+					"title":"modelId",
+					"type":"string"
+				},
+				"step":{
+					"title":"step",
+					"type":"string"
 				},
 				"text_batch":{
-					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"text_batch"
+					"title":"text_batch",
+					"type":"array"
 				},
-				"caseId":{
-					"type":"string",
-					"title":"caseId"
-				},
-				"step":{
-					"type":"string",
-					"title":"step"
-				},
-				"imageFile":{
-					"type":"object",
-					"title":"imageFile"
-				},
-				"imageFileBatch":{
-					"type":"array",
-					"items":{
-						"type":"object",
-						"properties":{},
-						"additionalProperties":false
-					},
-					"title":"imageFileBatch"
+				"userQuery":{
+					"title":"userQuery",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"generic fetch embedding",
-	"modifiedTime":1769421995296,
+	"modifiedTime":1774332424677,
 	"name":"Generic fetch embedding",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"embeddings":{
-					"type":"array",
-					"items":{
-						"type":"object"
-					},
-					"title":"embeddings"
-				},
 				"embedding_batch":{
-					"type":"array",
 					"items":{
-						"type":"object",
+						"additionalProperties":false,
 						"properties":{
-							"index":{
-								"type":"integer",
-								"title":"index"
-							},
 							"embeddings":{
-								"type":"array",
 								"items":{
 									"type":"number"
 								},
-								"title":"embeddings"
+								"title":"embeddings",
+								"type":"array"
+							},
+							"index":{
+								"title":"index",
+								"type":"integer"
 							}
 						},
-						"additionalProperties":false,
-						"required":[]
+						"required":[],
+						"type":"object"
 					},
-					"title":"embedding_batch"
+					"title":"embedding_batch",
+					"type":"array"
+				},
+				"embeddings":{
+					"items":{
+						"type":"object"
+					},
+					"title":"embeddings",
+					"type":"array"
 				},
 				"executionInstanceId":{
-					"type":"string",
-					"title":"executionInstanceId"
+					"title":"executionInstanceId",
+					"type":"string"
 				},
 				"usage":{
-					"type":"object",
+					"additionalProperties":false,
 					"properties":{
 						"inputTokens":{
-							"type":"integer",
-							"title":"inputTokens"
+							"title":"inputTokens",
+							"type":"integer"
 						},
 						"outputTokens":{
-							"type":"integer",
-							"title":"outputTokens"
+							"title":"outputTokens",
+							"type":"integer"
 						}
 					},
+					"required":[],
 					"title":"usage",
-					"additionalProperties":false,
-					"required":[]
+					"type":"object"
 				},
 				"usedModelId":{
-					"type":"string",
-					"title":"usedModelId"
+					"title":"usedModelId",
+					"type":"string"
 				}
 			}
 		}
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":3
+	"version":11
 }
