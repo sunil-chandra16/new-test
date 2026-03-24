@@ -22,46 +22,46 @@
 				"is_optional":true
 			},
 			"properties":{
+				"additional":{
+					"additionalProperties":false,
+					"properties":{},
+					"title":"Additional",
+					"type":"object"
+				},
+				"agentInstructions":{
+					"title":"Agent Instruction",
+					"type":"string"
+				},
+				"aiAgentId":{
+					"title":"Ai Agent Id",
+					"type":"string"
+				},
+				"caseId":{
+					"title":"Case Id",
+					"type":"string"
+				},
+				"knowledgeInstruction":{
+					"title":"Knowledge Instruction",
+					"type":"string"
+				},
 				"metadataFields":{
-					"type":"array",
 					"items":{
 						"type":"string"
 					},
-					"title":"Metadata Fields"
+					"title":"Metadata Fields",
+					"type":"array"
 				},
 				"userQuery":{
-					"type":"string",
-					"title":"User Query"
-				},
-				"agentInstructions":{
-					"type":"string",
-					"title":"Agent Instruction"
-				},
-				"knowledgeInstruction":{
-					"type":"string",
-					"title":"Knowledge Instruction"
-				},
-				"aiAgentId":{
-					"type":"string",
-					"title":"Ai Agent Id"
-				},
-				"caseId":{
-					"type":"string",
-					"title":"Case Id"
-				},
-				"additional":{
-					"type":"object",
-					"properties":{},
-					"additionalProperties":false,
-					"title":"Additional"
+					"title":"User Query",
+					"type":"string"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"custom metadata filter generator",
-	"modifiedTime":1769421995305,
+	"modifiedTime":1774332424585,
 	"name":"Custom Metadata Filter Generator",
 	"output":{
 		"type":"SCHEMA",
@@ -73,29 +73,29 @@
 			},
 			"properties":{
 				"filter":{
-					"type":"object",
+					"additionalProperties":false,
 					"properties":{
 						"field":{
-							"type":"string",
-							"title":"Field"
+							"title":"Field",
+							"type":"string"
 						},
 						"op":{
-							"type":"string",
-							"title":"Op"
+							"title":"Op",
+							"type":"string"
 						},
 						"values":{
-							"type":"array",
 							"items":{
-								"type":"object",
+								"additionalProperties":false,
 								"properties":{},
-								"additionalProperties":false
+								"type":"object"
 							},
-							"title":"Values"
+							"title":"Values",
+							"type":"array"
 						}
 					},
-					"additionalProperties":false,
+					"required":[],
 					"title":"Filter",
-					"required":[]
+					"type":"object"
 				}
 			},
 			"required":[]
@@ -103,5 +103,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":3
+	"version":17
 }
