@@ -1,6 +1,6 @@
 {
 	"createdTime":1774373506854,
-	"deleted":false,
+	"deleted":true,
 	"description":"BMmDfRLHVX",
 	"id":"69c2ca5bff9451034aed18c8",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2airoksztsswn",
-	"modifiedTime":1774373506854,
+	"modifiedTime":1774373553107,
 	"name":"changeSetQA2AIrOksztSSwN",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
