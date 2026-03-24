@@ -182,7 +182,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"publish response interface (ai agent)",
-	"modifiedTime":1774332424491,
+	"modifiedTime":1774342574398,
 	"name":"Publish Response Interface (AI Agent)",
 	"output":{
 		"type":"SCHEMA",
@@ -209,5 +209,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":146
+	"version":147
 }
