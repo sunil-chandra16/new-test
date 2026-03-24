@@ -14,7 +14,6 @@
 	},
 	"id":"674855d2634d220ea5dd2d71",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -84,10 +83,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"ai agent knowledge indexer",
-	"modifiedTime":1773928222435,
+	"modifiedTime":1774332246306,
 	"name":"AI Agent Knowledge Indexer",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -117,5 +115,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":119
+	"version":120
 }
