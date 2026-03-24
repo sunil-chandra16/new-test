@@ -28,7 +28,6 @@
 	},
 	"id":"__ua__execute_prompt_interface",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"layout":{
@@ -94,10 +93,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"execute prompt",
-	"modifiedTime":1774332424585,
+	"modifiedTime":1774342574566,
 	"name":"Execute Prompt",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -121,5 +119,5 @@
 	},
 	"ownerUserId":311,
 	"standard":true,
-	"version":142
+	"version":143
 }
