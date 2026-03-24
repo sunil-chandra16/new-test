@@ -1,6 +1,6 @@
 {
 	"createdTime":1774364120596,
-	"deleted":false,
+	"deleted":true,
 	"description":"gtyGlvCagw",
 	"id":"69c2a5d834f99b371be23842",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiemovpzdndd",
-	"modifiedTime":1774364120596,
+	"modifiedTime":1774370616820,
 	"name":"changeSetQA2AIEmOVpZDNDD",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
