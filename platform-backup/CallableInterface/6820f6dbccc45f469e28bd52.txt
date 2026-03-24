@@ -18,62 +18,62 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"triggerInput":{
-					"type":"object",
-					"title":"triggerInput"
+				"channelName":{
+					"title":"Channel Name",
+					"type":"string"
 				},
 				"channelSpecificMessageId":{
-					"type":"string",
-					"title":"channelSpecificMessageId"
+					"title":"channelSpecificMessageId",
+					"type":"string"
 				},
 				"channelSpecificUserId":{
-					"type":"string",
-					"title":"channelSpecificUserId"
+					"title":"channelSpecificUserId",
+					"type":"string"
 				},
 				"fromCustomerUserId":{
-					"type":"string",
-					"title":"From Customer User Id"
+					"title":"From Customer User Id",
+					"type":"string"
 				},
 				"toCustomerUserId":{
-					"type":"string",
-					"title":"To Customer User Id"
+					"title":"To Customer User Id",
+					"type":"string"
 				},
-				"channelName":{
-					"type":"string",
-					"title":"Channel Name"
+				"triggerInput":{
+					"title":"triggerInput",
+					"type":"object"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"channel specific case management",
-	"modifiedTime":1773768586739,
+	"modifiedTime":1774332424677,
 	"name":"Channel Specific Case Management",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
 				"caseId":{
-					"type":"string",
-					"title":"caseId"
+					"title":"caseId",
+					"type":"string"
 				},
 				"createdCase":{
-					"type":"boolean",
-					"title":"Created Case"
+					"title":"Created Case",
+					"type":"boolean"
 				}
 			},
 			"required":[]
@@ -81,5 +81,5 @@
 	},
 	"ownerUserId":1728,
 	"standard":false,
-	"version":95
+	"version":99
 }
