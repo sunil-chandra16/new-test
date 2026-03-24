@@ -14,6 +14,7 @@
 	},
 	"id":"674855d2634d220ea5dd2d71",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -86,6 +87,7 @@
 	"modifiedTime":1774342574486,
 	"name":"AI Agent Knowledge Indexer",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
