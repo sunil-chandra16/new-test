@@ -28,6 +28,7 @@
 	},
 	"id":"__ua__execute_prompt_interface",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"layout":{
@@ -96,6 +97,7 @@
 	"modifiedTime":1774342574566,
 	"name":"Execute Prompt",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
