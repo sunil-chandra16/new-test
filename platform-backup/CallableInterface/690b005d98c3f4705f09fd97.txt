@@ -22,18 +22,18 @@
 				"is_optional":true
 			},
 			"properties":{
-				"query":{
-					"type":"string",
-					"title":"Query"
+				"detectionthreshold":{
+					"default":"5",
+					"title":"detectionthreshold",
+					"type":"integer"
 				},
 				"modelId":{
-					"type":"string",
-					"title":"Model Id"
+					"title":"Model Id",
+					"type":"string"
 				},
-				"detectionthreshold":{
-					"type":"integer",
-					"title":"detectionthreshold",
-					"default":"5"
+				"query":{
+					"title":"Query",
+					"type":"string"
 				}
 			},
 			"required":[
@@ -42,9 +42,9 @@
 			]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"query language detector",
-	"modifiedTime":1773768585742,
+	"modifiedTime":1774332424488,
 	"name":"Query language detector",
 	"output":{
 		"type":"SCHEMA",
@@ -56,12 +56,12 @@
 			},
 			"properties":{
 				"detectedLanguage":{
-					"type":"string",
-					"title":"Detected Language"
+					"title":"Detected Language",
+					"type":"string"
 				},
 				"status":{
-					"type":"string",
-					"title":"Status"
+					"title":"Status",
+					"type":"string"
 				}
 			},
 			"required":[]
@@ -69,5 +69,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":24
+	"version":28
 }
