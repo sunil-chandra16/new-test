@@ -32,42 +32,182 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
+				"experimentId":{
+					"title":"Experiment Id",
+					"type":"string"
+				},
 				"metricConfig":{
-					"title":"Config",
-					"type":"object",
 					"additionalProperties":false,
 					"properties":{
 						"evaluationParameters":{
-							"type":"array",
+							"filterable":false,
 							"items":{
 								"type":"string"
 							},
-							"title":"Evaluation Parameters",
+							"nameField":false,
+							"primaryKey":false,
 							"searchable":false,
 							"sortable":false,
+							"title":"Evaluation Parameters",
+							"type":"array"
+						},
+						"evaluationScale":{
 							"filterable":false,
+							"items":{
+								"type":"number"
+							},
+							"nameField":false,
 							"primaryKey":false,
-							"nameField":false
+							"searchable":false,
+							"sortable":false,
+							"title":"Evaluation Scale",
+							"type":"array"
+						},
+						"evaluationType":{
+							"filterable":true,
+							"nameField":false,
+							"primaryKey":false,
+							"searchable":false,
+							"sortable":false,
+							"title":"Evaluation Type",
+							"type":"string"
+						},
+						"metricConfig":{
+							"additionalProperties":true,
+							"filterable":false,
+							"nameField":false,
+							"primaryKey":false,
+							"properties":{
+								"automationId":{
+									"filterable":false,
+									"nameField":false,
+									"primaryKey":false,
+									"searchable":false,
+									"sortable":false,
+									"title":"Automation Id",
+									"type":"string"
+								},
+								"code":{
+									"filterable":false,
+									"nameField":false,
+									"primaryKey":false,
+									"searchable":false,
+									"sortable":false,
+									"title":"Code",
+									"type":"string"
+								},
+								"evaluationCriteria":{
+									"filterable":false,
+									"nameField":false,
+									"primaryKey":false,
+									"searchable":false,
+									"sortable":false,
+									"title":"Evaluation Criteria",
+									"type":"string"
+								},
+								"evaluationSteps":{
+									"filterable":false,
+									"items":{
+										"type":"string"
+									},
+									"nameField":false,
+									"primaryKey":false,
+									"searchable":false,
+									"sortable":false,
+									"title":"Evaluation Steps",
+									"type":"array"
+								},
+								"language":{
+									"filterable":false,
+									"nameField":false,
+									"primaryKey":false,
+									"searchable":false,
+									"sortable":false,
+									"title":"Language",
+									"type":"string"
+								},
+								"model":{
+									"filterable":false,
+									"nameField":false,
+									"primaryKey":false,
+									"searchable":false,
+									"sortable":false,
+									"title":"Model",
+									"type":"string"
+								}
+							},
+							"required":[],
+							"searchable":false,
+							"sortable":false,
+							"title":"Metric Config",
+							"type":"object"
 						},
 						"metricConfigId":{
-							"type":"string",
-							"title":"Metric Config Id",
+							"filterable":false,
+							"nameField":false,
+							"primaryKey":false,
 							"searchable":false,
 							"sortable":false,
+							"title":"Metric Config Id",
+							"type":"string"
+						},
+						"metricSuccessCriteria":{
+							"additionalProperties":false,
+							"properties":{
+								"field":{
+									"title":"field",
+									"type":"string"
+								},
+								"op":{
+									"title":"op",
+									"type":"string"
+								},
+								"values":{
+									"items":{
+										"type":"string"
+									},
+									"title":"values",
+									"type":"array"
+								}
+							},
+							"type":"object"
+						},
+						"testCaseSuccessCriteria":{
+							"additionalProperties":false,
+							"properties":{},
+							"required":[],
+							"type":"object"
+						},
+						"testCaseType":{
 							"filterable":false,
+							"format":"single-select",
+							"nameField":false,
+							"oneOf":[
+								{
+									"const":"LLM",
+									"title":"LLM"
+								},
+								{
+									"const":"conv",
+									"title":"CONV"
+								}
+							],
 							"primaryKey":false,
-							"nameField":false
+							"searchable":false,
+							"sortable":false,
+							"title":"Test Case Type",
+							"type":"string"
 						},
 						"type":{
-							"type":"string",
+							"filterable":false,
 							"format":"single-select",
-							"title":"Type",
+							"nameField":false,
 							"oneOf":[
 								{
 									"const":"AI",
@@ -86,221 +226,81 @@
 									"title":"HUMAN_IN_THE_LOOP"
 								}
 							],
+							"primaryKey":false,
 							"searchable":false,
 							"sortable":false,
-							"filterable":false,
-							"primaryKey":false,
-							"nameField":false
-						},
-						"testCaseType":{
-							"type":"string",
-							"format":"single-select",
-							"title":"Test Case Type",
-							"oneOf":[
-								{
-									"const":"LLM",
-									"title":"LLM"
-								},
-								{
-									"const":"conv",
-									"title":"CONV"
-								}
-							],
-							"searchable":false,
-							"sortable":false,
-							"filterable":false,
-							"primaryKey":false,
-							"nameField":false
-						},
-						"testCaseSuccessCriteria":{
-							"type":"object",
-							"properties":{},
-							"additionalProperties":false,
-							"required":[]
-						},
-						"metricSuccessCriteria":{
-							"type":"object",
-							"properties":{
-								"op":{
-									"type":"string",
-									"title":"op"
-								},
-								"field":{
-									"type":"string",
-									"title":"field"
-								},
-								"values":{
-									"type":"array",
-									"items":{
-										"type":"string"
-									},
-									"title":"values"
-								}
-							},
-							"additionalProperties":false
-						},
-						"evaluationScale":{
-							"type":"array",
-							"items":{
-								"type":"number"
-							},
-							"title":"Evaluation Scale",
-							"searchable":false,
-							"sortable":false,
-							"filterable":false,
-							"primaryKey":false,
-							"nameField":false
-						},
-						"evaluationType":{
-							"type":"string",
-							"title":"Evaluation Type",
-							"searchable":false,
-							"sortable":false,
-							"filterable":true,
-							"primaryKey":false,
-							"nameField":false
-						},
-						"metricConfig":{
-							"type":"object",
-							"properties":{
-								"automationId":{
-									"type":"string",
-									"title":"Automation Id",
-									"searchable":false,
-									"sortable":false,
-									"filterable":false,
-									"primaryKey":false,
-									"nameField":false
-								},
-								"evaluationCriteria":{
-									"type":"string",
-									"title":"Evaluation Criteria",
-									"searchable":false,
-									"sortable":false,
-									"filterable":false,
-									"primaryKey":false,
-									"nameField":false
-								},
-								"evaluationSteps":{
-									"type":"array",
-									"items":{
-										"type":"string"
-									},
-									"title":"Evaluation Steps",
-									"searchable":false,
-									"sortable":false,
-									"filterable":false,
-									"primaryKey":false,
-									"nameField":false
-								},
-								"model":{
-									"type":"string",
-									"title":"Model",
-									"searchable":false,
-									"sortable":false,
-									"filterable":false,
-									"primaryKey":false,
-									"nameField":false
-								},
-								"code":{
-									"type":"string",
-									"title":"Code",
-									"searchable":false,
-									"sortable":false,
-									"filterable":false,
-									"primaryKey":false,
-									"nameField":false
-								},
-								"language":{
-									"type":"string",
-									"title":"Language",
-									"searchable":false,
-									"sortable":false,
-									"filterable":false,
-									"primaryKey":false,
-									"nameField":false
-								}
-							},
-							"additionalProperties":true,
-							"title":"Metric Config",
-							"searchable":false,
-							"sortable":false,
-							"filterable":false,
-							"primaryKey":false,
-							"nameField":false,
-							"required":[]
+							"title":"Type",
+							"type":"string"
 						}
 					},
-					"required":[]
-				},
-				"testCasePayload":{
-					"type":"object",
-					"properties":{},
-					"additionalProperties":false,
-					"title":"Test Case"
-				},
-				"testCaseId":{
-					"type":"string",
-					"title":"Test Case Id"
-				},
-				"experimentId":{
-					"type":"string",
-					"title":"Experiment Id"
-				},
-				"runId":{
-					"type":"string",
-					"title":"Run Id"
+					"required":[],
+					"title":"Config",
+					"type":"object"
 				},
 				"metricId":{
-					"type":"string",
-					"title":"Metric Id"
+					"title":"Metric Id",
+					"type":"string"
+				},
+				"runId":{
+					"title":"Run Id",
+					"type":"string"
+				},
+				"testCaseId":{
+					"title":"Test Case Id",
+					"type":"string"
+				},
+				"testCasePayload":{
+					"additionalProperties":false,
+					"properties":{},
+					"title":"Test Case",
+					"type":"object"
 				}
 			},
 			"required":[]
 		}
 	},
-	"lastModifiedBy":0,
+	"lastModifiedBy":-1,
 	"lcName":"ai metric evaluator",
-	"modifiedTime":1770460715290,
+	"modifiedTime":1774332424586,
 	"name":"AI Metric Evaluator",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
+			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"type":"object",
 			"properties":{
-				"score":{
-					"type":"number",
-					"title":"Score"
-				},
-				"reason":{
-					"type":"string",
-					"title":"Reason"
-				},
 				"cost":{
-					"type":"number",
-					"title":"Cost"
-				},
-				"tokensUsed":{
-					"type":"number",
-					"title":"Tokens Used"
+					"title":"Cost",
+					"type":"number"
 				},
 				"latency":{
-					"type":"number",
-					"title":"Latency"
+					"title":"Latency",
+					"type":"number"
+				},
+				"reason":{
+					"title":"Reason",
+					"type":"string"
+				},
+				"score":{
+					"title":"Score",
+					"type":"number"
 				},
 				"scoredBy":{
-					"type":"string",
-					"title":"Scored By"
+					"title":"Scored By",
+					"type":"string"
+				},
+				"tokensUsed":{
+					"title":"Tokens Used",
+					"type":"number"
 				},
 				"type":{
-					"type":"string",
-					"title":"Type"
+					"title":"Type",
+					"type":"string"
 				}
 			},
 			"required":[]
@@ -308,5 +308,5 @@
 	},
 	"ownerUserId":21,
 	"standard":false,
-	"version":139
+	"version":150
 }
