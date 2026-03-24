@@ -1,6 +1,6 @@
 {
 	"createdTime":1774326811707,
-	"deleted":false,
+	"deleted":true,
 	"description":"LoOFQHwTnh",
 	"id":"69c21367aeaf4f4eb2774735",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ailtlgzslmlq",
-	"modifiedTime":1774326811707,
+	"modifiedTime":1774333719275,
 	"name":"changeSetQA2AIlTLgzslMLq",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
