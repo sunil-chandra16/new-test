@@ -77,7 +77,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"chunk reranker",
-	"modifiedTime":1773928222436,
+	"modifiedTime":1774332424587,
 	"name":"Chunk ReRanker",
 	"output":{
 		"type":"SCHEMA",
@@ -129,5 +129,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":95
+	"version":97
 }
