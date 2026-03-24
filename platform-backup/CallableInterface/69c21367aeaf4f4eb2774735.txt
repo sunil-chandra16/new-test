@@ -4,6 +4,7 @@
 	"description":"LoOFQHwTnh",
 	"id":"69c21367aeaf4f4eb2774735",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1774326811707,
 	"name":"changeSetQA2AIlTLgzslMLq",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
