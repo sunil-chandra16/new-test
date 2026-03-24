@@ -1,9 +1,10 @@
 {
 	"createdTime":1774373800660,
-	"deleted":false,
+	"deleted":true,
 	"description":"RNGNnyHuSs",
 	"id":"69c2caf2ff9451034aed1bc3",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ailjgisenwtf",
-	"modifiedTime":1774373800660,
+	"modifiedTime":1774374047608,
 	"name":"changeSetQA2AILJGisENwtf",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -40,5 +42,5 @@
 	"ownerUserId":175325,
 	"projectId":2117,
 	"standard":false,
-	"version":0
+	"version":1
 }
