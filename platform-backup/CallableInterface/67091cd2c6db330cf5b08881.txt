@@ -14,6 +14,7 @@
 	},
 	"id":"67091cd2c6db330cf5b08881",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -35,9 +36,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"knowledge rbac details fetcher (ai agent)",
-	"modifiedTime":1773928023020,
+	"modifiedTime":1774332424372,
 	"name":"Knowledge RBAC Details Fetcher (AI Agent)",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -58,5 +60,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":107
+	"version":110
 }
