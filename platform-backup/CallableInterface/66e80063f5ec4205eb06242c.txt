@@ -24,6 +24,10 @@
 				"is_optional":true
 			},
 			"properties":{
+				"applicationConnectionId":{
+					"title":"Application Connection Id",
+					"type":"string"
+				},
 				"attachments":{
 					"items":{
 						"additionalProperties":false,
@@ -166,6 +170,10 @@
 					"title":"Publish To End User",
 					"type":"boolean"
 				},
+				"taskId":{
+					"title":"Task Id",
+					"type":"string"
+				},
 				"temporaryMessage":{
 					"title":"Temporary Message",
 					"type":"boolean"
@@ -180,7 +188,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"channel response publisher (ai agent)",
-	"modifiedTime":1769506721810,
+	"modifiedTime":1774342574523,
 	"name":"Channel Response Publisher (AI Agent)",
 	"output":{
 		"type":"SCHEMA",
@@ -207,5 +215,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":117
+	"version":129
 }
