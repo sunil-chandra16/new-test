@@ -14,7 +14,6 @@
 	},
 	"id":"workflow_lookup_by_keys",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -87,10 +86,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"workflow lookup by keys",
-	"modifiedTime":1773928222349,
+	"modifiedTime":1774342574447,
 	"name":"Workflow Lookup By Keys",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -110,5 +108,5 @@
 	},
 	"ownerUserId":34,
 	"standard":false,
-	"version":37
+	"version":40
 }
