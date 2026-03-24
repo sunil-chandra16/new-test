@@ -14,7 +14,6 @@
 	},
 	"id":"__ua__publish_response_interface",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"layout":{
@@ -182,10 +181,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"publish response interface (ai agent)",
-	"modifiedTime":1773928222437,
+	"modifiedTime":1774332246188,
 	"name":"Publish Response Interface (AI Agent)",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -209,5 +207,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":144
+	"version":145
 }
