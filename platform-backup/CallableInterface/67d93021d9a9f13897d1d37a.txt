@@ -14,6 +14,7 @@
 	},
 	"id":"67d93021d9a9f13897d1d37a",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -63,9 +64,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"call embedding model",
-	"modifiedTime":1773928022824,
+	"modifiedTime":1774332424490,
 	"name":"Call Embedding Model",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -126,5 +128,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":103
+	"version":106
 }
