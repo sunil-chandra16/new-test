@@ -1,6 +1,6 @@
 {
 	"createdTime":1774415347608,
-	"deleted":false,
+	"deleted":true,
 	"description":"AGlWletPhp",
 	"id":"69c36df3744dde676b61b782",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aihpoioqgrts",
-	"modifiedTime":1774415347608,
+	"modifiedTime":1774417719443,
 	"name":"changeSetQA2AIhPoIOQGRtS",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
