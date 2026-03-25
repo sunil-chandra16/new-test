@@ -1,6 +1,6 @@
 {
 	"createdTime":1774372932726,
-	"deleted":false,
+	"deleted":true,
 	"description":"saseJIwpfb",
 	"id":"69c2c8446b7d062fdcfea37a",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aisupbbjsrph",
-	"modifiedTime":1774372932726,
+	"modifiedTime":1774411696387,
 	"name":"changeSetQA2AIsupbBjSRph",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
