@@ -4,6 +4,7 @@
 	"description":"Post Logout Callable Interface",
 	"id":"__ua_post_logout_callable_interface",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -16,9 +17,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"post logout callable interface",
-	"modifiedTime":1774429536050,
+	"modifiedTime":1774429535949,
 	"name":"Post Logout Callable Interface",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
