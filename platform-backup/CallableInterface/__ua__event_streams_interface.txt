@@ -4,6 +4,7 @@
 	"description":"Event Streams Interface",
 	"id":"__ua__event_streams_interface",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -28,6 +29,7 @@
 	"modifiedTime":1774435354046,
 	"name":"Event Streams",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
