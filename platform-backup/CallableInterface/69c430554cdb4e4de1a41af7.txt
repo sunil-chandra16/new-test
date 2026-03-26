@@ -1,6 +1,6 @@
 {
 	"createdTime":1774465269330,
-	"deleted":false,
+	"deleted":true,
 	"description":"WSOySZAkkm",
 	"id":"69c430554cdb4e4de1a41af7",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaiwgxsqxfxwc",
-	"modifiedTime":1774465269330,
+	"modifiedTime":1774494410123,
 	"name":"changeSetLocalAIwgxsQXfxWc",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
