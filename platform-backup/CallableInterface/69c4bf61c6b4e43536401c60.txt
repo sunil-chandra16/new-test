@@ -4,6 +4,7 @@
 	"description":"ScTyOMohat",
 	"id":"69c4bf61c6b4e43536401c60",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1774501729576,
 	"name":"changeSetQA2AIAPvjoMMPAG",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
