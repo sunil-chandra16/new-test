@@ -1,6 +1,6 @@
 {
 	"createdTime":1774501729576,
-	"deleted":false,
+	"deleted":true,
 	"description":"ScTyOMohat",
 	"id":"69c4bf61c6b4e43536401c60",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiapvjommpag",
-	"modifiedTime":1774501729576,
+	"modifiedTime":1774503768843,
 	"name":"changeSetQA2AIAPvjoMMPAG",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
