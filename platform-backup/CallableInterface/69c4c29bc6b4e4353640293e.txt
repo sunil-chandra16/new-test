@@ -1,6 +1,6 @@
 {
 	"createdTime":1774502555006,
-	"deleted":false,
+	"deleted":true,
 	"description":"FKPJRANSqC",
 	"id":"69c4c29bc6b4e4353640293e",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aikfyuzgxhsk",
-	"modifiedTime":1774502555006,
+	"modifiedTime":1774503768777,
 	"name":"changeSetQA2AIKfyuzGXHSK",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
