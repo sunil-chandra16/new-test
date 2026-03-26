@@ -4,6 +4,7 @@
 	"description":"FTLeYDximC",
 	"id":"69c4bc72d0b081484644e92f",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1774500978490,
 	"name":"changeSetQA2AIuhRkkGegoz",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
