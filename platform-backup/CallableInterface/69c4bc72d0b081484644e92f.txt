@@ -1,6 +1,6 @@
 {
 	"createdTime":1774500978490,
-	"deleted":false,
+	"deleted":true,
 	"description":"FTLeYDximC",
 	"id":"69c4bc72d0b081484644e92f",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiuhrkkgegoz",
-	"modifiedTime":1774500978490,
+	"modifiedTime":1774503768905,
 	"name":"changeSetQA2AIuhRkkGegoz",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
