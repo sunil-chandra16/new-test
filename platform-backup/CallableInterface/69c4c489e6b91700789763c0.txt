@@ -1,6 +1,6 @@
 {
 	"createdTime":1774503106245,
-	"deleted":false,
+	"deleted":true,
 	"description":"euKDHVBMlk",
 	"id":"69c4c489e6b91700789763c0",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aijqrpjvvoqs",
-	"modifiedTime":1774503106245,
+	"modifiedTime":1774503768645,
 	"name":"changeSetQA2AIJQRPJVVOQS",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
