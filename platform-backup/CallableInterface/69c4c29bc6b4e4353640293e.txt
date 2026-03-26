@@ -4,6 +4,7 @@
 	"description":"FKPJRANSqC",
 	"id":"69c4c29bc6b4e4353640293e",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1774502555006,
 	"name":"changeSetQA2AIKfyuzGXHSK",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
