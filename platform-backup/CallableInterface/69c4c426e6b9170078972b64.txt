@@ -4,7 +4,6 @@
 	"description":"ammDshOPZZ",
 	"id":"69c4c426e6b9170078972b64",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -23,10 +22,9 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiahvantlwuq",
-	"modifiedTime":1774503053748,
+	"modifiedTime":1774503217259,
 	"name":"changeSetQA2AIaHvAntlWuQ",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -41,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":1
+	"version":2
 }
