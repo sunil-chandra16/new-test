@@ -1,6 +1,6 @@
 {
 	"createdTime":1774590074771,
-	"deleted":false,
+	"deleted":true,
 	"description":"xcMBpvssad",
 	"id":"69c61821f337e1322173fb80",
 	"input":{
@@ -22,7 +22,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aixjlrcyicnb",
-	"modifiedTime":1774590074771,
+	"modifiedTime":1774590276208,
 	"name":"changeSetQA2AIxjlRcyiCNB",
 	"output":{
 		"dynamic":false,
@@ -39,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
