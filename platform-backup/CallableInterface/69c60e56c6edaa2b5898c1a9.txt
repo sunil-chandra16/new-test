@@ -4,6 +4,7 @@
 	"description":"fnkyOOQoPk",
 	"id":"69c60e56c6edaa2b5898c1a9",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1774587563099,
 	"name":"changeSetQA2AIVJntjcHgiu",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
