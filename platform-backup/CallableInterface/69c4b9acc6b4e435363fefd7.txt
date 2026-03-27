@@ -1,6 +1,6 @@
 {
 	"createdTime":1774500268757,
-	"deleted":false,
+	"deleted":true,
 	"description":"PrIsmnlGKu",
 	"id":"69c4b9acc6b4e435363fefd7",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaimbzqtcyuog",
-	"modifiedTime":1774500268757,
+	"modifiedTime":1774627684351,
 	"name":"changeSetLocalAIMBzQtcyuog",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
