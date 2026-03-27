@@ -48,7 +48,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"custom live chat publisher",
-	"modifiedTime":1774342574548,
+	"modifiedTime":1774622956956,
 	"name":"Custom Live Chat Publisher",
 	"output":{
 		"type":"SCHEMA",
@@ -70,5 +70,5 @@
 	},
 	"ownerUserId":1866,
 	"standard":false,
-	"version":109
+	"version":110
 }
