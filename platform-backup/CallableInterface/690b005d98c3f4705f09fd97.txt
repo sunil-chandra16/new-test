@@ -44,7 +44,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"query language detector",
-	"modifiedTime":1774342574472,
+	"modifiedTime":1774622956622,
 	"name":"Query language detector",
 	"output":{
 		"type":"SCHEMA",
@@ -69,5 +69,5 @@
 	},
 	"ownerUserId":0,
 	"standard":true,
-	"version":29
+	"version":30
 }
