@@ -14,6 +14,7 @@
 	},
 	"id":"__ua_knowledge_enrichment",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -31,9 +32,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"knowledge enrichment interface",
-	"modifiedTime":1773928022680,
+	"modifiedTime":1774622956903,
 	"name":"Knowledge Enrichment Interface",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
@@ -52,5 +54,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":89
+	"version":94
 }
