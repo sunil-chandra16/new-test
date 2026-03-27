@@ -40,7 +40,7 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"generate response (workflow agent)",
-	"modifiedTime":1774332424585,
+	"modifiedTime":1774622956853,
 	"name":"Generate Response (Workflow Agent)",
 	"output":{
 		"type":"SCHEMA",
@@ -61,5 +61,5 @@
 	},
 	"ownerUserId":-1,
 	"standard":false,
-	"version":90
+	"version":92
 }
