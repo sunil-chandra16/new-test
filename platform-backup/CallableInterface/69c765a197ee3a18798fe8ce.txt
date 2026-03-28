@@ -1,6 +1,6 @@
 {
 	"createdTime":1774675361772,
-	"deleted":false,
+	"deleted":true,
 	"description":"FWfntkNvgt",
 	"id":"69c765a197ee3a18798fe8ce",
 	"input":{
@@ -22,7 +22,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aikbbihizsxk",
-	"modifiedTime":1774675361772,
+	"modifiedTime":1774675548702,
 	"name":"changeSetQA2AIkbBiHIZsXK",
 	"output":{
 		"dynamic":false,
@@ -39,5 +39,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":2
 }
