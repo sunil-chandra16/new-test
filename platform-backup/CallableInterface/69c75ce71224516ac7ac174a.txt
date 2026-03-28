@@ -4,6 +4,7 @@
 	"description":"XsosBIZNpP",
 	"id":"69c75ce71224516ac7ac174a",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1774673301291,
 	"name":"changeSetQA2AIVuEPNVHsNo",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
