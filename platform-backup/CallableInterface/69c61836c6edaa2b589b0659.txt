@@ -1,6 +1,6 @@
 {
 	"createdTime":1774590054680,
-	"deleted":false,
+	"deleted":true,
 	"description":"PglGaKVSAi",
 	"id":"69c61836c6edaa2b589b0659",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aifcbtjpqekz",
-	"modifiedTime":1774590054680,
+	"modifiedTime":1774671231091,
 	"name":"changeSetQA2AIfCBtjpQEKz",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
