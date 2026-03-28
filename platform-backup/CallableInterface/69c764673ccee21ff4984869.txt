@@ -4,6 +4,7 @@
 	"description":"GOCZcIoShU",
 	"id":"69c764673ccee21ff4984869",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1774675109904,
 	"name":"changeSetLocalAIpEqmeRCkpi",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
