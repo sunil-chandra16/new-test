@@ -1,9 +1,10 @@
 {
 	"createdTime":1774674728452,
-	"deleted":false,
+	"deleted":true,
 	"description":"PlGplPGYap",
 	"id":"69c762f11224516ac7ac8acc",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -22,9 +23,10 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiawclaxqfpb",
-	"modifiedTime":1774674728452,
+	"modifiedTime":1774674801629,
 	"name":"changeSetQA2AIAwclaXqFpB",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -39,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
