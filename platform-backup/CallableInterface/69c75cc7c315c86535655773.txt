@@ -1,6 +1,6 @@
 {
 	"createdTime":1774673095261,
-	"deleted":false,
+	"deleted":true,
 	"description":"lKdAOuSNUF",
 	"id":"69c75cc7c315c86535655773",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaipysttdsikg",
-	"modifiedTime":1774673095261,
+	"modifiedTime":1774674832830,
 	"name":"changeSetLocalAIPYSttdSIKG",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
