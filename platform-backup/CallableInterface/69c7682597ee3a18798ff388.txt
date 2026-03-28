@@ -4,6 +4,7 @@
 	"description":"dTcMCrcIMg",
 	"id":"69c7682597ee3a18798ff388",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1774676005330,
 	"name":"changeSetQA2AIIRMJlzVZHg",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
