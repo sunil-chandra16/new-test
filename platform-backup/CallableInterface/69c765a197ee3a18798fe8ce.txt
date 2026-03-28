@@ -4,6 +4,7 @@
 	"description":"FWfntkNvgt",
 	"id":"69c765a197ee3a18798fe8ce",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
@@ -25,6 +26,7 @@
 	"modifiedTime":1774675548702,
 	"name":"changeSetQA2AIkbBiHIZsXK",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"type":"object",
