@@ -1,10 +1,9 @@
 {
-	"createdTime":1770444622316,
+	"createdTime":1774767788663,
 	"deleted":false,
 	"description":"Crawls the given website url and returns html content as text",
 	"id":"__ua__crawl_website",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -22,10 +21,9 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"crawl website",
-	"modifiedTime":1770444623216,
+	"modifiedTime":1774767790294,
 	"name":"Crawl Website",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
