@@ -1,6 +1,6 @@
 {
 	"createdTime":1774676310897,
-	"deleted":false,
+	"deleted":true,
 	"description":"XwGDgAtFYp",
 	"id":"69c768f09dfa9d63dfe1a829",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aidufabumvpn",
-	"modifiedTime":1774676310897,
+	"modifiedTime":1774775435631,
 	"name":"changeSetQA2AIdUFabuMvPn",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
