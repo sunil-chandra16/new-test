@@ -1,6 +1,6 @@
 {
 	"createdTime":1774673570904,
-	"deleted":false,
+	"deleted":true,
 	"description":"rFfEPMHzkB",
 	"id":"69c75ca01224516ac7ac10da",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aivtqsjdsqpv",
-	"modifiedTime":1774673570904,
+	"modifiedTime":1774775435831,
 	"name":"changeSetQA2AIvTQSjDSQPV",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
