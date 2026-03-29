@@ -1,6 +1,6 @@
 {
 	"createdTime":1774673813615,
-	"deleted":false,
+	"deleted":true,
 	"description":"TFZpcyREuD",
 	"id":"69c75f950fff8505d86861f1",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2ailzwainnteb",
-	"modifiedTime":1774673813615,
+	"modifiedTime":1774775435806,
 	"name":"changeSetQA2AILzWainNTEb",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
