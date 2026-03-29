@@ -8,79 +8,79 @@
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
 				"request":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{
-						"httpMethod":{
-							"title":"httpMethod",
-							"type":"string"
-						},
-						"path":{
-							"title":"path",
-							"type":"string"
+						"requestHeaders":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"requestHeaders"
 						},
 						"pathParams":{
-							"additionalProperties":false,
+							"type":"object",
 							"properties":{},
-							"title":"pathParams",
-							"type":"object"
-						},
-						"payload":{
 							"additionalProperties":false,
-							"properties":{},
-							"title":"payload",
-							"type":"object"
+							"title":"pathParams"
 						},
 						"queryParams":{
-							"additionalProperties":false,
+							"type":"object",
 							"properties":{},
-							"title":"queryParams",
-							"type":"object"
+							"additionalProperties":false,
+							"title":"queryParams"
 						},
-						"requestHeaders":{
-							"additionalProperties":false,
+						"payload":{
+							"type":"object",
 							"properties":{},
-							"title":"requestHeaders",
-							"type":"object"
+							"additionalProperties":false,
+							"title":"payload"
+						},
+						"path":{
+							"type":"string",
+							"title":"path"
+						},
+						"httpMethod":{
+							"type":"string",
+							"title":"httpMethod"
 						}
 					},
-					"required":[],
+					"additionalProperties":false,
 					"title":"Request",
-					"type":"object"
+					"required":[]
 				},
 				"response":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{
 						"headers":{
-							"additionalProperties":false,
+							"type":"object",
 							"properties":{},
-							"title":"Headers",
-							"type":"object"
-						},
-						"message":{
-							"title":"Message",
-							"type":"string"
+							"additionalProperties":false,
+							"title":"Headers"
 						},
 						"response":{
-							"additionalProperties":false,
+							"type":"object",
 							"properties":{},
-							"title":"Response",
-							"type":"object"
+							"additionalProperties":false,
+							"title":"Response"
+						},
+						"message":{
+							"type":"string",
+							"title":"Message"
 						},
 						"statusCode":{
-							"title":"Status Code",
-							"type":"integer"
+							"type":"integer",
+							"title":"Status Code"
 						}
 					},
-					"required":[],
+					"additionalProperties":false,
 					"title":"Response",
-					"type":"object"
+					"required":[]
 				}
 			},
 			"required":[
@@ -91,79 +91,79 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"api filter",
-	"modifiedTime":1774673249107,
+	"modifiedTime":1774776821974,
 	"name":"API Filter",
 	"output":{
 		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"additionalProperties":false,
-			"type":"object",
 			"ua:modal":{
 				"field_type":"STRING",
 				"is_optional":true
 			},
+			"type":"object",
 			"properties":{
-				"proceed":{
-					"title":"Proceed",
-					"type":"boolean"
-				},
-				"request":{
-					"additionalProperties":false,
-					"properties":{
-						"httpMethod":{
-							"title":"httpMethod",
-							"type":"string"
-						},
-						"path":{
-							"title":"path",
-							"type":"string"
-						},
-						"pathParams":{
-							"title":"pathParams",
-							"type":"object"
-						},
-						"payload":{
-							"additionalProperties":false,
-							"properties":{},
-							"title":"Payload",
-							"type":"object"
-						},
-						"queryParams":{
-							"title":"queryParams",
-							"type":"object"
-						},
-						"requestHeaders":{
-							"title":"requestHeaders",
-							"type":"object"
-						}
-					},
-					"required":[],
-					"title":"Request",
-					"type":"object"
-				},
 				"response":{
-					"additionalProperties":false,
+					"type":"object",
 					"properties":{
 						"headers":{
-							"title":"headers",
-							"type":"object"
-						},
-						"message":{
-							"title":"message",
-							"type":"string"
+							"type":"object",
+							"title":"headers"
 						},
 						"response":{
-							"title":"response",
-							"type":"object"
+							"type":"object",
+							"title":"response"
+						},
+						"message":{
+							"type":"string",
+							"title":"message"
 						},
 						"statusCode":{
-							"title":"statusCode",
-							"type":"integer"
+							"type":"integer",
+							"title":"statusCode"
 						}
 					},
-					"title":"Response",
-					"type":"object"
+					"additionalProperties":false,
+					"title":"Response"
+				},
+				"request":{
+					"type":"object",
+					"properties":{
+						"path":{
+							"type":"string",
+							"title":"path"
+						},
+						"requestHeaders":{
+							"type":"object",
+							"title":"requestHeaders"
+						},
+						"pathParams":{
+							"type":"object",
+							"title":"pathParams"
+						},
+						"queryParams":{
+							"type":"object",
+							"title":"queryParams"
+						},
+						"httpMethod":{
+							"type":"string",
+							"title":"httpMethod"
+						},
+						"payload":{
+							"type":"object",
+							"properties":{},
+							"additionalProperties":false,
+							"title":"Payload"
+						}
+					},
+					"additionalProperties":false,
+					"title":"Request",
+					"required":[]
+				},
+				"proceed":{
+					"type":"boolean",
+					"title":"Proceed"
 				}
 			},
 			"required":[
@@ -173,5 +173,5 @@
 	},
 	"ownerUserId":311,
 	"standard":false,
-	"version":161
+	"version":162
 }
