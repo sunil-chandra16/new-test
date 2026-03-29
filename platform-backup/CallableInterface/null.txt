@@ -1,7 +1,7 @@
 {
-	"createdTime":1774118041217,
+	"createdTime":1774767196224,
 	"deleted":false,
-	"description":"Post Login Callable Interface",
+	"description":"Event Streams Interface",
 	"input":{
 		"dynamic":false,
 		"schema":{
@@ -9,14 +9,23 @@
 				"field_type":"STRING",
 				"is_optional":true
 			},
-			"properties":{},
+			"properties":{
+				"eventStreamId":{
+					"type":"string",
+					"title":"Event Stream Id"
+				},
+				"event":{
+					"type":"object",
+					"title":"Event"
+				}
+			},
 			"required":[]
 		}
 	},
 	"lastModifiedBy":-1,
-	"lcName":"post login callable interface",
-	"modifiedTime":1774118041538,
-	"name":"Post Login Callable Interface",
+	"lcName":"event streams",
+	"modifiedTime":1774767197188,
+	"name":"Event Streams",
 	"output":{
 		"dynamic":false,
 		"schema":{
@@ -25,28 +34,12 @@
 				"is_optional":true
 			},
 			"properties":{
-				"statusCode":{
-					"type":"integer",
-					"title":"Status"
-				},
-				"payload":{
-					"type":"object",
-					"title":"Payload"
-				},
-				"headers":{
-					"type":"object",
-					"properties":{},
-					"additionalProperties":false,
-					"title":"Headers"
-				},
-				"location":{
-					"type":"string",
-					"title":"Location"
+				"success":{
+					"type":"boolean",
+					"title":"Success"
 				}
 			},
-			"required":[
-				"statusCode"
-			]
+			"required":[]
 		}
 	},
 	"ownerUserId":-1,
