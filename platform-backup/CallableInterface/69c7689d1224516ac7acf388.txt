@@ -1,6 +1,6 @@
 {
 	"createdTime":1774676176253,
-	"deleted":false,
+	"deleted":true,
 	"description":"uaAMgRLNSE",
 	"id":"69c7689d1224516ac7acf388",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aiwvbbwyfmtu",
-	"modifiedTime":1774676176253,
+	"modifiedTime":1774775435656,
 	"name":"changeSetQA2AIWVBBWYFmtu",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
