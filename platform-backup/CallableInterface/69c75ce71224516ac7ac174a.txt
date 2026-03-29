@@ -1,6 +1,6 @@
 {
 	"createdTime":1774673301291,
-	"deleted":false,
+	"deleted":true,
 	"description":"XsosBIZNpP",
 	"id":"69c75ce71224516ac7ac174a",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aivuepnvhsno",
-	"modifiedTime":1774673301291,
+	"modifiedTime":1774775435856,
 	"name":"changeSetQA2AIVuEPNVHsNo",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
