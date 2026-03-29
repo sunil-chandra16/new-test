@@ -4,6 +4,7 @@
 	"description":"Post Login Callable Interface",
 	"id":"69c8cb7b7cfbf41a7be3e9f8",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -16,9 +17,10 @@
 	},
 	"lastModifiedBy":-1,
 	"lcName":"post login callable interface",
-	"modifiedTime":1774766971488,
+	"modifiedTime":1774766971363,
 	"name":"Post Login Callable Interface",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
