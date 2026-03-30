@@ -1,9 +1,10 @@
 {
 	"createdTime":1774853559199,
-	"deleted":false,
+	"deleted":true,
 	"description":"test",
 	"id":"69ca1db72311da604800380d",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -14,9 +15,10 @@
 	},
 	"lastModifiedBy":195445,
 	"lcName":"test",
-	"modifiedTime":1774853559199,
+	"modifiedTime":1774853661952,
 	"name":"test",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -30,5 +32,5 @@
 	"tags":[
 		"my-test-tag"
 	],
-	"version":0
+	"version":1
 }
