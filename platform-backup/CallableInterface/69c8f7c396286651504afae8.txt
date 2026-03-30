@@ -1,6 +1,6 @@
 {
 	"createdTime":1774778307815,
-	"deleted":false,
+	"deleted":true,
 	"description":"TIGIRbBxJe",
 	"id":"69c8f7c396286651504afae8",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetqa2aizjhdlsnzln",
-	"modifiedTime":1774778307815,
+	"modifiedTime":1774844381250,
 	"name":"changeSetQA2AIzJHDlSnzlN",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
