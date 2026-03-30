@@ -1,6 +1,6 @@
 {
 	"createdTime":1774675109904,
-	"deleted":false,
+	"deleted":true,
 	"description":"GOCZcIoShU",
 	"id":"69c764673ccee21ff4984869",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaipeqmerckpi",
-	"modifiedTime":1774675109904,
+	"modifiedTime":1774847184429,
 	"name":"changeSetLocalAIpEqmeRCkpi",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
