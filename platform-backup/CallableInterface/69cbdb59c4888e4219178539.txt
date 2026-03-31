@@ -4,6 +4,7 @@
 	"description":"temp",
 	"id":"69cbdb59c4888e4219178539",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -17,6 +18,7 @@
 	"modifiedTime":1774984234765,
 	"name":"test",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
