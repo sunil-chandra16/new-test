@@ -1,0 +1,34 @@
+{
+	"createdTime":1774967641815,
+	"deleted":false,
+	"description":"temp",
+	"id":"69cbdb59c4888e4219178539",
+	"input":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"lastModifiedBy":195445,
+	"lcName":"test",
+	"modifiedTime":1774967641815,
+	"name":"test",
+	"output":{
+		"dynamic":false,
+		"schema":{
+			"ua:modal":{
+				"field_type":"STRING",
+				"is_optional":true
+			}
+		}
+	},
+	"ownerUserId":195445,
+	"standard":false,
+	"tags":[
+		"temp"
+	],
+	"version":0
+}
