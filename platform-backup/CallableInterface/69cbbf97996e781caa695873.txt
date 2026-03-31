@@ -1,9 +1,10 @@
 {
 	"createdTime":1774960535849,
-	"deleted":false,
+	"deleted":true,
 	"description":"temp",
 	"id":"69cbbf97996e781caa695873",
 	"input":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -14,9 +15,10 @@
 	},
 	"lastModifiedBy":195445,
 	"lcName":"temp",
-	"modifiedTime":1774960535849,
+	"modifiedTime":1774960568810,
 	"name":"temp",
 	"output":{
+		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -30,5 +32,5 @@
 	"tags":[
 		"temp"
 	],
-	"version":0
+	"version":1
 }
