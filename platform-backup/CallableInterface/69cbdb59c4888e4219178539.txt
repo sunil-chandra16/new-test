@@ -4,7 +4,6 @@
 	"description":"temp",
 	"id":"69cbdb59c4888e4219178539",
 	"input":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -13,12 +12,11 @@
 			}
 		}
 	},
-	"lastModifiedBy":195445,
+	"lastModifiedBy":161912,
 	"lcName":"test",
-	"modifiedTime":1774967915245,
+	"modifiedTime":1774977826691,
 	"name":"test",
 	"output":{
-		"type":"SCHEMA",
 		"dynamic":false,
 		"schema":{
 			"ua:modal":{
@@ -32,5 +30,5 @@
 	"tags":[
 		"temp"
 	],
-	"version":2
+	"version":3
 }
