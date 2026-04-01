@@ -1,6 +1,6 @@
 {
 	"createdTime":1775023506349,
-	"deleted":false,
+	"deleted":true,
 	"description":"GjuCLCRMOl",
 	"id":"69ccb59288a66f6ff9af3b95",
 	"input":{
@@ -23,7 +23,7 @@
 	},
 	"lastModifiedBy":175325,
 	"lcName":"changesetlocalaiugjmsuuoyn",
-	"modifiedTime":1775023506349,
+	"modifiedTime":1775025797210,
 	"name":"changeSetLocalAIUGJMsUUOYn",
 	"output":{
 		"type":"SCHEMA",
@@ -41,5 +41,5 @@
 	},
 	"ownerUserId":175325,
 	"standard":false,
-	"version":0
+	"version":1
 }
